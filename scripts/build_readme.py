@@ -44,11 +44,11 @@ def lab(path='', loc='en', content=None):
 T = {
     'en': {
         'switch': 'English · [简体中文](README.zh-CN.md)',
-        'tagline': 'The most-liked things people made with **Google Gemini 4 Argon**, collected from X and credited to their creators: Three.js scenes, canvas animations, motion graphics and playable games, all written as code from a prompt.',
+        'tagline': 'What people are making with **Google Gemini 4 Argon**, collected from X and credited to their creators: Three.js scenes, canvas animations, motion graphics and playable games, all written as code from a prompt.',
         'cta': lambda: f'**[▶ Watch them all on SandBase Lab]({lab(loc="en", content="hero")})** · full-size playback, the original post and prompt, and one click to recreate any video with Gemini 4 Argon.',
-        'stats': lambda n, a, p: f'- **{n} videos** from **{a} creators**, sorted by likes. **{p}** of them come with the creator\'s prompt.',
+        'stats': lambda n, a, p: f'- **{n} videos** from **{a} creators**, newest last in each section. **{p}** of them come with the creator\'s prompt.',
         'synced': lambda t: f'- Synced daily from SandBase Lab. Lab list updated `{t}`.',
-        'how': '- Click any card to play it on SandBase Lab. The **@handle** links to the creator\'s original post on X.',
+        'how': '- Click a preview to open the video. Click a title for the post, the prompt and a one-click **Recreate** on SandBase Lab. **@handle** links to the original post on X.',
         'contents': 'Contents',
         'featured': 'Featured',
         'recreate': 'Recreate one with Gemini 4 Argon',
@@ -71,11 +71,11 @@ T = {
     },
     'zh-CN': {
         'switch': '[English](README.md) · 简体中文',
-        'tagline': '收录 X 上点赞最多的 **Google Gemini 4 Argon** 作品，并注明作者：Three.js 场景、Canvas 动画、动效和可玩游戏，全部由模型根据提示词写成代码。',
+        'tagline': '收录 X 上的 **Google Gemini 4 Argon** 精选作品，并注明作者：Three.js 场景、Canvas 动画、动效和可玩游戏，全部由模型根据提示词写成代码。',
         'cta': lambda: f'**[▶ 在 SandBase Lab 观看全部作品]({lab(loc="zh-CN", content="hero")})** · 大屏播放、查看原帖和提示词，一键用 Gemini 4 Argon 复刻任意视频。',
-        'stats': lambda n, a, p: f'- 共 **{n} 条视频**，来自 **{a} 位创作者**，按点赞排序；其中 **{p} 条** 附有作者的提示词。',
+        'stats': lambda n, a, p: f'- 共 **{n} 条视频**，来自 **{a} 位创作者**，每个分类内按发布时间排列；其中 **{p} 条** 附有作者的提示词。',
         'synced': lambda t: f'- 每天从 SandBase Lab 自动同步。Lab 列表更新时间：`{t}`。',
-        'how': '- 点击卡片在 SandBase Lab 播放；**@作者** 链接到作者在 X 上的原帖。',
+        'how': '- 点击预览图直接打开视频；点击标题前往 SandBase Lab 查看原帖、提示词，并一键 **复刻**；**@作者** 链接到 X 原帖。',
         'contents': '目录',
         'featured': '精选',
         'recreate': '用 Gemini 4 Argon 复刻',
@@ -108,10 +108,6 @@ curl -sS https://api.sandbase.ai/v1/chat/completions \\
 ```''' % MODEL_ID
 
 
-def compact(n: int) -> str:
-    return f'{n / 1000:.1f}k'.replace('.0k', 'k') if n >= 1000 else str(n)
-
-
 def length(ms):
     if not ms:
         return None
@@ -121,17 +117,16 @@ def length(ms):
 
 def card(v, loc):
     title = v['title_zh'] if loc == 'zh-CN' else v['title']
-    href = lab(f'/{v["id"]}', loc, 'card')
-    img = v.get('poster') or v.get('xThumbnail')
+    page = lab(f'/{v["id"]}', loc, 'card')
     alt = html.escape(title, quote=True)
-    picture = f'<a href="{href}"><img src="{img}" alt="{alt}" width="100%"></a><br>' if img else ''
+    # The animated preview opens the video file itself (served by Lab); the title opens the Lab page.
+    picture = f'<a href="{v["mp4"]}"><img src="previews/{v["id"]}.webp" alt="{alt}" width="100%"></a><br>'
     meta = [f'<a href="{v["postUrl"]}">@{html.escape(v["author"]["handle"])}</a>']
     if length(v['durationMs']):
         meta.append(length(v['durationMs']))
-    meta.append(f'♥ {compact(v["likes"])}')
     if v['promptShared']:
-        meta.append(T[loc]['prompt_tag'])
-    return (f'<td width="33%" valign="top">{picture}<a href="{href}"><b>{html.escape(title)}</b></a>'
+        meta.append(f'<a href="{page}">{T[loc]["prompt_tag"]}</a>')
+    return (f'<td width="33%" valign="top">{picture}<a href="{page}"><b>{html.escape(title)}</b></a>'
             f'<br><sub>{" · ".join(meta)}</sub></td>')
 
 

@@ -10,6 +10,7 @@ Changes to the scripts or the README layout are welcome as pull requests. Check 
 
 ```bash
 python3 scripts/sync_lab.py      # pull the current Lab list
+python3 scripts/make_previews.py # animated previews for new posts (needs ffmpeg)
 python3 scripts/build_readme.py
 python3 scripts/validate.py
 ```
