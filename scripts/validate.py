@@ -34,11 +34,13 @@ forbidden = re.compile(r'/Users/|/Volumes/|sk-sb-[A-Za-z0-9]{8,}')
 for name, lang in (('README.md', ''), ('README.zh-CN.md', 'lang=zh-CN&')):
     text = (ROOT / name).read_text()
     check(text.count('<td width="33%"') == len(videos) + featured, f'{name}: card count mismatch')
+    check(text.count('<details>') == text.count('</details>'), f'{name}: unbalanced <details>')
     for v in videos:
         check(f'{v["labUrl"]}?{lang}utm_source=github' in text, f'{name}: {v["id"]} does not link to its Lab page')
     check(not forbidden.search(text), f'{name}: contains a local path or key')
 
-for doc in ('prompt-guide', 'tutorial', 'model-comparison'):
+check((ROOT / 'assets/banner.png').exists(), 'missing assets/banner.png')
+for doc in ('prompts', 'prompt-guide', 'tutorial', 'model-comparison'):
     for loc in ('', 'zh-CN/'):
         check((ROOT / 'docs' / f'{loc}{doc}.md').exists(), f'missing docs/{loc}{doc}.md')
         check(f'docs/{loc}{doc}.md' in (ROOT / ('README.zh-CN.md' if loc else 'README.md')).read_text(), f'README does not link docs/{loc}{doc}.md')

@@ -1,4 +1,4 @@
-# Gemini 4 Argon 与其他模型对比
+# Gemini 4 Argon 对比 Claude Opus 5.5、GPT-6 等模型
 
 [English](../model-comparison.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 

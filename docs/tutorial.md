@@ -1,4 +1,4 @@
-# Tutorial: make a video with Gemini 4 Argon
+# Gemini 4 Argon tutorial: from prompt to video
 
 English · [简体中文](zh-CN/tutorial.md) · [← Back to the collection](../README.md)
 

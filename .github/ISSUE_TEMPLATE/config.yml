@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Watch and recreate the videos on SandBase Lab / 在 SandBase Lab 观看并复刻
+    url: https://www.sandbase.ai/lab/ai-videos/gemini-4-argon?utm_source=github&utm_medium=issue&utm_campaign=awesome-gemini4-argon
+    about: Full-size playback, prompts and one-click Recreate with Gemini 4 Argon. / 大屏播放、提示词和一键复刻。
+  - name: Run Gemini 4 Argon / 调用 Gemini 4 Argon
+    url: https://www.sandbase.ai/model/google/gemini-4-argon?utm_source=github&utm_medium=issue&utm_campaign=awesome-gemini4-argon
+    about: Model page with pricing and API access on SandBase. / SandBase 模型页：价格与 API。

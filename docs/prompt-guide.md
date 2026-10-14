@@ -1,4 +1,4 @@
-# How to prompt Gemini 4 Argon for video
+# Gemini 4 Argon prompt guide: how to prompt Argon for video
 
 English · [简体中文](zh-CN/prompt-guide.md) · [← Back to the collection](../README.md)
 

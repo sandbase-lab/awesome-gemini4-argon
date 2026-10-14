@@ -1,4 +1,4 @@
-# 教程：用 Gemini 4 Argon 做一个视频
+# Gemini 4 Argon 教程：从提示词到视频
 
 [English](../tutorial.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 

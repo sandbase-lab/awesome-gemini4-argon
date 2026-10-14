@@ -1,4 +1,4 @@
-# Gemini 4 Argon vs. other models
+# Gemini 4 Argon vs Claude Opus 5.5, GPT-6 and other models
 
 English · [简体中文](zh-CN/model-comparison.md) · [← Back to the collection](../README.md)
 

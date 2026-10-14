@@ -1,4 +1,4 @@
-# Gemini 4 Argon 视频提示词写法
+# Gemini 4 Argon 提示词写法：如何写出能做视频的提示词
 
 [English](../prompt-guide.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
