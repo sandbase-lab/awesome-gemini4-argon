@@ -49,6 +49,7 @@ T = {
         'stats': lambda n, a, p: f'- **{n} videos** from **{a} creators**, newest last in each section. **{p}** of them come with the creator\'s prompt.',
         'synced': lambda t: f'- Synced daily from SandBase Lab. Lab list updated `{t}`.',
         'how': '- Click a preview to open the video. Click a title for the post, the prompt and a one-click **Recreate** on SandBase Lab. **@handle** links to the original post on X.',
+        'guides': '**Guides:** [How to prompt Argon for video](docs/prompt-guide.md) · [Tutorial: prompt → MP4](docs/tutorial.md) · [Argon vs. other models](docs/model-comparison.md)',
         'contents': 'Contents',
         'featured': 'Featured',
         'recreate': 'Recreate one with Gemini 4 Argon',
@@ -76,6 +77,7 @@ T = {
         'stats': lambda n, a, p: f'- 共 **{n} 条视频**，来自 **{a} 位创作者**，每个分类内按发布时间排列；其中 **{p} 条** 附有作者的提示词。',
         'synced': lambda t: f'- 每天从 SandBase Lab 自动同步。Lab 列表更新时间：`{t}`。',
         'how': '- 点击预览图直接打开视频；点击标题前往 SandBase Lab 查看原帖、提示词，并一键 **复刻**；**@作者** 链接到 X 原帖。',
+        'guides': '**指南：** [Argon 视频提示词写法](docs/zh-CN/prompt-guide.md) · [教程：从提示词到 MP4](docs/zh-CN/tutorial.md) · [Argon 与其他模型对比](docs/zh-CN/model-comparison.md)',
         'contents': '目录',
         'featured': '精选',
         'recreate': '用 Gemini 4 Argon 复刻',
@@ -100,8 +102,8 @@ T = {
 
 CURL = '''```bash
 jq -n --rawfile prompt prompt.txt \\
-  '{model: "%s", messages: [{role: "user", content: $prompt}]}' |
-curl -sS https://api.sandbase.ai/v1/chat/completions \\
+  '{model: "%s", max_tokens: 32000, messages: [{role: "user", content: $prompt}]}' |
+curl -sS --max-time 900 https://api.sandbase.ai/v1/chat/completions \\
   -H "Authorization: Bearer $SANDBASE_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d @- | jq -r '.choices[0].message.content' | sed '/^```/d' > argon.html
@@ -143,7 +145,7 @@ def readme(loc):
     creators = len({v['author']['handle'].lower() for v in VIDEOS})
     lines = ['# Awesome Gemini 4 Argon', '', t['switch'], '', t['tagline'], '', t['cta'](), '',
              t['stats'](len(VIDEOS), creators, sum(v['promptShared'] for v in VIDEOS)),
-             t['synced'](SYNC['labSyncedAt']), t['how'], '']
+             t['synced'](SYNC['labSyncedAt']), t['how'], '', t['guides'], '']
     cats = sorted({v['category'] for v in VIDEOS}, key=lambda c: (list(CATEGORIES).index(c) if c in CATEGORIES else 99, c))
     featured = sorted((v for v in VIDEOS if v['featured'] is not None), key=lambda v: v['featured'])
     name = lambda c: CATEGORIES.get(c, (c, c))[1 if zh else 0]

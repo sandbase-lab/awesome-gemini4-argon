@@ -10,6 +10,8 @@
 - 每天从 SandBase Lab 自动同步。Lab 列表更新时间：`2026-10-14T16:29:53.300Z`。
 - 点击预览图直接打开视频；点击标题前往 SandBase Lab 查看原帖、提示词，并一键 **复刻**；**@作者** 链接到 X 原帖。
 
+**指南：** [Argon 视频提示词写法](docs/zh-CN/prompt-guide.md) · [教程：从提示词到 MP4](docs/zh-CN/tutorial.md) · [Argon 与其他模型对比](docs/zh-CN/model-comparison.md)
+
 ## 目录
 
 - [精选](#featured) (8)
@@ -201,8 +203,8 @@ Gemini 4 Argon 用代码写出这些视频。[SandBase Lab](https://www.sandbase
 
 ```bash
 jq -n --rawfile prompt prompt.txt \
-  '{model: "google/gemini-4-argon", messages: [{role: "user", content: $prompt}]}' |
-curl -sS https://api.sandbase.ai/v1/chat/completions \
+  '{model: "google/gemini-4-argon", max_tokens: 32000, messages: [{role: "user", content: $prompt}]}' |
+curl -sS --max-time 900 https://api.sandbase.ai/v1/chat/completions \
   -H "Authorization: Bearer $SANDBASE_API_KEY" \
   -H "Content-Type: application/json" \
   -d @- | jq -r '.choices[0].message.content' | sed '/^```/d' > argon.html

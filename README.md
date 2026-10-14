@@ -10,6 +10,8 @@ What people are making with **Google Gemini 4 Argon**, collected from X and cred
 - Synced daily from SandBase Lab. Lab list updated `2026-10-14T16:29:53.300Z`.
 - Click a preview to open the video. Click a title for the post, the prompt and a one-click **Recreate** on SandBase Lab. **@handle** links to the original post on X.
 
+**Guides:** [How to prompt Argon for video](docs/prompt-guide.md) · [Tutorial: prompt → MP4](docs/tutorial.md) · [Argon vs. other models](docs/model-comparison.md)
+
 ## Contents
 
 - [Featured](#featured) (8)
@@ -201,8 +203,8 @@ Prefer the API? Argon is `google/gemini-4-argon` on SandBase. Put a prompt in `p
 
 ```bash
 jq -n --rawfile prompt prompt.txt \
-  '{model: "google/gemini-4-argon", messages: [{role: "user", content: $prompt}]}' |
-curl -sS https://api.sandbase.ai/v1/chat/completions \
+  '{model: "google/gemini-4-argon", max_tokens: 32000, messages: [{role: "user", content: $prompt}]}' |
+curl -sS --max-time 900 https://api.sandbase.ai/v1/chat/completions \
   -H "Authorization: Bearer $SANDBASE_API_KEY" \
   -H "Content-Type: application/json" \
   -d @- | jq -r '.choices[0].message.content' | sed '/^```/d' > argon.html

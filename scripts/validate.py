@@ -38,6 +38,11 @@ for name, lang in (('README.md', ''), ('README.zh-CN.md', 'lang=zh-CN&')):
         check(f'{v["labUrl"]}?{lang}utm_source=github' in text, f'{name}: {v["id"]} does not link to its Lab page')
     check(not forbidden.search(text), f'{name}: contains a local path or key')
 
+for doc in ('prompt-guide', 'tutorial', 'model-comparison'):
+    for loc in ('', 'zh-CN/'):
+        check((ROOT / 'docs' / f'{loc}{doc}.md').exists(), f'missing docs/{loc}{doc}.md')
+        check(f'docs/{loc}{doc}.md' in (ROOT / ('README.zh-CN.md' if loc else 'README.md')).read_text(), f'README does not link docs/{loc}{doc}.md')
+
 if errors:
     print('\n'.join(f'FAIL: {e}' for e in errors[:50]))
     raise SystemExit(f'{len(errors)} problem(s)')
