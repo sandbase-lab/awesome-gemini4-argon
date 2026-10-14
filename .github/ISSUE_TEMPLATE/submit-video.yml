@@ -1,5 +1,5 @@
-name: Submit a Gemini 4 Argon creation / 提交作品
-description: Suggest a finished Gemini 4 Argon video posted on X. / 推荐一条发布在 X 上的 Gemini 4 Argon 成品视频。
+name: Submit a Gemini 4 Argon creation / 推荐作品
+description: Suggest a Gemini 4 Argon video posted on X for SandBase Lab. / 推荐一条发布在 X 上的 Gemini 4 Argon 视频。
 title: "[submit] "
 labels: [submission]
 body:
@@ -15,16 +15,6 @@ body:
     id: prompt
     attributes:
       label: Public prompt or source code URL (optional) / 公开提示词或源码链接（可选）
-  - type: dropdown
-    id: category
-    attributes:
-      label: Category / 分类
-      options:
-        - Motion graphics & animation / 动画与动态图形
-        - 3D scenes & physics / 3D 场景与物理
-        - Games & interactive experiences / 游戏与交互体验
-    validations:
-      required: true
   - type: checkboxes
     id: checks
     attributes:
@@ -32,5 +22,5 @@ body:
       options:
         - label: The creator says it was made with Gemini 4 Argon. / 作者说明使用 Gemini 4 Argon 制作。
           required: true
-        - label: It is a finished work, not a comparison, review or tutorial, and is 2 minutes or shorter. / 是成品作品，不是对比、测评或教程，且不超过 2 分钟。
+        - label: It is a finished work, not a news post or an ad. / 是成品作品，不是新闻或广告。
           required: true

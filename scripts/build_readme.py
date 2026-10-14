@@ -1,151 +1,100 @@
 #!/usr/bin/env python3
-"""Generate README.md, README.zh-CN.md and per-entry prompt pages (en + zh-CN) from data/videos.json."""
+"""Generate README.md and README.zh-CN.md from data/videos.json (pulled from SandBase Lab)."""
 import html
 import json
 import pathlib
-import shutil
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 VIDEOS = json.loads((ROOT / 'data/videos.json').read_text())
-COLLECTION = json.loads((ROOT / 'data/collection.json').read_text())
-MODEL_ID = COLLECTION['model']['id']
+SYNC = json.loads((ROOT / 'data/sync.json').read_text())
+MODEL_ID = 'google/gemini-4-argon'
 UTM = 'utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon'
-MODEL_PAGE = f"{COLLECTION['model']['sandbasePage']}?{UTM}"
-SANDBASE = f'https://www.sandbase.ai/?{UTM}'
-DOCS = f'https://www.sandbase.ai/docs/?{UTM}'
+LAB = 'https://www.sandbase.ai/lab/ai-videos/gemini-4-argon'
+MODEL_PAGE = f'https://www.sandbase.ai/model/google/gemini-4-argon?{UTM}'
 KEYS = f'https://www.sandbase.ai/console/keys?{UTM}'
 SANDBOX = f'https://www.sandbase.ai/landing/sandbox?{UTM}'
 REPO = 'https://github.com/sandbase-lab/awesome-gemini4-argon'
-SEED = COLLECTION['seed']['repository']
 
+# Labels mirror shared/ai-videos.ts VIDEO_CATEGORIES in the Lab repo.
 CATEGORIES = {
-    'motion': ('Motion graphics & animation', '动画与动态图形'),
-    '3d': ('3D scenes & physics', '3D 场景与物理'),
-    'interactive': ('Games & interactive experiences', '游戏与交互体验'),
+    '3d-scene': ('3D scenes', '3D 场景'),
+    'motion-graphics': ('Motion graphics', '动效'),
+    'game': ('Games', '游戏'),
+    'ui-demo': ('Product UI', '产品界面'),
+    'particles': ('Particles & shapes', '粒子与形状'),
+    'data-viz': ('Charts & diagrams', '图表图解'),
+    'kinetic-type': ('Kinetic type', '文字动效'),
+    'explainer': ('Explainers', '讲解'),
+    'launch-film': ('Launch films', '发布片'),
+    'short-film': ('Short films', '短片'),
+    'music-video': ('Music videos', '音乐视频'),
+    'anime': ('Anime', '动画'),
+    'action': ('Action', '动作'),
+    'ad': ('Ads', '广告'),
+    'comparison': ('Tests & comparisons', '测试对比'),
+    'showcase': ('Model showcases', '模型展示'),
 }
 
-# Every user-visible string lives here, keyed by locale. `en` is the reference.
+
+def lab(path='', loc='en', content=None):
+    q = ('lang=zh-CN&' if loc == 'zh-CN' else '') + UTM + (f'&utm_content={content}' if content else '')
+    return f'{LAB}{path}?{q}'
+
+
 T = {
     'en': {
         'switch': 'English · [简体中文](README.zh-CN.md)',
-        'tagline': 'A curated, verified collection of what people are building with **Gemini 4 Argon**: code-generated animation, 3D scenes and playable games shared on X, with creator credits, full post text and every publicly shared prompt.',
-        'cta': f'**[▶ Run Gemini 4 Argon on SandBase]({MODEL_PAGE})** · one API key, OpenAI-compatible, pay per call.',
-        'stats': lambda n, a, p: f'- **{n} videos** from **{a} creators**, listed in publication order within each section.\n- **{p} entries** include the creator\'s verbatim prompt; the rest say so explicitly. We never reconstruct prompts.',
-        'media': '- Previews are X\'s own thumbnails. Click a preview to watch on the creator\'s original post; click a title for the full post, prompt and sources.',
-        'scope': '- Finished creative work only: no model comparisons, reviews, tutorials or product walkthroughs. New submissions must be 2 minutes or shorter.',
-        'verified': lambda t: f'- Every entry is re-checked against its public X post (author, Snowflake timestamp, video media ID). Last verification: `{t}`.',
+        'tagline': 'The most-liked things people made with **Google Gemini 4 Argon**, collected from X and credited to their creators: Three.js scenes, canvas animations, motion graphics and playable games, all written as code from a prompt.',
+        'cta': lambda: f'**[▶ Watch them all on SandBase Lab]({lab(loc="en", content="hero")})** · full-size playback, the original post and prompt, and one click to recreate any video with Gemini 4 Argon.',
+        'stats': lambda n, a, p: f'- **{n} videos** from **{a} creators**, sorted by likes. **{p}** of them come with the creator\'s prompt.',
+        'synced': lambda t: f'- Synced daily from SandBase Lab. Lab list updated `{t}`.',
+        'how': '- Click any card to play it on SandBase Lab. The **@handle** links to the creator\'s original post on X.',
         'contents': 'Contents',
-        'reproduce': 'Reproduce a prompt on SandBase',
-        'reproduce_body': [
-            f'Gemini 4 Argon is available on SandBase as `{MODEL_ID}`. Most entries here are **code** (HTML, SVG, Canvas, three.js) that the creator rendered and recorded, so a re-run gives you code to open in a browser, not an MP4.',
+        'featured': 'Featured',
+        'recreate': 'Recreate one with Gemini 4 Argon',
+        'recreate_body': [
+            f'Gemini 4 Argon writes these videos as code. Every video page on [SandBase Lab]({lab(loc="en", content="recreate")}) has a **Recreate** button that sends the post to Argon and gives you the code back to play in the browser.',
             '',
-            '1. Pick an entry marked **prompt** and copy its prompt into `prompt.txt`.',
-            f'2. Create an API key in the [SandBase console]({KEYS}) and export it as `SANDBASE_API_KEY`.',
-            '3. Call the OpenAI-compatible endpoint:',
+            f'Prefer the API? Argon is `{MODEL_ID}` on SandBase. Put a prompt in `prompt.txt`, create a key in the [console]({KEYS}), and run:',
         ],
-        'reproduce_after': [
-            'Open the generated `argon.html` (Markdown fences are stripped) in a browser, or run it inside a [SandBase Sandbox](' + SANDBOX + ') to keep untrusted generated code isolated. Results vary between runs and depend on the reasoning effort; check the [model page](' + MODEL_PAGE + ') for current pricing and limits.',
-        ],
+        'recreate_after': f'Open `argon.html` in a browser, or run it in a [SandBase Sandbox]({SANDBOX}) to keep generated code isolated. Pricing and limits: [model page]({MODEL_PAGE}).',
         'prompt_tag': 'prompt',
-        'data': 'Data & verification',
-        'data_items': [
-            '[`data/videos.json`](data/videos.json): catalog, credits, prompts, X media links',
-            '[`data/verification.json`](data/verification.json): per-entry verification result',
-            '[`data/collection.json`](data/collection.json): scope, cutoff, curation policy and removals',
-            '`python3 scripts/sync_x.py && python3 scripts/build_readme.py && python3 scripts/validate.py` rebuilds everything.',
-        ],
-        'contribute': 'Contribute',
-        'contribute_body': f'Know a finished Gemini 4 Argon creation we are missing? [Submit it]({REPO}/issues/new?template=submit-video.yml) with the original X post URL. Read [CONTRIBUTING](CONTRIBUTING.md) first.',
+        'more': lambda n: f'**[See all {n} on SandBase Lab →]({lab(loc="en", content="section")})**',
+        'contribute': 'Suggest a video',
+        'contribute_body': f'Know a Gemini 4 Argon creation that should be here? [Open a submission]({REPO}/issues/new?template=submit-video.yml) with the original X post. Accepted posts are added on SandBase Lab and show up here on the next daily sync.',
         'credits': 'Credits & rights',
         'credits_body': [
-            'All videos, prompts and quoted post text belong to their creators. The MIT license covers this repository\'s tooling and curation structure only and does not relicense third-party content. [Rights, corrections and removals](MEDIA-RIGHTS.md).',
-            f'The initial catalog was seeded from [yihui-dev/awesome-gemini4-argon-videos]({SEED}) (MIT) and independently re-verified against X. Thanks to its maintainers.',
-            'This community collection is not affiliated with or endorsed by Google. SandBase links are from the maintainers and do not imply creator endorsement.',
+            'Every video, prompt and post belongs to its creator. Cards credit the author and link to the original post. The MIT license covers this repository\'s scripts only. To correct a credit or remove a video, see [MEDIA-RIGHTS](MEDIA-RIGHTS.md).',
+            'Not affiliated with or endorsed by Google.',
         ],
-        'footer': f'Maintained by [SandBase Lab](https://github.com/sandbase-lab) · [SandBase]({SANDBASE}) · [Docs]({DOCS})',
-        # prompt pages
-        'back': '← Back to the collection',
-        'page_switch': lambda i: f'English · [简体中文](zh-CN/{i}.md)',
-        'watch': 'Watch on X',
-        'raw': 'Direct video file (X CDN)',
-        'credit': 'Author / credit',
-        'duration': lambda d, w, h: f'Duration: {d:.0f} s · {w} × {h}',
-        'published': 'Published',
-        'status': 'Prompt status',
-        'prompt': 'Prompt',
-        'no_prompt': 'The creator did not publish an exact prompt in the sources we reviewed. The original post below is a description, **not a reconstructed prompt**.',
-        'template': 'The creator shared this as a template; the exact filled-in subject or reference image was not published.',
-        'prompt_source': 'Prompt source',
-        'run': 'Run this prompt on SandBase',
-        'run_body': f'Save the prompt above as `prompt.txt`, then follow [the reproduce steps](../README.md#reproduce). Model: `{MODEL_ID}` · [pricing & limits]({MODEL_PAGE}).',
-        'original': 'Original post',
-        'sources': 'Sources & attribution',
-        'prompt_author': 'Prompt author',
-        'model_context': 'Model attribution context',
-        'additional': 'Additional post by the creator',
-        'source_post': 'source post',
-        'page_rights': 'Model attribution follows the creator\'s published account; it is not an audit of the generation process. The video, prompt and post text remain the property of the creator. See [media rights](../MEDIA-RIGHTS.md).',
-        'try': f'[Try Gemini 4 Argon on SandBase →]({MODEL_PAGE})',
+        'footer': f'Maintained by [SandBase Lab](https://www.sandbase.ai/lab/?{UTM}) · [All AI video collections](https://www.sandbase.ai/lab/ai-videos?{UTM})',
     },
     'zh-CN': {
         'switch': '[English](README.md) · 简体中文',
-        'tagline': '精选并逐条核验的 **Gemini 4 Argon** 作品合集：创作者在 X 上分享的代码生成动画、3D 场景和可玩游戏，保留作者署名、帖子原文和全部公开提示词。',
-        'cta': f'**[▶ 在 SandBase 上调用 Gemini 4 Argon]({MODEL_PAGE})** · 一个 API Key，兼容 OpenAI 接口，按调用计费。',
-        'stats': lambda n, a, p: f'- 共 **{n} 条视频**，来自 **{a} 位创作者**；每个分类内按发布时间排列。\n- 其中 **{p} 条** 附有作者公开的原文提示词，其余条目会明确标注未公开。我们不编造或复原提示词。',
-        'media': '- 预览图使用 X 自身的视频封面。点击预览图前往作者原帖观看；点击标题查看完整原文、提示词和来源。',
-        'scope': '- 只收录成品作品：不收录模型对比、测评、教程或产品功能演示。新提交的视频不超过 2 分钟。',
-        'verified': lambda t: f'- 每个条目都会对照公开的 X 原帖重新核验（作者、Snowflake 时间戳、视频媒体 ID）。最近一次核验：`{t}`。',
+        'tagline': '收录 X 上点赞最多的 **Google Gemini 4 Argon** 作品，并注明作者：Three.js 场景、Canvas 动画、动效和可玩游戏，全部由模型根据提示词写成代码。',
+        'cta': lambda: f'**[▶ 在 SandBase Lab 观看全部作品]({lab(loc="zh-CN", content="hero")})** · 大屏播放、查看原帖和提示词，一键用 Gemini 4 Argon 复刻任意视频。',
+        'stats': lambda n, a, p: f'- 共 **{n} 条视频**，来自 **{a} 位创作者**，按点赞排序；其中 **{p} 条** 附有作者的提示词。',
+        'synced': lambda t: f'- 每天从 SandBase Lab 自动同步。Lab 列表更新时间：`{t}`。',
+        'how': '- 点击卡片在 SandBase Lab 播放；**@作者** 链接到作者在 X 上的原帖。',
         'contents': '目录',
-        'reproduce': '在 SandBase 上复现提示词',
-        'reproduce_body': [
-            f'Gemini 4 Argon 在 SandBase 上的模型 ID 是 `{MODEL_ID}`。这里的大部分作品是作者用模型生成**代码**（HTML、SVG、Canvas、three.js）后渲染录屏得到的，所以复现得到的是可在浏览器打开的代码，而不是 MP4。',
+        'featured': '精选',
+        'recreate': '用 Gemini 4 Argon 复刻',
+        'recreate_body': [
+            f'Gemini 4 Argon 用代码写出这些视频。[SandBase Lab]({lab(loc="zh-CN", content="recreate")}) 的每个视频页都有 **复刻** 按钮，会把帖子内容发给 Argon，返回可在浏览器直接播放的代码。',
             '',
-            '1. 选择标有 **prompt** 的条目，把提示词保存为 `prompt.txt`。',
-            f'2. 在 [SandBase 控制台]({KEYS}) 创建 API Key，并导出为 `SANDBASE_API_KEY`。',
-            '3. 调用兼容 OpenAI 的接口：',
+            f'想用 API？Argon 在 SandBase 上的模型 ID 是 `{MODEL_ID}`。把提示词写进 `prompt.txt`，在 [控制台]({KEYS}) 创建 Key，然后运行：',
         ],
-        'reproduce_after': [
-            '生成的 `argon.html`（已去掉 Markdown 代码围栏）可直接用浏览器打开；也可以在 [SandBase Sandbox](' + SANDBOX + ') 中运行，让不可信的生成代码保持隔离。每次结果会有差异，也取决于推理强度；当前价格和限制请以 [模型页](' + MODEL_PAGE + ') 为准。',
-        ],
-        'prompt_tag': 'prompt',
-        'data': '数据与核验',
-        'data_items': [
-            '[`data/videos.json`](data/videos.json)：作品目录、署名、提示词、X 媒体链接',
-            '[`data/verification.json`](data/verification.json)：逐条核验结果',
-            '[`data/collection.json`](data/collection.json)：收录范围、截止时间、策展规则和移除记录',
-            '运行 `python3 scripts/sync_x.py && python3 scripts/build_readme.py && python3 scripts/validate.py` 即可重新生成全部内容。',
-        ],
-        'contribute': '参与贡献',
-        'contribute_body': f'发现了未收录的 Gemini 4 Argon 成品作品？请附上 X 原帖链接 [提交给我们]({REPO}/issues/new?template=submit-video.yml)。提交前请先阅读 [CONTRIBUTING](CONTRIBUTING.md)。',
+        'recreate_after': f'用浏览器打开 `argon.html`，或在 [SandBase Sandbox]({SANDBOX}) 中运行，让生成的代码保持隔离。价格与限制见 [模型页]({MODEL_PAGE})。',
+        'prompt_tag': '提示词',
+        'more': lambda n: f'**[在 SandBase Lab 查看全部 {n} 条 →]({lab(loc="zh-CN", content="section")})**',
+        'contribute': '推荐作品',
+        'contribute_body': f'发现了应该收录的 Gemini 4 Argon 作品？附上 X 原帖 [提交给我们]({REPO}/issues/new?template=submit-video.yml)。通过后会先加入 SandBase Lab，下一次每日同步时出现在这里。',
         'credits': '致谢与权利',
         'credits_body': [
-            '所有视频、提示词和引用的帖子原文归各自创作者所有。MIT 许可证只覆盖本仓库的工具和策展结构，不会重新授权第三方内容。[权利、更正与下架说明](MEDIA-RIGHTS.md)。',
-            f'初始目录基于 [yihui-dev/awesome-gemini4-argon-videos]({SEED})（MIT）导入，并对照 X 独立重新核验。感谢原项目维护者。',
-            '本社区合集与 Google 无隶属或背书关系。SandBase 链接由维护者添加，不代表创作者为其背书。',
+            '所有视频、提示词和帖子归作者所有。每张卡片都注明作者并链接原帖。MIT 许可证只覆盖本仓库的脚本。更正署名或下架视频请见 [MEDIA-RIGHTS](MEDIA-RIGHTS.md)。',
+            '与 Google 无隶属或背书关系。',
         ],
-        'footer': f'由 [SandBase Lab](https://github.com/sandbase-lab) 维护 · [SandBase]({SANDBASE}) · [文档]({DOCS})',
-        'back': '← 返回合集',
-        'page_switch': lambda i: f'[English](../{i}.md) · 简体中文',
-        'watch': '在 X 上观看',
-        'raw': '视频直链（X CDN）',
-        'credit': '作者 / 署名',
-        'duration': lambda d, w, h: f'时长：{d:.0f} 秒 · {w} × {h}',
-        'published': '发布时间',
-        'status': '提示词状态',
-        'prompt': '提示词',
-        'no_prompt': '在我们查阅的来源中，作者没有公开确切的提示词。下方原帖内容只是作品描述，**不是复原的提示词**。',
-        'template': '作者以模板形式分享了这段提示词，没有公开实际填入的主题或参考图。',
-        'prompt_source': '提示词来源',
-        'run': '在 SandBase 上运行这段提示词',
-        'run_body': f'把上面的提示词保存为 `prompt.txt`，然后按照 [复现步骤](../../README.zh-CN.md#reproduce) 操作。模型：`{MODEL_ID}` · [价格与限制]({MODEL_PAGE})。',
-        'original': '帖子原文',
-        'sources': '来源与署名',
-        'prompt_author': '提示词作者',
-        'model_context': '模型归属说明',
-        'additional': '作者的补充帖子',
-        'source_post': '原帖',
-        'page_rights': '模型归属以作者公开说明为准，并非对生成过程的审计。视频、提示词和帖子原文归作者所有。详见 [媒体权利说明](../../MEDIA-RIGHTS.md)。',
-        'try': f'[在 SandBase 上试用 Gemini 4 Argon →]({MODEL_PAGE})',
+        'footer': f'由 [SandBase Lab](https://www.sandbase.ai/lab/?lang=zh-CN&{UTM}) 维护 · [全部 AI 视频合集](https://www.sandbase.ai/lab/ai-videos?lang=zh-CN&{UTM})',
     },
 }
 
@@ -159,84 +108,62 @@ curl -sS https://api.sandbase.ai/v1/chat/completions \\
 ```''' % MODEL_ID
 
 
-def fence(text: str) -> str:
-    """Pick a fence longer than any backtick run inside verbatim text."""
-    longest, run = 0, 0
-    for ch in text:
-        run = run + 1 if ch == '`' else 0
-        longest = max(longest, run)
-    tick = '`' * max(3, longest + 1)
-    return f'{tick}text\n{text}\n{tick}'
+def compact(n: int) -> str:
+    return f'{n / 1000:.1f}k'.replace('.0k', 'k') if n >= 1000 else str(n)
 
 
-def credit(v):
-    return v.get('creatorCredit') or f"{v['author']['name']} (@{v['author']['handle']})"
-
-
-def prompt_page(v, loc):
-    t = T[loc]
-    up = '..' if loc == 'en' else '../..'
-    readme = 'README.md' if loc == 'en' else 'README.zh-CN.md'
-    lines = [f'# {v["title"]}', '', t['page_switch'](v['id']), '', f'[{t["back"]}]({up}/{readme})', '',
-             f'[![{html.escape(v["title"], quote=True)}]({v["thumbnailUrl"]})]({v["sourceUrl"]})', '',
-             f'**[▶ {t["watch"]}]({v["sourceUrl"]})** · [{t["raw"]}]({v["videoUrl"]})', '',
-             f'- {t["credit"]}: {credit(v)}',
-             f'- {t["duration"](v["duration"], v["width"], v["height"])}',
-             f'- {t["published"]}: `{v["publishedAt"]}`',
-             f'- {t["status"]}: `{v["promptStatus"]}`']
-    if v.get('note'):
-        lines += ['', f'> {v["note"]}']
-    lines += ['', f'## {t["prompt"]}', '']
-    if v.get('prompt'):
-        if v['promptStatus'] == 'verbatim_template':
-            lines += [t['template'], '']
-        lines += [fence(v['prompt']), '', f'{t["prompt_source"]}: {v["promptSourceUrl"]}', '',
-                  f'### {t["run"]}', '', t['run_body']]
-    else:
-        lines.append(t['no_prompt'])
-    lines += ['', f'## {t["original"]}', '', fence(v['originalPost']), '', f'## {t["sources"]}', '',
-              f'- [{v["author"]["name"]}]({v["author"]["url"]}) · [{t["source_post"]}]({v["sourceUrl"]})']
-    if v.get('promptAuthor'):
-        lines.append(f'- {t["prompt_author"]}: {v["promptAuthor"]} · {v["promptSourceUrl"]}')
-    if v.get('modelEvidenceUrl'):
-        lines.append(f'- {t["model_context"]}: {v["modelEvidenceUrl"]}')
-    for x in v.get('relatedSources', []):
-        lines.append(f'- [{x["label"]}]({x["url"]})')
-    for x in v.get('additionalPosts', []):
-        lines += ['', f'### {t["additional"]} · [{t["source_post"]}]({x["url"]})', '', fence(x['text'])]
-    lines += ['', t['page_rights'], '', t['try'], '']
-    return '\n'.join(lines)
+def length(ms):
+    if not ms:
+        return None
+    s = round(ms / 1000)
+    return f'{s // 60}:{s % 60:02d}'
 
 
 def card(v, loc):
-    page = f'prompts/{v["id"]}.md' if loc == 'en' else f'prompts/zh-CN/{v["id"]}.md'
-    alt = html.escape(v['title'], quote=True)
-    tag = f' · <a href="{page}#{"prompt" if loc == "en" else "提示词"}">{T[loc]["prompt_tag"]}</a>' if v.get('prompt') else ''
-    return (f'<td width="33%" valign="top"><a href="{v["sourceUrl"]}"><img src="{v["thumbnailUrl"]}" alt="{alt}" width="100%"></a>'
-            f'<br><a href="{page}"><b>{html.escape(v["title"])}</b></a>'
-            f'<br><sub><a href="{v["author"]["url"]}">@{v["author"]["handle"]}</a> · {v["duration"]:.0f}s{tag}</sub></td>')
+    title = v['title_zh'] if loc == 'zh-CN' else v['title']
+    href = lab(f'/{v["id"]}', loc, 'card')
+    img = v.get('poster') or v.get('xThumbnail')
+    alt = html.escape(title, quote=True)
+    picture = f'<a href="{href}"><img src="{img}" alt="{alt}" width="100%"></a><br>' if img else ''
+    meta = [f'<a href="{v["postUrl"]}">@{html.escape(v["author"]["handle"])}</a>']
+    if length(v['durationMs']):
+        meta.append(length(v['durationMs']))
+    meta.append(f'♥ {compact(v["likes"])}')
+    if v['promptShared']:
+        meta.append(T[loc]['prompt_tag'])
+    return (f'<td width="33%" valign="top">{picture}<a href="{href}"><b>{html.escape(title)}</b></a>'
+            f'<br><sub>{" · ".join(meta)}</sub></td>')
+
+
+def table(group, loc):
+    rows = ['<table>']
+    for i in range(0, len(group), 3):
+        rows.append('<tr>' + ''.join(card(v, loc) for v in group[i:i + 3]) + '</tr>')
+    return rows + ['</table>']
 
 
 def readme(loc):
     t = T[loc]
     zh = loc == 'zh-CN'
     creators = len({v['author']['handle'].lower() for v in VIDEOS})
-    prompts = sum(bool(v.get('prompt')) for v in VIDEOS)
-    verified_at = json.loads((ROOT / 'data/verification.json').read_text())['verifiedAt']
-    lines = ['# Awesome Gemini 4 Argon', '', t['switch'], '', t['tagline'], '', t['cta'], '',
-             t['stats'](len(VIDEOS), creators, prompts), t['media'], t['scope'], t['verified'](verified_at), '',
-             f'## {t["contents"]}', '']
-    for key, names in CATEGORIES.items():
-        lines.append(f'- [{names[1] if zh else names[0]}](#{key}) ({sum(v["category"] == key for v in VIDEOS)})')
-    lines += [f'- [{t["reproduce"]}](#reproduce)', f'- [{t["contribute"]}](#contribute)', '']
-    for key, names in CATEGORIES.items():
-        group = [v for v in VIDEOS if v['category'] == key]
-        lines += [f'<a id="{key}"></a>', '', f'## {names[1] if zh else names[0]}', '', '<table>']
-        for i in range(0, len(group), 3):
-            lines.append('<tr>' + ''.join(card(v, loc) for v in group[i:i + 3]) + '</tr>')
-        lines += ['</table>', '']
-    lines += ['<a id="reproduce"></a>', '', f'## {t["reproduce"]}', '', *t['reproduce_body'], '', CURL, '', *t['reproduce_after'], '',
-              f'## {t["data"]}', '', *[f'- {x}' for x in t['data_items']], '',
+    lines = ['# Awesome Gemini 4 Argon', '', t['switch'], '', t['tagline'], '', t['cta'](), '',
+             t['stats'](len(VIDEOS), creators, sum(v['promptShared'] for v in VIDEOS)),
+             t['synced'](SYNC['labSyncedAt']), t['how'], '']
+    cats = sorted({v['category'] for v in VIDEOS}, key=lambda c: (list(CATEGORIES).index(c) if c in CATEGORIES else 99, c))
+    featured = sorted((v for v in VIDEOS if v['featured'] is not None), key=lambda v: v['featured'])
+    name = lambda c: CATEGORIES.get(c, (c, c))[1 if zh else 0]
+    lines += [f'## {t["contents"]}', '']
+    if featured:
+        lines.append(f'- [{t["featured"]}](#featured) ({len(featured)})')
+    lines += [f'- [{name(c)}](#{c}) ({sum(v["category"] == c for v in VIDEOS)})' for c in cats]
+    lines += [f'- [{t["recreate"]}](#recreate)', f'- [{t["contribute"]}](#contribute)', '']
+    if featured:
+        lines += ['<a id="featured"></a>', '', f'## {t["featured"]}', '', *table(featured, loc), '']
+    for c in cats:
+        group = [v for v in VIDEOS if v['category'] == c]
+        lines += [f'<a id="{c}"></a>', '', f'## {name(c)}', '', *table(group, loc), '']
+    lines += [t['more'](len(VIDEOS)), '',
+              '<a id="recreate"></a>', '', f'## {t["recreate"]}', '', *t['recreate_body'], '', CURL, '', t['recreate_after'], '',
               '<a id="contribute"></a>', '', f'## {t["contribute"]}', '', t['contribute_body'], '',
               f'## {t["credits"]}', '']
     for p in t['credits_body']:
@@ -246,16 +173,9 @@ def readme(loc):
 
 
 def main():
-    for d in (ROOT / 'prompts', ROOT / 'prompts/zh-CN'):
-        if d.exists():
-            shutil.rmtree(d)
-        d.mkdir(parents=True)
-    for v in VIDEOS:
-        (ROOT / 'prompts' / f'{v["id"]}.md').write_text(prompt_page(v, 'en'))
-        (ROOT / 'prompts/zh-CN' / f'{v["id"]}.md').write_text(prompt_page(v, 'zh-CN'))
     (ROOT / 'README.md').write_text(readme('en'))
     (ROOT / 'README.zh-CN.md').write_text(readme('zh-CN'))
-    print(f'Built {len(VIDEOS)} entries: 2 READMEs and {len(VIDEOS) * 2} prompt pages (en + zh-CN).')
+    print(f'Built two READMEs with {len(VIDEOS)} cards each.')
 
 
 if __name__ == '__main__':
