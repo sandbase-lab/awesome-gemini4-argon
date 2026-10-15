@@ -63,6 +63,8 @@ def main():
             'durationMs': p['video'].get('duration_ms'),
             'mp4': absolute(p['video']['mp4']),
             'promptShared': bool(p.get('prompt_shared')),
+            # Lab shows the post text as the prompt when the creator put it in the post.
+            **({'promptText': p['text']} if p.get('prompt_shared') else {}),
             'featured': featured.index(p['id']) if p['id'] in featured else None,
             'poster': poster,
             'labUrl': f'{ORIGIN}/lab/ai-videos/{SLUG}/{p["id"]}',

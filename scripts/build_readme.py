@@ -104,8 +104,9 @@ T = {
         'p_title': 'Gemini 4 Argon prompts',
         'p_switch': 'English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)',
         'p_intro': lambda n: f'{n} Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).',
-        'p_cols': ('Video', 'Creator', 'Length', 'Prompt & video'),
-        'p_open': 'Open',
+        'p_note': 'Each entry quotes the creator\'s post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.',
+        'p_watch': 'Watch',
+        'p_open': 'Recreate on SandBase Lab',
     },
     'zh-CN': {
         'h1': 'Awesome Gemini 4 Argon',
@@ -158,8 +159,9 @@ T = {
         'p_title': 'Gemini 4 Argon 提示词',
         'p_switch': '[English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)',
         'p_intro': lambda n: f'共 {n} 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。',
-        'p_cols': ('视频', '作者', '时长', '提示词与视频'),
-        'p_open': '打开',
+        'p_note': '每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。',
+        'p_watch': '观看',
+        'p_open': '在 SandBase Lab 复刻',
     },
 }
 
@@ -246,20 +248,34 @@ def readme(loc):
     return '\n'.join(lines)
 
 
+def fence(text):
+    """A code fence longer than any backtick run inside the creator's text."""
+    longest = run = 0
+    for ch in text:
+        run = run + 1 if ch == '`' else 0
+        longest = max(longest, run)
+    tick = '`' * max(3, longest + 1)
+    return f'{tick}text\n{text}\n{tick}'
+
+
 def prompt_index(loc):
     t = T[loc]
     zh = loc == 'zh-CN'
     rows = [v for v in VIDEOS if v['promptShared']]
-    lines = [f'# {t["p_title"]}', '', t['p_switch'], '', t['p_intro'](len(rows)), '']
-    for c in sorted({v['category'] for v in rows}, key=lambda c: (list(CATEGORIES).index(c) if c in CATEGORIES else 99, c)):
-        group = [v for v in rows if v['category'] == c]
-        lines += [f'## {CATEGORIES.get(c, (c, c))[1 if zh else 0]} ({len(group)})', '',
-                  '| ' + ' | '.join(t['p_cols']) + ' |', '|---|---|---|---|']
-        for v in group:
-            title = (v['title_zh'] if zh else v['title']).replace('|', '\\|')
-            lines.append(f'| {title} | [@{v["author"]["handle"]}]({v["postUrl"]}) | {length(v["durationMs"]) or "—"} | '
-                         f'[{t["p_open"]}]({lab("/" + v["id"], loc, "prompt-index").replace(UTM, DOC_UTM)}) |')
-        lines.append('')
+    cats = sorted({v['category'] for v in rows}, key=lambda c: (list(CATEGORIES).index(c) if c in CATEGORIES else 99, c))
+    cname = lambda c: CATEGORIES.get(c, (c, c))[1 if zh else 0]
+    lines = [f'# {t["p_title"]}', '', t['p_switch'], '', t['p_intro'](len(rows)), '', t['p_note'], '']
+    lines += [f'- [{cname(c)}](#{c}) ({sum(v["category"] == c for v in rows)})' for c in cats] + ['']
+    for c in cats:
+        lines += [f'<a id="{c}"></a>', '', f'## {cname(c)}', '']
+        for v in (v for v in rows if v['category'] == c):
+            title = v['title_zh'] if zh else v['title']
+            page = lab('/' + v['id'], loc, 'prompt-index').replace(UTM, DOC_UTM)
+            meta = [f'[@{v["author"]["handle"]}]({v["postUrl"]})']
+            if length(v['durationMs']):
+                meta.append(length(v['durationMs']))
+            meta += [f'[{t["p_watch"]}]({v["mp4"]})', f'[{t["p_open"]}]({page})']
+            lines += [f'### {title}', '', ' · '.join(meta), '', fence(v['promptText']), '']
     return '\n'.join(lines)
 
 
