@@ -86,7 +86,7 @@
   "durationMs": 98766,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040063656812976/video.mp4",
   "promptShared": false,
-  "featured": 4,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040063656812976/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110040063656812976"
  },
@@ -104,7 +104,7 @@
   "durationMs": 60011,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040726457491845/video.mp4",
   "promptShared": false,
-  "featured": 7,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040726457491845/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110040726457491845"
  },
@@ -230,7 +230,7 @@
   "durationMs": 60000,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110043023954284889/video.mp4",
   "promptShared": false,
-  "featured": 1,
+  "featured": 0,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110043023954284889/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110043023954284889"
  },
@@ -852,7 +852,7 @@
   "durationMs": 71566,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110069786415968754/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 4,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110069786415968754/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110069786415968754"
  },
@@ -1223,24 +1223,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110086104431083712/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110086104431083712"
- },
- {
-  "id": "2110086564357505291",
-  "title": "Desk photo transformed into 3D racing game",
-  "title_zh": "桌面照片转化为3D赛车游戏",
-  "category": "game",
-  "author": {
-   "handle": "googledevs",
-   "name": "Google for Developers"
-  },
-  "postUrl": "https://x.com/googledevs/status/2110086564357505291",
-  "createdAt": "2026-10-13T19:13:35.000Z",
-  "durationMs": 156272,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110086564357505291/video.mp4",
-  "promptShared": false,
-  "featured": 6,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110086564357505291/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110086564357505291"
  },
  {
   "id": "2110086917455057028",
@@ -1620,7 +1602,7 @@
   "durationMs": 10400,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110104441760403923/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 7,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110104441760403923/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110104441760403923"
  },
@@ -1712,7 +1694,7 @@
   "durationMs": 59234,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 6,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110109640419926325"
  },
@@ -2003,7 +1985,7 @@
   "durationMs": 12693,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110131790136401989/video.mp4",
   "promptShared": false,
-  "featured": 0,
+  "featured": 1,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110131790136401989/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110131790136401989"
  },
@@ -3748,24 +3730,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110324161763840011/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110324161763840011"
- },
- {
-  "id": "2110324991183163499",
-  "title": "Single prompt flight game comparison",
-  "title_zh": "单提示词飞行游戏生成效果对比",
-  "category": "game",
-  "author": {
-   "handle": "TopviewAIhq",
-   "name": "TopviewAI"
-  },
-  "postUrl": "https://x.com/TopviewAIhq/status/2110324991183163499",
-  "createdAt": "2026-10-14T11:01:00.000Z",
-  "durationMs": 23986,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110324991183163499/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110324991183163499/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110324991183163499"
  },
  {
   "id": "2110325698137076094",
