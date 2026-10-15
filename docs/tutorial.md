@@ -58,6 +58,8 @@ It opens the page at the size you give, records for that many seconds, and conve
 
 Want sound? Several creators here add music made with a music model and sync it in the edit. [@fofrAI][fourier] had Argon itself write the soundtrack prompt for Lyria 3.5.
 
+For a full Python walkthrough with streaming, tool calls and JSON output, see [Gemini 4 Argon API in Python](https://blog.sandbase.ai/gemini-4-argon-api-python-tutorial-2026/?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=reading). For a tested one-prompt game, see [a Gemini 4 Argon game from one prompt](https://blog.sandbase.ai/gemini-4-argon-browser-game-one-prompt-2026/?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=reading).
+
 ## Run generated code safely
 
 The HTML is code you haven't read. Opening it from disk is usually fine for a single-file page, but it can still load scripts and make network requests. For anything you don't trust, or to run many pages automatically, use a [SandBase Sandbox][sandbox]: an isolated environment with a time limit and no access to your files or keys.

@@ -81,6 +81,11 @@ Lab 另外两个代码测试 [Endless Runner][runner]（Canvas 游戏）和 [Wat
 
 有两位作者发现爆火的 Argon 对比视频无法复现。[@MiaAI_lab][gummy] 重跑"软糖熊"提示词，Argon 的结果比视频里好得多；[@xueyu1125][boss] 在 Devin 中重跑 Boss 战提示词，远达不到视频里的精细度，并怀疑原视频经过视频模型处理。请自己跑一遍：把提示词贴进 [Lab 文本竞技场][arena]，同时选两三个模型，或参考 [教程](tutorial.md)。
 
+## 更多实测
+
+- [Gemini 4 Argon、Claude Opus 5.5 与 GPT-6 Astra 对比](https://blog.sandbase.ai/zh-CN/gemini-4-argon-vs-claude-opus-5-5-vs-gpt-6-astra-2026/?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=reading)：Google 官方表格、Artificial Analysis 独立榜单，以及 24 次同提示词调用的逐次成本。
+- [Gemini 4 Argon 价格怎么算：12 月 1 日前后的真实成本](https://blog.sandbase.ai/zh-CN/gemini-4-argon-pricing-2026/?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=reading)。
+
 ---
 
 Lab 数据：[Pelican Test][pelican]，2026-10-14 快照。创作者数据：见各自帖子链接，未经独立核实。

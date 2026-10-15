@@ -45,6 +45,24 @@ DOC_UTM = 'utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon'
 ARENA = 'https://www.sandbase.ai/lab/x/llm-arena?models=google%2Fgemini-4-argon'
 PELICAN = 'https://www.sandbase.ai/lab/pelican-test'
 VISIBLE = 6  # cards per category shown before "show all"
+BLOG_UTM = 'utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading'
+# The SandBase blog series on Gemini 4 Argon (slug, English title, Chinese title).
+READING = [
+    ('best-gemini-4-argon-examples-2026', 'Best Gemini 4 Argon examples: the 20 most-liked creations', 'Gemini 4 Argon 最佳案例：点赞最多的 20 个作品'),
+    ('gemini-4-argon-prompts-creative-coding-2026', 'Gemini 4 Argon prompts for creative coding, with an A/B test', 'Gemini 4 Argon 创意编程提示词，附 A/B 测试'),
+    ('gemini-4-argon-threejs-3d-scenes-2026', 'Gemini 4 Argon Three.js: what 105 3D scenes show, plus our run', 'Gemini 4 Argon Three.js：105 个 3D 场景的规律与实测'),
+    ('gemini-4-argon-browser-game-one-prompt-2026', 'A Gemini 4 Argon game from one prompt: we tested the controls', '一句提示词让 Gemini 4 Argon 做游戏：操控实测'),
+    ('gemini-4-argon-vs-claude-opus-5-5-vs-gpt-6-astra-2026', 'Gemini 4 Argon vs Claude Opus 5.5 vs GPT-6 Astra', 'Gemini 4 Argon、Claude Opus 5.5 与 GPT-6 Astra 对比'),
+    ('gemini-4-argon-api-python-tutorial-2026', 'Gemini 4 Argon API in Python: tested code for tools, JSON and streaming', 'Gemini 4 Argon API 调用教程：Python 实测流式、工具调用和 JSON 输出'),
+    ('gemini-4-argon-pricing-2026', 'Gemini 4 Argon pricing: real costs before and after Dec 1', 'Gemini 4 Argon 价格怎么算：12 月 1 日前后的真实成本'),
+    ('gemini-4-argon-launch-x-video-data-2026', 'Gemini 4 Argon reactions on X: what 264 launch videos show', 'Gemini 4 Argon 在 X 上的反响：264 条发布视频数据'),
+]
+
+
+def reading(loc):
+    zh = loc == 'zh-CN'
+    base = 'https://blog.sandbase.ai/zh-CN/' if zh else 'https://blog.sandbase.ai/'
+    return [f'- [{zt if zh else et}]({base}{slug}/?{BLOG_UTM})' for slug, et, zt in READING]
 
 
 def arena(loc):
@@ -92,6 +110,8 @@ T = {
             ('How much does one video cost?', 'Creators report a few cents to about $1 for a one-shot page, more when an agent iterates for an hour. Argon averaged $0.19 per SVG on the Lab Pelican Test.'),
             ('Can I reuse these videos?', 'No, not by default. They belong to their creators. See [MEDIA-RIGHTS](MEDIA-RIGHTS.md).'),
         ],
+        'reading': 'Further reading',
+        'reading_intro': 'In-depth articles on the SandBase blog, with our own runs, token counts and costs:',
         'contribute': 'Suggest a video',
         'contribute_body': f'Know a Gemini 4 Argon creation that should be here? [Open a submission]({REPO}/issues/new?template=submit-video.yml) with the original X post. Accepted posts are added on SandBase Lab and show up here on the next daily sync. If this list helped you, a ⭐ helps others find it.',
         'credits': 'Credits & rights',
@@ -148,6 +168,8 @@ T = {
             ('做一个视频要花多少钱？', '创作者报告一次生成一个页面从几美分到 1 美元左右；让 Agent 迭代一小时会更贵。在 Lab Pelican Test 中，Argon 每张 SVG 平均 $0.19。'),
             ('可以转用这些视频吗？', '默认不可以，视频归作者所有。见 [MEDIA-RIGHTS](MEDIA-RIGHTS.md)。'),
         ],
+        'reading': '延伸阅读',
+        'reading_intro': 'SandBase 博客上的深度文章，包含我们自己的实测、token 数和成本：',
         'contribute': '推荐作品',
         'contribute_body': f'发现了应该收录的 Gemini 4 Argon 作品？附上 X 原帖 [提交给我们]({REPO}/issues/new?template=submit-video.yml)。通过后会先加入 SandBase Lab，下一次每日同步时出现在这里。觉得有用的话，点个 ⭐ 能让更多人看到。',
         'credits': '致谢与权利',
@@ -228,7 +250,7 @@ def readme(loc):
     if featured:
         lines.append(f'- [{t["featured"]}](#featured) ({len(featured)})')
     lines += [f'- [{name(c)}](#{c}) ({sum(v["category"] == c for v in VIDEOS)})' for c in cats]
-    lines += [f'- [{t["recreate"]}](#recreate)', f'- [{t["faq"]}](#faq)', f'- [{t["contribute"]}](#contribute)', '', t['how'], '']
+    lines += [f'- [{t["recreate"]}](#recreate)', f'- [{t["faq"]}](#faq)', f'- [{t["reading"]}](#reading)', f'- [{t["contribute"]}](#contribute)', '', t['how'], '']
     if featured:
         lines += ['<a id="featured"></a>', '', f'## {t["featured"]}', '', *table(featured, loc), '']
     for c in cats:
@@ -241,6 +263,7 @@ def readme(loc):
               '<a id="faq"></a>', '', f'## {t["faq"]}', '']
     for q, a in t['faq_items']:
         lines += [f'### {q}', '', a, '']
+    lines += ['<a id="reading"></a>', '', f'## {t["reading"]}', '', t['reading_intro'], '', *reading(loc), '']
     lines += ['<a id="contribute"></a>', '', f'## {t["contribute"]}', '', t['contribute_body'], '', f'## {t["credits"]}', '']
     for p in t['credits_body']:
         lines += [p, '']

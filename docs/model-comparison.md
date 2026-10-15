@@ -81,6 +81,11 @@ The pattern across both sources: a one-shot Argon page costs cents to about a do
 
 Two creators found viral Argon comparisons they couldn't reproduce. [@MiaAI_lab][gummy] reran a "gummy bear" prompt and got a much better Argon result than the video showed; [@xueyu1125][boss] reran a boss-fight prompt in Devin and couldn't get near the posted quality, and suspects the clip was edited with a video model. Run the prompt yourself: paste it into the [Lab text arena][arena] with two or three models selected, or see the [tutorial](tutorial.md).
 
+## More measurements
+
+- [Gemini 4 Argon vs Claude Opus 5.5 vs GPT-6 Astra](https://blog.sandbase.ai/gemini-4-argon-vs-claude-opus-5-5-vs-gpt-6-astra-2026/?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=reading): Google's own table, the Artificial Analysis view and a 24-call same-prompt test with per-call cost.
+- [Gemini 4 Argon pricing: real costs before and after Dec 1](https://blog.sandbase.ai/gemini-4-argon-pricing-2026/?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=reading).
+
 ---
 
 Lab data: [Pelican Test][pelican], snapshot 2026-10-14. Creator data: their posts, linked; not independently verified.

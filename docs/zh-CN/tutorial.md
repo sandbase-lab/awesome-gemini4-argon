@@ -58,6 +58,8 @@ node scripts/record.mjs argon.html argon.mp4 12 1920 1080   # 录 12 秒，1080p
 
 想加声音？这里有几位作者用音乐模型生成配乐，再在剪辑时对齐。[@fofrAI][fourier] 直接让 Argon 为 Lyria 3.5 写配乐提示词。
 
+完整的 Python 教程（流式、工具调用、JSON 输出）见 [Gemini 4 Argon API 调用教程](https://blog.sandbase.ai/zh-CN/gemini-4-argon-api-python-tutorial-2026/?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=reading)；一句提示词做游戏的实测见 [这篇](https://blog.sandbase.ai/zh-CN/gemini-4-argon-browser-game-one-prompt-2026/?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=reading)。
+
 ## 安全运行生成的代码
 
 这些 HTML 是你没读过的代码。单文件页面从本地打开通常没问题，但它仍然可以加载脚本、发起网络请求。对不信任的代码，或者需要批量自动运行时，请使用 [SandBase Sandbox][sandbox]：隔离的运行环境，有时间限制，无法访问你的文件和密钥。

@@ -37,6 +37,7 @@ A curated list of **Gemini 4 Argon examples**: videos, prompts and demos made wi
 - [Launch films](#launch-film) (2)
 - [Recreate a video with Gemini 4 Argon](#recreate)
 - [FAQ](#faq)
+- [Further reading](#reading)
 - [Suggest a video](#contribute)
 
 Click a preview to play the video. Click a title for the post, the prompt and **Recreate** on SandBase Lab. **@handle** links to the creator's post on X.
@@ -301,6 +302,21 @@ Creators report a few cents to about $1 for a one-shot page, more when an agent 
 ### Can I reuse these videos?
 
 No, not by default. They belong to their creators. See [MEDIA-RIGHTS](MEDIA-RIGHTS.md).
+
+<a id="reading"></a>
+
+## Further reading
+
+In-depth articles on the SandBase blog, with our own runs, token counts and costs:
+
+- [Best Gemini 4 Argon examples: the 20 most-liked creations](https://blog.sandbase.ai/best-gemini-4-argon-examples-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon prompts for creative coding, with an A/B test](https://blog.sandbase.ai/gemini-4-argon-prompts-creative-coding-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon Three.js: what 105 3D scenes show, plus our run](https://blog.sandbase.ai/gemini-4-argon-threejs-3d-scenes-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [A Gemini 4 Argon game from one prompt: we tested the controls](https://blog.sandbase.ai/gemini-4-argon-browser-game-one-prompt-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon vs Claude Opus 5.5 vs GPT-6 Astra](https://blog.sandbase.ai/gemini-4-argon-vs-claude-opus-5-5-vs-gpt-6-astra-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon API in Python: tested code for tools, JSON and streaming](https://blog.sandbase.ai/gemini-4-argon-api-python-tutorial-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon pricing: real costs before and after Dec 1](https://blog.sandbase.ai/gemini-4-argon-pricing-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon reactions on X: what 264 launch videos show](https://blog.sandbase.ai/gemini-4-argon-launch-x-video-data-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
 
 <a id="contribute"></a>
 

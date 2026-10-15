@@ -37,6 +37,7 @@
 - [发布片](#launch-film) (2)
 - [用 Gemini 4 Argon 复刻视频](#recreate)
 - [常见问题](#faq)
+- [延伸阅读](#reading)
 - [推荐作品](#contribute)
 
 点击预览图播放视频；点击标题前往 SandBase Lab 查看原帖、提示词，并一键 **复刻**；**@作者** 链接到 X 原帖。
@@ -301,6 +302,21 @@ Argon 并不直接渲染视频。它写出一个网页（用 Three.js、WebGL、
 ### 可以转用这些视频吗？
 
 默认不可以，视频归作者所有。见 [MEDIA-RIGHTS](MEDIA-RIGHTS.md)。
+
+<a id="reading"></a>
+
+## 延伸阅读
+
+SandBase 博客上的深度文章，包含我们自己的实测、token 数和成本：
+
+- [Gemini 4 Argon 最佳案例：点赞最多的 20 个作品](https://blog.sandbase.ai/zh-CN/best-gemini-4-argon-examples-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon 创意编程提示词，附 A/B 测试](https://blog.sandbase.ai/zh-CN/gemini-4-argon-prompts-creative-coding-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon Three.js：105 个 3D 场景的规律与实测](https://blog.sandbase.ai/zh-CN/gemini-4-argon-threejs-3d-scenes-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [一句提示词让 Gemini 4 Argon 做游戏：操控实测](https://blog.sandbase.ai/zh-CN/gemini-4-argon-browser-game-one-prompt-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon、Claude Opus 5.5 与 GPT-6 Astra 对比](https://blog.sandbase.ai/zh-CN/gemini-4-argon-vs-claude-opus-5-5-vs-gpt-6-astra-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon API 调用教程：Python 实测流式、工具调用和 JSON 输出](https://blog.sandbase.ai/zh-CN/gemini-4-argon-api-python-tutorial-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon 价格怎么算：12 月 1 日前后的真实成本](https://blog.sandbase.ai/zh-CN/gemini-4-argon-pricing-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
+- [Gemini 4 Argon 在 X 上的反响：264 条发布视频数据](https://blog.sandbase.ai/zh-CN/gemini-4-argon-launch-x-video-data-2026/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini4-argon&utm_content=reading)
 
 <a id="contribute"></a>
 

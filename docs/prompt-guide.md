@@ -88,6 +88,8 @@ Try it on the [Lab text arena][arena] to run it on Argon and other models side b
 - **Reasoning.** Creators who report their settings mostly used high reasoning in AI Studio or Antigravity.
 - **One shot vs. iteration.** Most videos here are one shot. For longer pieces, creators let an agent iterate, and costs rise accordingly (see [creator-reported costs](model-comparison.md#what-creators-reported)).
 
+For an A/B test of a minimal vs a structured prompt, with tokens and cost, see [Gemini 4 Argon prompts for creative coding](https://blog.sandbase.ai/gemini-4-argon-prompts-creative-coding-2026/?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=reading) on the SandBase blog.
+
 ---
 
 Quotes are short excerpts credited to their authors; follow the links for full prompts and videos. Translations from Chinese are ours.

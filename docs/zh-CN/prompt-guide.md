@@ -88,6 +88,8 @@ Lab 的提示词也是这样写的：描述固定，只换主体，这样不同�
 - **推理强度。** 公开了设置的创作者大多在 AI Studio 或 Antigravity 中使用 high 推理。
 - **一次生成还是多轮迭代。** 这里的大部分视频是一次生成。较长的作品，作者会让 Agent 多轮迭代，成本也相应上升（见 [创作者报告的成本](model-comparison.md#创作者报告的结果)）。
 
+极简提示词与结构化提示词的 A/B 对比（含 token 和成本），见 SandBase 博客的 [Gemini 4 Argon 创意编程提示词](https://blog.sandbase.ai/zh-CN/gemini-4-argon-prompts-creative-coding-2026/?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=reading)。
+
 ---
 
 引用均为简短摘录并注明作者，完整提示词和视频请点链接查看。英文提示词保留原文。
