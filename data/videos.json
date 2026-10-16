@@ -13,7 +13,7 @@
   "durationMs": 30708,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110037855452180633/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110037855452180633/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110037855452180633"
  },
@@ -86,7 +86,7 @@
   "durationMs": 98766,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040063656812976/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 1,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040063656812976/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110040063656812976"
  },
@@ -104,7 +104,7 @@
   "durationMs": 60011,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040726457491845/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 6,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040726457491845/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110040726457491845"
  },
@@ -230,7 +230,7 @@
   "durationMs": 60000,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110043023954284889/video.mp4",
   "promptShared": false,
-  "featured": 0,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110043023954284889/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110043023954284889"
  },
@@ -248,7 +248,7 @@
   "durationMs": 17963,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110043093466743194/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 0,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110043093466743194/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110043093466743194"
  },
@@ -322,7 +322,7 @@
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110045963951956250/video.mp4",
   "promptShared": true,
   "promptText": "One of many \"oh, wow\" moments I've had with Argon\n\n> Make a slow-reveal Fourier epicycle video of [thing], make the video in the style of the attached reference image, add a cinematic soundtrack using Lyria 3.5 and sync the music.",
-  "featured": null,
+  "featured": 5,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110045963951956250/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110045963951956250"
  },
@@ -761,7 +761,7 @@
   "durationMs": 40000,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110065587279798719/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110065587279798719/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110065587279798719"
  },
@@ -852,7 +852,7 @@
   "durationMs": 71566,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110069786415968754/video.mp4",
   "promptShared": false,
-  "featured": 4,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110069786415968754/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110069786415968754"
  },
@@ -1602,7 +1602,7 @@
   "durationMs": 10400,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110104441760403923/video.mp4",
   "promptShared": false,
-  "featured": 7,
+  "featured": 4,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110104441760403923/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110104441760403923"
  },
@@ -1694,7 +1694,7 @@
   "durationMs": 59234,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/video.mp4",
   "promptShared": false,
-  "featured": 6,
+  "featured": 3,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110109640419926325"
  },
@@ -1985,7 +1985,7 @@
   "durationMs": 12693,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110131790136401989/video.mp4",
   "promptShared": false,
-  "featured": 1,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110131790136401989/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110131790136401989"
  },
@@ -2291,7 +2291,7 @@
   "durationMs": 87000,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110154463415558279/video.mp4",
   "promptShared": false,
-  "featured": 5,
+  "featured": 2,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110154463415558279/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110154463415558279"
  },
@@ -3854,7 +3854,7 @@
   "durationMs": 12336,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110333861360279861/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 7,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110333861360279861/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110333861360279861"
  },
