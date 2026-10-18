@@ -6,13 +6,13 @@ English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../R
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (25)
-- [Motion graphics](#motion-graphics) (11)
-- [Games](#game) (10)
+- [3D scenes](#3d-scene) (16)
+- [Motion graphics](#motion-graphics) (6)
+- [Games](#game) (3)
 - [Product UI](#ui-demo) (3)
 - [Particles & shapes](#particles) (1)
 - [Kinetic type](#kinetic-type) (1)
-- [Explainers](#explainer) (1)
+- [Tests & comparisons](#comparison) (22)
 
 <a id="3d-scene"></a>
 
@@ -51,38 +51,6 @@ Gemini 4 Argon high in Antigravity
 just simple prompt:
 > voxel art of mercedes amg f1 car
 one shot btw
-```
-
-### AI-generated snow globe scene comparison
-
-[@shmopixbzn](https://x.com/shmopixbzn/status/2110057151171338656) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110057151171338656/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110057151171338656?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-ChatGPT wins this round. Change my mind. ❄️
-
-Same prompt. Two AI-built snow globes.
-
-Claude Opus 5.5
-ChatGPT 6.1 Sol
-
-To my eye, ChatGPT delivered the better result.
-But can Gemini 4 Argon beat them both? 👀
-Prompt in the comments 👇
-```
-
-### Pelican doing wheelie on flying fighter jet
-
-[@noclipepe](https://x.com/noclipepe/status/2110070249970421940) · 0:37 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110070249970421940/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110070249970421940?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-GEMINI 4 ARGON VS OPUS 5.5. WHO GAVE THE BIRD A FIGHTER JET 😭
-
-Same prompt. Both models got:
-“Create a pelican doing a wheelie on top of a flying fighter jet. Voxel artstyle. Single HTML.”
-
-The bird could literally just fly.
-
-Who wins this extremely important benchmark? 👇
 ```
 
 ### Navigable 3D forest environment in HTML
@@ -170,24 +138,6 @@ I didn't touch the mouse once.
 It's not an AI video. It's real 3D geometry, rendered in 4K.
 
 Prompt and clay breakdown in the replies 👇
-```
-
-### Voxel Dragon Flying over a Temple in 3D
-
-[@marcthecreatorr](https://x.com/marcthecreatorr/status/2110105779294687341) · 0:21 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110105779294687341/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110105779294687341?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-gemini 4 argon just brutally mogged gpt astra in this 3D test.
-
-i’ve seen many tests on Argon against different models and the gap in 3D generation is wild 
-
-here’s another test against Astra using the same prompt (build voxel art of dragon flying on temple) 
-
-astra’s output looks pretty basic next to what argon built
-
-> 3d alone doesn’t decide which model is better overall, but gemini clearly has a real lead in this area right now.
-
-openai might need to ship gpt 6.1 astra sooner than later cause it’s not looking good
 ```
 
 ### Leonardo da Vinci 3D workshop recreations
@@ -284,85 +234,6 @@ Prompt below.
 @DemisHassabis . @AgentGlassInc  . @SidraMiconi
 ```
 
-### Three.js short of aliens getting burgers
-
-[@shownotover](https://x.com/shownotover/status/2110274182046953661) · 0:15 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110274182046953661/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110274182046953661?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-🚨 CLAUDE AND GEMINI USERS!! 👽🍔
-
-The story and the prompt:
-Aliens stop for burgers… but they LOVE the food on Earth too much 😂
-
-A 15-second Three.js short. Both HIGH.
-
-GEMINI ARGON (browser chat) 
-vs CLAUDE OPUS 5.5 (claude cli + toolings)
-
-→ TIME: ~8–10 min vs 31m54s
-→ TOKENS: Argon ~27.6K vs Opus 5.35M
-→ API COST: Argon ~$0.92 vs Opus ~$6.63
-→ SPEED: Argon ~46–57 TPS vs Opus ~97.2 TPS
-
-WEEKLY: Argon was around ~1% 
-vs Opus close to 0%!!!
-
-Argon finished around 3× FASTER, but I still like OPUS’s visual quality WAY more…
-
-We need a rematch in Antigravity when we poor Gemini Pro users get access to the CLI version 😂
-
-Which one tells the story better? 👀
-How do you like the new Gemini model?
-```
-
-### 3D liquid horse animation in Three.js
-
-[@TypingMindApp](https://x.com/TypingMindApp/status/2110328641360146658) · 0:21 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110328641360146658/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110328641360146658?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon vs. Claude Opus 5.5 🐎
-
-Create 3D liquid horse animation using Three.js 👇
-```
-
-### Interactive holographic CD in browser
-
-[@kinderlayer](https://x.com/kinderlayer/status/2110346627172983121) · 0:16 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110346627172983121/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110346627172983121?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-holy sh*t. 4 models, one prompt. and one of them costs pennies.
-
-GPT-6 Astra · Gemini 4 Argon · Claude Opus 5.5 · Claude Haiku 5.5
-
-same prompt: build an interactive holographic CD, drag to tilt, shatter on click. zero edits, zero cherry-picking.
-
-Astra and Gemini went clean and crisp. Opus leaned all the way in - depth, glow, the holo catching light like a real disc.
-
-then remember the bottom-right is Haiku. the cheap one. the model you run by the thousand. and it’s standing in the same frame as three flagships.
-
-that’s the part nobody prices in. the gap between the best and cheap enough to run all day is closing fast.
-
-which disc would you actually ship? and did you clock which one was the budget model?
-
-follow if you want to learn to build stuff like this, I break down the models every week.
-```
-
-### 3D Japanese house with cherry blossom trees
-
-[@dpratyush02](https://x.com/dpratyush02/status/2110347694447509797) · 0:29 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110347694447509797/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110347694447509797?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon vs GPT-6.1 Sol
-
-I gave all three the exact same prompt to build a 3D Japanese house surrounded by cherry blossom trees 🌸
-
-Gemini absolutely nailed it. The visuals were stunning, the atmosphere was beautiful, and the attention to detail was impressive.
-
-Gemini 4 Argon vs GPT-6.1 Sol 
-
-Google is cooking again!! 🔥
-```
-
 ### Cinematic 3D animation from a single idea
 
 [@HeyAbhishek](https://x.com/HeyAbhishek/status/2110355993255366802) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110355993255366802/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110355993255366802?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -385,54 +256,9 @@ Been seeing a lot of Gemini 4 Argon vs Opus 5.5 comps the last couple days. Ran 
 Build a single-file HTML page (Three.js via CDN) that opens into a live, interactive galaxy: bright galactic core in the center; spiral arms made of star points, nebulae, and dust lanes; a dozen+ planets of different sizes and colors along the arms. Drag to orbit the camera, scroll to zoom in/out. Zoomed out you see the full arms; zoom into a planet and it snaps to a close-up — surface, clouds, craters or atmosphere glow — with the planet’s name in the corner. Click a planet for a light camera shake and a highlighted orbit. No image or model uploads — scene, materials, particles, and interaction all live in this one HTML file.
 ```
 
-### Voxel art world generation comparison
-
-[@EvoLinkAi](https://x.com/EvoLinkAi/status/2110377592394031397) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110377592394031397/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110377592394031397?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-🔥Two models. One voxel art challenge.
-
-Opus 5.5 does a better job of restoring the voxel art world, while Gemini 4 Argon didn't perform as well.
-
-Do you agree with this ranking? Full prompt below 👇
-```
-
-### Interactive firefly jar in Three.js
-
-[@0xRhinoX](https://x.com/0xRhinoX/status/2110382089476407630) · 0:39 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110382089476407630/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110382089476407630?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-No way Opus 5.5 cost 79x more than Gemini 4 Argon. Then I saw the jars
-
-Same prompt: a firefly jar you can open gently.
-
-Opus 5.5 - $15.00, 64 min
-Gemini 4 Argon - $0.19, 8 min
-
-Opus made real glass, moonlight through the window, and a tiny cabin inside.
-
-Gemini made a glowstick in a box.
-
-Unscrew both lids yourself 👇
-```
-
 <a id="motion-graphics"></a>
 
 ## Motion graphics
-
-### Output comparison between Gemini 4 Argon and Opus
-
-[@Adidotdev](https://x.com/Adidotdev/status/2110047989280670072) · 0:41 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110047989280670072/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110047989280670072?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon Vs Opus 5.5 
-
-gave same prompt to both models ( prompt in cmt )
-
-Argon took  10 mins and  ~1.5% of weekly quota
-
-Opus took 15 mins and  4% of weekly quota ( tested by maxt3chno )
-```
 
 ### 2D SVG Animation of a Pelican Riding a Bicycle
 
@@ -444,54 +270,6 @@ Opus took 15 mins and  4% of weekly quota ( tested by maxt3chno )
 提示词：创建一个 HTML，内容是 SVG 绘制一个鹈鹕骑自行车的 2D 动画，你不需要任何测试，不要有任何限制
 
 还是自己实测靠谱，这才对味儿啊！
-```
-
-### Motion design promo comparison in Premiere Pro
-
-[@e1genqq](https://x.com/e1genqq/status/2110053382043873389) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110053382043873389/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110053382043873389?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Opus 5.5 vs Gemini Argon 4 in Adobe Premier.
-
-Google just released Argon, and the benchmarks look impressive.
-
-but i wanted to compare actual motion design in SAME PROMPT.
-
-How i tested them:
-
-step 1: start with an empty adobe premiere project.
-step 2: give both models the exact same prompt.
-step 3: let each agent build the entire motion sequence.
-step 4: give both 2 rounds of feedback to improve timing, transitions, and details.
-step 5: export both videos and compare the results.
-
-The exact prompt:
-
-"create a 20-second premium motion design promo video in adobe premiere pro.
-format: 1080x1920, 30 fps.
-no brand names, logos, stock footage, or external templates (only words: Make it move, Prompt, Next move).
-build everything using typography, geometric shapes, colors, and motion.
-include kinetic typography, smooth transitions, animated UI elements, layered movement, and creative visual details. create an editable premiere project and export the final video as mp4".
-
-See the results below:
-
-→ Opus 5.5:
-
-first export: 8m 42s.
-finished video: 21m 18s.
-API cost: $3.74.
-
-→ Gemini 4 Argon:
-
-first export: 10m 16s.
-finished video: 28m 41s.
-API cost: $5.06.
-
-the interesting part?
-
-in this example, opus costs 26% less and finishes about 26% faster.
-
-which one would you pick?
 ```
 
 ### SVG animations of pelican and zebra cycling
@@ -511,42 +289,6 @@ which one would you pick?
 右侧Prompt: 生成一个svg动画：斑马骑自行车，用H5给我展示下
 
 测试结果见👇视频
-```
-
-### Motion design video showcasing Earth
-
-[@yash_yk45](https://x.com/yash_yk45/status/2110085876135112729) · 1:16 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110085876135112729/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110085876135112729?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon is seriously disappointing.
-
-I gave both Opus 5.5 and Gemini 4 Argon the exact same single prompt to create a motion design video showcasing Earth's beauty.
-
-See the results for yourself. 
-
-If you're comparing Argon to Opus 5.5, please stop. The difference speaks for itself. 
-
-Prompt 👇
-```
-
-### Interactive growing plant SVG animation comparison
-
-[@codecloude](https://x.com/codecloude/status/2110106381689016669) · 0:28 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110106381689016669/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110106381689016669?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-⚠️رقابت Gemini 4 Argon و GPT-6 Astra در ساخت انیمیشن با کدنویسی! 🔥
-
-این بار پای تولید عکس وسط نیست؛ قراره ببینیم هوش مصنوعی چقدر می‌تونه با استفاده از کد SVG، انیمیشن‌های جذاب و تعاملی بسازه!
-
-یه توسعه‌دهنده به هر دو مدل پرامپت یکسانی داده: طراحی یه گلدون مینیمال که ساقه گیاه به‌آرومی رشد کنه و برگ‌ها با حرکت موس یکی‌یکی بزرگ بشن. طبق گفته سازنده، تولید هر خروجی SVG با مدل Gemini 4 Argon حدود ۵ دقیقه زمان برده.
-
-نکته جذاب اینجاست که این نوع خروجی‌ها صرفاً تصویر نیستن؛ با SVG و کدنویسی می‌شه المان‌های سبک، مقیاس‌پذیر و تعاملی برای سایت و اپلیکیشن ساخت.
-
-تصور کن به‌جای طراحی دستی انیمیشن‌های رابط کاربری، فقط توضیح بدی چه حرکتی می‌خوای و هوش مصنوعی کدش رو برات تولید کنه!
-
-البته این فقط یک مقایسه نمایشی از یک پرامپته و به‌تنهایی برتری فنی هیچ‌کدوم از مدل‌ها رو ثابت نمی‌کنه.
-
-کانال تلگراممون هم بیاید :
 ```
 
 ### Interactive SVG animations with inverse kinematics
@@ -614,170 +356,9 @@ I ran the prompt myself, and the results from Gemini 4 Argon is MUCH better. Opu
 Full prompt below.
 ```
 
-### Opus 5.5 vs Gemini 4 Argon comparison
-
-[@MiaAI_lab](https://x.com/MiaAI_lab/status/2110385278246654052) · 0:43 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110385278246654052/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110385278246654052?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Opus 5.5 vs Gemini 4 Argon
-
-full prompt below
-```
-
 <a id="game"></a>
 
 ## Games
-
-### Playable 3D Flappy Bird game comparison
-
-[@ivanainai](https://x.com/ivanainai/status/2110069699597971828) · 0:27 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110069699597971828/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110069699597971828?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 vs. Astra 6
-
-Same prompt: Build a fully playable 3D Flappy Bird game in a single HTML file.
-
-Which one did a better job?
-```
-
-### 3D pigeon stealing chips game comparison
-
-[@asmirkn](https://x.com/asmirkn/status/2110070885428187441) · 0:32 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110070885428187441/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110070885428187441?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-i gave the new gemini 4 argon and opus 5.5 the same challenge
-
-"build me a triple A level 3d game where i'm a london pigeon stealing chips off tourists in trafalgar square"
-
-which one would you play?
-```
-
-### Recreating a launch demo game using Opus
-
-[@0xCarnagee](https://x.com/0xCarnagee/status/2110082812233892193) · 0:11 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110082812233892193/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110082812233892193?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-WTF... Opus 5.5 just rebuilt Google's Gemini 4 Argon launch demo from ONE prompt
-
-Left: Gemini 4 Argon, ~$15
-Right: Opus 5.5, $27
-
-Google needed a launch video. I needed 1 prompt and an 11-second clip
-
-This is the exact workflow. Bookmark it now, because you WILL need it the next time a new model drops:
-
-↳ Step 1: Feed Opus an 11s reference clip
-↳ Step 2: One prompt for a full Three.js game + 11s capture mode
-↳ Step 3: Force 3+ self-critique rounds against reference frames
-↳ Step 4: ffmpeg side-by-side, done
-
-F*CKING INSANE
-
-Copy-paste prompt in the reply, save this before it gets buried in your feed
-```
-
-### Lawn mowing simulator benchmark comparison
-
-[@_MaxBlade](https://x.com/_MaxBlade/status/2110115647921471812) · 0:34 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110115647921471812/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110115647921471812?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-okay here is Argon vs Wonder vs Opus 
-
-"build me a lawn mowing simulator i can smoke a cigar and drink a beer in... "
-
-Argon performs a decent amount better than wonder here, but still is not in the same galaxy as opus. 
-
-An engineer at Gemini put out a beautiful video explaining how important these 3d demos are to showcasing and bechmarking these general intelligence models. 
-
-I will link it below (:
-```
-
-### Civilization simulation across ages on single map
-
-[@remoteugur](https://x.com/remoteugur/status/2110155062664188395) · 0:16 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110155062664188395/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110155062664188395?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Aynı prompt: taş devrinden geleceğe tek haritada medeniyet simülasyonu. 
-Üstte Gemini 4 Argon (18 dakika, ~$1,7), 
-altta Claude Opus 5.5 (94 dakika, ~$25). 
-Sizce hangisi?
-```
-
-### Playable roguelike deck-builder generated in one file
-
-[@realbrucemartin](https://x.com/realbrucemartin/status/2110228350337687773) · 1:02 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110228350337687773/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110228350337687773?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-I used @DevinAI and gave Gemini 4 Argon and SWE-2 Max the exact same prompt. 
-
-One shot each. 
-
-No follow-ups, no fixes.
-
-COST:
-Argon: ~$1.75 total build cost (75% off only in Devin
-(95¢ input + 28¢ cached + 55¢ output)
-SWE-2: $0 - free tier (Free in Devin until Oct16)
-Rate: $1/$0.05/$5 per Mtok
-
-Time Taken:
-Argon: 56 minutes to done
-SWE-2: 89 minutes to done
-
-Tokens used:
-Argon: 6.5M in / 109K out
-SWE-2: 6.2M in / 100K out
-Interesting wrinkle: Argon wrote 3x the code, 33 min faster. 
-
-SWE-2 spent longer but packed more content into fewer lines.
-
-The prompt:
-
-"Build a complete, playable roguelike deck-builder as ONE self-contained HTML file · no external assets, no CDN, everything inline (CSS, JS, SVG art).
-
-- 60+ unique cards across 3 playable classes, each with genuinely distinct mechanics — no reskins
-- Procedurally generated branching dungeon map with combat, elite, shop, rest, and random-event nodes
-- 15+ enemies with distinct behaviors and telegraphed intents, plus 3 multi-phase bosses
-- Relics, potions, card upgrade/removal, gold economy, status effects (poison, weak, vulnerable, strength)
-- Save/load via localStorage, run-summary screen, and a card compendium
-- Juice: floating damage numbers, card-play animations, screen shake, hover previews
-
-Write the whole file to deckbuilder.html, then verify it actually renders — open it in a headless browser, take a screenshot, and fix whatever's broken. Go deep, not broad."
-
-Both delivered a full, playable game. I drove both in headless Chrome, parsed the data tables, and measured the builds side by side:
-
-📊 THE NUMBERS
-
-Cards (60+ required)     Argon 72  ·  SWE-2 93
-Enemies (15+ required)   Argon 19  ·  SWE-2 30
-Multi-phase bosses       Argon 3   ·  SWE-2 3
-Relics / potions         Argon 18/12  ·  SWE-2 25/8
-Lines of code            Argon 4,701  ·  SWE-2 1,555
-File size                Argon 183KB  ·  SWE-2 110KB
-Boot to render           Argon 34ms  ·  SWE-2 24ms
-DOM nodes at boot        Argon 218  ·  SWE-2 17
-JS heap                  ~9.5MB both
-
-⚔️ THE DIFFERENCE
-
-Argon invented three original class mechanics: a Cinderblade juggling Heat and Burn, a Chronoweaver banking Flux for Time Surges, a Plague Alchemist brewing Reagents into poison chains. 15-floor spire, event modals, campfires. More code, more bespoke systems, more juice.
-
-SWE-2 Max went with classic Slay-the-Spire archetypes — Warden (block/strength), Shade (poison/shivs), Stormcaller (charge bursts) — then poured the savings into content: 40% more enemies, 30% more cards, a twin-boss encounter, bosses with phase transitions at 66% and 33% HP. Three named acts. It did all that in a third of the code.
-
-✅ Both hit every requirement: branching maps, elites, shops, rest sites, events, card upgrade/removal, gold, all four status effects, save/load, compendium, floating damage, screen shake.
-
-🏁 VERDICT
-
-Argon went deeper — invented mechanics, denser systems, more polish per element.
-SWE-2 went broader — more content, less code, proven archetypes.
-
-60% of the file size. 3x the content count. That's the efficiency story.
-
-Both shipped a real game in one file. The honest answer to "which is better" is: what do you value ?
-mechanical novelty, or content density per line of code?
-
-Also used Devin with @HyperFrames_ to create the side by side video below.
-```
 
 ### Playable 3D game Jelly Jet Takeoff
 
@@ -807,16 +388,6 @@ im gonna compare this with Opus 5.5 later.
 我就用一句简单的提示词 “复刻一个超级完整和精美的跑跑卡丁车游戏”
 
 运行了 5 分钟就做出来了一款基于 HTML 的跑跑卡丁车
-```
-
-### 3D canyon runner game riding a lizard
-
-[@universalmodhq](https://x.com/universalmodhq/status/2110315582323413284) · 0:24 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110315582323413284/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110315582323413284?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon vs Muse Wonder 
-
-> build a 3D canyon-runner game in which the main character rides a lizard to escape a sandstorm, dodging obstacles along the way
 ```
 
 ### Devin replication of 3D boss fight game
@@ -927,9 +498,127 @@ It is surprisingly good at 3D spatial and creative direction.
 Finally a worthy model from Google.
 ```
 
-<a id="explainer"></a>
+<a id="comparison"></a>
 
-## Explainers
+## Tests & comparisons
+
+### Output comparison between Gemini 4 Argon and Opus
+
+[@Adidotdev](https://x.com/Adidotdev/status/2110047989280670072) · 0:41 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110047989280670072/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110047989280670072?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon Vs Opus 5.5 
+
+gave same prompt to both models ( prompt in cmt )
+
+Argon took  10 mins and  ~1.5% of weekly quota
+
+Opus took 15 mins and  4% of weekly quota ( tested by maxt3chno )
+```
+
+### Motion design promo comparison in Premiere Pro
+
+[@e1genqq](https://x.com/e1genqq/status/2110053382043873389) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110053382043873389/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110053382043873389?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Opus 5.5 vs Gemini Argon 4 in Adobe Premier.
+
+Google just released Argon, and the benchmarks look impressive.
+
+but i wanted to compare actual motion design in SAME PROMPT.
+
+How i tested them:
+
+step 1: start with an empty adobe premiere project.
+step 2: give both models the exact same prompt.
+step 3: let each agent build the entire motion sequence.
+step 4: give both 2 rounds of feedback to improve timing, transitions, and details.
+step 5: export both videos and compare the results.
+
+The exact prompt:
+
+"create a 20-second premium motion design promo video in adobe premiere pro.
+format: 1080x1920, 30 fps.
+no brand names, logos, stock footage, or external templates (only words: Make it move, Prompt, Next move).
+build everything using typography, geometric shapes, colors, and motion.
+include kinetic typography, smooth transitions, animated UI elements, layered movement, and creative visual details. create an editable premiere project and export the final video as mp4".
+
+See the results below:
+
+→ Opus 5.5:
+
+first export: 8m 42s.
+finished video: 21m 18s.
+API cost: $3.74.
+
+→ Gemini 4 Argon:
+
+first export: 10m 16s.
+finished video: 28m 41s.
+API cost: $5.06.
+
+the interesting part?
+
+in this example, opus costs 26% less and finishes about 26% faster.
+
+which one would you pick?
+```
+
+### AI-generated snow globe scene comparison
+
+[@shmopixbzn](https://x.com/shmopixbzn/status/2110057151171338656) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110057151171338656/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110057151171338656?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+ChatGPT wins this round. Change my mind. ❄️
+
+Same prompt. Two AI-built snow globes.
+
+Claude Opus 5.5
+ChatGPT 6.1 Sol
+
+To my eye, ChatGPT delivered the better result.
+But can Gemini 4 Argon beat them both? 👀
+Prompt in the comments 👇
+```
+
+### Playable 3D Flappy Bird game comparison
+
+[@ivanainai](https://x.com/ivanainai/status/2110069699597971828) · 0:27 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110069699597971828/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110069699597971828?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 vs. Astra 6
+
+Same prompt: Build a fully playable 3D Flappy Bird game in a single HTML file.
+
+Which one did a better job?
+```
+
+### Pelican doing wheelie on flying fighter jet
+
+[@noclipepe](https://x.com/noclipepe/status/2110070249970421940) · 0:37 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110070249970421940/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110070249970421940?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+GEMINI 4 ARGON VS OPUS 5.5. WHO GAVE THE BIRD A FIGHTER JET 😭
+
+Same prompt. Both models got:
+“Create a pelican doing a wheelie on top of a flying fighter jet. Voxel artstyle. Single HTML.”
+
+The bird could literally just fly.
+
+Who wins this extremely important benchmark? 👇
+```
+
+### 3D pigeon stealing chips game comparison
+
+[@asmirkn](https://x.com/asmirkn/status/2110070885428187441) · 0:32 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110070885428187441/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110070885428187441?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+i gave the new gemini 4 argon and opus 5.5 the same challenge
+
+"build me a triple A level 3d game where i'm a london pigeon stealing chips off tourists in trafalgar square"
+
+which one would you play?
+```
 
 ### Frontier AI models benchmark comparison
 
@@ -949,4 +638,315 @@ Homepage design → GPT-6 Astra
 Writing → Gemini 4
 
 All 4 prompts and the full scorecard in the comments ↓
+```
+
+### Recreating a launch demo game using Opus
+
+[@0xCarnagee](https://x.com/0xCarnagee/status/2110082812233892193) · 0:11 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110082812233892193/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110082812233892193?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+WTF... Opus 5.5 just rebuilt Google's Gemini 4 Argon launch demo from ONE prompt
+
+Left: Gemini 4 Argon, ~$15
+Right: Opus 5.5, $27
+
+Google needed a launch video. I needed 1 prompt and an 11-second clip
+
+This is the exact workflow. Bookmark it now, because you WILL need it the next time a new model drops:
+
+↳ Step 1: Feed Opus an 11s reference clip
+↳ Step 2: One prompt for a full Three.js game + 11s capture mode
+↳ Step 3: Force 3+ self-critique rounds against reference frames
+↳ Step 4: ffmpeg side-by-side, done
+
+F*CKING INSANE
+
+Copy-paste prompt in the reply, save this before it gets buried in your feed
+```
+
+### Motion design video showcasing Earth
+
+[@yash_yk45](https://x.com/yash_yk45/status/2110085876135112729) · 1:16 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110085876135112729/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110085876135112729?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon is seriously disappointing.
+
+I gave both Opus 5.5 and Gemini 4 Argon the exact same single prompt to create a motion design video showcasing Earth's beauty.
+
+See the results for yourself. 
+
+If you're comparing Argon to Opus 5.5, please stop. The difference speaks for itself. 
+
+Prompt 👇
+```
+
+### Voxel Dragon Flying over a Temple in 3D
+
+[@marcthecreatorr](https://x.com/marcthecreatorr/status/2110105779294687341) · 0:21 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110105779294687341/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110105779294687341?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+gemini 4 argon just brutally mogged gpt astra in this 3D test.
+
+i’ve seen many tests on Argon against different models and the gap in 3D generation is wild 
+
+here’s another test against Astra using the same prompt (build voxel art of dragon flying on temple) 
+
+astra’s output looks pretty basic next to what argon built
+
+> 3d alone doesn’t decide which model is better overall, but gemini clearly has a real lead in this area right now.
+
+openai might need to ship gpt 6.1 astra sooner than later cause it’s not looking good
+```
+
+### Interactive growing plant SVG animation comparison
+
+[@codecloude](https://x.com/codecloude/status/2110106381689016669) · 0:28 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110106381689016669/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110106381689016669?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+⚠️رقابت Gemini 4 Argon و GPT-6 Astra در ساخت انیمیشن با کدنویسی! 🔥
+
+این بار پای تولید عکس وسط نیست؛ قراره ببینیم هوش مصنوعی چقدر می‌تونه با استفاده از کد SVG، انیمیشن‌های جذاب و تعاملی بسازه!
+
+یه توسعه‌دهنده به هر دو مدل پرامپت یکسانی داده: طراحی یه گلدون مینیمال که ساقه گیاه به‌آرومی رشد کنه و برگ‌ها با حرکت موس یکی‌یکی بزرگ بشن. طبق گفته سازنده، تولید هر خروجی SVG با مدل Gemini 4 Argon حدود ۵ دقیقه زمان برده.
+
+نکته جذاب اینجاست که این نوع خروجی‌ها صرفاً تصویر نیستن؛ با SVG و کدنویسی می‌شه المان‌های سبک، مقیاس‌پذیر و تعاملی برای سایت و اپلیکیشن ساخت.
+
+تصور کن به‌جای طراحی دستی انیمیشن‌های رابط کاربری، فقط توضیح بدی چه حرکتی می‌خوای و هوش مصنوعی کدش رو برات تولید کنه!
+
+البته این فقط یک مقایسه نمایشی از یک پرامپته و به‌تنهایی برتری فنی هیچ‌کدوم از مدل‌ها رو ثابت نمی‌کنه.
+
+کانال تلگراممون هم بیاید :
+```
+
+### Lawn mowing simulator benchmark comparison
+
+[@_MaxBlade](https://x.com/_MaxBlade/status/2110115647921471812) · 0:34 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110115647921471812/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110115647921471812?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+okay here is Argon vs Wonder vs Opus 
+
+"build me a lawn mowing simulator i can smoke a cigar and drink a beer in... "
+
+Argon performs a decent amount better than wonder here, but still is not in the same galaxy as opus. 
+
+An engineer at Gemini put out a beautiful video explaining how important these 3d demos are to showcasing and bechmarking these general intelligence models. 
+
+I will link it below (:
+```
+
+### Civilization simulation across ages on single map
+
+[@remoteugur](https://x.com/remoteugur/status/2110155062664188395) · 0:16 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110155062664188395/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110155062664188395?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Aynı prompt: taş devrinden geleceğe tek haritada medeniyet simülasyonu. 
+Üstte Gemini 4 Argon (18 dakika, ~$1,7), 
+altta Claude Opus 5.5 (94 dakika, ~$25). 
+Sizce hangisi?
+```
+
+### Playable roguelike deck-builder generated in one file
+
+[@realbrucemartin](https://x.com/realbrucemartin/status/2110228350337687773) · 1:02 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110228350337687773/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110228350337687773?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+I used @DevinAI and gave Gemini 4 Argon and SWE-2 Max the exact same prompt. 
+
+One shot each. 
+
+No follow-ups, no fixes.
+
+COST:
+Argon: ~$1.75 total build cost (75% off only in Devin
+(95¢ input + 28¢ cached + 55¢ output)
+SWE-2: $0 - free tier (Free in Devin until Oct16)
+Rate: $1/$0.05/$5 per Mtok
+
+Time Taken:
+Argon: 56 minutes to done
+SWE-2: 89 minutes to done
+
+Tokens used:
+Argon: 6.5M in / 109K out
+SWE-2: 6.2M in / 100K out
+Interesting wrinkle: Argon wrote 3x the code, 33 min faster. 
+
+SWE-2 spent longer but packed more content into fewer lines.
+
+The prompt:
+
+"Build a complete, playable roguelike deck-builder as ONE self-contained HTML file · no external assets, no CDN, everything inline (CSS, JS, SVG art).
+
+- 60+ unique cards across 3 playable classes, each with genuinely distinct mechanics — no reskins
+- Procedurally generated branching dungeon map with combat, elite, shop, rest, and random-event nodes
+- 15+ enemies with distinct behaviors and telegraphed intents, plus 3 multi-phase bosses
+- Relics, potions, card upgrade/removal, gold economy, status effects (poison, weak, vulnerable, strength)
+- Save/load via localStorage, run-summary screen, and a card compendium
+- Juice: floating damage numbers, card-play animations, screen shake, hover previews
+
+Write the whole file to deckbuilder.html, then verify it actually renders — open it in a headless browser, take a screenshot, and fix whatever's broken. Go deep, not broad."
+
+Both delivered a full, playable game. I drove both in headless Chrome, parsed the data tables, and measured the builds side by side:
+
+📊 THE NUMBERS
+
+Cards (60+ required)     Argon 72  ·  SWE-2 93
+Enemies (15+ required)   Argon 19  ·  SWE-2 30
+Multi-phase bosses       Argon 3   ·  SWE-2 3
+Relics / potions         Argon 18/12  ·  SWE-2 25/8
+Lines of code            Argon 4,701  ·  SWE-2 1,555
+File size                Argon 183KB  ·  SWE-2 110KB
+Boot to render           Argon 34ms  ·  SWE-2 24ms
+DOM nodes at boot        Argon 218  ·  SWE-2 17
+JS heap                  ~9.5MB both
+
+⚔️ THE DIFFERENCE
+
+Argon invented three original class mechanics: a Cinderblade juggling Heat and Burn, a Chronoweaver banking Flux for Time Surges, a Plague Alchemist brewing Reagents into poison chains. 15-floor spire, event modals, campfires. More code, more bespoke systems, more juice.
+
+SWE-2 Max went with classic Slay-the-Spire archetypes — Warden (block/strength), Shade (poison/shivs), Stormcaller (charge bursts) — then poured the savings into content: 40% more enemies, 30% more cards, a twin-boss encounter, bosses with phase transitions at 66% and 33% HP. Three named acts. It did all that in a third of the code.
+
+✅ Both hit every requirement: branching maps, elites, shops, rest sites, events, card upgrade/removal, gold, all four status effects, save/load, compendium, floating damage, screen shake.
+
+🏁 VERDICT
+
+Argon went deeper — invented mechanics, denser systems, more polish per element.
+SWE-2 went broader — more content, less code, proven archetypes.
+
+60% of the file size. 3x the content count. That's the efficiency story.
+
+Both shipped a real game in one file. The honest answer to "which is better" is: what do you value ?
+mechanical novelty, or content density per line of code?
+
+Also used Devin with @HyperFrames_ to create the side by side video below.
+```
+
+### Three.js short of aliens getting burgers
+
+[@shownotover](https://x.com/shownotover/status/2110274182046953661) · 0:15 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110274182046953661/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110274182046953661?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+🚨 CLAUDE AND GEMINI USERS!! 👽🍔
+
+The story and the prompt:
+Aliens stop for burgers… but they LOVE the food on Earth too much 😂
+
+A 15-second Three.js short. Both HIGH.
+
+GEMINI ARGON (browser chat) 
+vs CLAUDE OPUS 5.5 (claude cli + toolings)
+
+→ TIME: ~8–10 min vs 31m54s
+→ TOKENS: Argon ~27.6K vs Opus 5.35M
+→ API COST: Argon ~$0.92 vs Opus ~$6.63
+→ SPEED: Argon ~46–57 TPS vs Opus ~97.2 TPS
+
+WEEKLY: Argon was around ~1% 
+vs Opus close to 0%!!!
+
+Argon finished around 3× FASTER, but I still like OPUS’s visual quality WAY more…
+
+We need a rematch in Antigravity when we poor Gemini Pro users get access to the CLI version 😂
+
+Which one tells the story better? 👀
+How do you like the new Gemini model?
+```
+
+### 3D canyon runner game riding a lizard
+
+[@universalmodhq](https://x.com/universalmodhq/status/2110315582323413284) · 0:24 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110315582323413284/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110315582323413284?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon vs Muse Wonder 
+
+> build a 3D canyon-runner game in which the main character rides a lizard to escape a sandstorm, dodging obstacles along the way
+```
+
+### 3D liquid horse animation in Three.js
+
+[@TypingMindApp](https://x.com/TypingMindApp/status/2110328641360146658) · 0:21 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110328641360146658/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110328641360146658?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon vs. Claude Opus 5.5 🐎
+
+Create 3D liquid horse animation using Three.js 👇
+```
+
+### Interactive holographic CD in browser
+
+[@kinderlayer](https://x.com/kinderlayer/status/2110346627172983121) · 0:16 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110346627172983121/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110346627172983121?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+holy sh*t. 4 models, one prompt. and one of them costs pennies.
+
+GPT-6 Astra · Gemini 4 Argon · Claude Opus 5.5 · Claude Haiku 5.5
+
+same prompt: build an interactive holographic CD, drag to tilt, shatter on click. zero edits, zero cherry-picking.
+
+Astra and Gemini went clean and crisp. Opus leaned all the way in - depth, glow, the holo catching light like a real disc.
+
+then remember the bottom-right is Haiku. the cheap one. the model you run by the thousand. and it’s standing in the same frame as three flagships.
+
+that’s the part nobody prices in. the gap between the best and cheap enough to run all day is closing fast.
+
+which disc would you actually ship? and did you clock which one was the budget model?
+
+follow if you want to learn to build stuff like this, I break down the models every week.
+```
+
+### 3D Japanese house with cherry blossom trees
+
+[@dpratyush02](https://x.com/dpratyush02/status/2110347694447509797) · 0:29 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110347694447509797/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110347694447509797?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon vs GPT-6.1 Sol
+
+I gave all three the exact same prompt to build a 3D Japanese house surrounded by cherry blossom trees 🌸
+
+Gemini absolutely nailed it. The visuals were stunning, the atmosphere was beautiful, and the attention to detail was impressive.
+
+Gemini 4 Argon vs GPT-6.1 Sol 
+
+Google is cooking again!! 🔥
+```
+
+### Voxel art world generation comparison
+
+[@EvoLinkAi](https://x.com/EvoLinkAi/status/2110377592394031397) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110377592394031397/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110377592394031397?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+🔥Two models. One voxel art challenge.
+
+Opus 5.5 does a better job of restoring the voxel art world, while Gemini 4 Argon didn't perform as well.
+
+Do you agree with this ranking? Full prompt below 👇
+```
+
+### Interactive firefly jar in Three.js
+
+[@0xRhinoX](https://x.com/0xRhinoX/status/2110382089476407630) · 0:39 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110382089476407630/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110382089476407630?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+No way Opus 5.5 cost 79x more than Gemini 4 Argon. Then I saw the jars
+
+Same prompt: a firefly jar you can open gently.
+
+Opus 5.5 - $15.00, 64 min
+Gemini 4 Argon - $0.19, 8 min
+
+Opus made real glass, moonlight through the window, and a tiny cabin inside.
+
+Gemini made a glowstick in a box.
+
+Unscrew both lids yourself 👇
+```
+
+### Opus 5.5 vs Gemini 4 Argon comparison
+
+[@MiaAI_lab](https://x.com/MiaAI_lab/status/2110385278246654052) · 0:43 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110385278246654052/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110385278246654052?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Opus 5.5 vs Gemini 4 Argon
+
+full prompt below
 ```

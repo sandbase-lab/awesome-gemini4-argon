@@ -104,7 +104,7 @@
   "durationMs": 60011,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040726457491845/video.mp4",
   "promptShared": false,
-  "featured": 6,
+  "featured": 5,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040726457491845/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110040726457491845"
  },
@@ -112,7 +112,7 @@
   "id": "2110041194457899054",
   "title": "Real-time 3D game demo comparison",
   "title_zh": "实时3D游戏演示对比评测",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "HIX_AI_",
    "name": "HIX.AI"
@@ -184,7 +184,7 @@
   "id": "2110041939978694766",
   "title": "Playable 3D Spaceship Game Comparison",
   "title_zh": "可玩3D飞船游戏生成对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "itsPolloAI",
    "name": "Pollo AI"
@@ -202,7 +202,7 @@
   "id": "2110042531425812846",
   "title": "Motion graphics advertisement comparison for Pollo AI",
   "title_zh": "Pollo AI 动态图形广告设计对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "itsPolloAI",
    "name": "Pollo AI"
@@ -256,7 +256,7 @@
   "id": "2110043897812668840",
   "title": "SVG animation comparison between Argon and Astra",
   "title_zh": "Argon 与 Astra 的 SVG 动画对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "Adidotdev",
    "name": "Adit_Yah ☄️"
@@ -322,7 +322,7 @@
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110045963951956250/video.mp4",
   "promptShared": true,
   "promptText": "One of many \"oh, wow\" moments I've had with Argon\n\n> Make a slow-reveal Fourier epicycle video of [thing], make the video in the style of the attached reference image, add a cinematic soundtrack using Lyria 3.5 and sync the music.",
-  "featured": 5,
+  "featured": 4,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110045963951956250/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110045963951956250"
  },
@@ -330,7 +330,7 @@
   "id": "2110046609631478274",
   "title": "Peacock Riding a Bicycle SVG Animation Test",
   "title_zh": "孔雀骑自行车的SVG动画测试",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "SahilPanhotra",
    "name": "Sahil Panhotra | Indie Builder"
@@ -384,7 +384,7 @@
   "id": "2110047989280670072",
   "title": "Output comparison between Gemini 4 Argon and Opus",
   "title_zh": "Gemini 4 Argon与Opus同提示词对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "Adidotdev",
    "name": "Adit_Yah ☄️"
@@ -532,7 +532,7 @@
   "id": "2110053382043873389",
   "title": "Motion design promo comparison in Premiere Pro",
   "title_zh": "Premiere Pro 中的动效设计宣传片对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "e1genqq",
    "name": "eigen"
@@ -587,7 +587,7 @@
   "id": "2110056429931610237",
   "title": "3D humanoid robot simulation in Three.js",
   "title_zh": "Three.js 人形机器人 3D 仿真模拟",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "AI_Screening",
    "name": "Pranav Reddy"
@@ -623,7 +623,7 @@
   "id": "2110057151171338656",
   "title": "AI-generated snow globe scene comparison",
   "title_zh": "AI生成的雪花水晶球效果对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "shmopixbzn",
    "name": "shmopix"
@@ -697,7 +697,7 @@
   "id": "2110063389519106467",
   "title": "Comparison test of Gemini 4 Argon and Opus",
   "title_zh": "Gemini 4 Argon与Opus对比演示",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "Mr_Salio",
    "name": "Salio"
@@ -715,7 +715,7 @@
   "id": "2110064733206573358",
   "title": "Lava lamp 3D generation benchmark comparison",
   "title_zh": "3D熔岩灯生成基准横向测试对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "xiax0603",
    "name": "xiax｜AI & Agents"
@@ -751,7 +751,7 @@
   "id": "2110065587279798719",
   "title": "Cinematic 3D animation of an electric motor",
   "title_zh": "电动马达原理电影级3D动画演示",
-  "category": "explainer",
+  "category": "comparison",
   "author": {
    "handle": "rubenssoto_ai",
    "name": "Rubens Soto | AI & SaaS"
@@ -823,7 +823,7 @@
   "id": "2110069699597971828",
   "title": "Playable 3D Flappy Bird game comparison",
   "title_zh": "可玩3D像素鸟游戏生成对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "ivanainai",
    "name": "Ivana"
@@ -860,7 +860,7 @@
   "id": "2110070249970421940",
   "title": "Pelican doing wheelie on flying fighter jet",
   "title_zh": "在飞行战机上翘头特技的鹈鹕体素动画",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "noclipepe",
    "name": "noclipepe"
@@ -879,7 +879,7 @@
   "id": "2110070885428187441",
   "title": "3D pigeon stealing chips game comparison",
   "title_zh": "鸽子抢薯条3D游戏生成对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "asmirkn",
    "name": "Asmir"
@@ -971,7 +971,7 @@
   "id": "2110075670332412079",
   "title": "Frontier AI models benchmark comparison",
   "title_zh": "多款前沿AI模型能力对比测试",
-  "category": "explainer",
+  "category": "comparison",
   "author": {
    "handle": "0xShoopy",
    "name": "Shoopy"
@@ -1026,7 +1026,7 @@
   "id": "2110078803297055212",
   "title": "Comparison of 3D whale breaching scene across models",
   "title_zh": "多模型生成的3D跃水鲸鱼场景对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "Bhavani_00007",
    "name": "Bhavy☄️"
@@ -1118,7 +1118,7 @@
   "id": "2110082812233892193",
   "title": "Recreating a launch demo game using Opus",
   "title_zh": "使用Opus复刻发布会演示游戏",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "0xCarnagee",
    "name": "Carnage"
@@ -1155,7 +1155,7 @@
   "id": "2110084319079182761",
   "title": "Rider flying through floating sky islands",
   "title_zh": "飞越浮空岛屿的骑士场景对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "pipeline_os",
    "name": "Pipeline OS"
@@ -1173,7 +1173,7 @@
   "id": "2110085876135112729",
   "title": "Motion design video showcasing Earth",
   "title_zh": "展现地球之美的动态设计视频对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "yash_yk45",
    "name": "Yash"
@@ -1192,7 +1192,7 @@
   "id": "2110086004808048950",
   "title": "Speed comparison testing with Argon",
   "title_zh": "Argon模型生成速度对比测试",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "jaimintf",
    "name": "jaimin"
@@ -1246,7 +1246,7 @@
   "id": "2110087305163854042",
   "title": "Mario 3D test comparison between models",
   "title_zh": "模型间马里奥3D测试对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "luckeyfaraday",
    "name": "Luckey Faraday"
@@ -1264,7 +1264,7 @@
   "id": "2110087897382896037",
   "title": "Voxel Art Generation Comparison",
   "title_zh": "体素艺术生成效果对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "filicroval",
    "name": "filipe"
@@ -1300,7 +1300,7 @@
   "id": "2110088760314749405",
   "title": "3D generation quality comparison between models",
   "title_zh": "模型间3D生成质量对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "aimlapi",
    "name": "AI/ML API"
@@ -1318,7 +1318,7 @@
   "id": "2110090003703378023",
   "title": "Floating torii island diorama comparison",
   "title_zh": "浮空鸟居小岛微缩场景对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "AIBoticssq",
    "name": "AIBotics"
@@ -1346,7 +1346,7 @@
   "durationMs": 11333,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110091334707286214/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 7,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110091334707286214/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110091334707286214"
  },
@@ -1502,7 +1502,7 @@
   "id": "2110099643694731341",
   "title": "Comparison of 3D whale breaching scenes",
   "title_zh": "3D座头鲸破水而出场景模型对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "AdityaJhajhar12",
    "name": "Aditya Jhajharia"
@@ -1520,7 +1520,7 @@
   "id": "2110099864650702928",
   "title": "Rocket scene comparison across AI models",
   "title_zh": "AI模型生成的火箭场景效果对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "Bhavani_00007",
    "name": "Bhavy☄️"
@@ -1574,7 +1574,7 @@
   "id": "2110104077833228364",
   "title": "Gemini 4 Argon and Opus 5.5 comparison",
   "title_zh": "Gemini 4 Argon 与 Opus 5.5 对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "ashawv5i",
    "name": "asha"
@@ -1602,7 +1602,7 @@
   "durationMs": 10400,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110104441760403923/video.mp4",
   "promptShared": false,
-  "featured": 4,
+  "featured": 3,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110104441760403923/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110104441760403923"
  },
@@ -1610,7 +1610,7 @@
   "id": "2110105779294687341",
   "title": "Voxel Dragon Flying over a Temple in 3D",
   "title_zh": "寺庙上方飞翔的3D体素巨龙",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "marcthecreatorr",
    "name": "Marcel"
@@ -1629,7 +1629,7 @@
   "id": "2110106381689016669",
   "title": "Interactive growing plant SVG animation comparison",
   "title_zh": "交互式植物生长 SVG 动画对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "codecloude",
    "name": "Code cloud E.commerce | کد کلاد"
@@ -1694,7 +1694,7 @@
   "durationMs": 59234,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": 2,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110109640419926325"
  },
@@ -1738,7 +1738,7 @@
   "id": "2110113898552811722",
   "title": "Web swinging delivery game in night city",
   "title_zh": "夜间城市蛛网摆荡送货游戏",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "jetbrains",
    "name": "JetBrains"
@@ -1774,7 +1774,7 @@
   "id": "2110115647921471812",
   "title": "Lawn mowing simulator benchmark comparison",
   "title_zh": "割草机模拟游戏生成对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "_MaxBlade",
    "name": "Max Blade"
@@ -1793,7 +1793,7 @@
   "id": "2110116583016419760",
   "title": "Space train comparison between Gemini 4 and Opus",
   "title_zh": "太空列车模型生成对比测试",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "EnvolDev",
    "name": "Tony"
@@ -1829,7 +1829,7 @@
   "id": "2110116795516661832",
   "title": "Code-generated Himeji Castle during cherry blossoms",
   "title_zh": "代码生成的樱花季姬路城景观",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "petergyang",
    "name": "Peter Yang"
@@ -1847,7 +1847,7 @@
   "id": "2110117120839148016",
   "title": "WebGL ice swan carving comparison",
   "title_zh": "WebGL冰雕天鹅雕刻生成对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "elliscrosby",
    "name": "Ellis"
@@ -1939,7 +1939,7 @@
   "id": "2110125129053200430",
   "title": "Voxel Hagia Sophia timelapse comparison",
   "title_zh": "体素风格圣索菲亚大教堂延时建造对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "Avenoxai",
    "name": "Avenox"
@@ -1975,7 +1975,7 @@
   "id": "2110131790136401989",
   "title": "Physics simulation of gummy bears",
   "title_zh": "小熊软糖物理动力学模拟测试",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "semichenkko",
    "name": "Semichenko"
@@ -2083,7 +2083,7 @@
   "id": "2110138436200088013",
   "title": "Ten-second game promo SVG animation test",
   "title_zh": "10秒游戏宣传SVG动画测试对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "IHayato",
    "name": "🍺 イケハヤ@放置ゲー「月蝕綺譚」開発"
@@ -2137,7 +2137,7 @@
   "id": "2110145714659664275",
   "title": "3D voxel sports car assembly animation comparison",
   "title_zh": "3D体素跑车组装动画对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "atomic_chat_hq",
    "name": "atomic.chat"
@@ -2155,7 +2155,7 @@
   "id": "2110147080543252556",
   "title": "Comparison between Opus 5.5 and Gemini 4 Argon",
   "title_zh": "Opus 5.5 与 Gemini 4 Argon 生成对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "0x0SojalSec",
    "name": "Md Ismail Šojal 🕷️"
@@ -2191,7 +2191,7 @@
   "id": "2110150043596681673",
   "title": "Game development comparison between Gemini 4 and Muse",
   "title_zh": "Gemini 4与Muse游戏开发对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "universalmodhq",
    "name": "universal-modder"
@@ -2245,7 +2245,7 @@
   "id": "2110153216772202945",
   "title": "Procedural New York 3D scenes in Three.js",
   "title_zh": "Three.js纯代码生成的纽约3D场景",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "thehypedotnews",
    "name": "thehype."
@@ -2263,7 +2263,7 @@
   "id": "2110153833221628095",
   "title": "Action segmentation benchmark on egocentric video",
   "title_zh": "第一人称视角视频动作分割基准测试",
-  "category": "data-viz",
+  "category": "comparison",
   "author": {
    "handle": "Sammy_Sidhu",
    "name": "Sammy Sidhu"
@@ -2281,7 +2281,7 @@
   "id": "2110154463415558279",
   "title": "AI models competing to reach the Nether",
   "title_zh": "多模型竞速前往下界挑战",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "fawnunwrap",
    "name": "fawn"
@@ -2291,7 +2291,7 @@
   "durationMs": 87000,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110154463415558279/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110154463415558279/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110154463415558279"
  },
@@ -2299,7 +2299,7 @@
   "id": "2110155062664188395",
   "title": "Civilization simulation across ages on single map",
   "title_zh": "单张地图上的跨时代文明演进模拟",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "remoteugur",
    "name": "Uğur Keşkekçi"
@@ -2336,7 +2336,7 @@
   "id": "2110159559365177442",
   "title": "Side-by-side 3D model comparison",
   "title_zh": "同提示词下3D模型生成效果对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "viktoroddy",
    "name": "Viktor Oddy"
@@ -2519,7 +2519,7 @@
   "id": "2110180257131331795",
   "title": "Super intelligence music videos compared across four models",
   "title_zh": "四款模型生成超级智能主题音乐短片对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "DrNassiriAfshar",
    "name": "Farhad Nassiri Afshar, MD"
@@ -2628,7 +2628,7 @@
   "id": "2110195194092044742",
   "title": "Capybara physics comparison between Opus and Argon",
   "title_zh": "Opus 与 Argon 水豚物理形变效果对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "LeeLinAI123",
    "name": "Lee Lin | AI"
@@ -2682,7 +2682,7 @@
   "id": "2110208734291247560",
   "title": "Creative concept comparison between Gemini and Claude",
   "title_zh": "Gemini与Claude同创意视频对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "Deevid_AI",
    "name": "Deevid AI"
@@ -2736,7 +2736,7 @@
   "id": "2110211917990273525",
   "title": "Model performance and output comparison test",
   "title_zh": "两款大模型相同提示词生成对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "alohaproxy",
    "name": "aloha"
@@ -2754,7 +2754,7 @@
   "id": "2110212723300876341",
   "title": "Three.js rendering comparison between Opus 5.5 and Argon",
   "title_zh": "Opus 5.5与Argon的Three.js渲染效果对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "Ayu_AI_0912",
    "name": "アユネオ"
@@ -2772,7 +2772,7 @@
   "id": "2110213441575412022",
   "title": "Gummy bear physics simulation comparison",
   "title_zh": "小熊软糖物理模拟效果对比测试",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "mayaislam_ai",
    "name": "Maya"
@@ -2917,7 +2917,7 @@
   "id": "2110228350337687773",
   "title": "Playable roguelike deck-builder generated in one file",
   "title_zh": "单文件生成的可玩肉鸽卡牌构筑游戏",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "realbrucemartin",
    "name": "Bruce Martin"
@@ -2974,7 +2974,7 @@
   "id": "2110234900616126769",
   "title": "Margarita sloshing effect in Three.js WebGL",
   "title_zh": "Three.js WebGL玛格丽特酒液晃动效果测试",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "ann_nnng",
    "name": "Ann Nguyen"
@@ -3082,7 +3082,7 @@
   "id": "2110245860756099245",
   "title": "3D artifact render comparison without Blender",
   "title_zh": "无需Blender的3D工件渲染对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "SadAlbert10",
    "name": "Sad AlbertX"
@@ -3118,7 +3118,7 @@
   "id": "2110249491140071834",
   "title": "3D grocery store scene comparison",
   "title_zh": "3D杂货店场景渲染对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "Avenoxai",
    "name": "Avenox"
@@ -3190,7 +3190,7 @@
   "id": "2110260066066862538",
   "title": "A Three.js comparison between Argon and Opus",
   "title_zh": "Three.js 下 Argon 与 Opus 的对比测试",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "CombosFun_AI",
    "name": "Combos Fun by Converge.AI"
@@ -3244,7 +3244,7 @@
   "id": "2110268994100113447",
   "title": "Margarita slosh effect simulated in Three.js",
   "title_zh": "Three.js中的玛格丽塔晃荡效应模拟",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "AndyL5cc",
    "name": "Andy L"
@@ -3298,7 +3298,7 @@
   "id": "2110271891521044812",
   "title": "Three.js margarita shaking effect comparison across models",
   "title_zh": "多模型Three.js玛格丽塔晃动效果对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "Chris62771610",
    "name": "Chris"
@@ -3316,7 +3316,7 @@
   "id": "2110274182046953661",
   "title": "Three.js short of aliens getting burgers",
   "title_zh": "Three.js 外星人买汉堡短片",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "shownotover",
    "name": "shownotover"
@@ -3335,7 +3335,7 @@
   "id": "2110274470036336856",
   "title": "Gemini 4 versus Opus 5.5 benchmark",
   "title_zh": "Gemini 4与Opus 5.5效果对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "zhodonx",
    "name": "zhod"
@@ -3353,7 +3353,7 @@
   "id": "2110277813819633682",
   "title": "Gemini 4 Argon versus Claude Opus 3D SVG",
   "title_zh": "Gemini 4与Claude Opus的3D SVG对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "esrhengwu",
    "name": "基恩-Keane 🌊"
@@ -3427,7 +3427,7 @@
   "id": "2110290068514762969",
   "title": "Ink animation style model comparison",
   "title_zh": "水墨动画风格模型对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "renoiseai",
    "name": "Renoise"
@@ -3481,7 +3481,7 @@
   "id": "2110292323103908188",
   "title": "Interactive squishy jelly hearts coded by AI",
   "title_zh": "AI编写的交互式果冻心形动画",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "shmopixbzn",
    "name": "shmopix"
@@ -3535,7 +3535,7 @@
   "id": "2110302514600157279",
   "title": "Pixel art amusement park prompt comparison",
   "title_zh": "像素风游乐园同提示词模型对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "HIX_AI_",
    "name": "HIX.AI"
@@ -3589,7 +3589,7 @@
   "id": "2110307559110520890",
   "title": "Stretchy jelly comparison between Opus and Gemini",
   "title_zh": "Opus 与 Gemini 弹性果冻效果对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "jurlycat",
    "name": "Jurly"
@@ -3607,7 +3607,7 @@
   "id": "2110307747975885211",
   "title": "Game development benchmark comparison",
   "title_zh": "游戏开发基准测试对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "universalmodhq",
    "name": "universal-modder"
@@ -3698,7 +3698,7 @@
   "id": "2110315582323413284",
   "title": "3D canyon runner game riding a lizard",
   "title_zh": "骑蜥蜴逃离沙尘暴的3D峡谷跑酷游戏",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "universalmodhq",
    "name": "universal-modder"
@@ -3771,7 +3771,7 @@
   "id": "2110328641360146658",
   "title": "3D liquid horse animation in Three.js",
   "title_zh": "Three.js 3D 液体奔马动画",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "TypingMindApp",
    "name": "TypingMind"
@@ -3854,7 +3854,7 @@
   "durationMs": 12336,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110333861360279861/video.mp4",
   "promptShared": false,
-  "featured": 7,
+  "featured": 6,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110333861360279861/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110333861360279861"
  },
@@ -3862,7 +3862,7 @@
   "id": "2110338867475673245",
   "title": "Game development comparison between AI models",
   "title_zh": "AI 模型游戏开发能力对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "RealFedeURU",
    "name": "Fede(URU) 🇺🇾"
@@ -3898,7 +3898,7 @@
   "id": "2110340959338971611",
   "title": "Procedural animated paintings comparison in code",
   "title_zh": "代码生成程序化动态绘画模型对比",
-  "category": "particles",
+  "category": "comparison",
   "author": {
    "handle": "ThatSalariedGuy",
    "name": "Shashank Srivastava"
@@ -4025,7 +4025,7 @@
   "id": "2110346627172983121",
   "title": "Interactive holographic CD in browser",
   "title_zh": "可倾斜破碎的交互式全息CD光盘",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "kinderlayer",
    "name": "Kinder"
@@ -4044,7 +4044,7 @@
   "id": "2110347694447509797",
   "title": "3D Japanese house with cherry blossom trees",
   "title_zh": "樱花树环绕的 3D 日式房屋",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "dpratyush02",
    "name": "Pratyush"
@@ -4063,7 +4063,7 @@
   "id": "2110347938547511362",
   "title": "Visual comparison between Gemini 4 Argon and Opus 5.5",
   "title_zh": "Gemini 4 Argon 与 Opus 5.5 生成效果对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "0xbenderxbt",
    "name": "Bender ( Rebirth arc )"
@@ -4081,7 +4081,7 @@
   "id": "2110348612349685966",
   "title": "Voxel pelican stunt scene comparison with UI",
   "title_zh": "带游戏界面的像素鹈鹕特技场景对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "romance0x",
    "name": "romance"
@@ -4099,7 +4099,7 @@
   "id": "2110349904551792641",
   "title": "Comparing coding models building a 3D interactive website",
   "title_zh": "对比多款代码模型构建3D交互式网站",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "HIX_AI_",
    "name": "HIX.AI"
@@ -4190,7 +4190,7 @@
   "id": "2110357629159854196",
   "title": "Lighting comparison between Opus and Argon",
   "title_zh": "Opus与Argon光影效果对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "anxuanng",
    "name": "An Xuan"
@@ -4354,7 +4354,7 @@
   "id": "2110369877626151316",
   "title": "Game comparison between Gemini 4 Argon and Muse Wonder",
   "title_zh": "Gemini 4 Argon 与 Muse Wonder 游戏对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "hsprafrique",
    "name": "Sam Ivere"
@@ -4390,7 +4390,7 @@
   "id": "2110375113128612256",
   "title": "Game development comparison between Gemini Argon and Muse",
   "title_zh": "Gemini Argon与Muse的游戏开发对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "akshdeeps_001",
    "name": "Aksh"
@@ -4408,7 +4408,7 @@
   "id": "2110376963290583427",
   "title": "Gemini 4 Argon and GPT 6 Astra comparison",
   "title_zh": "Gemini 4 Argon 与 GPT 6 Astra 测试对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "AiHubMix",
    "name": "AIHubmix"
@@ -4444,7 +4444,7 @@
   "id": "2110377592394031397",
   "title": "Voxel art world generation comparison",
   "title_zh": "体素艺术世界生成效果模型对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "EvoLinkAi",
    "name": "EvoLink.ai"
@@ -4463,7 +4463,7 @@
   "id": "2110381383218786397",
   "title": "Gemini 3.8 Flash vs Gemini 4 Argon Three.js benchmark",
   "title_zh": "Gemini两代模型在Three.js基准测试中的对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "NicolaManzini",
    "name": "Nicola"
@@ -4481,7 +4481,7 @@
   "id": "2110382021285478812",
   "title": "3D WWII fighter jet experience model comparison",
   "title_zh": "二战战机三维体验多模型对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "exploraX_",
    "name": "m0h"
@@ -4499,7 +4499,7 @@
   "id": "2110382089476407630",
   "title": "Interactive firefly jar in Three.js",
   "title_zh": "可交互的萤火虫玻璃罐",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "0xRhinoX",
    "name": "Rhino"
@@ -4554,7 +4554,7 @@
   "id": "2110385278246654052",
   "title": "Opus 5.5 vs Gemini 4 Argon comparison",
   "title_zh": "Opus 5.5 与 Gemini 4 Argon 对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "MiaAI_lab",
    "name": "Mia"
@@ -4627,7 +4627,7 @@
   "id": "2110394335971975642",
   "title": "Single HTML Three.js model comparison",
   "title_zh": "单HTML文件 Three.js 模型效果对比",
-  "category": "3d-scene",
+  "category": "comparison",
   "author": {
    "handle": "AI_Screening",
    "name": "Pranav Reddy"
@@ -4663,7 +4663,7 @@
   "id": "2110396781624184911",
   "title": "Model comparison between Argon and Opus",
   "title_zh": "Argon与Opus同提示词对比",
-  "category": "motion-graphics",
+  "category": "comparison",
   "author": {
    "handle": "Octoberry",
    "name": "O🌷"
@@ -4699,7 +4699,7 @@
   "id": "2110400242180858314",
   "title": "Electric motor explainer animation comparison",
   "title_zh": "电机工作原理三维解说动画对比",
-  "category": "explainer",
+  "category": "comparison",
   "author": {
    "handle": "coinbureau",
    "name": "Coin Bureau"
@@ -4717,7 +4717,7 @@
   "id": "2110400545957486871",
   "title": "Playable 3D Penguin Sky Hop game comparison",
   "title_zh": "可玩3D企鹅空中跳跃游戏对比",
-  "category": "game",
+  "category": "comparison",
   "author": {
    "handle": "magica_ai",
    "name": "Magica"
@@ -4735,7 +4735,7 @@
   "id": "2110405479658631361",
   "title": "Top-down traffic simulation comparison across four models",
   "title_zh": "四款模型俯视交通模拟效果对比",
-  "category": "data-viz",
+  "category": "comparison",
   "author": {
    "handle": "kinderlayer",
    "name": "Kinder"
