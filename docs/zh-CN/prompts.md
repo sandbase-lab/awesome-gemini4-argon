@@ -2,11 +2,11 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 52 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 51 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (16)
+- [3D 场景](#3d-scene) (15)
 - [动效](#motion-graphics) (6)
 - [游戏](#game) (3)
 - [产品界面](#ui-demo) (3)
@@ -100,18 +100,6 @@ prompt in comment
 Prompt your robot: https://t.co/SuIFBqzobL
 
 @GoogleDeepMind Robotics
-```
-
-### 单次提示词生成的体素F1赛车
-
-[@letdarky](https://x.com/letdarky/status/2110093858549694597) · 0:23 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110093858549694597/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110093858549694597?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon (High) Generated this in Antigravity 
-
-its one shot, And the prompt was Dead simple "Build a voxel F1 Car"
-
-And the result is really Nice!
 ```
 
 ### 机器人视频转物理仿真示例展示

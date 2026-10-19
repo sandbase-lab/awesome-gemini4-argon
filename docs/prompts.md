@@ -2,11 +2,11 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-52 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+51 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (16)
+- [3D scenes](#3d-scene) (15)
 - [Motion graphics](#motion-graphics) (6)
 - [Games](#game) (3)
 - [Product UI](#ui-demo) (3)
@@ -100,18 +100,6 @@ prompt in comment
 Prompt your robot: https://t.co/SuIFBqzobL
 
 @GoogleDeepMind Robotics
-```
-
-### Voxel F1 car generated in one shot
-
-[@letdarky](https://x.com/letdarky/status/2110093858549694597) · 0:23 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110093858549694597/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110093858549694597?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon (High) Generated this in Antigravity 
-
-its one shot, And the prompt was Dead simple "Build a voxel F1 Car"
-
-And the result is really Nice!
 ```
 
 ### Prompted robot video to simulation demonstration
