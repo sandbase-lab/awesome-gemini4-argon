@@ -86,7 +86,7 @@
   "durationMs": 98766,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040063656812976/video.mp4",
   "promptShared": false,
-  "featured": 1,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040063656812976/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110040063656812976"
  },
@@ -104,7 +104,7 @@
   "durationMs": 60011,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040726457491845/video.mp4",
   "promptShared": false,
-  "featured": 5,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110040726457491845/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110040726457491845"
  },
@@ -248,7 +248,7 @@
   "durationMs": 17963,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110043093466743194/video.mp4",
   "promptShared": false,
-  "featured": 0,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110043093466743194/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110043093466743194"
  },
@@ -289,25 +289,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110044224825721170"
  },
  {
-  "id": "2110045402544341180",
-  "title": "Voxel art dragon flying over temple",
-  "title_zh": "神庙上空飞翔的体素风格巨龙",
-  "category": "3d-scene",
-  "author": {
-   "handle": "HarshithLucky3",
-   "name": "Harshith"
-  },
-  "postUrl": "https://x.com/HarshithLucky3/status/2110045402544341180",
-  "createdAt": "2026-10-13T16:30:01.000Z",
-  "durationMs": 23000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110045402544341180/video.mp4",
-  "promptShared": true,
-  "promptText": "Gemini 4 Argon is best at knowledge work and creativity \n\nand 3d stuff too (comes after Opus 5.5) \n\ni really love this model so much\n\n> voxel art of dragon flying on temple\none shot btw",
-  "featured": null,
-  "poster": null,
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110045402544341180"
- },
- {
   "id": "2110045963951956250",
   "title": "Fourier epicycle video with Lyria soundtrack",
   "title_zh": "配有Lyria音效的傅里叶本轮动画",
@@ -322,7 +303,7 @@
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110045963951956250/video.mp4",
   "promptShared": true,
   "promptText": "One of many \"oh, wow\" moments I've had with Argon\n\n> Make a slow-reveal Fourier epicycle video of [thing], make the video in the style of the attached reference image, add a cinematic soundtrack using Lyria 3.5 and sync the music.",
-  "featured": 4,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110045963951956250/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110045963951956250"
  },
@@ -790,7 +771,7 @@
   "category": "3d-scene",
   "author": {
    "handle": "sonuforx",
-   "name": "Trump Asia"
+   "name": "Anil"
   },
   "postUrl": "https://x.com/sonuforx/status/2110068320221413537",
   "createdAt": "2026-10-13T18:01:05.000Z",
@@ -1346,7 +1327,7 @@
   "durationMs": 11333,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110091334707286214/video.mp4",
   "promptShared": false,
-  "featured": 7,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110091334707286214/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110091334707286214"
  },
@@ -1583,7 +1564,7 @@
   "durationMs": 10400,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110104441760403923/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110104441760403923/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110104441760403923"
  },
@@ -2337,10 +2318,10 @@
   "title_zh": "纯代码绘制的杰克尼科尔森SVG肖像",
   "category": "motion-graphics",
   "author": {
-   "handle": "tonysimons_",
+   "handle": "tonysimons",
    "name": "Tony Simons"
   },
-  "postUrl": "https://x.com/tonysimons_/status/2110160814178988413",
+  "postUrl": "https://x.com/tonysimons/status/2110160814178988413",
   "createdAt": "2026-10-14T00:08:37.000Z",
   "durationMs": 10033,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110160814178988413/video.mp4",
@@ -3745,7 +3726,7 @@
   "durationMs": 12336,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110333861360279861/video.mp4",
   "promptShared": false,
-  "featured": 6,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110333861360279861/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110333861360279861"
  },
@@ -3835,7 +3816,7 @@
   "durationMs": 8000,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110343012421181485/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 6,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110343012421181485/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110343012421181485"
  },
@@ -4183,7 +4164,7 @@
   "durationMs": 25000,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110367201786314935/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 4,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110367201786314935/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110367201786314935"
  },
@@ -4603,5 +4584,896 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110407254080184395/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110407254080184395"
+ },
+ {
+  "id": "2110408289007604165",
+  "title": "Comparison of models building a night train",
+  "title_zh": "多模型构建夜间列车的生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "EnvolDev",
+   "name": "Tony"
+  },
+  "postUrl": "https://x.com/EnvolDev/status/2110408289007604165",
+  "createdAt": "2026-10-14T16:32:00.000Z",
+  "durationMs": 25000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110408289007604165/video.mp4",
+  "promptShared": true,
+  "promptText": "Gemini 4 Argon vs Claude Sonnet 5.5 vs Gpt 6 Astra vs Opus 5.5  \n\nSame prompt: \"Build a night train.\"\n\nWhat do you guys think? 👀",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110408289007604165/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110408289007604165"
+ },
+ {
+  "id": "2110417051680694613",
+  "title": "Three.js Eiffel Tower comparison across four models",
+  "title_zh": "四款模型的Three.js埃菲尔铁塔对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Bhavani_00007",
+   "name": "Bhavy☄️"
+  },
+  "postUrl": "https://x.com/Bhavani_00007/status/2110417051680694613",
+  "createdAt": "2026-10-14T17:06:49.000Z",
+  "durationMs": 20000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110417051680694613/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110417051680694613/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110417051680694613"
+ },
+ {
+  "id": "2110419057602408658",
+  "title": "Converting video to SVG animation",
+  "title_zh": "将视频转换为SVG矢量动画",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "HarshithLucky3",
+   "name": "Harshith"
+  },
+  "postUrl": "https://x.com/HarshithLucky3/status/2110419057602408658",
+  "createdAt": "2026-10-14T17:14:47.000Z",
+  "durationMs": 62972,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110419057602408658/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110419057602408658/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110419057602408658"
+ },
+ {
+  "id": "2110421276456313063",
+  "title": "Reverse-engineered structured prompt video generation with Gemini",
+  "title_zh": "使用Gemini逆向提取提示词生成的视频",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "GeekCatX",
+   "name": "知识猫AI实验室"
+  },
+  "postUrl": "https://x.com/GeekCatX/status/2110421276456313063",
+  "createdAt": "2026-10-14T17:23:36.000Z",
+  "durationMs": 32000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110421276456313063/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110421276456313063/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110421276456313063"
+ },
+ {
+  "id": "2110442447495127067",
+  "title": "Gemini 4 Argon versus Opus 5.5 benchmark comparison",
+  "title_zh": "Gemini 4 Argon与Opus 5.5同提示词测试对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Haleeeemahh",
+   "name": "Haleemah"
+  },
+  "postUrl": "https://x.com/Haleeeemahh/status/2110442447495127067",
+  "createdAt": "2026-10-14T18:47:44.000Z",
+  "durationMs": 15000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110442447495127067/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110442447495127067/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110442447495127067"
+ },
+ {
+  "id": "2110454477027496395",
+  "title": "Argon 4, Sol 6.1, and Opus 5.5 comparison",
+  "title_zh": "Argon 4、Sol 6.1与Opus 5.5同提示词对比",
+  "category": "comparison",
+  "author": {
+   "handle": "jaimintf",
+   "name": "jaimin"
+  },
+  "postUrl": "https://x.com/jaimintf/status/2110454477027496395",
+  "createdAt": "2026-10-14T19:35:32.000Z",
+  "durationMs": 15266,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110454477027496395/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110454477027496395/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110454477027496395"
+ },
+ {
+  "id": "2110519826091495925",
+  "title": "Playable 3D analogue synthesiser and turntable studio",
+  "title_zh": "可交互的3D模拟合成器与黑胶唱机工作室",
+  "category": "3d-scene",
+  "author": {
+   "handle": "IamEmily2050",
+   "name": "Emily"
+  },
+  "postUrl": "https://x.com/IamEmily2050/status/2110519826091495925",
+  "createdAt": "2026-10-14T23:55:12.000Z",
+  "durationMs": 120000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110519826091495925/video.mp4",
+  "promptShared": true,
+  "promptText": "Gemini 4 Argon high / Antigravity \n\nBuild a complete, photorealistic, playable 3D 1974 modular analogue synthesiser and direct-drive 180g vinyl turntable studio (\"CHRONO ANALOGUE // SYSTEM 1974\"), and render a 2-minute (120.00 s, 7,200 frames) Full HD 1920x1080 @ 60.0 fps showcase video performing four classical symphonies. Use Gemini 4 Argon to direct and integrate the project, headless Blender 5.2 Python (bpy) for editable bevelled 3D assets, Nano Banana (image-generator) + deterministic Python Sobel/PBR synthesis for 16 surface textures, Three.js (r169 MeshPhysicalMaterial) for 60 FPS interaction, Web Audio API for live sound, and FFmpeg for 1080p60 H.264/AAC encoding.\n\n1. SHARED SCHEMA RECORDS & PIPELINE CALIBRATION\n\nMaintain three schema-validated JSON records at the project root (and mirrored to public/ for runtime verification):\n\n- contract.json: 0.1 m source unit (1.0 m exported glTF unit), 0.8 m rack width (4 bays of 0.2 m: VCO BANK, VCF 24 dB/OCT LADDER FILTER, CONTOUR ADSR/VCA, MODULATION LFO & BBD DELAY), 15.0-degree backward faceplate tilt, Blender (+X right, -Y forward, +Z up) to Three.js (+X right, +Y up, +Z forward) conversion, 16 calibrated knobs (-135 deg to +135 deg around local Z), 12 patch sockets (6 upper [OUT] jacks: VCO 1 OUT, VCO 2 OUT, VCF OUT, ENV CV OUT, LFO CV OUT, PHONO OUT; 6 lower [IN] jacks: VCO PITCH CV, VCF AUDIO IN, VCF CUTOFF CV, VCA AUDIO IN, VCA GAIN CV, DELAY IN), 25 hinged keys from C3 to C5 (MIDI 48-72, rotating +4.5 deg around local +X rear hinge), and Turntable_Platter / Tonearm_Gimbal / Tonearm_Headshell / Turntable_SpeedSwitch / Turntable_StartStop contracts.\n\n- world.json: 64 stable entities with parent relationships, coordinate-tagged transforms, 16 texture asset records, 5 camera presets (opening_studio, synth_rack_closeup, patch_and_keys, turntable_closeup, side_profile_tilt), and settled visual decisions.\n\n- progress.json: current milestone, role owners, completed/unresolved work, and verification evidence paths.\n\nProve the pipeline first by exporting blender/calibration_knob.blend to public/assets/models/calibration_knob.glb and verifying picking and audio activation before building the full 64-entity scene.\n\n2. LUTHIER-GRADE BLENDER GEOMETRY, UVS & 16-MAP PBR TEXTURES\n\n- Generate base surface imagery with Nano Banana (oiled American black walnut, brushed gunmetal turntable deck, 1974 progressive electronic LP cover art, dark espresso pebble leatherette desk, and brushed black-bronze UI console skin) and run scripts/prepare_textures.py to synthesise 16 high-DPI PBR maps (albedo, Sobel height-to-normal, micro-roughness, metallic, and radial vinyl groove normal maps).\n\n- In scripts/build_studio_assets.py, bevel all rectangular cabinet, plinth, key, and slat meshes first (3 segments) and map the V coordinate along the longest axis of every board face so horizontal cabinet rails and plinth ledges display horizontal wood grain while vertical cheeks and slats display vertical wood grain.\n\n- Deepen the synth faceplate (synth_faceplate_albedo.png) to #101215 charcoal-black anodised aluminium with crisp cream silkscreened scales (#faf2e0), amber/cyan sub-headers, engraved bay seams, corner screws, and metallic potentiometer shaft washers under all 16 knobs. Separate mat_anodised_panel (silkscreened faceplate) from mat_anodised_trim (matte dark keybed chassis with zero texture bleed).\n\n- Model 56-segment fluted Bakelite knobs with spun-aluminium top caps and high-contrast cream indicator inlays; 32-segment hex-nut 3.5mm patch sockets with dark bores; 25 sculpted waterfall naturals and chamfered ebony accidentals resting against a crimson felt strip; a 240-segment cast-aluminium platter rim with 2 distinct strobe dot tracks (33 1/3 and 45 RPM) and a recessed black separator channel; a sculpted prism strobe illuminator tower with a glowing neon-amber lens; a recessed 45-RPM adapter puck; a gimbal hydraulic cueing lever; a 36-step S-shaped tubular chrome tonearm with a slotted die-cast ma…",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110519826091495925/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110519826091495925"
+ },
+ {
+  "id": "2110525248257089589",
+  "title": "3D render comparison between Gemini and Opus",
+  "title_zh": "Gemini与Opus的3D渲染对比",
+  "category": "comparison",
+  "author": {
+   "handle": "xikhar",
+   "name": "Shikhar"
+  },
+  "postUrl": "https://x.com/xikhar/status/2110525248257089589",
+  "createdAt": "2026-10-15T00:16:45.000Z",
+  "durationMs": 10000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110525248257089589/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110525248257089589/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110525248257089589"
+ },
+ {
+  "id": "2110609385546547532",
+  "title": "Animated Excalidraw built with Gemini 4 Argon",
+  "title_zh": "用Gemini 4 Argon构建的动态Excalidraw",
+  "category": "ui-demo",
+  "author": {
+   "handle": "Saboo_Shubham_",
+   "name": "Shubham Saboo"
+  },
+  "postUrl": "https://x.com/Saboo_Shubham_/status/2110609385546547532",
+  "createdAt": "2026-10-15T05:51:05.000Z",
+  "durationMs": 42433,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/video.mp4",
+  "promptShared": false,
+  "featured": 1,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110609385546547532"
+ },
+ {
+  "id": "2110627037266477497",
+  "title": "Gothic Victorian carriage 3D website refactored by AI",
+  "title_zh": "由AI全自动重构的哥特维多利亚马车3D网页",
+  "category": "3d-scene",
+  "author": {
+   "handle": "thebuggeddev",
+   "name": "The Bugged Dev"
+  },
+  "postUrl": "https://x.com/thebuggeddev/status/2110627037266477497",
+  "createdAt": "2026-10-15T07:01:13.000Z",
+  "durationMs": 38253,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110627037266477497/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110627037266477497/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110627037266477497"
+ },
+ {
+  "id": "2110698310705074655",
+  "title": "Hand keypoint detection across video frames",
+  "title_zh": "视频每帧中的手部关键点检测实验",
+  "category": "data-viz",
+  "author": {
+   "handle": "skalskip92",
+   "name": "SkalskiP"
+  },
+  "postUrl": "https://x.com/skalskip92/status/2110698310705074655",
+  "createdAt": "2026-10-15T11:44:26.000Z",
+  "durationMs": 4000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110698310705074655/video.mp4",
+  "promptShared": true,
+  "promptText": "experimenting with keypoint detection in Gemini 4 Argon\n\ngave it a hand diagram with numbered points and asked it to find them in an image\n\nthen did the same for every frame in a video\n\n↓ prompt",
+  "featured": 5,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110698310705074655/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110698310705074655"
+ },
+ {
+  "id": "2110718876459979208",
+  "title": "Cinematic 3D scene generated with AI",
+  "title_zh": "AI生成的电影感3D场景",
+  "category": "3d-scene",
+  "author": {
+   "handle": "HeyAbhishek",
+   "name": "Abhishek"
+  },
+  "postUrl": "https://x.com/HeyAbhishek/status/2110718876459979208",
+  "createdAt": "2026-10-15T13:06:10.000Z",
+  "durationMs": 30101,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110718876459979208/video.mp4",
+  "promptShared": true,
+  "promptText": "AI animation is limitless now.\n\nGemini 4 ARGON and Seedance 2.5 turned ONE idea into an entire cinematic 3D scene.\n\nFull prompt below:",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110718876459979208/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110718876459979208"
+ },
+ {
+  "id": "2110803894028960087",
+  "title": "Workflow tips for Gemini 4 Argon in Antigravity CLI",
+  "title_zh": "Antigravity CLI中使用Gemini 4 Argon的工作流技巧",
+  "category": "explainer",
+  "author": {
+   "handle": "shengzheyao",
+   "name": "Shengzhe"
+  },
+  "postUrl": "https://x.com/shengzheyao/status/2110803894028960087",
+  "createdAt": "2026-10-15T18:43:59.000Z",
+  "durationMs": 80500,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110803894028960087/video.mp4",
+  "promptShared": false,
+  "featured": 7,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110803894028960087/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110803894028960087"
+ },
+ {
+  "id": "2110973461690802487",
+  "title": "Asuka period Japanese pagoda temple built in Blender",
+  "title_zh": "在Blender中构建飞鸟时代日本佛塔寺庙",
+  "category": "3d-scene",
+  "author": {
+   "handle": "ai_for_success",
+   "name": "AshutoshShrivastava"
+  },
+  "postUrl": "https://x.com/ai_for_success/status/2110973461690802487",
+  "createdAt": "2026-10-16T05:57:47.000Z",
+  "durationMs": 62400,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110973461690802487/video.mp4",
+  "promptShared": false,
+  "featured": 0,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110973461690802487/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110973461690802487"
+ },
+ {
+  "id": "2110983989041520870",
+  "title": "Interactive 3D plush spider with physics in Three.js",
+  "title_zh": "Three.js实现的交互式物理毛绒蜘蛛3D模型",
+  "category": "3d-scene",
+  "author": {
+   "handle": "thebuggeddev",
+   "name": "The Bugged Dev"
+  },
+  "postUrl": "https://x.com/thebuggeddev/status/2110983989041520870",
+  "createdAt": "2026-10-16T06:39:37.000Z",
+  "durationMs": 31561,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110983989041520870/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110983989041520870/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110983989041520870"
+ },
+ {
+  "id": "2111058514311336244",
+  "title": "Cost comparison for building the Eiffel Tower",
+  "title_zh": "构建埃菲尔铁塔的模型成本对比",
+  "category": "comparison",
+  "author": {
+   "handle": "AIMind_Ai",
+   "name": "AiMind"
+  },
+  "postUrl": "https://x.com/AIMind_Ai/status/2111058514311336244",
+  "createdAt": "2026-10-16T11:35:46.000Z",
+  "durationMs": 16000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111058514311336244/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111058514311336244/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111058514311336244"
+ },
+ {
+  "id": "2111158169737077231",
+  "title": "Speech and tone analysis of CEO interview",
+  "title_zh": "CEO访谈语音与语调分析展示",
+  "category": "data-viz",
+  "author": {
+   "handle": "sgundoganX",
+   "name": "Serkan Gündoğan"
+  },
+  "postUrl": "https://x.com/sgundoganX/status/2111158169737077231",
+  "createdAt": "2026-10-16T18:11:45.000Z",
+  "durationMs": 22871,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111158169737077231/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111158169737077231/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111158169737077231"
+ },
+ {
+  "id": "2111162436476948796",
+  "title": "Interactive lens lab demo in Three.js",
+  "title_zh": "Three.js交互式光学透镜实验室演示",
+  "category": "3d-scene",
+  "author": {
+   "handle": "thtbee_",
+   "name": "Bee"
+  },
+  "postUrl": "https://x.com/thtbee_/status/2111162436476948796",
+  "createdAt": "2026-10-16T18:28:43.000Z",
+  "durationMs": 28750,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111162436476948796/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111162436476948796/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111162436476948796"
+ },
+ {
+  "id": "2111381322283499817",
+  "title": "Building the Eiffel Tower Opus 5.5 versus Gemini 4 Argon",
+  "title_zh": "构建埃菲尔铁塔：Opus 5.5对决Gemini 4 Argon",
+  "category": "comparison",
+  "author": {
+   "handle": "coinbureau",
+   "name": "Coin Bureau"
+  },
+  "postUrl": "https://x.com/coinbureau/status/2111381322283499817",
+  "createdAt": "2026-10-17T08:58:29.000Z",
+  "durationMs": 16021,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111381322283499817/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111381322283499817/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111381322283499817"
+ },
+ {
+  "id": "2111381391246320012",
+  "title": "Dynamic motion graphics showcase generated with code",
+  "title_zh": "动态动态图形设计作品展示",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "IamEmily2050",
+   "name": "Emily"
+  },
+  "postUrl": "https://x.com/IamEmily2050/status/2111381391246320012",
+  "createdAt": "2026-10-17T08:58:45.000Z",
+  "durationMs": 45000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111381391246320012/video.mp4",
+  "promptShared": true,
+  "promptText": "Gemini 4 Argon / Antigravity \n\nPrompt:\nCreate a dynamic 45 second motion graphics video that showcases your incredible motion design skills.\n\nI put the code on GitHub, and I'll start adding more complex prompts.",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111381391246320012/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111381391246320012"
+ },
+ {
+  "id": "2111441312323088473",
+  "title": "Tesla Roadster 3D telemetry simulation comparison",
+  "title_zh": "特斯拉Roadster 3D遥测仿真对比",
+  "category": "comparison",
+  "author": {
+   "handle": "IFITALEX",
+   "name": "洞寓法师🦁"
+  },
+  "postUrl": "https://x.com/IFITALEX/status/2111441312323088473",
+  "createdAt": "2026-10-17T12:56:52.000Z",
+  "durationMs": 20400,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111441312323088473/video.mp4",
+  "promptShared": true,
+  "promptText": "Deepseek V4.1 1017实测完爆Gemini 4 Argon!\n\n我将Tesla  Roadster视频分别喂给Deepseek V4.1 1017和Gemini 4 Argon，构建一个基于 Three.js的单文件交互式科学遥测网页，完整模拟并拆解Tesla × SpaceX Roadster 在 McGregor 基地实测的全过程运动轨迹。\n\n在Deepseek Harness环境中，Deepseek V4.1耗时1h30s，总计花费¥4.04，除了运动轨迹以及汽车赛道没有完全模拟出来，3D建模这块真的完爆Gemini 4 Argon！\n\n反观Gemini 4 Argon，除了gemini网页端花费34min就制作出成品，汽车赛道比较完整外，汽车建模真的就很敷衍。\n\n以下是完整的提示词，想复刻的可以自己改改用！\n\n---------分割线---------\n\n# Tesla Roadster (SpaceX Package) 运动轨迹 3D 仿真网页制作方案\n\n## 一、 核心生成提示词（Master Prompt 归纳版）\n\n> **角色与任务**：构建一个基于 **Three.js** 的单文件交互式科学遥测网页（Single-File HTML），完整模拟并拆解 2026.10.15 Tesla × SpaceX Roadster 在 McGregor 基地实测的**“C 型半圆弧倒置跳台发射 → 坡顶水平倒挂射出 → 空中水平 180° 桶滚 → 离地 1m 水平喷气悬停 → 四轮平稳着陆”**全过程运动轨迹，帮助用户直观、简洁地学习整套运动学过程。\n>\n> **设计风格（Archival Telemetry × Risograph）**：\n> - **基底质感**：1970 年代 NASA 档案级特种米白图纸（`#F3EDE0`）叠加 SVG 纸张纤维噪点与正交工程坐标网格。\n> - **四色孔版油墨（Risograph Inks）**：联邦档案蓝（`#004E98`，车身主色与跳台结构）、荧光橙红（`#FF432E`，SpaceX 冷气推进羽流、主动尾翼与受力矢量）、孔雀青（`#00916E`，底盘 2G 真空吸附负压场）、档案赭黄（`#D99414`，楔形车头前照灯与质心轨迹线）、铅黑（`#1B1D21`，粗边框、实体轮胎与卡通描边）。\n>\n> **3D 实体汽车建模要求（拒绝简陋线框）**：\n> - 主体汽车必须采用 **Three.js 程序化 3D 实体超跑模型（Solid 3D Coupe Mesh）**，严禁使用空心透明线框（Wireframe）。\n> - 使用 `THREE.Shape` + `THREE.ExtrudeGeometry`（带斜切倒角 Bevel）构建低趴楔形车头、流线型深色玻璃座舱、宽体前后轮拱、车尾高翘主动尾翼与四个独立自转的 3D 实体车轮。\n> - **正反面高对比分色**：车身上表面采用**联邦蓝 + 深墨色座舱顶**，底盘下表面采用**孔雀青涡扇区 + 荧光红喷口底板**，外加 `BackSide` 铅黑轮廓描边（Ink Outline），确保在 3D 空间翻转时一眼分清车头/车尾、车顶/车底。\n\n---\n\n## 二、 极简页面布局架构（Single-Stage Minimalist Layout）\n\n彻底砍掉右侧多画布侧边栏与繁杂参数表，采用 **“全画幅 3D 舞台 + 轻量化浮层讲义 + 底部六阶段时间轴”** 的极简三段式单屏布局（`100vh` 无滚动）：\n\n1. **顶部极简档案栏（Header, 46px）**\n   - 左侧：档案标题 `TSLA × SPACEX ROADSTER // FLIGHT TELEMETRY` 与机密印章标签。\n   - 右侧：3D 视角一键切换按钮（`[默认微倾 3D 轴测]` / `[自由鼠标环绕 Orbit]` / `[车尾第一人称跟拍]`）+ `[蓝图暗房模式]`。\n\n2. **中央全画幅 3D 轨迹仿真舞台（Main 3D Viewport, 占屏幕 82% 面积）**\n   - **单一主视觉**：左侧为带钢桁架支撑的 3D 立体 **C 型半圆弧悬挑跳台（`⊂` 形）**，右侧为平抛空翻区、1m 水平悬停反推区与着陆跑道。\n   - **3D 实体频闪重影（3D Solid Strobe Ghosts）**：在轨迹的 6 个关键节点上，定格摆放半透明（Opacity 0.30）的 3D 实体跑车重影，一图看穿全过程姿态变化（可一键开关）。\n   - **右上角轻量化悬浮讲义卡（Floating Stage Card）**：仅用 **1 个标题 + 2 句精炼白话解析 + 3 个核心状态标（车头朝向 / 俯仰角 Pitch / 横滚角 Roll）** 实时说明当前阶段的运动原理。\n\n3. **底部六阶段交互时间轴（Footer Scrubber, 74px）**\n   - 上排：`[▶ 播放/暂停]`、`[0.25x 慢动作]`、`[3D 频闪重影开关]`、`[3D 受力矢量箭头开关]` + 连续时间拖拽滑块（`0.00s – 3.40s`）。\n   - 下排：**6 个阶段速学书签按钮**，点击任意阶段直接跳转并定格相机。\n\n---\n\n## 三、 核心运动轨迹与六阶段 3D 实体汽车姿态规范（100% 物理还原）\n\n全程运动在同一条连续时间轴 $t \\in [0.00\\text{s}, 3.40\\text{s}]$ 内完成，严格遵循以下空间坐标与刚体欧拉角：\n\n| 阶段编号与名称 | 时间区间 | 车头切向朝向 (Heading) | 车身俯仰 (Pitch $\\theta$) | 车身横滚 (Roll $\\phi$) | 3D 实体姿态与物理特效表现 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **01 地面加速切入** | `0.00s – 0.55s` | **严格朝左 (`◀`, $-X$)** | $0^\\circ$ (水平) | $0^\\circ$ (四轮朝下) | 跑车从右侧助跑道向左高速冲入 `⊂` 型坡底；车尾喷射 3D 荧光红锥形冷气羽流。 |\n| **02 2G 吸附爬坡** | `0.55s – 1.35s` | **沿弧切线顺时针调头**<br>(`◀` → `▲ 朝上` → `↗`) | 随圆弧切线旋转<br>($0^\\circ \\rightarrow 180^\\circ$) | 车轮锁死弧面 | 底盘开启孔雀青色 3D 负压吸附光环（$\\vec{F}_{\\text{suction}} = 2.0G$ 垂直压向坡面），克服重力沿内壁爬上坡顶。 |\n| **03 坡顶倒挂射出** | `1.35s – 1.75s` | **严格朝右 (`▶`, $+X$)** | **$0^\\circ$ (平行地面)** | **$180^\\circ$ (四轮朝天)** | 爬至坡顶悬挑段时车头已调头朝右（`▶`），**四轮朝上贴顶、深色车顶朝下**，平行于地面水平射出坡顶边缘！ |\n| **04 高空水平横滚** | `1.75s – 2.50s` | **严格朝右 (`▶`, $+X$)** | **$0^\\circ$ (全程水平不低头)** | **$180^\\circ \\rightarrow 90^\\circ \\rightarrow 0^\\circ$** | 离坡后风扇关闭；在下落抛物线上半段**车身保持水平（Pitch $\\equiv 0^\\circ$）**，两侧冷气喷嘴一上一下喷射产生力偶，使 3D 实体车身绕水平纵轴完成 $180^\\circ$ 桶滚回正。 |\n| **05 离地 1m 水平悬停** | `2.50s – 2.95s` | **严格朝右 (`▶`, $+X$)** | **$0^\\circ$ (严格水平)** | **$0^\\circ$ (四轮水平朝下)** | **高空早已回正**；在离地约 $1\\text{m}$ 处，以四轮水平朝下的正向姿态触发底盘垂直向下猛喷高压冷气（$\\vec{F}_{\\text{thruster}} \\uparrow \\gg mg$），在半空呈现**短暂水平悬停**，地面扩散 3D 气浪环。 |\n| **06 四轮水平触地** | `2.95s – 3.40s` | **严格朝右 (`▶`, $+X$)** | **$0^\\circ$ (严格水平)** | **$0^\\circ$ (四轮同时落轮)** | 底部反推气流平缓衰减，四个实体车轮保持水平同时轻柔触地，向右平稳滑行收尾。 |\n\n---\n\n## 四、 3D 空间受力矢量可视化（直接绑定在主车质心）\n\n无需额外的侧边图表，直接在 3D 跑车质心上实时渲染三根高对比度 **3D 实体圆锥箭头（`THREE.ArrowHelper` / 自定义立体箭头）**：\n1. **重力 $\\vec{F}_g$（铅黑色，恒定垂直向下 $-Y$）**：全阶段常驻，作为受力参考基准。\n2. **真空风扇吸附力 $\\vec{F}_{\\text{suction}}$（孔雀青色，垂直指向 C 型坡面法向）**：仅在 `STAGE 01–03` 激活，直观解释为什么车子能吸在倒置天花板上。\n3. **SpaceX 冷气推力 $\\vec{F}_{\\text{thruster}}$（荧光橙红色）**：\n   - `STAGE 01–03`：沿车头方向推动加速；\n   - `ST…",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111441312323088473/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111441312323088473"
+ },
+ {
+  "id": "2111499376137056291",
+  "title": "Minimal physics UI toggles animation",
+  "title_zh": "极简物理效果UI开关动画",
+  "category": "ui-demo",
+  "author": {
+   "handle": "thtbee_",
+   "name": "Bee"
+  },
+  "postUrl": "https://x.com/thtbee_/status/2111499376137056291",
+  "createdAt": "2026-10-17T16:47:35.000Z",
+  "durationMs": 40483,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111499376137056291/video.mp4",
+  "promptShared": true,
+  "promptText": "Gemini 4 Argon - A set of minimal physics UI toggles..\n\nThe prompt was just one line.. Build me a minimal UI library with a bunch of realistic physics stuff which animate when toggled be creative in your choices and design taste!\n\nLove the tiny animations!",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111499376137056291/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111499376137056291"
+ },
+ {
+  "id": "2111508406217658697",
+  "title": "DeepSeek and Gemini Miku SVG drawing animation comparison",
+  "title_zh": "DeepSeek与Gemini初音未来SVG绘图动画对比",
+  "category": "comparison",
+  "author": {
+   "handle": "leo114119",
+   "name": "Leo · Building w/ AI"
+  },
+  "postUrl": "https://x.com/leo114119/status/2111508406217658697",
+  "createdAt": "2026-10-17T17:23:28.000Z",
+  "durationMs": 22000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111508406217658697/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111508406217658697/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111508406217658697"
+ },
+ {
+  "id": "2111540036282069321",
+  "title": "Interactive electric field lines learning website",
+  "title_zh": "电场线交互式教学网页展示",
+  "category": "explainer",
+  "author": {
+   "handle": "thebuggeddev",
+   "name": "The Bugged Dev"
+  },
+  "postUrl": "https://x.com/thebuggeddev/status/2111540036282069321",
+  "createdAt": "2026-10-17T19:29:09.000Z",
+  "durationMs": 64541,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111540036282069321/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111540036282069321/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111540036282069321"
+ },
+ {
+  "id": "2111580341626687586",
+  "title": "Eiffel Tower benchmark comparison across four models",
+  "title_zh": "四款模型的埃菲尔铁塔基准测试对比",
+  "category": "comparison",
+  "author": {
+   "handle": "EnvolDev",
+   "name": "Tony"
+  },
+  "postUrl": "https://x.com/EnvolDev/status/2111580341626687586",
+  "createdAt": "2026-10-17T22:09:19.000Z",
+  "durationMs": 20000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111580341626687586/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111580341626687586/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111580341626687586"
+ },
+ {
+  "id": "2111685770075672709",
+  "title": "Ancient Egypt created in Three.js",
+  "title_zh": "使用Three.js构建的古埃及场景",
+  "category": "3d-scene",
+  "author": {
+   "handle": "designwkarthick",
+   "name": "Karthick"
+  },
+  "postUrl": "https://x.com/designwkarthick/status/2111685770075672709",
+  "createdAt": "2026-10-18T05:08:15.000Z",
+  "durationMs": 10005,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111685770075672709/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111685770075672709/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111685770075672709"
+ },
+ {
+  "id": "2111760509372404142",
+  "title": "Comparison of molten elephant generation between models",
+  "title_zh": "熔岩大象生成的双模型对比",
+  "category": "comparison",
+  "author": {
+   "handle": "kinderlayer",
+   "name": "Kinder"
+  },
+  "postUrl": "https://x.com/kinderlayer/status/2111760509372404142",
+  "createdAt": "2026-10-18T10:05:14.000Z",
+  "durationMs": 15000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111760509372404142/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111760509372404142/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111760509372404142"
+ },
+ {
+  "id": "2111821910442991632",
+  "title": "Animating humanoid zombie 3D models with Mixamo pipeline",
+  "title_zh": "利用Mixamo工作流驱动人形丧尸3D模型动画",
+  "category": "3d-scene",
+  "author": {
+   "handle": "maxt3chno",
+   "name": "Max"
+  },
+  "postUrl": "https://x.com/maxt3chno/status/2111821910442991632",
+  "createdAt": "2026-10-18T14:09:13.000Z",
+  "durationMs": 43374,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111821910442991632/video.mp4",
+  "promptShared": false,
+  "featured": 3,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111821910442991632/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111821910442991632"
+ },
+ {
+  "id": "2111861310619029557",
+  "title": "Recreating Paris in 1996 with four AI models",
+  "title_zh": "用四款AI模型代码重现1996年的巴黎",
+  "category": "comparison",
+  "author": {
+   "handle": "RafaCrackYT",
+   "name": "Rafa"
+  },
+  "postUrl": "https://x.com/RafaCrackYT/status/2111861310619029557",
+  "createdAt": "2026-10-18T16:45:47.000Z",
+  "durationMs": 30000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111861310619029557/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111861310619029557/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111861310619029557"
+ },
+ {
+  "id": "2111932070079701238",
+  "title": "Precision 3D cartographic stage of historical ruins",
+  "title_zh": "历史遗迹的三维测绘场景展示",
+  "category": "3d-scene",
+  "author": {
+   "handle": "soumyadesign",
+   "name": "Soumya"
+  },
+  "postUrl": "https://x.com/soumyadesign/status/2111932070079701238",
+  "createdAt": "2026-10-18T21:26:57.000Z",
+  "durationMs": 38442,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111932070079701238/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111932070079701238/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111932070079701238"
+ },
+ {
+  "id": "2111987269594984920",
+  "title": "Motion design created with Muse AI",
+  "title_zh": "使用Muse AI制作的动态设计",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "tirtaVEX",
+   "name": "𝗧𝗶𝗿𝘁𝗮"
+  },
+  "postUrl": "https://x.com/tirtaVEX/status/2111987269594984920",
+  "createdAt": "2026-10-19T01:06:18.000Z",
+  "durationMs": 22500,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111987269594984920/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111987269594984920/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111987269594984920"
+ },
+ {
+  "id": "2112094590068982028",
+  "title": "Man throwing a turkey animation model comparison",
+  "title_zh": "扔生火鸡动画的模型对比测试",
+  "category": "comparison",
+  "author": {
+   "handle": "m1lad_az",
+   "name": "Milad"
+  },
+  "postUrl": "https://x.com/m1lad_az/status/2112094590068982028",
+  "createdAt": "2026-10-19T08:12:45.000Z",
+  "durationMs": 19223,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112094590068982028/video.mp4",
+  "promptShared": true,
+  "promptText": "Gemini 4 Argon vs Claude Opus 5.5.\n\nSame prompt. Same task.\n\nGenerate an animation of a man throwing a raw turkey at another person.\n\nOne delivers a chaotic explosion. The other takes a different approach.\n\nWhich one wins?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112094590068982028/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112094590068982028"
+ },
+ {
+  "id": "2112094806084386839",
+  "title": "Explorable 3D worlds generated in Blender code",
+  "title_zh": "Blender代码生成的可探索3D世界",
+  "category": "3d-scene",
+  "author": {
+   "handle": "GaoYipeng",
+   "name": "Yipeng Gao"
+  },
+  "postUrl": "https://x.com/GaoYipeng/status/2112094806084386839",
+  "createdAt": "2026-10-19T08:13:37.000Z",
+  "durationMs": 20649,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112094806084386839/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112094806084386839/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112094806084386839"
+ },
+ {
+  "id": "2112106298980589613",
+  "title": "Ukiyo-e wave motion animation model comparison",
+  "title_zh": "浮世绘海浪木版画动画效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "renoiseai",
+   "name": "Renoise"
+  },
+  "postUrl": "https://x.com/renoiseai/status/2112106298980589613",
+  "createdAt": "2026-10-19T08:59:17.000Z",
+  "durationMs": 15041,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112106298980589613/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112106298980589613/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112106298980589613"
+ },
+ {
+  "id": "2112122248983089358",
+  "title": "Pelican driving a roadster comparison across models",
+  "title_zh": "多模型生成鹈鹕驾驶跑车动画对比",
+  "category": "comparison",
+  "author": {
+   "handle": "noclipepe",
+   "name": "noclipepe"
+  },
+  "postUrl": "https://x.com/noclipepe/status/2112122248983089358",
+  "createdAt": "2026-10-19T10:02:40.000Z",
+  "durationMs": 23800,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112122248983089358/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112122248983089358/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112122248983089358"
+ },
+ {
+  "id": "2112148792623738955",
+  "title": "Horror game scene built with Blender and Unreal",
+  "title_zh": "用Blender与虚幻引擎制作的恐怖游戏场景",
+  "category": "game",
+  "author": {
+   "handle": "chirovisuals",
+   "name": "Chiro Visuals"
+  },
+  "postUrl": "https://x.com/chirovisuals/status/2112148792623738955",
+  "createdAt": "2026-10-19T11:48:08.000Z",
+  "durationMs": 52083,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112148792623738955/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112148792623738955/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112148792623738955"
+ },
+ {
+  "id": "2112174771031138684",
+  "title": "Anime character Azure Dragon WebGL rendering comparison",
+  "title_zh": "网页端青龙形态渲染效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Quaxguy",
+   "name": "Siddharth Jain"
+  },
+  "postUrl": "https://x.com/Quaxguy/status/2112174771031138684",
+  "createdAt": "2026-10-19T13:31:22.000Z",
+  "durationMs": 28600,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112174771031138684/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112174771031138684/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112174771031138684"
+ },
+ {
+  "id": "2112184729307091130",
+  "title": "Multi-model prompt and task benchmark comparison",
+  "title_zh": "多模型同提示词任务横向对比",
+  "category": "comparison",
+  "author": {
+   "handle": "hsprafrique",
+   "name": "Sam Ivere"
+  },
+  "postUrl": "https://x.com/hsprafrique/status/2112184729307091130",
+  "createdAt": "2026-10-19T14:10:56.000Z",
+  "durationMs": 25008,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112184729307091130/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112184729307091130/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112184729307091130"
+ },
+ {
+  "id": "2112187009590575575",
+  "title": "Train ride through a floating world above clouds",
+  "title_zh": "云端之上奇幻世界的火车之旅对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Deevid_AI",
+   "name": "Deevid AI"
+  },
+  "postUrl": "https://x.com/Deevid_AI/status/2112187009590575575",
+  "createdAt": "2026-10-19T14:20:00.000Z",
+  "durationMs": 16682,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112187009590575575/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112187009590575575/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112187009590575575"
+ },
+ {
+  "id": "2112192504950817120",
+  "title": "Autonomous AI agents playing Minecraft",
+  "title_zh": "自主AI智能体通关Minecraft",
+  "category": "game",
+  "author": {
+   "handle": "Mikadzyki_NFT",
+   "name": "Mikadzyki🌙"
+  },
+  "postUrl": "https://x.com/Mikadzyki_NFT/status/2112192504950817120",
+  "createdAt": "2026-10-19T14:41:50.000Z",
+  "durationMs": 15000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112192504950817120/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112192504950817120/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112192504950817120"
+ },
+ {
+  "id": "2112192839912231363",
+  "title": "Drive folder workflow turning emails into AI memory",
+  "title_zh": "将已发邮件转化为AI记忆的云端工作流",
+  "category": "ui-demo",
+  "author": {
+   "handle": "Nazik2053",
+   "name": "Nazar"
+  },
+  "postUrl": "https://x.com/Nazik2053/status/2112192839912231363",
+  "createdAt": "2026-10-19T14:43:10.000Z",
+  "durationMs": 24000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112192839912231363/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112192839912231363/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112192839912231363"
+ },
+ {
+  "id": "2112197089702666496",
+  "title": "Procedural 3D New York City helicopter tour in Three.js",
+  "title_zh": "Three.js纯程序化生成的3D纽约直升机巡游",
+  "category": "3d-scene",
+  "author": {
+   "handle": "StatsWire",
+   "name": "Stats Wire"
+  },
+  "postUrl": "https://x.com/StatsWire/status/2112197089702666496",
+  "createdAt": "2026-10-19T15:00:03.000Z",
+  "durationMs": 64917,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112197089702666496/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112197089702666496/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112197089702666496"
+ },
+ {
+  "id": "2112206606255436050",
+  "title": "WebGL sketches reel with procedural audio",
+  "title_zh": "WebGL速写合集与程序化音频",
+  "category": "3d-scene",
+  "author": {
+   "handle": "dcmotz",
+   "name": "Dan Motzenbecker"
+  },
+  "postUrl": "https://x.com/dcmotz/status/2112206606255436050",
+  "createdAt": "2026-10-19T15:37:52.000Z",
+  "durationMs": 20500,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112206606255436050/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112206606255436050/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112206606255436050"
+ },
+ {
+  "id": "2112208449056731188",
+  "title": "A Tesla Roadster canyon jump simulation in Three.js",
+  "title_zh": "Three.js 打造的特斯拉跑车飞跃峡谷模拟",
+  "category": "game",
+  "author": {
+   "handle": "AnshulDhawan001",
+   "name": "Anshul Dhawan"
+  },
+  "postUrl": "https://x.com/AnshulDhawan001/status/2112208449056731188",
+  "createdAt": "2026-10-19T15:45:11.000Z",
+  "durationMs": 20077,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112208449056731188/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112208449056731188/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112208449056731188"
+ },
+ {
+  "id": "2112245743272485107",
+  "title": "Minecraft simulation where trees are made of jelly",
+  "title_zh": "树木皆如果冻的我的世界演示",
+  "category": "game",
+  "author": {
+   "handle": "cop_on_fire",
+   "name": "Denis Timonin"
+  },
+  "postUrl": "https://x.com/cop_on_fire/status/2112245743272485107",
+  "createdAt": "2026-10-19T18:13:23.000Z",
+  "durationMs": 14700,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112245743272485107/video.mp4",
+  "promptShared": true,
+  "promptText": "Minecraft, but even the trees are jelly.\n\nGemini 4 Argon High: ~$12\nDeepSeek V4.1 Flash Max: ~$1.30\n\nPlayable demos, code, prompts below.\nClone one and make it weirder",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112245743272485107/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112245743272485107"
+ },
+ {
+  "id": "2112247645955895455",
+  "title": "Tesla Roadster POV drive generated by four models",
+  "title_zh": "四款模型纯代码生成的特斯拉主视角驾驶",
+  "category": "comparison",
+  "author": {
+   "handle": "RafaCrackYT",
+   "name": "Rafa"
+  },
+  "postUrl": "https://x.com/RafaCrackYT/status/2112247645955895455",
+  "createdAt": "2026-10-19T18:20:57.000Z",
+  "durationMs": 30000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112247645955895455/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112247645955895455/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112247645955895455"
+ },
+ {
+  "id": "2112253223394279507",
+  "title": "Counter-Strike Dust 2 map with Skate 4 physics",
+  "title_zh": "融合CS2炙热沙城与Skate4物理引擎的游戏演示",
+  "category": "game",
+  "author": {
+   "handle": "p0lybender",
+   "name": "PolyBender"
+  },
+  "postUrl": "https://x.com/p0lybender/status/2112253223394279507",
+  "createdAt": "2026-10-19T18:43:06.000Z",
+  "durationMs": 31254,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112253223394279507/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112253223394279507/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112253223394279507"
+ },
+ {
+  "id": "2112262583483044203",
+  "title": "Flying Roadster Three.js benchmark across five AI models",
+  "title_zh": "五款AI模型制作的飞行跑车Three.js基准测试",
+  "category": "comparison",
+  "author": {
+   "handle": "korigero",
+   "name": "kori rogers"
+  },
+  "postUrl": "https://x.com/korigero/status/2112262583483044203",
+  "createdAt": "2026-10-19T19:20:18.000Z",
+  "durationMs": 37483,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112262583483044203/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112262583483044203/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112262583483044203"
+ },
+ {
+  "id": "2112276833395962328",
+  "title": "Offline local health AI app demonstration",
+  "title_zh": "离线本地健康AI应用演示",
+  "category": "ui-demo",
+  "author": {
+   "handle": "itsPaulAi",
+   "name": "Paul Couvert"
+  },
+  "postUrl": "https://x.com/itsPaulAi/status/2112276833395962328",
+  "createdAt": "2026-10-19T20:16:55.000Z",
+  "durationMs": 59443,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112276833395962328/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112276833395962328/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112276833395962328"
  }
 ]
