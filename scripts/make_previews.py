@@ -59,6 +59,20 @@ def main():
     print(f'Previews: {made} made, {len(results) - made - len(failed)} kept, {len(failed)} failed; total {size / 1e6:.1f} MB.')
     for i, s in failed:
         print(f'  {i}: {s}', file=sys.stderr)
+    if failed and len(failed) == len(results):
+        raise SystemExit(f'All {len(failed)} preview encodes failed')
+    # Some failed (a clip Lab has not finished mirroring, a broken file): hold those posts back
+    # from this sync so the rest still ships; the next sync tries them again.
+    if failed:
+        held = {i for i, _ in failed}
+        kept = [v for v in VIDEOS if v['id'] not in held]
+        (ROOT / 'data/videos.json').write_text(json.dumps(kept, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')
+        sync = ROOT / 'data/sync.json'
+        if sync.exists():
+            meta = json.loads(sync.read_text(encoding='utf-8'))
+            meta['count'] = len(kept)
+            sync.write_text(json.dumps(meta, indent=1) + '\n', encoding='utf-8', newline='\n')
+        print(f'Held back {len(held)} post(s) without a preview until the next sync.', file=sys.stderr)
 
 
 if __name__ == '__main__':
