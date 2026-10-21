@@ -2,18 +2,19 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-66 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+68 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
 - [3D scenes](#3d-scene) (16)
-- [Motion graphics](#motion-graphics) (7)
+- [Motion graphics](#motion-graphics) (9)
 - [Games](#game) (5)
 - [Product UI](#ui-demo) (6)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
-- [Tests & comparisons](#comparison) (29)
+- [Explainers](#explainer) (1)
+- [Tests & comparisons](#comparison) (28)
 
 <a id="3d-scene"></a>
 
@@ -374,6 +375,32 @@ I ran the prompt myself, and the results from Gemini 4 Argon is MUCH better. Opu
 Full prompt below.
 ```
 
+### Miniature blonde female riding a giant bee
+
+[@wilzap](https://x.com/wilzap/status/2110509507558154315) · 0:34 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110509507558154315/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110509507558154315?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+I have just used Gemini 4 Argon and fed it a simple thing that I wanted and it structured it into a prompt for a video. It is almost like it knew exactly what I wanted. I am impressed by the model. 
+
+I did not ask it to make image references and vocal references but it made them automatically. 
+
+What I asked: Make a miniature blonde female the size of an ant flying through the mountainous canyons on top of a giant bee. Make this a 30 second video and use the right tools for this
+```
+
+### Unified images video and motion generation showcase
+
+[@AntSeed](https://x.com/AntSeed/status/2110742865483563390) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110742865483563390/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110742865483563390?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon bringing images, video and motion together surprised us 🤯   
+
+When everything shares the same code, you can keep the scene you love and direct what happens inside it. 
+
+Total cost via Antseed: $1.56 
+
+All 10 with prompts below ↓
+```
+
 ### Dynamic motion graphics showcase generated with code
 
 [@IamEmily2050](https://x.com/IamEmily2050/status/2111381391246320012) · 0:45 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111381391246320012/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111381391246320012?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -611,6 +638,40 @@ I asked it to create "ECLIPSE" a 3D cinematic title sequence from scratch.
 It is surprisingly good at 3D spatial and creative direction.
 
 Finally a worthy model from Google.
+```
+
+<a id="explainer"></a>
+
+## Explainers
+
+### Automated code optimization with Gemini 4 Argon
+
+[@0xMfox](https://x.com/0xMfox/status/2110453983525613637) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110453983525613637/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110453983525613637?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Google engineers gave Gemini 4 Argon ONE paragraph and went to sleep. 11 hours later the framework ran 40% FASTER and all 16,892 tests passed.
+
+Give your agent a job that size and it stops early or breaks something you never named.
+
+Argon's first run without rules quietly changed a public schema and ran only 216 of 16,892 tests.
+
+The overnight run worked because of 2 things.
+
+The prompt, built on the one Google published:
+
+/goal Make [project] [the outcome you want], measured on [where it matters].
+Keep [public API, outputs, anything users rely on] unchanged.
+Back every change with a test that would catch a regression.
+Open one pull request with before and after numbers in its description.
+Don't merge it.
+
+Type it into Antigravity on Google AI Ultra. /goal keeps the task pinned even after the agent compresses its memory.
+
+The second thing is a .agents/skills folder in your repo: one short SKILL.md that sends the agent to a separate file for each house rule.
+
+Argon read 12 rule files before touching code, proposed 6 changes, and Google shipped 2 after review.
+
+Bookmark the 5-line /goal prompt for the night Argon gets your repo.
 ```
 
 <a id="comparison"></a>
@@ -985,28 +1046,6 @@ Gemini 4 Argon vs Muse Wonder
 Gemini 4 Argon vs. Claude Opus 5.5 🐎
 
 Create 3D liquid horse animation using Three.js 👇
-```
-
-### Interactive holographic CD in browser
-
-[@kinderlayer](https://x.com/kinderlayer/status/2110346627172983121) · 0:16 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110346627172983121/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110346627172983121?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-holy sh*t. 4 models, one prompt. and one of them costs pennies.
-
-GPT-6 Astra · Gemini 4 Argon · Claude Opus 5.5 · Claude Haiku 5.5
-
-same prompt: build an interactive holographic CD, drag to tilt, shatter on click. zero edits, zero cherry-picking.
-
-Astra and Gemini went clean and crisp. Opus leaned all the way in - depth, glow, the holo catching light like a real disc.
-
-then remember the bottom-right is Haiku. the cheap one. the model you run by the thousand. and it’s standing in the same frame as three flagships.
-
-that’s the part nobody prices in. the gap between the best and cheap enough to run all day is closing fast.
-
-which disc would you actually ship? and did you clock which one was the budget model?
-
-follow if you want to learn to build stuff like this, I break down the models every week.
 ```
 
 ### 3D Japanese house with cherry blossom trees

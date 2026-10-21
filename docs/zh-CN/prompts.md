@@ -2,18 +2,19 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 66 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 68 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (16)
-- [动效](#motion-graphics) (7)
+- [动效](#motion-graphics) (9)
 - [游戏](#game) (5)
 - [产品界面](#ui-demo) (6)
 - [粒子与形状](#particles) (1)
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
-- [测试对比](#comparison) (29)
+- [讲解](#explainer) (1)
+- [测试对比](#comparison) (28)
 
 <a id="3d-scene"></a>
 
@@ -374,6 +375,32 @@ I ran the prompt myself, and the results from Gemini 4 Argon is MUCH better. Opu
 Full prompt below.
 ```
 
+### 骑着巨型蜜蜂在峡谷飞行的微缩少女
+
+[@wilzap](https://x.com/wilzap/status/2110509507558154315) · 0:34 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110509507558154315/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110509507558154315?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+I have just used Gemini 4 Argon and fed it a simple thing that I wanted and it structured it into a prompt for a video. It is almost like it knew exactly what I wanted. I am impressed by the model. 
+
+I did not ask it to make image references and vocal references but it made them automatically. 
+
+What I asked: Make a miniature blonde female the size of an ant flying through the mountainous canyons on top of a giant bee. Make this a 30 second video and use the right tools for this
+```
+
+### 图像视频与动态结合生成效果展示
+
+[@AntSeed](https://x.com/AntSeed/status/2110742865483563390) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110742865483563390/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110742865483563390?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon bringing images, video and motion together surprised us 🤯   
+
+When everything shares the same code, you can keep the scene you love and direct what happens inside it. 
+
+Total cost via Antseed: $1.56 
+
+All 10 with prompts below ↓
+```
+
 ### 动态动态图形设计作品展示
 
 [@IamEmily2050](https://x.com/IamEmily2050/status/2111381391246320012) · 0:45 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111381391246320012/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111381391246320012?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -611,6 +638,40 @@ I asked it to create "ECLIPSE" a 3D cinematic title sequence from scratch.
 It is surprisingly good at 3D spatial and creative direction.
 
 Finally a worthy model from Google.
+```
+
+<a id="explainer"></a>
+
+## 讲解
+
+### 使用Gemini 4 Argon实现自动化代码优化
+
+[@0xMfox](https://x.com/0xMfox/status/2110453983525613637) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110453983525613637/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110453983525613637?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Google engineers gave Gemini 4 Argon ONE paragraph and went to sleep. 11 hours later the framework ran 40% FASTER and all 16,892 tests passed.
+
+Give your agent a job that size and it stops early or breaks something you never named.
+
+Argon's first run without rules quietly changed a public schema and ran only 216 of 16,892 tests.
+
+The overnight run worked because of 2 things.
+
+The prompt, built on the one Google published:
+
+/goal Make [project] [the outcome you want], measured on [where it matters].
+Keep [public API, outputs, anything users rely on] unchanged.
+Back every change with a test that would catch a regression.
+Open one pull request with before and after numbers in its description.
+Don't merge it.
+
+Type it into Antigravity on Google AI Ultra. /goal keeps the task pinned even after the agent compresses its memory.
+
+The second thing is a .agents/skills folder in your repo: one short SKILL.md that sends the agent to a separate file for each house rule.
+
+Argon read 12 rule files before touching code, proposed 6 changes, and Google shipped 2 after review.
+
+Bookmark the 5-line /goal prompt for the night Argon gets your repo.
 ```
 
 <a id="comparison"></a>
@@ -985,28 +1046,6 @@ Gemini 4 Argon vs Muse Wonder
 Gemini 4 Argon vs. Claude Opus 5.5 🐎
 
 Create 3D liquid horse animation using Three.js 👇
-```
-
-### 可倾斜破碎的交互式全息CD光盘
-
-[@kinderlayer](https://x.com/kinderlayer/status/2110346627172983121) · 0:16 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110346627172983121/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110346627172983121?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-holy sh*t. 4 models, one prompt. and one of them costs pennies.
-
-GPT-6 Astra · Gemini 4 Argon · Claude Opus 5.5 · Claude Haiku 5.5
-
-same prompt: build an interactive holographic CD, drag to tilt, shatter on click. zero edits, zero cherry-picking.
-
-Astra and Gemini went clean and crisp. Opus leaned all the way in - depth, glow, the holo catching light like a real disc.
-
-then remember the bottom-right is Haiku. the cheap one. the model you run by the thousand. and it’s standing in the same frame as three flagships.
-
-that’s the part nobody prices in. the gap between the best and cheap enough to run all day is closing fast.
-
-which disc would you actually ship? and did you clock which one was the budget model?
-
-follow if you want to learn to build stuff like this, I break down the models every week.
 ```
 
 ### 樱花树环绕的 3D 日式房屋
