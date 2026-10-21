@@ -2,18 +2,18 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 59 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 66 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (16)
 - [动效](#motion-graphics) (7)
-- [游戏](#game) (4)
-- [产品界面](#ui-demo) (4)
+- [游戏](#game) (5)
+- [产品界面](#ui-demo) (6)
 - [粒子与形状](#particles) (1)
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
-- [测试对比](#comparison) (25)
+- [测试对比](#comparison) (29)
 
 <a id="3d-scene"></a>
 
@@ -391,6 +391,18 @@ I put the code on GitHub, and I'll start adding more complex prompts.
 
 ## 游戏
 
+### Gemini生成的网页端3D射击游戏
+
+[@npaka123](https://x.com/npaka123/status/2110119580207337739) · 1:05 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110119580207337739/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110119580207337739?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argonでゲーム生成をお試し中
+
+プロンプト:
+HTML・CSS・JavaScriptを1つのHTMLファイルにまとめ、ブラウザだけで動作する完成度の高い3DシューティングゲームのHTMLを作成して。
+ワープ演出から始まり、ザコ敵、中ボス、ラスボスと連続して戦う。派手なエフェクト、高速スクロール、迫力あるカメラワークを取り入れ、ハイクオリティなゲームに仕上げて。順調に進めば約1分でクリアできる構成にして。
+```
+
 ### 可玩的 3D 游戏 Jelly Jet Takeoff
 
 [@nex_ify](https://x.com/nex_ify/status/2110232072405065889) · 1:20 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110232072405065889/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110232072405065889?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -521,6 +533,34 @@ Gemini 4 Argon - A set of minimal physics UI toggles..
 The prompt was just one line.. Build me a minimal UI library with a bunch of realistic physics stuff which animate when toggled be creative in your choices and design taste!
 
 Love the tiny animations!
+```
+
+### 通过Canvas将PDF转为互动式应用
+
+[@Drake5112](https://x.com/Drake5112/status/2112287676162592997) · 0:21 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112287676162592997/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112287676162592997?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argonの、分厚いPDFを対話型アプリに変換できるCanvasの新機能が本当に面白いです。
+
+僕が試したのは名著『シリコンバレー最重要思想家 ナヴァル・ラヴィカント』。要するに現代でお金持ちになる方法を解説した本で、全文PDFが無料公開されているだけでもエグいんですが、Canvasに入れると資産差シミュレーターや後悔のフジツボを剥がすワークまで触って試せるので一気に腹落ちします。
+
+Web版でCanvasを選び（Argon LowでOK）、PDFを添付して一言送るだけ。作ったアプリと無料PDFのリンク、プロンプトは⇩に置いておきますね。
+```
+
+### Gemini 4 Argon Medium代码生成测试
+
+[@vipinxtwt](https://x.com/vipinxtwt/status/2112428222340292917) · 0:34 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112428222340292917/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112428222340292917?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+After taking Rody’s advice, I tried Gemini 4 Argon Medium.
+
+Prompt 1: Write a simple CAS (Compare-And-Swap) operation. 27% usage gone.
+
+Prompt 2: Write code for a custom fixed-size object allocator with a two-tiered lock-free architecture
+
+Total usage: 60% in just 2 prompts.
+
+guess i'll try low mode after my 5 hour limit resets.
 ```
 
 <a id="particles"></a>
@@ -1038,6 +1078,62 @@ Same prompt: "Build a night train."
 What do you guys think? 👀
 ```
 
+### 玩具火箭发射与助推器回收场景对比
+
+[@0xKense1](https://x.com/0xKense1/status/2110731542745989301) · 0:19 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110731542745989301/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110731542745989301?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+I pay for Google AI Pro, and Gemini 4 Argon isn't even in my AI Studio. A shame, because look what it built through the API in 3 minutes for $0.19.
+
+Claude Opus 5.5 took 15 minutes and $2.61 on the same prompt.
+
+Both caught the booster. The 14x bought Opus a camera operator.
+
+The prompt: a toy rocket on a desk under a lamp. You press LAUNCH, the top stage flies off, the booster comes back and the tower arms catch it. One shot each, nothing fixed afterwards, and the Opus cost is at API prices.
+
+Argon (top) keeps the camera still and the scene clean, and every step works. Opus (bottom) chases the rocket with the camera, blurs the bookshelf behind it and leaves the booster hanging in the arms inside its own smoke, like a shot from a film.
+
+Opus also needed the right effort setting. My first version of this prompt ran at high effort for 31 minutes without writing a file, and I stopped it. Medium is what shipped this one.
+
+On Pro, Argon only shows up in the Gemini chat. Building with it in AI Studio or Antigravity needs Ultra or a paid API key. Does anyone here actually pay for Ultra?
+
+Which one would you ship: the $0.19 one that works, or the $2.61 one that looks like a trailer?
+
+Both are live in the first reply if you want to press LAUNCH yourself.
+```
+
+### 四季变换樱花树3D场景对比
+
+[@AIMind_Ai](https://x.com/AIMind_Ai/status/2110792641277198383) · 0:17 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110792641277198383/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110792641277198383?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Claude Opus 5.5 spent $15.14 on one cherry tree. Gemini 4 Argon did it for ~$0.20.
+
+Both got the same prompt: A real 3D scene where one cherry tree goes from snow to blossom, cherries, falling leaves and back to snow, a whole year in 16 seconds.
+
+Opus ran as an agent and spent 1h 50m checking its own frames. Gemini wrote it in one pass.
+
+Opus cost 75x more. Its version has painted leaves, petals blowing across the meadow and robins pecking at the cherries. Gemini’s leaves look like jelly beans
+```
+
+### 四款AI模型同提示词生成星型发动机对比
+
+[@kinderlayer](https://x.com/kinderlayer/status/2111089884463030449) · 0:13 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111089884463030449/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111089884463030449?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+this is f*cking wild. 4 AIs, one prompt - build a radial engine - and not one built the same machine.
+
+Claude Opus 5.5 · GPT-6 Astra · Gemini 4 Argon · Grok 4.7
+
+same words, four completely different instincts. Astra over-built it - every cylinder, every bolt, a full holographic blueprint. Opus went tight and clean, exactly enough and nothing extra. Gemini leaned industrial, all fins and mass. Grok kept it simple - maybe too simple.
+
+this is the part benchmarks never catch. build it isn’t one skill. one model shows off, one model edits itself, one model shrugs. the gap isn’t accuracy anymore - it’s taste and restraint.
+
+so which one would you actually trust to turn over and run? Opus, Astra, Gemini or Grok?
+
+I run one of these every week, and the differences only get sharper.
+```
+
 ### 特斯拉Roadster 3D遥测仿真对比
 
 [@IFITALEX](https://x.com/IFITALEX/status/2111441312323088473) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111441312323088473/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111441312323088473?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1114,6 +1210,21 @@ Deepseek V4.1 1017实测完爆Gemini 4 Argon!
 3. **SpaceX 冷气推力 $\vec{F}_{\text{thruster}}$（荧光橙红色）**：
    - `STAGE 01–03`：沿车头方向推动加速；
    - `ST…
+```
+
+### 地毯中涌出的熔岩大象生成对比
+
+[@noclipepe](https://x.com/noclipepe/status/2111858653456150974) · 0:22 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111858653456150974/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111858653456150974?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+DID GEMINI AND OPUS REALLY GET THE SAME PROMPT? 💀
+
+A molten elephant emerging from a carpet.
+
+Gemini 4 Argon made a lava boss.
+Opus 5.5 set an elephant on fire.
+
+Who understood the assignment?
 ```
 
 ### 扔生火鸡动画的模型对比测试
