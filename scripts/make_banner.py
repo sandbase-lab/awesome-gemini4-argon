@@ -25,6 +25,8 @@ by_id = {v['id']: v for v in videos}
 picks = [by_id[i] for i in PINNED if i in by_id and by_id[i]['poster']]
 picks += sorted((v for v in videos if ok(v) and v['featured'] is not None and v not in picks), key=lambda v: v['featured'])
 picks += [v for v in videos if ok(v) and v not in picks]
+# Few posts in those categories: fill with any other finished poster rather than leave cells dark.
+picks += [v for v in videos if v['poster'] and not any(w in v['title'].lower() for w in SKIP) and v not in picks]
 picks = picks[:8]
 
 
