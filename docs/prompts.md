@@ -2,19 +2,19 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-68 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+69 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (16)
+- [3D scenes](#3d-scene) (17)
 - [Motion graphics](#motion-graphics) (9)
 - [Games](#game) (5)
-- [Product UI](#ui-demo) (6)
+- [Product UI](#ui-demo) (5)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (1)
-- [Tests & comparisons](#comparison) (28)
+- [Tests & comparisons](#comparison) (29)
 
 <a id="3d-scene"></a>
 
@@ -273,6 +273,22 @@ AI animation is limitless now.
 Gemini 4 ARGON and Seedance 2.5 turned ONE idea into an entire cinematic 3D scene.
 
 Full prompt below:
+```
+
+### Interactive tearable concert ticket with holographic foil
+
+[@SammmAing](https://x.com/SammmAing/status/2113098378942828632) · 0:21 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113098378942828632/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113098378942828632?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Okay, Gemini 4 Argon is freaking good at this.
+
+First try in @antigravity, set to High.
+
+A concert ticket you can bend, flip and tear off. Tearing it is so satisfying. It rips one fiber at a time and even the sound is made in code.
+
+The holographic foil shifts as the paper bends. It feels super premium.
+
+The full prompt below.
 ```
 
 <a id="motion-graphics"></a>
@@ -548,18 +564,6 @@ What Gemini 4 Argon built from scratch:
 • 1-click watertight binary .STL & .OBJ export for Bambu Studio / Cura
 
 Zero external libraries. Runs 100% in the browser 👇
-```
-
-### Minimal physics UI toggles animation
-
-[@thtbee_](https://x.com/thtbee_/status/2111499376137056291) · 0:40 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111499376137056291/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111499376137056291?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon - A set of minimal physics UI toggles..
-
-The prompt was just one line.. Build me a minimal UI library with a bunch of realistic physics stuff which animate when toggled be creative in your choices and design taste!
-
-Love the tiny animations!
 ```
 
 ### Interactive app generated from a PDF in Canvas
@@ -1064,18 +1068,6 @@ Gemini 4 Argon vs GPT-6.1 Sol
 Google is cooking again!! 🔥
 ```
 
-### Voxel art world generation comparison
-
-[@EvoLinkAi](https://x.com/EvoLinkAi/status/2110377592394031397) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110377592394031397/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110377592394031397?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-🔥Two models. One voxel art challenge.
-
-Opus 5.5 does a better job of restoring the voxel art world, while Gemini 4 Argon didn't perform as well.
-
-Do you agree with this ranking? Full prompt below 👇
-```
-
 ### Interactive firefly jar in Three.js
 
 [@0xRhinoX](https://x.com/0xRhinoX/status/2110382089476407630) · 0:39 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110382089476407630/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110382089476407630?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1171,6 +1163,34 @@ this is the part benchmarks never catch. build it isn’t one skill. one model s
 so which one would you actually trust to turn over and run? Opus, Astra, Gemini or Grok?
 
 I run one of these every week, and the differences only get sharper.
+```
+
+### Forest river Three.js scene comparison
+
+[@0xchromium](https://x.com/0xchromium/status/2111092796228854226) · 0:24 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111092796228854226/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111092796228854226?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+OPUS 5.5 VS GEMINI 4 ARGON
+
+Argon is the one everybody calls the bargain right now, Opus is the one people complain about paying for
+
+same prompt, same reference images, same forest river scene in three.js, both runs posted untouched
+
+Opus got it first try
+
+Argon went through three rounds of feedback and the light is still off
+
+why this one is harder than the usual side by side:
+
+> the scene it had to match was modeled by Opus itself inside Blender
+> 76 minutes end to end, zero hand edits afterwards
+> the prompts went public, anyone can rerun the same thing
+> both sides started from identical references
+> light and materials are the part a bigger context window can't fake
+
+one scene and one tester, so it's a signal rather than a verdict
+
+video: @anxuanng
 ```
 
 ### Tesla Roadster 3D telemetry simulation comparison
@@ -1280,4 +1300,22 @@ Generate an animation of a man throwing a raw turkey at another person.
 One delivers a chaotic explosion. The other takes a different approach.
 
 Which one wins?
+```
+
+### Stretchable jelly duck comparison between two models
+
+[@0xlillyy](https://x.com/0xlillyy/status/2113022743763652857) · 0:17 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113022743763652857/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113022743763652857?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+opus 5.5 vs gemini 4 argon
+
+$0.32 vs $2.7
+
+same prompt: a jelly superhero duck you can stretch
+
+-> pull the cheek and it turns into a gummy strand
+-> toss it and it flips with the cape flapping
+-> 5 more ducks rain down and jiggle
+
+gemini gave me stiff plastic and a red stick…
 ```
