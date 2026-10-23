@@ -2,19 +2,19 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-69 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+71 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
 - [3D scenes](#3d-scene) (17)
 - [Motion graphics](#motion-graphics) (9)
 - [Games](#game) (5)
-- [Product UI](#ui-demo) (5)
+- [Product UI](#ui-demo) (6)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (1)
-- [Tests & comparisons](#comparison) (29)
+- [Tests & comparisons](#comparison) (30)
 
 <a id="3d-scene"></a>
 
@@ -566,6 +566,18 @@ What Gemini 4 Argon built from scratch:
 Zero external libraries. Runs 100% in the browser 👇
 ```
 
+### Minimal physics UI toggles animation
+
+[@thtbee_](https://x.com/thtbee_/status/2111499376137056291) · 0:40 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111499376137056291/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111499376137056291?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon - A set of minimal physics UI toggles..
+
+The prompt was just one line.. Build me a minimal UI library with a bunch of realistic physics stuff which animate when toggled be creative in your choices and design taste!
+
+Love the tiny animations!
+```
+
 ### Interactive app generated from a PDF in Canvas
 
 [@Drake5112](https://x.com/Drake5112/status/2112287676162592997) · 0:21 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112287676162592997/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112287676162592997?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1066,6 +1078,18 @@ Gemini absolutely nailed it. The visuals were stunning, the atmosphere was beaut
 Gemini 4 Argon vs GPT-6.1 Sol 
 
 Google is cooking again!! 🔥
+```
+
+### Voxel art world generation comparison
+
+[@EvoLinkAi](https://x.com/EvoLinkAi/status/2110377592394031397) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110377592394031397/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110377592394031397?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+🔥Two models. One voxel art challenge.
+
+Opus 5.5 does a better job of restoring the voxel art world, while Gemini 4 Argon didn't perform as well.
+
+Do you agree with this ranking? Full prompt below 👇
 ```
 
 ### Interactive firefly jar in Three.js

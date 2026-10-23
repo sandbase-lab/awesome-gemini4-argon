@@ -2,19 +2,19 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 69 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 71 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (17)
 - [动效](#motion-graphics) (9)
 - [游戏](#game) (5)
-- [产品界面](#ui-demo) (5)
+- [产品界面](#ui-demo) (6)
 - [粒子与形状](#particles) (1)
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
 - [讲解](#explainer) (1)
-- [测试对比](#comparison) (29)
+- [测试对比](#comparison) (30)
 
 <a id="3d-scene"></a>
 
@@ -566,6 +566,18 @@ What Gemini 4 Argon built from scratch:
 Zero external libraries. Runs 100% in the browser 👇
 ```
 
+### 极简物理效果UI开关动画
+
+[@thtbee_](https://x.com/thtbee_/status/2111499376137056291) · 0:40 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111499376137056291/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111499376137056291?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon - A set of minimal physics UI toggles..
+
+The prompt was just one line.. Build me a minimal UI library with a bunch of realistic physics stuff which animate when toggled be creative in your choices and design taste!
+
+Love the tiny animations!
+```
+
 ### 通过Canvas将PDF转为互动式应用
 
 [@Drake5112](https://x.com/Drake5112/status/2112287676162592997) · 0:21 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112287676162592997/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112287676162592997?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1066,6 +1078,18 @@ Gemini absolutely nailed it. The visuals were stunning, the atmosphere was beaut
 Gemini 4 Argon vs GPT-6.1 Sol 
 
 Google is cooking again!! 🔥
+```
+
+### 体素艺术世界生成效果模型对比
+
+[@EvoLinkAi](https://x.com/EvoLinkAi/status/2110377592394031397) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110377592394031397/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110377592394031397?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+🔥Two models. One voxel art challenge.
+
+Opus 5.5 does a better job of restoring the voxel art world, while Gemini 4 Argon didn't perform as well.
+
+Do you agree with this ranking? Full prompt below 👇
 ```
 
 ### 可交互的萤火虫玻璃罐
