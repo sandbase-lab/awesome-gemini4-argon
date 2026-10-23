@@ -2,19 +2,19 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 71 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 70 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (17)
-- [动效](#motion-graphics) (9)
-- [游戏](#game) (5)
+- [3D 场景](#3d-scene) (18)
+- [动效](#motion-graphics) (7)
+- [游戏](#game) (6)
 - [产品界面](#ui-demo) (6)
 - [粒子与形状](#particles) (1)
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
-- [讲解](#explainer) (1)
-- [测试对比](#comparison) (30)
+- [讲解](#explainer) (2)
+- [测试对比](#comparison) (28)
 
 <a id="3d-scene"></a>
 
@@ -38,30 +38,6 @@ Gemini 4 Argon high in Antigravity
 just simple prompt:
 > voxel art of mercedes amg f1 car
 one shot btw
-```
-
-### 可漫游的3D森林环境单文件网页
-
-[@analogalok](https://x.com/analogalok/status/2110071798629036542) · 0:25 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110071798629036542/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110071798629036542?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon 1 shot - High Reasoning - 27k Tokens - 0.27 USD cost ($2 input/$10 output)
-
-Prompt: 
-Create a ultra realistic, high quality forest environment that i can navigate. single html file.
-```
-
-### 单HTML文件生成的太阳系漫游动画
-
-[@analogalok](https://x.com/analogalok/status/2110078889859203253) · 0:35 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110078889859203253/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110078889859203253?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon! One shot Solar system.
-
-Prompt: create an ultra realistic high quality, real video like animation of the solar system where the camera revolves around and gives a tour. Single html file
-
-28.5k output tokens including High reasoning. 
-$0.28 cost
 ```
 
 ### Gemini 4 Argon 生成成果展示
@@ -140,61 +116,6 @@ Gemini、CG系も頑張れるようになってる！
 つかったプロンプトはリプに↓
 ```
 
-### 可交互机械腕表3D模型
-
-[@lemomo_ai](https://x.com/lemomo_ai/status/2110187446906613901) · 0:35 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110187446906613901/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110187446906613901?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-我也快速地用gemini 4 Argon 摸了一个3d交互网页
-
-我选了"可拆解的机械腕表"做题目。
-原因是它很考推理：齿轮要真的咬合、传动比要算对，部件多，还有拆解动画，比太阳系、汽车这类常见题目更容易拉开模型之间的差距。
-
-提示词如下 ：
-
-你是顶尖的创意技术专家，精通 Three.js、实时渲染和机械钟表结构。请做一个单文件网页 index.html：一只可交互、可拆解的自动上链机械腕表 3D 模型。
-
-【硬性约束】
-- 只输出一个完整的 index.html，双击就能在 Chrome 里运行，不需要构建工具或本地服务器。
-- 用 importmap 引入 Three.js
-- 不加载任何外部模型、贴图或字体，所有几何体和纹理都用代码程序化生成。
-- 输出完整代码，不要省略，不要写"此处略"。
-
-【模型】
-- 至少 30 个独立部件，包括：表壳、表耳、表冠、蓝宝石表镜、表盘（刻度和自拟品牌名用 Canvas 绘制）、时针、分针、秒针、发条盒、中心轮、三轮、四轮、擒纵轮、擒纵叉、摆轮与游丝、自动陀、夹板、螺丝、红宝石轴承。
-- 齿轮要有真实齿形，啮合位置正确。先算好各齿轮的齿数和传动比，保证秒针 60 秒一圈、分针 60 分钟一圈、时针 12 小时一圈。
-- 尺寸比例参照真实的 40mm 表径手表。
-
-【材质与灯光】
-- 使用 PBR 材质：拉丝和抛光不锈钢、镀金夹板、烤蓝螺丝、半透明红宝石，以及带透射和折射效果的蓝宝石玻璃（MeshPhysicalMaterial）。
-- 用 RoomEnvironment 生成环境反射，开启 ACES 色调映射、柔和阴影和轻微的 bloom。
-
-【动画】
-- 指针显示本地的真实当前时间。
-- 机芯要真实运转：摆轮往复摆动，擒纵叉和擒纵轮按节拍配合，各齿轮按自己的传动比转动。
-
-【交互】
-- 鼠标和触控都能旋转、缩放、平移，带阻尼。
-- 鼠标悬停在部件上时描边高亮，并显示部件名。
-- 点击部件时，相机平滑聚焦到它，同时弹出信息卡，写明名称、作用、齿数和转速。
-- 控制面板包含：
-  - 爆炸视图滑块（0–100%，沿轴向分层平滑拆开）
-  - 剖切平面滑块
-  - 时间倍速（1x–3600x）
-  - 表盘显示/隐藏
-  - 一键复位视角
-
-【界面与性能】
-- 中文界面，深色玻璃拟态风格，带加载动画，适配手机屏幕。
-- 桌面端稳定 60fps：重复的部件用 InstancedMesh，devicePixelRatio 上限设为 2。
-- 控制台不能有报错。
-
-【工作方式】
-1. 先写设计方案：部件清单、场景层级、齿轮齿数和传动比的计算过程。
-2. 再写完整代码。
-3. 最后对照上面每一条要求逐项自查，没做到的先改好，再输出最终版本。
-```
-
 ### Three.js渲染的低多边形3D场景
 
 [@SidraMiconi](https://x.com/SidraMiconi/status/2110231429523309050) · 0:16 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110231429523309050/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110231429523309050?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -207,6 +128,20 @@ one Three.js HTML file, no Blender, no hand edits. Third try: 363 in, 6,387 thin
 25 cents, 4.4 min. Low-poly, 60 fps. 
 Prompt below.
 @DemisHassabis . @AgentGlassInc  . @SidraMiconi
+```
+
+### 单次生成的WebGL驾驶模拟器与座舱控制
+
+[@EvoLinkAi](https://x.com/EvoLinkAi/status/2110279443336102262) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110279443336102262/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110279443336102262?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon excels at one-shot 3D coding.
+
+Stress-test prompt: one HTML/WebGL car simulator — first-person exploration, interactive panels, cockpit controls, drivable physics.
+
+How does it look?
+
+Use gemini-4-argon in your agent 👇
 ```
 
 ### 单提示词生成的电影级三维动画
@@ -275,6 +210,34 @@ Gemini 4 ARGON and Seedance 2.5 turned ONE idea into an entire cinematic 3D scen
 Full prompt below:
 ```
 
+### Three.js 生成的 3D 赛车模型
+
+[@ayjaystyle](https://x.com/ayjaystyle/status/2111145884776116711) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111145884776116711/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111145884776116711?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+holy shit!!
+
+gemini 4 argon cooked this in under 30mins
+
+with one single prompt:
+
+create a 3d model of racing car using three.js
+
+🫡🫡🫡
+```
+
+### 男孩遛狗的3D动画
+
+[@kayisagijr](https://x.com/kayisagijr/status/2112543356634992799) · 0:10 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112543356634992799/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112543356634992799?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+all i did was prompt gemini 4 argon with “make a 3d video of a boy walking a dog”
+
+ngl, i’m amazed by the results i got from such a simple prompt.
+
+and this is what i got 👇
+```
+
 ### 带全息箔的可撕交互式音乐会门票
 
 [@SammmAing](https://x.com/SammmAing/status/2113098378942828632) · 0:21 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113098378942828632/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113098378942828632?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -289,6 +252,23 @@ A concert ticket you can bend, flip and tear off. Tearing it is so satisfying. I
 The holographic foil shifts as the paper bends. It feels super premium.
 
 The full prompt below.
+```
+
+### HTML单文件重现特斯拉跑车特技
+
+[@alwayspriyesh](https://x.com/alwayspriyesh/status/2113642584702615772) · 0:18 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113642584702615772/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113642584702615772?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+I asked Gemini Argon 4 to recreate Tesla’s insane Roadster stunt in a single HTML file
+
+- A giant semicircular stunt track
+- A fully inverted Roadster completing the flip
+- Rocket thrusters for a smooth landing
+- Cinematic 3D animation
+
+Prompt & link in the comments.
+
+What model should I test next?
 ```
 
 <a id="motion-graphics"></a>
@@ -354,29 +334,6 @@ Gemini 4 Argon测“鹈鹕骑车”怎么样？
 
 三个测试全是同一句裸 Prompt：
 生成一个svg动画：[鹈鹕骑自行车 / 斑马骑自行车 / 秦始皇骑北极熊]，用H5给我展示下👇
-```
-
-### Argon单次提示词绘制的初音未来SVG
-
-[@ai_prompt1](https://x.com/ai_prompt1/status/2110179153081434181) · 0:32 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110179153081434181/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110179153081434181?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argonに「初音ミクをSVGで描いて」と1回頼んだだけで、これが返ってきた。
-AIは自分でやらないとわからない理由が詰まってる。
-
-#Gemini #SVG #初音ミク
-```
-
-### 鹈鹕骑自行车的SVG动画
-
-[@sciencedegens](https://x.com/sciencedegens/status/2110226280855830863) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110226280855830863/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110226280855830863?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Here’s a classic old prompt:
-
-Gemini 4 Argon SVG — a pelican riding a bicycle~~
-
-#Gemini4
 ```
 
 ### 小熊软糖视频生成测试对比
@@ -492,41 +449,45 @@ im gonna compare this with Opus 5.5 later.
 我把在devin里跑的整个流程和效果，全部录屏放出来👇
 ```
 
-### 树木皆如果冻的我的世界演示
+### 哥特式大教堂 3D 魂系 Boss 战游戏
 
-[@cop_on_fire](https://x.com/cop_on_fire/status/2112245743272485107) · 0:15 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112245743272485107/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112245743272485107?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+[@Nyxelarm](https://x.com/Nyxelarm/status/2110829963414757435) · 0:16 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110829963414757435/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110829963414757435?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
 
 ```text
-Minecraft, but even the trees are jelly.
+Take a look at this game built with Gemini 4 Argon
 
-Gemini 4 Argon High: ~$12
-DeepSeek V4.1 Flash Max: ~$1.30
+> build a 3D soulslike boss fight: Sir Davos vs a Void Lord Golem inside a sunlit Gothic cathedral
 
-Playable demos, code, prompts below.
-Clone one and make it weirder
+What’s under the hood:
+
+• Full Combat Loop: Light/Heavy combos, 360° combat rolls with i-frames, and mid-air Plunge Slams
+
+• Perfect Roll System: Last-second dodges trigger time dilation (Slow-Mo) + 2.5x Empowered Crit Blade
+
+• Verticality: Jump over expanding tectonic void rings (JUMP DODGE)
+
+• Stagger & Multi-Phase AI: 4 distinct boss telegraphs, breakable core state, and Void Overdrive Phase II at 50% HP
+
+• Procedural Audio: Real-time synthesized darkwave soundtrack & SFX with dynamic tempo scaling
+```
+
+### 可玩飞行的Tesla Roadster 3D游戏
+
+[@StatsWire](https://x.com/StatsWire/status/2111427003899592819) · 1:00 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111427003899592819/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111427003899592819?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon Magic
+
+Built a 3D playable Flying Tesla Roadster (SpaceX Package) game in a single HTML file. 
+
+100% procedural Three.js + custom GLSL Mach shock-diamond shaders. Zero external assets.
+
+Prompt + code below
 ```
 
 <a id="ui-demo"></a>
 
 ## 产品界面
-
-### 交互式编程语言发展历史博物馆
-
-[@ivanainai](https://x.com/ivanainai/status/2110124500637667607) · 1:06 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110124500637667607/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110124500637667607?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-I asked Gemini 4 Argon to build an interactive museum of programming languages.
-
-60+ years of programming history, from FORTRAN to Rust.
-
-No dataset. No images. No design references.
-
-A zoomable timeline, era-specific interfaces, and interactive Hello World terminals.
-
-All generated from scratch. Pretty impressive for a single prompt.
-
-Prompt in the reply.
-```
 
 ### 滑雪度假村动态网站设计
 
@@ -604,6 +565,24 @@ Prompt 2: Write code for a custom fixed-size object allocator with a two-tiered 
 Total usage: 60% in just 2 prompts.
 
 guess i'll try low mode after my 5 hour limit resets.
+```
+
+### 测试Gemini 4 Argon的用量消耗
+
+[@vipinxtwt](https://x.com/vipinxtwt/status/2112846917273358451) · 0:17 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112846917273358451/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112846917273358451?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+I tried to go easy on Gemini 4 Argon.
+
+Same prompt, two different chats, using Low thinking. 
+Prompt: Implement a concurrent LFU cache with TTL
+ 
+1st attempt: 25% usage. 
+2nd attempt: 53% usage.
+
+Same prompt in two separate chats, and 53% of 5 hr usage is gone.
+Honestly, this is huge. I don't think switching between Low, Medium, or High thinking makes much difference.
+The usage consumption seems excessive regardless.
 ```
 
 <a id="particles"></a>
@@ -690,6 +669,47 @@ Argon read 12 rule files before touching code, proposed 6 changes, and Google sh
 Bookmark the 5-line /goal prompt for the night Argon gets your repo.
 ```
 
+### Gemini 4实用的五项指令技能
+
+[@Nazik2053](https://x.com/Nazik2053/status/2113599994879983652) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113599994879983652/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113599994879983652?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+STOP RETYPING PROMPTS INTO GEMINI 4. SAVE THESE 5 AS SKILLS
+
+type / and your second brain does the job. each one reads your Brain folder first, so the output sounds like you and links back to its source
+
+1. /note-to-plan
+"Goal: [goal]. Using me, attention and the docs INDEX links to it, write a plan with dates and the first action on top. Link every name, date and number to its doc, or leave it out. Save it to Brain/out."
+
+-> a loose note becomes a dated plan where every fact points back to a doc
+
+2. /thread-to-reply
+"Read this thread, Brain/voice and Brain/rules. Check dates and amounts against the latest message. Draft the reply in Brain/out and link the thread. Send nothing."
+
+-> a reply with your openings, your length and your sign-off, waiting for your yes
+
+3. /idea-to-post
+"Turn this line from my notes into a post. Read Brain/voice and Brain/rules first. Use only facts from Brain, each linked. Save the draft to Brain/out."
+
+-> one line from your notes becomes a draft in your voice
+
+4. /fix-rule
+"I'm correcting you. Find why it happened, write the fix as one line in Brain/rules and show me the line."
+
+-> the same mistake stops coming back, because every task reads rules first
+
+5. /what-did-i-forget
+"Read the whole Brain folder. Write me a page in Brain/out: what changed this week, what is drifting, what I decided and forgot, and docs that duplicate or contradict each other. Report only, change nothing."
+
+-> decisions you made and dropped come back before they cost you
+
+save them in Gemini under Customize, then Skills. names go lowercase with hyphens. type / in any chat or task and they show up
+
+all five read the Brain folder, so build it first. the full setup, from folder to schedules, is in the article
+
+bookmark this now. set it up tonight
+```
+
 <a id="comparison"></a>
 
 ## 测试对比
@@ -756,23 +776,6 @@ in this example, opus costs 26% less and finishes about 26% faster.
 which one would you pick?
 ```
 
-### AI生成的雪花水晶球效果对比
-
-[@shmopixbzn](https://x.com/shmopixbzn/status/2110057151171338656) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110057151171338656/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110057151171338656?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-ChatGPT wins this round. Change my mind. ❄️
-
-Same prompt. Two AI-built snow globes.
-
-Claude Opus 5.5
-ChatGPT 6.1 Sol
-
-To my eye, ChatGPT delivered the better result.
-But can Gemini 4 Argon beat them both? 👀
-Prompt in the comments 👇
-```
-
 ### 可玩3D像素鸟游戏生成对比
 
 [@ivanainai](https://x.com/ivanainai/status/2110069699597971828) · 0:27 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110069699597971828/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110069699597971828?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -798,18 +801,6 @@ Same prompt. Both models got:
 The bird could literally just fly.
 
 Who wins this extremely important benchmark? 👇
-```
-
-### 鸽子抢薯条3D游戏生成对比
-
-[@asmirkn](https://x.com/asmirkn/status/2110070885428187441) · 0:32 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110070885428187441/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110070885428187441?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-i gave the new gemini 4 argon and opus 5.5 the same challenge
-
-"build me a triple A level 3d game where i'm a london pigeon stealing chips off tourists in trafalgar square"
-
-which one would you play?
 ```
 
 ### 多款前沿AI模型能力对比测试
@@ -1080,18 +1071,6 @@ Gemini 4 Argon vs GPT-6.1 Sol
 Google is cooking again!! 🔥
 ```
 
-### 体素艺术世界生成效果模型对比
-
-[@EvoLinkAi](https://x.com/EvoLinkAi/status/2110377592394031397) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110377592394031397/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110377592394031397?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-🔥Two models. One voxel art challenge.
-
-Opus 5.5 does a better job of restoring the voxel art world, while Gemini 4 Argon didn't perform as well.
-
-Do you agree with this ranking? Full prompt below 👇
-```
-
 ### 可交互的萤火虫玻璃罐
 
 [@0xRhinoX](https://x.com/0xRhinoX/status/2110382089476407630) · 0:39 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110382089476407630/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110382089476407630?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1215,6 +1194,21 @@ why this one is harder than the usual side by side:
 one scene and one tester, so it's a signal rather than a verdict
 
 video: @anxuanng
+```
+
+### 彩虹圈在扶梯上的多模型对比
+
+[@EvoLinkAi](https://x.com/EvoLinkAi/status/2111260909561688231) · 0:15 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111260909561688231/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111260909561688231?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+A rainbow slinky going down an up-escalator. 🌈
+
+Opus 5.5 vs Haiku 5.5 vs GPT-6 Luna vs Gemini 4 Argon.
+
+The steps go up. The slinky should tumble down and stay in place.
+
+Which model gets the motion right? Explore more Gemini 4 prompts 👇
+ https://t.co/wKW0sTKOup
 ```
 
 ### 特斯拉Roadster 3D遥测仿真对比
