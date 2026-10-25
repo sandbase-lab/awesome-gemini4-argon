@@ -2,19 +2,19 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-70 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+69 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (18)
-- [Motion graphics](#motion-graphics) (7)
+- [3D scenes](#3d-scene) (17)
+- [Motion graphics](#motion-graphics) (8)
 - [Games](#game) (6)
 - [Product UI](#ui-demo) (6)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (2)
-- [Tests & comparisons](#comparison) (28)
+- [Tests & comparisons](#comparison) (27)
 
 <a id="3d-scene"></a>
 
@@ -114,20 +114,6 @@ Gemini ４ Argon × Three.jsで海賊船
 Gemini、CG系も頑張れるようになってる！
 
 つかったプロンプトはリプに↓
-```
-
-### Low-poly scene rendered in Three.js
-
-[@SidraMiconi](https://x.com/SidraMiconi/status/2110231429523309050) · 0:16 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110231429523309050/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110231429523309050?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Google's agent-loop Blender render is the bar. 
-I ran the plain one-prompt version: 
-one Gemini 4 Argon call, high thinking, 
-one Three.js HTML file, no Blender, no hand edits. Third try: 363 in, 6,387 thinking, 18,359 out tokens, 
-25 cents, 4.4 min. Low-poly, 60 fps. 
-Prompt below.
-@DemisHassabis . @AgentGlassInc  . @SidraMiconi
 ```
 
 ### One-shot WebGL car simulator with cockpit controls
@@ -372,6 +358,73 @@ When everything shares the same code, you can keep the scene you love and direct
 Total cost via Antseed: $1.56 
 
 All 10 with prompts below ↓
+```
+
+### Drawing process animation of a colored pencil illustration
+
+[@I_Yamada_AI](https://x.com/I_Yamada_AI/status/2110880172878766404) · 0:16 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110880172878766404/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110880172878766404?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+昨日は通常の Gemini Argon にお願いして、色鉛筆のイラストをSVG化しようとしました。
+
+ただ、チャット画面では Three.js なども使えないため、SVGではなく動画を生成する形で終わっていました。
+
+今日から Antigravity でも Gemini 4 Argon が使えるようになったので、早速、昨日失敗したSVG化に再チャレンジしました。
+
+結論から言うと、1,620要素の純粋なベクターSVGと、白い紙から描き上がっていく467フレームの描画プロセス動画まで一気に出力できました。
+
+■ 実際に渡したプロンプト
+
+「添付の色鉛筆の画像をSVGに変換し、完全なビデオまたはアニメーションの録画を提供して、白い紙から色鉛筆で描かれた画像を、その描画プロセスを見せてください。
+
+・要求：SVGはできるだけ精細に。描画要素は1500〜1700の間。
+・注意：SVGを描画する際は、人間・背景の絵画プロセスをできるだけシミュレートする。
+・順序：
+　1. 白いキャンバスに下書きを描き、全体の形状と比率を確定する
+　2. 大きな色ブロックを塗り、明暗関係を確立する
+　3. 構造、光影、詳細を段階的に洗練する
+　4. 全体をチェックし、調整して仕上げる
+・描画方法：色鉛筆画、現在の画面に基づき、次に何を描くかをバッチで決定する。」
+
+■ 使ったツール
+
+・Antigravity（Gemini 4 Argon Medium）
+・Python 3.14（NumPy / Pillow）
+・Playwright（Headless Chromium / HTML5 Canvas Path2D）
+・FFmpeg（30fps MP4エンコード）
+
+■ どういう手法で作ったか
+
+単に画像を輪郭トレースするのではなく、「現在の画面（仮想キャンバス）と元絵の誤差を見て、次にどこをどの色鉛筆で描くかをバッチ単位で決める」閉ループの描画スクリプトをPythonで組みました。
+
+人間の絵画プロセスに合わせて、全1,620要素（path 1,619個＋背景紙rect 1個）を4段階・74バッチに分けて描かせています。
+
+1. 下書きと比率の確定（160要素 / 10バッチ）
+Sobelフィルタで抽出した勾配の接線方向に沿って、シーツのパースや人物2人の骨格、バラの配置を鉛筆線でスケッチします。
+
+2. 大きな色ブロックと明暗の確立（360要素 / 18バッチ）
+ぼかした元絵と現在のキャンバスの色差から、背景の陰影、肌や服のベース色、オレンジ髪と黒髪、赤いバラの塊をベジェ曲線の面と広いハッチングで塗ります。
+
+3. 構造・光影・細部の段階的な洗練（860要素 / 34バッチ）
+現在のキャンバス上でまだ誤差が大きい領域（顔、手、花弁、シーツのシワ）を自動検出し、等色クラスタの輪郭ポリゴンと、表面の流れに沿った色鉛筆のハッチング線（数千本のストローク束）を交互に重ねます。
+
+4. 全体チェックと仕上げ（239要素 / 12バッチ）
+瞳や唇、指先の微調整に加え、3×3近傍の最暗部から色鉛筆の芯の色を拾い、シーツの折り目やバラの輪郭線を引き締めます。
+
+面白かったのは、途中の自己修正です。
+
+1回目の出力ではタイル分割の四角い境界線が出てしまい、2回目では色層の隙間に1ピクセルの白いフチが残りました。
+
+するとArgon自身が生成画像をプレビュー確認して原因を特定し、モルフォロジー膨張と微小な穴の抑制、2次ベジェ曲線による平滑化へコードを書き換えて解決しました。
+
+■ かかった時間
+
+・最初の指示から4回の自己修正・動画完成まで：約28分
+・完成した最終スクリプトの実行時間：約32秒（SVG生成14.9秒＋Playwrightでの467フレーム描画とFFmpeg動画化17.2秒）
+
+Web版のチャット単体では難しかった処理も、AntigravityでローカルのPythonやPlaywrightと繋がり、「出力画像を見てコードを直す」ループが回ると、ここまで到達点が変わります。
+
+（X投稿用にmp4に変換済み）
 ```
 
 ### Dynamic motion graphics showcase generated with code
@@ -847,22 +900,6 @@ F*CKING INSANE
 Copy-paste prompt in the reply, save this before it gets buried in your feed
 ```
 
-### Motion design video showcasing Earth
-
-[@yash_yk45](https://x.com/yash_yk45/status/2110085876135112729) · 1:16 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110085876135112729/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110085876135112729?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon is seriously disappointing.
-
-I gave both Opus 5.5 and Gemini 4 Argon the exact same single prompt to create a motion design video showcasing Earth's beauty.
-
-See the results for yourself. 
-
-If you're comparing Argon to Opus 5.5, please stop. The difference speaks for itself. 
-
-Prompt 👇
-```
-
 ### Voxel Dragon Flying over a Temple in 3D
 
 [@marcthecreatorr](https://x.com/marcthecreatorr/status/2110105779294687341) · 0:21 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110105779294687341/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110105779294687341?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -926,82 +963,6 @@ Aynı prompt: taş devrinden geleceğe tek haritada medeniyet simülasyonu.
 Üstte Gemini 4 Argon (18 dakika, ~$1,7), 
 altta Claude Opus 5.5 (94 dakika, ~$25). 
 Sizce hangisi?
-```
-
-### Playable roguelike deck-builder generated in one file
-
-[@realbrucemartin](https://x.com/realbrucemartin/status/2110228350337687773) · 1:02 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110228350337687773/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110228350337687773?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-I used @DevinAI and gave Gemini 4 Argon and SWE-2 Max the exact same prompt. 
-
-One shot each. 
-
-No follow-ups, no fixes.
-
-COST:
-Argon: ~$1.75 total build cost (75% off only in Devin
-(95¢ input + 28¢ cached + 55¢ output)
-SWE-2: $0 - free tier (Free in Devin until Oct16)
-Rate: $1/$0.05/$5 per Mtok
-
-Time Taken:
-Argon: 56 minutes to done
-SWE-2: 89 minutes to done
-
-Tokens used:
-Argon: 6.5M in / 109K out
-SWE-2: 6.2M in / 100K out
-Interesting wrinkle: Argon wrote 3x the code, 33 min faster. 
-
-SWE-2 spent longer but packed more content into fewer lines.
-
-The prompt:
-
-"Build a complete, playable roguelike deck-builder as ONE self-contained HTML file · no external assets, no CDN, everything inline (CSS, JS, SVG art).
-
-- 60+ unique cards across 3 playable classes, each with genuinely distinct mechanics — no reskins
-- Procedurally generated branching dungeon map with combat, elite, shop, rest, and random-event nodes
-- 15+ enemies with distinct behaviors and telegraphed intents, plus 3 multi-phase bosses
-- Relics, potions, card upgrade/removal, gold economy, status effects (poison, weak, vulnerable, strength)
-- Save/load via localStorage, run-summary screen, and a card compendium
-- Juice: floating damage numbers, card-play animations, screen shake, hover previews
-
-Write the whole file to deckbuilder.html, then verify it actually renders — open it in a headless browser, take a screenshot, and fix whatever's broken. Go deep, not broad."
-
-Both delivered a full, playable game. I drove both in headless Chrome, parsed the data tables, and measured the builds side by side:
-
-📊 THE NUMBERS
-
-Cards (60+ required)     Argon 72  ·  SWE-2 93
-Enemies (15+ required)   Argon 19  ·  SWE-2 30
-Multi-phase bosses       Argon 3   ·  SWE-2 3
-Relics / potions         Argon 18/12  ·  SWE-2 25/8
-Lines of code            Argon 4,701  ·  SWE-2 1,555
-File size                Argon 183KB  ·  SWE-2 110KB
-Boot to render           Argon 34ms  ·  SWE-2 24ms
-DOM nodes at boot        Argon 218  ·  SWE-2 17
-JS heap                  ~9.5MB both
-
-⚔️ THE DIFFERENCE
-
-Argon invented three original class mechanics: a Cinderblade juggling Heat and Burn, a Chronoweaver banking Flux for Time Surges, a Plague Alchemist brewing Reagents into poison chains. 15-floor spire, event modals, campfires. More code, more bespoke systems, more juice.
-
-SWE-2 Max went with classic Slay-the-Spire archetypes — Warden (block/strength), Shade (poison/shivs), Stormcaller (charge bursts) — then poured the savings into content: 40% more enemies, 30% more cards, a twin-boss encounter, bosses with phase transitions at 66% and 33% HP. Three named acts. It did all that in a third of the code.
-
-✅ Both hit every requirement: branching maps, elites, shops, rest sites, events, card upgrade/removal, gold, all four status effects, save/load, compendium, floating damage, screen shake.
-
-🏁 VERDICT
-
-Argon went deeper — invented mechanics, denser systems, more polish per element.
-SWE-2 went broader — more content, less code, proven archetypes.
-
-60% of the file size. 3x the content count. That's the efficiency story.
-
-Both shipped a real game in one file. The honest answer to "which is better" is: what do you value ?
-mechanical novelty, or content density per line of code?
-
-Also used Devin with @HyperFrames_ to create the side by side video below.
 ```
 
 ### Three.js short of aliens getting burgers
@@ -1336,4 +1297,16 @@ same prompt: a jelly superhero duck you can stretch
 -> 5 more ducks rain down and jiggle
 
 gemini gave me stiff plastic and a red stick…
+```
+
+### Plane landing at sunset across three models
+
+[@glitch_catAI](https://x.com/glitch_catAI/status/2113981829984460925) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113981829984460925/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113981829984460925?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+I gave Kimi K3.1 Pro, Gemini 4 Argon, and Fable 5.1 the exact same prompt:
+
+“Generate a 10-second video of a plane landing at sunset.”
+
+One prompt. Three models. The results might hurt some feelings. 💀💀💀
 ```
