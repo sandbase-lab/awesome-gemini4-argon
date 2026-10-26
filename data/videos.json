@@ -1966,25 +1966,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110164631914459361"
  },
  {
-  "id": "2110165280370647159",
-  "title": "A pirate ship created with Three.js",
-  "title_zh": "用Three.js制作的海盗船",
-  "category": "3d-scene",
-  "author": {
-   "handle": "Ayu_AI_0912",
-   "name": "アユネオ"
-  },
-  "postUrl": "https://x.com/Ayu_AI_0912/status/2110165280370647159",
-  "createdAt": "2026-10-14T00:26:22.000Z",
-  "durationMs": 23533,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110165280370647159/video.mp4",
-  "promptShared": true,
-  "promptText": "Gemini ４ Argon × Three.jsで海賊船\n―――\nおもしろ！\nGemini、CG系も頑張れるようになってる！\n\nつかったプロンプトはリプに↓",
-  "featured": null,
-  "poster": null,
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110165280370647159"
- },
- {
   "id": "2110166300622471434",
   "title": "Exact 3D replica of 1966 USS Enterprise",
   "title_zh": "1966版企业号星舰精确三维复刻",
@@ -5216,25 +5197,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111083488829149299"
  },
  {
-  "id": "2111089884463030449",
-  "title": "Radial engine generated across four AI models",
-  "title_zh": "四款AI模型同提示词生成星型发动机对比",
-  "category": "comparison",
-  "author": {
-   "handle": "kinderlayer",
-   "name": "Kinder"
-  },
-  "postUrl": "https://x.com/kinderlayer/status/2111089884463030449",
-  "createdAt": "2026-10-16T13:40:25.000Z",
-  "durationMs": 13133,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111089884463030449/video.mp4",
-  "promptShared": true,
-  "promptText": "this is f*cking wild. 4 AIs, one prompt - build a radial engine - and not one built the same machine.\n\nClaude Opus 5.5 · GPT-6 Astra · Gemini 4 Argon · Grok 4.7\n\nsame words, four completely different instincts. Astra over-built it - every cylinder, every bolt, a full holographic blueprint. Opus went tight and clean, exactly enough and nothing extra. Gemini leaned industrial, all fins and mass. Grok kept it simple - maybe too simple.\n\nthis is the part benchmarks never catch. build it isn’t one skill. one model shows off, one model edits itself, one model shrugs. the gap isn’t accuracy anymore - it’s taste and restraint.\n\nso which one would you actually trust to turn over and run? Opus, Astra, Gemini or Grok?\n\nI run one of these every week, and the differences only get sharper.",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111089884463030449/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111089884463030449"
- },
- {
   "id": "2111092796228854226",
   "title": "Forest river Three.js scene comparison",
   "title_zh": "森林河流 Three.js 场景渲染对比",
@@ -5415,24 +5377,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111174578407890990/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111174578407890990"
- },
- {
-  "id": "2111255372426313822",
-  "title": "Mechanical watch render comparison in Blender Python",
-  "title_zh": "Blender纯Python机械手表渲染效果对比",
-  "category": "comparison",
-  "author": {
-   "handle": "startvoyager",
-   "name": "Voyager"
-  },
-  "postUrl": "https://x.com/startvoyager/status/2111255372426313822",
-  "createdAt": "2026-10-17T00:38:00.000Z",
-  "durationMs": 15000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111255372426313822/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111255372426313822/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111255372426313822"
  },
  {
   "id": "2111260909561688231",
@@ -6378,24 +6322,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112253223394279507"
  },
  {
-  "id": "2112262583483044203",
-  "title": "Flying Roadster Three.js benchmark across five AI models",
-  "title_zh": "五款AI模型制作的飞行跑车Three.js基准测试",
-  "category": "comparison",
-  "author": {
-   "handle": "korigero",
-   "name": "kori rogers"
-  },
-  "postUrl": "https://x.com/korigero/status/2112262583483044203",
-  "createdAt": "2026-10-19T19:20:18.000Z",
-  "durationMs": 37483,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112262583483044203/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112262583483044203/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112262583483044203"
- },
- {
   "id": "2112276833395962328",
   "title": "Offline local health AI app demonstration",
   "title_zh": "离线本地健康AI应用演示",
@@ -7014,22 +6940,22 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113363382808023135"
  },
  {
-  "id": "2113447422164681142",
-  "title": "Sacred Monkey Forest recreated in Three.js",
-  "title_zh": "在 Three.js 中重建的巴厘岛圣猴森林 3D 场景",
-  "category": "3d-scene",
+  "id": "2113380806039359803",
+  "title": "Benchmarking robot manipulation across AI models",
+  "title_zh": "多款AI模型的机器人操作基准测试",
+  "category": "comparison",
   "author": {
-   "handle": "SammmAing",
-   "name": "Samnang Aing"
+   "handle": "stash_pomichter",
+   "name": "stash"
   },
-  "postUrl": "https://x.com/SammmAing/status/2113447422164681142",
-  "createdAt": "2026-10-23T01:48:26.000Z",
-  "durationMs": 150000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113447422164681142/video.mp4",
+  "postUrl": "https://x.com/stash_pomichter/status/2113380806039359803",
+  "createdAt": "2026-10-22T21:23:43.000Z",
+  "durationMs": 10800,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113380806039359803/video.mp4",
   "promptShared": false,
   "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113447422164681142/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113447422164681142"
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113380806039359803/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113380806039359803"
  },
  {
   "id": "2113494641416790373",
@@ -7251,6 +7177,25 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114013247800291671"
  },
  {
+  "id": "2114070481984770255",
+  "title": "Close-up of a man on a mountain",
+  "title_zh": "山顶男子特写双模型生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "VassilyBeyond",
+   "name": "Vassily"
+  },
+  "postUrl": "https://x.com/VassilyBeyond/status/2114070481984770255",
+  "createdAt": "2026-10-24T19:04:15.000Z",
+  "durationMs": 10041,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114070481984770255/video.mp4",
+  "promptShared": true,
+  "promptText": "J'ai donné à Gemini Argon et\nGrok Imagine 4.7 \nexactement le même prompt :\n\n«Gros plan sur le visage d'un homme épuisé mais apaisé, regardant l'horizon au sommet d'une montagne, le vent dans les cheveux, lumière dorée de fin de journée»\n\nUn seul prompt.\nDeux modèles en duel. \nQuand on demande à l'IA de capturer l'âme humaine, les masques tombent tout de suite. 💀🏔️\n\nSelon vous, lequel des deux a vraiment réussi à capter un regard humain ? 👇\n\nFranchement pour moi le match est très serré \n\n@GeminiApp\n@imagine \n@grok",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114070481984770255/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114070481984770255"
+ },
+ {
   "id": "2114079543632003455",
   "title": "Pelican wheelie bench benchmark comparison",
   "title_zh": "Pelican移动台基准测试对比",
@@ -7267,5 +7212,59 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114079543632003455/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114079543632003455"
+ },
+ {
+  "id": "2114297104084480148",
+  "title": "Physics simulation of a trebuchet across four models",
+  "title_zh": "四款模型投石机物理模拟对比",
+  "category": "comparison",
+  "author": {
+   "handle": "0xAIlabs",
+   "name": "Lyren_o"
+  },
+  "postUrl": "https://x.com/0xAIlabs/status/2114297104084480148",
+  "createdAt": "2026-10-25T10:04:46.000Z",
+  "durationMs": 15000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114297104084480148/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114297104084480148/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114297104084480148"
+ },
+ {
+  "id": "2114312573390602417",
+  "title": "Comparing lobe pump simulations across four AI models",
+  "title_zh": "四款AI模型的凸轮泵模拟效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "kinderlayer",
+   "name": "Kinder"
+  },
+  "postUrl": "https://x.com/kinderlayer/status/2114312573390602417",
+  "createdAt": "2026-10-25T11:06:14.000Z",
+  "durationMs": 13200,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114312573390602417/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114312573390602417/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114312573390602417"
+ },
+ {
+  "id": "2114358772541849832",
+  "title": "SVG animation generated by Gemini 4 Flash",
+  "title_zh": "Gemini 4 Flash生成的SVG动画",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "leo114119",
+   "name": "Leo · Building w/ AI"
+  },
+  "postUrl": "https://x.com/leo114119/status/2114358772541849832",
+  "createdAt": "2026-10-25T14:09:48.000Z",
+  "durationMs": 84766,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114358772541849832/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114358772541849832/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114358772541849832"
  }
 ]

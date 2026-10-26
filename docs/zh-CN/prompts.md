@@ -2,11 +2,11 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 69 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 68 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (17)
+- [3D 场景](#3d-scene) (16)
 - [动效](#motion-graphics) (8)
 - [游戏](#game) (6)
 - [产品界面](#ui-demo) (6)
@@ -101,19 +101,6 @@ gave Gemini 4 Argon and Opus 5.5 the exact same task
 to build a Leonardo da Vinci workshop with 3D recreations of his inventions
 
 which approach do you prefer? prompt below 👇
-```
-
-### 用Three.js制作的海盗船
-
-[@Ayu_AI_0912](https://x.com/Ayu_AI_0912/status/2110165280370647159) · 0:24 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110165280370647159/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110165280370647159?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini ４ Argon × Three.jsで海賊船
-―――
-おもしろ！
-Gemini、CG系も頑張れるようになってる！
-
-つかったプロンプトはリプに↓
 ```
 
 ### 单次生成的WebGL驾驶模拟器与座舱控制
@@ -1111,24 +1098,6 @@ Opus ran as an agent and spent 1h 50m checking its own frames. Gemini wrote it i
 Opus cost 75x more. Its version has painted leaves, petals blowing across the meadow and robins pecking at the cherries. Gemini’s leaves look like jelly beans
 ```
 
-### 四款AI模型同提示词生成星型发动机对比
-
-[@kinderlayer](https://x.com/kinderlayer/status/2111089884463030449) · 0:13 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111089884463030449/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111089884463030449?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-this is f*cking wild. 4 AIs, one prompt - build a radial engine - and not one built the same machine.
-
-Claude Opus 5.5 · GPT-6 Astra · Gemini 4 Argon · Grok 4.7
-
-same words, four completely different instincts. Astra over-built it - every cylinder, every bolt, a full holographic blueprint. Opus went tight and clean, exactly enough and nothing extra. Gemini leaned industrial, all fins and mass. Grok kept it simple - maybe too simple.
-
-this is the part benchmarks never catch. build it isn’t one skill. one model shows off, one model edits itself, one model shrugs. the gap isn’t accuracy anymore - it’s taste and restraint.
-
-so which one would you actually trust to turn over and run? Opus, Astra, Gemini or Grok?
-
-I run one of these every week, and the differences only get sharper.
-```
-
 ### 森林河流 Three.js 场景渲染对比
 
 [@0xchromium](https://x.com/0xchromium/status/2111092796228854226) · 0:24 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111092796228854226/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111092796228854226?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1309,4 +1278,28 @@ I gave Kimi K3.1 Pro, Gemini 4 Argon, and Fable 5.1 the exact same prompt:
 “Generate a 10-second video of a plane landing at sunset.”
 
 One prompt. Three models. The results might hurt some feelings. 💀💀💀
+```
+
+### 山顶男子特写双模型生成对比
+
+[@VassilyBeyond](https://x.com/VassilyBeyond/status/2114070481984770255) · 0:10 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114070481984770255/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114070481984770255?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+J'ai donné à Gemini Argon et
+Grok Imagine 4.7 
+exactement le même prompt :
+
+«Gros plan sur le visage d'un homme épuisé mais apaisé, regardant l'horizon au sommet d'une montagne, le vent dans les cheveux, lumière dorée de fin de journée»
+
+Un seul prompt.
+Deux modèles en duel. 
+Quand on demande à l'IA de capturer l'âme humaine, les masques tombent tout de suite. 💀🏔️
+
+Selon vous, lequel des deux a vraiment réussi à capter un regard humain ? 👇
+
+Franchement pour moi le match est très serré 
+
+@GeminiApp
+@imagine 
+@grok
 ```

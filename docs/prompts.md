@@ -2,11 +2,11 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-69 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+68 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (17)
+- [3D scenes](#3d-scene) (16)
 - [Motion graphics](#motion-graphics) (8)
 - [Games](#game) (6)
 - [Product UI](#ui-demo) (6)
@@ -101,19 +101,6 @@ gave Gemini 4 Argon and Opus 5.5 the exact same task
 to build a Leonardo da Vinci workshop with 3D recreations of his inventions
 
 which approach do you prefer? prompt below 👇
-```
-
-### A pirate ship created with Three.js
-
-[@Ayu_AI_0912](https://x.com/Ayu_AI_0912/status/2110165280370647159) · 0:24 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110165280370647159/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110165280370647159?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini ４ Argon × Three.jsで海賊船
-―――
-おもしろ！
-Gemini、CG系も頑張れるようになってる！
-
-つかったプロンプトはリプに↓
 ```
 
 ### One-shot WebGL car simulator with cockpit controls
@@ -1111,24 +1098,6 @@ Opus ran as an agent and spent 1h 50m checking its own frames. Gemini wrote it i
 Opus cost 75x more. Its version has painted leaves, petals blowing across the meadow and robins pecking at the cherries. Gemini’s leaves look like jelly beans
 ```
 
-### Radial engine generated across four AI models
-
-[@kinderlayer](https://x.com/kinderlayer/status/2111089884463030449) · 0:13 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111089884463030449/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111089884463030449?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-this is f*cking wild. 4 AIs, one prompt - build a radial engine - and not one built the same machine.
-
-Claude Opus 5.5 · GPT-6 Astra · Gemini 4 Argon · Grok 4.7
-
-same words, four completely different instincts. Astra over-built it - every cylinder, every bolt, a full holographic blueprint. Opus went tight and clean, exactly enough and nothing extra. Gemini leaned industrial, all fins and mass. Grok kept it simple - maybe too simple.
-
-this is the part benchmarks never catch. build it isn’t one skill. one model shows off, one model edits itself, one model shrugs. the gap isn’t accuracy anymore - it’s taste and restraint.
-
-so which one would you actually trust to turn over and run? Opus, Astra, Gemini or Grok?
-
-I run one of these every week, and the differences only get sharper.
-```
-
 ### Forest river Three.js scene comparison
 
 [@0xchromium](https://x.com/0xchromium/status/2111092796228854226) · 0:24 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111092796228854226/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111092796228854226?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1309,4 +1278,28 @@ I gave Kimi K3.1 Pro, Gemini 4 Argon, and Fable 5.1 the exact same prompt:
 “Generate a 10-second video of a plane landing at sunset.”
 
 One prompt. Three models. The results might hurt some feelings. 💀💀💀
+```
+
+### Close-up of a man on a mountain
+
+[@VassilyBeyond](https://x.com/VassilyBeyond/status/2114070481984770255) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114070481984770255/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114070481984770255?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+J'ai donné à Gemini Argon et
+Grok Imagine 4.7 
+exactement le même prompt :
+
+«Gros plan sur le visage d'un homme épuisé mais apaisé, regardant l'horizon au sommet d'une montagne, le vent dans les cheveux, lumière dorée de fin de journée»
+
+Un seul prompt.
+Deux modèles en duel. 
+Quand on demande à l'IA de capturer l'âme humaine, les masques tombent tout de suite. 💀🏔️
+
+Selon vous, lequel des deux a vraiment réussi à capter un regard humain ? 👇
+
+Franchement pour moi le match est très serré 
+
+@GeminiApp
+@imagine 
+@grok
 ```
