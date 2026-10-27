@@ -6,15 +6,15 @@ English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../R
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (16)
-- [Motion graphics](#motion-graphics) (8)
+- [3D scenes](#3d-scene) (17)
+- [Motion graphics](#motion-graphics) (6)
 - [Games](#game) (6)
 - [Product UI](#ui-demo) (6)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (2)
-- [Tests & comparisons](#comparison) (27)
+- [Tests & comparisons](#comparison) (28)
 
 <a id="3d-scene"></a>
 
@@ -244,6 +244,18 @@ Prompt & link in the comments.
 What model should I test next?
 ```
 
+### Interactive 3D hydrobiology automaton in Three.js
+
+[@IamEmily2050](https://x.com/IamEmily2050/status/2114458828221862054) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114458828221862054/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114458828221862054?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon High / Antigravity 
+
+I will put the code on my GitHub later.
+
+Build "BATHYSCAPHE // Pelagic Automaton Vol. IV", an interactive 3D horological hydrobiology museum plate archive in Three.js r184 where three deep sea cnidarian and hydrozoan species are re engineered as working 19th century brass and flint glass clockwork automata inside a living Victorian lithographic plate (PLATE IV): (01) Aurelia Oscilla (Moon Jelly), driven by a 1.00 Hz gravity pendulum, 2-axis counter tilting Cardan marine gimbal, 30 tooth Graham dead beat anchor escapement (80% locking dwell), and 8 invariant-length clevis rods articulating 8 hinged glass bell lobes around 4 inward-facing horseshoe gonads; (02) Velella Gyro (By-the-Wind Sailor), a rigid 2.2:1 royal cobalt-sapphire oval float crowned by a 43° sinistral pleated quartz hydro sail, powered from below by a 12 bucket Pelton water impulse turbine, 90° mitre bevel gear pair, and a spinning Watt centrifugal fly ball governor whose ω² lift raises an annular gastrozooid collar and 4:1 gyroscopic stabilization flywheel inside a pierced Art Nouveau bronze keel; and (03) Chrysaora Pulse (Compass Sea Nettle), a 1.83:1 saucer medusa with 16 burnished bronze V dart inlays and 32 scalloped marginal lappets driven by an 8 rod radial slider crank linkage, a 30:1 central Archimedes worm gear rotating 4 spiral fluted oral arms, and a 6:1 high tension magneto igniting a central (2,3) trefoil torus knot plasma core at an 8.0× systolic flash peak. Support 3 plate environments (SONAR [ABYSS], BLUEPRINT [STUDIO], LITHOCLASS [GILDED]) × 3 inspection states (INTACT, DISSECTED, FLUORESCENT) with zero overlap 3D-projected SVG anatomical callouts, procedural WebAudio horological synthesis, a deterministic virtual clock (`window.__setClock(t)`), a 65 gate non cheating Playwright/WebGL verifier, and a 3:00 (180.000s, 1080p60 + 9:16 vertical second camera + 4K UHD stills) social film mastered to -14.0 LUFS.
+```
+
 <a id="motion-graphics"></a>
 
 ## Motion graphics
@@ -277,36 +289,6 @@ What model should I test next?
 右侧Prompt: 生成一个svg动画：斑马骑自行车，用H5给我展示下
 
 测试结果见👇视频
-```
-
-### Interactive SVG animations with inverse kinematics
-
-[@servasyy_ai](https://x.com/servasyy_ai/status/2110168263623938143) · 0:27 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110168263623938143/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110168263623938143?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon测“鹈鹕骑车”怎么样？
-
-我干脆开了三个完全空白的会话做了一次裸 Prompt 盲测，顺手还加了一道“秦始皇骑北极熊”😂
-
-以前拿这类题测模型，基本只能画出一堆散架的几何色块，腿脚和踏板永远是脱节穿模的。
-
-这次跑完三个盲测，看明白 Argon 为什么效果稳了：
-
-默认用双连杆逆运动学（2-Bone IK）替代手写关键帧
-哪怕 Prompt 里一个字没提物理和骨骼，它也会默认在代码里写一段余弦定理解算器。
-
-每一帧根据曲柄角度实时反推膝盖坐标，把脚掌死死锁在踏板圆周上，甚至还会主动留一个「IK 骨骼透视」开关用来验收。
-
-自带微物理反馈与场景状态机
-第一段鹈鹕给了柔性喉囊物理和颠鱼互动；
-第二段斑马自己加上了飞行员墨镜、昼夜切换和翘头特技。
-最逗的是第三段“秦始皇骑北极熊”，只给了一句短
-  Prompt，它自己画出了会随步伐晃动的十二旒冕冠、定秦剑和北极极光，右上角还做了一枚能点击盖章的传国玉玺，支持切换巡游、冲锋和巨熊人立咆哮。
-
-与其说它只是画图变准了，不如说现在的 Coding 模型在后训练阶段，已经把“几何约束 + 物理反馈 + 交互控制台”内化成写前端的默认工程习惯了。
-
-三个测试全是同一句裸 Prompt：
-生成一个svg动画：[鹈鹕骑自行车 / 斑马骑自行车 / 秦始皇骑北极熊]，用H5给我展示下👇
 ```
 
 ### Gummy bear video generation benchmark
@@ -345,73 +327,6 @@ When everything shares the same code, you can keep the scene you love and direct
 Total cost via Antseed: $1.56 
 
 All 10 with prompts below ↓
-```
-
-### Drawing process animation of a colored pencil illustration
-
-[@I_Yamada_AI](https://x.com/I_Yamada_AI/status/2110880172878766404) · 0:16 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110880172878766404/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110880172878766404?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-昨日は通常の Gemini Argon にお願いして、色鉛筆のイラストをSVG化しようとしました。
-
-ただ、チャット画面では Three.js なども使えないため、SVGではなく動画を生成する形で終わっていました。
-
-今日から Antigravity でも Gemini 4 Argon が使えるようになったので、早速、昨日失敗したSVG化に再チャレンジしました。
-
-結論から言うと、1,620要素の純粋なベクターSVGと、白い紙から描き上がっていく467フレームの描画プロセス動画まで一気に出力できました。
-
-■ 実際に渡したプロンプト
-
-「添付の色鉛筆の画像をSVGに変換し、完全なビデオまたはアニメーションの録画を提供して、白い紙から色鉛筆で描かれた画像を、その描画プロセスを見せてください。
-
-・要求：SVGはできるだけ精細に。描画要素は1500〜1700の間。
-・注意：SVGを描画する際は、人間・背景の絵画プロセスをできるだけシミュレートする。
-・順序：
-　1. 白いキャンバスに下書きを描き、全体の形状と比率を確定する
-　2. 大きな色ブロックを塗り、明暗関係を確立する
-　3. 構造、光影、詳細を段階的に洗練する
-　4. 全体をチェックし、調整して仕上げる
-・描画方法：色鉛筆画、現在の画面に基づき、次に何を描くかをバッチで決定する。」
-
-■ 使ったツール
-
-・Antigravity（Gemini 4 Argon Medium）
-・Python 3.14（NumPy / Pillow）
-・Playwright（Headless Chromium / HTML5 Canvas Path2D）
-・FFmpeg（30fps MP4エンコード）
-
-■ どういう手法で作ったか
-
-単に画像を輪郭トレースするのではなく、「現在の画面（仮想キャンバス）と元絵の誤差を見て、次にどこをどの色鉛筆で描くかをバッチ単位で決める」閉ループの描画スクリプトをPythonで組みました。
-
-人間の絵画プロセスに合わせて、全1,620要素（path 1,619個＋背景紙rect 1個）を4段階・74バッチに分けて描かせています。
-
-1. 下書きと比率の確定（160要素 / 10バッチ）
-Sobelフィルタで抽出した勾配の接線方向に沿って、シーツのパースや人物2人の骨格、バラの配置を鉛筆線でスケッチします。
-
-2. 大きな色ブロックと明暗の確立（360要素 / 18バッチ）
-ぼかした元絵と現在のキャンバスの色差から、背景の陰影、肌や服のベース色、オレンジ髪と黒髪、赤いバラの塊をベジェ曲線の面と広いハッチングで塗ります。
-
-3. 構造・光影・細部の段階的な洗練（860要素 / 34バッチ）
-現在のキャンバス上でまだ誤差が大きい領域（顔、手、花弁、シーツのシワ）を自動検出し、等色クラスタの輪郭ポリゴンと、表面の流れに沿った色鉛筆のハッチング線（数千本のストローク束）を交互に重ねます。
-
-4. 全体チェックと仕上げ（239要素 / 12バッチ）
-瞳や唇、指先の微調整に加え、3×3近傍の最暗部から色鉛筆の芯の色を拾い、シーツの折り目やバラの輪郭線を引き締めます。
-
-面白かったのは、途中の自己修正です。
-
-1回目の出力ではタイル分割の四角い境界線が出てしまい、2回目では色層の隙間に1ピクセルの白いフチが残りました。
-
-するとArgon自身が生成画像をプレビュー確認して原因を特定し、モルフォロジー膨張と微小な穴の抑制、2次ベジェ曲線による平滑化へコードを書き換えて解決しました。
-
-■ かかった時間
-
-・最初の指示から4回の自己修正・動画完成まで：約28分
-・完成した最終スクリプトの実行時間：約32秒（SVG生成14.9秒＋Playwrightでの467フレーム描画とFFmpeg動画化17.2秒）
-
-Web版のチャット単体では難しかった処理も、AntigravityでローカルのPythonやPlaywrightと繋がり、「出力画像を見てコードを直す」ループが回ると、ここまで到達点が変わります。
-
-（X投稿用にmp4に変換済み）
 ```
 
 ### Dynamic motion graphics showcase generated with code
@@ -1302,4 +1217,24 @@ Franchement pour moi le match est très serré
 @GeminiApp
 @imagine 
 @grok
+```
+
+### Rebuilding Chrome dino with ragdoll physics across models
+
+[@noclipepe](https://x.com/noclipepe/status/2114438106254299320) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114438106254299320/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114438106254299320?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+KIMI K3.1 MADE THE CHROME DINO GOOFY AF 😭
+
+Same prompt: rebuild the Chrome dino with ragdoll physics.
+
+Opus 5.5: 38m 55s, $8.53
+Kimi K3.1: 19m 18s,  $1.25
+Gemini 4 Argon: 4m 34s,  $0.19
+
+Opus won. Argon was 45× cheaper.
+
+My scores at the end. Was it worth it?
+
+All three models are on
 ```
