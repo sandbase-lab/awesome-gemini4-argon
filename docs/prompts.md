@@ -2,11 +2,11 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-68 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+70 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (17)
+- [3D scenes](#3d-scene) (19)
 - [Motion graphics](#motion-graphics) (6)
 - [Games](#game) (6)
 - [Product UI](#ui-demo) (6)
@@ -254,6 +254,36 @@ Gemini 4 Argon High / Antigravity
 I will put the code on my GitHub later.
 
 Build "BATHYSCAPHE // Pelagic Automaton Vol. IV", an interactive 3D horological hydrobiology museum plate archive in Three.js r184 where three deep sea cnidarian and hydrozoan species are re engineered as working 19th century brass and flint glass clockwork automata inside a living Victorian lithographic plate (PLATE IV): (01) Aurelia Oscilla (Moon Jelly), driven by a 1.00 Hz gravity pendulum, 2-axis counter tilting Cardan marine gimbal, 30 tooth Graham dead beat anchor escapement (80% locking dwell), and 8 invariant-length clevis rods articulating 8 hinged glass bell lobes around 4 inward-facing horseshoe gonads; (02) Velella Gyro (By-the-Wind Sailor), a rigid 2.2:1 royal cobalt-sapphire oval float crowned by a 43° sinistral pleated quartz hydro sail, powered from below by a 12 bucket Pelton water impulse turbine, 90° mitre bevel gear pair, and a spinning Watt centrifugal fly ball governor whose ω² lift raises an annular gastrozooid collar and 4:1 gyroscopic stabilization flywheel inside a pierced Art Nouveau bronze keel; and (03) Chrysaora Pulse (Compass Sea Nettle), a 1.83:1 saucer medusa with 16 burnished bronze V dart inlays and 32 scalloped marginal lappets driven by an 8 rod radial slider crank linkage, a 30:1 central Archimedes worm gear rotating 4 spiral fluted oral arms, and a 6:1 high tension magneto igniting a central (2,3) trefoil torus knot plasma core at an 8.0× systolic flash peak. Support 3 plate environments (SONAR [ABYSS], BLUEPRINT [STUDIO], LITHOCLASS [GILDED]) × 3 inspection states (INTACT, DISSECTED, FLUORESCENT) with zero overlap 3D-projected SVG anatomical callouts, procedural WebAudio horological synthesis, a deterministic virtual clock (`window.__setClock(t)`), a 65 gate non cheating Playwright/WebGL verifier, and a 3:00 (180.000s, 1080p60 + 9:16 vertical second camera + 4K UHD stills) social film mastered to -14.0 LUFS.
+```
+
+### Brutalist fortress in the mountains in Three.js
+
+[@itssasm](https://x.com/itssasm/status/2115020711899308521) · 0:18 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115020711899308521/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115020711899308521?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+HOLY SHIT
+
+I asked Gemini 4 ARGON to build a brutalist fortress, and it one shotted THIS.
+
+A massive fortress in the mountains, with glowing server halls, waterfalls, clouds, and cinematic lighting.
+
+And it’s all running in Three js
+```
+
+### Boy in yellow on ship with lighthouse
+
+[@AIWorkflowX](https://x.com/AIWorkflowX/status/2115126301807825165) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115126301807825165/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115126301807825165?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini Argon continues to surprise me with its capabilities.
+
+I asked it to generate a simple scene: a boy in yellow on a ship in the middle of the ocean, with a lighthouse in the background.
+
+And here’s what I got.
+
+AI video generation is getting seriously impressive.
+
+Which AI model could do this even better?
 ```
 
 <a id="motion-graphics"></a>
@@ -1165,24 +1195,6 @@ One delivers a chaotic explosion. The other takes a different approach.
 Which one wins?
 ```
 
-### Stretchable jelly duck comparison between two models
-
-[@0xlillyy](https://x.com/0xlillyy/status/2113022743763652857) · 0:17 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113022743763652857/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113022743763652857?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-opus 5.5 vs gemini 4 argon
-
-$0.32 vs $2.7
-
-same prompt: a jelly superhero duck you can stretch
-
--> pull the cheek and it turns into a gummy strand
--> toss it and it flips with the cape flapping
--> 5 more ducks rain down and jiggle
-
-gemini gave me stiff plastic and a red stick…
-```
-
 ### Plane landing at sunset across three models
 
 [@glitch_catAI](https://x.com/glitch_catAI/status/2113981829984460925) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113981829984460925/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113981829984460925?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1237,4 +1249,30 @@ Opus won. Argon was 45× cheaper.
 My scores at the end. Was it worth it?
 
 All three models are on
+```
+
+### Night street generation comparison between models
+
+[@buzzhive_ai](https://x.com/buzzhive_ai/status/2115477404156076511) · 0:15 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115477404156076511/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115477404156076511?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Look up.
+
+Gemini 4 Argon built this night street in 2 minutes for 9 cents.
+
+Claude Opus 5.5 ran 39 minutes and cost $4.84 - about 53x more.
+
+One brief for both: an old street with paper lanterns, cherry blossoms and wet stones.
+
+Above Opus there is sky. A moon comes out around 0:07, with mist far down the road.
+
+Above Gemini there is no sky in any frame. Its cherry trees merge into one low-poly red ceiling, and the street reads like a tunnel.
+
+Opus petals are pink and fly past the camera the whole clip. Gemini has a few tiny specks.
+
+Opus slips too: a black first second, and at 0:08 a thick branch cuts across the top of the frame.
+
+Now look down.
+
+Both got the wet stones. Gemini does them well - glowing paper windows reflected red in the floor, for 9 cents.
 ```
