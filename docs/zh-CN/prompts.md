@@ -2,14 +2,14 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 70 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 69 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (19)
+- [3D 场景](#3d-scene) (18)
 - [动效](#motion-graphics) (6)
-- [游戏](#game) (6)
-- [产品界面](#ui-demo) (6)
+- [游戏](#game) (5)
+- [产品界面](#ui-demo) (7)
 - [粒子与形状](#particles) (1)
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
@@ -103,20 +103,6 @@ to build a Leonardo da Vinci workshop with 3D recreations of his inventions
 which approach do you prefer? prompt below 👇
 ```
 
-### 单次生成的WebGL驾驶模拟器与座舱控制
-
-[@EvoLinkAi](https://x.com/EvoLinkAi/status/2110279443336102262) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110279443336102262/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110279443336102262?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon excels at one-shot 3D coding.
-
-Stress-test prompt: one HTML/WebGL car simulator — first-person exploration, interactive panels, cockpit controls, drivable physics.
-
-How does it look?
-
-Use gemini-4-argon in your agent 👇
-```
-
 ### 单提示词生成的电影级三维动画
 
 [@HeyAbhishek](https://x.com/HeyAbhishek/status/2110355993255366802) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110355993255366802/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110355993255366802?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -183,22 +169,6 @@ Gemini 4 ARGON and Seedance 2.5 turned ONE idea into an entire cinematic 3D scen
 Full prompt below:
 ```
 
-### Three.js 生成的 3D 赛车模型
-
-[@ayjaystyle](https://x.com/ayjaystyle/status/2111145884776116711) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111145884776116711/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111145884776116711?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-holy shit!!
-
-gemini 4 argon cooked this in under 30mins
-
-with one single prompt:
-
-create a 3d model of racing car using three.js
-
-🫡🫡🫡
-```
-
 ### 男孩遛狗的3D动画
 
 [@kayisagijr](https://x.com/kayisagijr/status/2112543356634992799) · 0:10 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112543356634992799/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112543356634992799?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -254,6 +224,56 @@ Gemini 4 Argon High / Antigravity
 I will put the code on my GitHub later.
 
 Build "BATHYSCAPHE // Pelagic Automaton Vol. IV", an interactive 3D horological hydrobiology museum plate archive in Three.js r184 where three deep sea cnidarian and hydrozoan species are re engineered as working 19th century brass and flint glass clockwork automata inside a living Victorian lithographic plate (PLATE IV): (01) Aurelia Oscilla (Moon Jelly), driven by a 1.00 Hz gravity pendulum, 2-axis counter tilting Cardan marine gimbal, 30 tooth Graham dead beat anchor escapement (80% locking dwell), and 8 invariant-length clevis rods articulating 8 hinged glass bell lobes around 4 inward-facing horseshoe gonads; (02) Velella Gyro (By-the-Wind Sailor), a rigid 2.2:1 royal cobalt-sapphire oval float crowned by a 43° sinistral pleated quartz hydro sail, powered from below by a 12 bucket Pelton water impulse turbine, 90° mitre bevel gear pair, and a spinning Watt centrifugal fly ball governor whose ω² lift raises an annular gastrozooid collar and 4:1 gyroscopic stabilization flywheel inside a pierced Art Nouveau bronze keel; and (03) Chrysaora Pulse (Compass Sea Nettle), a 1.83:1 saucer medusa with 16 burnished bronze V dart inlays and 32 scalloped marginal lappets driven by an 8 rod radial slider crank linkage, a 30:1 central Archimedes worm gear rotating 4 spiral fluted oral arms, and a 6:1 high tension magneto igniting a central (2,3) trefoil torus knot plasma core at an 8.0× systolic flash peak. Support 3 plate environments (SONAR [ABYSS], BLUEPRINT [STUDIO], LITHOCLASS [GILDED]) × 3 inspection states (INTACT, DISSECTED, FLUORESCENT) with zero overlap 3D-projected SVG anatomical callouts, procedural WebAudio horological synthesis, a deterministic virtual clock (`window.__setClock(t)`), a 65 gate non cheating Playwright/WebGL verifier, and a 3:00 (180.000s, 1080p60 + 9:16 vertical second camera + 4K UHD stills) social film mastered to -14.0 LUFS.
+```
+
+### 1949年MONIAC水力计算机3D交互模拟
+
+[@IamEmily2050](https://x.com/IamEmily2050/status/2114948683888214414) · 3:00 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114948683888214414/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114948683888214414?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon High/ Antigravity.
+
+I am building a new Three.JS skill for Gemini 4 Argon, and the results are really promising; hopefully I can publish it soon.
+
+Build an interactive 3D web simulation (index.html) of the 1949 MONIAC Water Powered Economic Computer using Three.js, plus a 3-minute 1080p demo video showing a human mouse operating the machine with gentle background music.
+
+What This Machine Is:
+In 1949, before digital computers had screens, economist Bill Phillips built a 2-meter-tall machine at the London School of Economics that simulated an entire country's economy using 100 litres of coloured water flowing through clear plastic tanks and brass valves.
+
+1. The 3D Machine and Colored Water Tanks
+Build the cream- steel frame holding three clear tanks with millimetre rulers (in Millions of Pounds and Liters), connected by clear pipes, moving water streams, brass floats, pulleys, counterweights, a spinning bottom water pump, and a spinning paper chart drum at the top right:
+
+- Top Red Tank (Government Treasury): Tax money flows in at the top, and government spending pours out the bottom.
+- Middle Blue Tank (Household Spending): The money families have left after taxes to spend in domestic shops.
+
+- Bottom Green Tank (Bank Savings and Business Investment): Money saved in banks waiting to be loaned out to businesses.
+
+2. Interactive Controls That Visibly Move the Water Levels
+On the left panel, create 4 sliders and 4 historical preset buttons that physically turn the 3D brass valves and make the colored water levels rise and fall across the tanks (from 15% to 88% full) within 1 to 2 seconds while keeping all 100 litres of water balanced:
+
+- Income Tax Slider (5% to 50%): Raising taxes opens the top brass tax valve, filling the Red Treasury Tank high into a surplus while draining the Blue Household Tank. Cutting taxes drains the Red Tank and refills household spending.
+
+- Government Spending Slider (0 to 2,500M Pounds): Dragging spending up opens the treasury valve, draining the Red Tank and pumping water into the Blue Household Tank, lifting its brass float and spinning the bottom pump faster.
+
+- Bank Interest Rate Slider (1% to 10%): Raising interest rates closes the investment valve, backing water up inside the Green Savings Tank. Cutting interest rates releases stored savings back into active business investment.
+
+- Foreign Imports Slider (5% to 40%): Raising imports opens the bottom drain valve, leaking spending out of the Blue Household Tank into foreign trade.
+
+- 4 Historical Preset Buttons: 1947 Austerity, 1949 Sterling Crisis, 1950 Export Boom, and Reset Equilibrium (2,400M Pounds GDP).
+
+- Live Paper Chart Drum and Telemetry Card: As the water levels rise and fall, the floating weights pull thin cables that move a red ink pen across the spinning paper drum at the top right, drawing a live graph of National Income (GDP).
+
+- Click Any 3D Part to Inspect It: Clicking any 3D tank, brass valve, or the paper chart drum highlights that 3D part in a bright gold wireframe and shows its live litres and flow rate on the right readout panel.
+
+3. Four View Modes (Top Bar Tabs)
+
+- 01 Operating Console: Full view of the machine so you can drag sliders on the left and watch all three colored water tanks rise and fall together.
+
+- 02 Valve and Tank Close-Up: Closer view of the brass valves, pouring water jets, and floating weights while keeping the neighbouring water tanks in sight.
+
+- 03 Exploded Plumbing View: Slides the front tanks, middle valves and pipes, and back steel frame apart along four steel guide rails with clean labels pointing to each layer.
+
+- 04 Live 2D Blueprint: Flat engineering diagram overlaying live moving flow arrows and Liters/min equations directly over the tanks and pipes.
 ```
 
 ### Three.js山间粗野主义要塞
@@ -434,28 +454,6 @@ im gonna compare this with Opus 5.5 later.
 我把在devin里跑的整个流程和效果，全部录屏放出来👇
 ```
 
-### 哥特式大教堂 3D 魂系 Boss 战游戏
-
-[@Nyxelarm](https://x.com/Nyxelarm/status/2110829963414757435) · 0:16 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110829963414757435/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110829963414757435?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Take a look at this game built with Gemini 4 Argon
-
-> build a 3D soulslike boss fight: Sir Davos vs a Void Lord Golem inside a sunlit Gothic cathedral
-
-What’s under the hood:
-
-• Full Combat Loop: Light/Heavy combos, 360° combat rolls with i-frames, and mid-air Plunge Slams
-
-• Perfect Roll System: Last-second dodges trigger time dilation (Slow-Mo) + 2.5x Empowered Crit Blade
-
-• Verticality: Jump over expanding tectonic void rings (JUMP DODGE)
-
-• Stagger & Multi-Phase AI: 4 distinct boss telegraphs, breakable core state, and Void Overdrive Phase II at 50% HP
-
-• Procedural Audio: Real-time synthesized darkwave soundtrack & SFX with dynamic tempo scaling
-```
-
 ### 可玩飞行的Tesla Roadster 3D游戏
 
 [@StatsWire](https://x.com/StatsWire/status/2111427003899592819) · 1:00 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111427003899592819/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111427003899592819?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -568,6 +566,28 @@ Prompt: Implement a concurrent LFU cache with TTL
 Same prompt in two separate chats, and 53% of 5 hr usage is gone.
 Honestly, this is huge. I don't think switching between Low, Medium, or High thinking makes much difference.
 The usage consumption seems excessive regardless.
+```
+
+### 将网页截图转为完整可用网页
+
+[@itsPaulAi](https://x.com/itsPaulAi/status/2116204686415982920) · 0:38 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116204686415982920/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116204686415982920?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+You can turn any image/screenshot into a real page or app with Gemini 4 Argon
+
+That’s actually quite impressive.
+
+- Generate an image of your page
+- Select Gemini 4 Argon in Antigravity
+- Use a simple prompt like:
+
+“Reproduce this landing page and make it fully functional. You can also add a parallax effect. Don't stop until the result is exactly 1:1 with the image.”
+
+A few minutes later, it’s done!
+
+Worth a shot if you have a Google AI Pro or Ultra account to use Gemini 4 Argon.
+
+#collaborationcommerciale
 ```
 
 <a id="particles"></a>

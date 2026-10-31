@@ -1314,24 +1314,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110106381689016669"
  },
  {
-  "id": "2110108667194257811",
-  "title": "Motion design created with Gemini 4 Argon",
-  "title_zh": "Gemini 4 Argon动态设计作品",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "ikcrypth",
-   "name": "I’K"
-  },
-  "postUrl": "https://x.com/ikcrypth/status/2110108667194257811",
-  "createdAt": "2026-10-13T20:41:24.000Z",
-  "durationMs": 23700,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110108667194257811/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": null,
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110108667194257811"
- },
- {
   "id": "2110109640419926325",
   "title": "A Jupiter and Moog combo synthesizer in HTML",
   "title_zh": "单个HTML实现的组合合成器",
@@ -1345,7 +1327,7 @@
   "durationMs": 59234,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": 3,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110109640419926325"
  },
@@ -2400,25 +2382,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110277813819633682"
  },
  {
-  "id": "2110279443336102262",
-  "title": "One-shot WebGL car simulator with cockpit controls",
-  "title_zh": "单次生成的WebGL驾驶模拟器与座舱控制",
-  "category": "3d-scene",
-  "author": {
-   "handle": "EvoLinkAi",
-   "name": "EvoLink.ai"
-  },
-  "postUrl": "https://x.com/EvoLinkAi/status/2110279443336102262",
-  "createdAt": "2026-10-14T08:00:01.000Z",
-  "durationMs": 30000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110279443336102262/video.mp4",
-  "promptShared": true,
-  "promptText": "Gemini 4 Argon excels at one-shot 3D coding.\n\nStress-test prompt: one HTML/WebGL car simulator — first-person exploration, interactive panels, cockpit controls, drivable physics.\n\nHow does it look?\n\nUse gemini-4-argon in your agent 👇",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110279443336102262/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110279443336102262"
- },
- {
   "id": "2110285214102511672",
   "title": "Animated website for a ski resort",
   "title_zh": "滑雪度假村动态网站设计",
@@ -3148,24 +3111,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110361902064992440"
  },
  {
-  "id": "2110362488726544767",
-  "title": "Livestream interface and chat overlay simulation",
-  "title_zh": "直播界面与互动聊天界面模拟",
-  "category": "ui-demo",
-  "author": {
-   "handle": "Deevid_AI",
-   "name": "Deevid AI"
-  },
-  "postUrl": "https://x.com/Deevid_AI/status/2110362488726544767",
-  "createdAt": "2026-10-14T13:30:00.000Z",
-  "durationMs": 27200,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110362488726544767/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110362488726544767/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110362488726544767"
- },
- {
   "id": "2110363640213979398",
   "title": "Gummy bear video generation benchmark",
   "title_zh": "小熊软糖视频生成测试对比",
@@ -3674,24 +3619,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110423328016220179"
  },
  {
-  "id": "2110428004765794435",
-  "title": "An entire temple complex built in Blender",
-  "title_zh": "在 Blender 中构建的完整寺庙建筑群",
-  "category": "3d-scene",
-  "author": {
-   "handle": "deweytn",
-   "name": "Claudia Galeán (💫,💫)"
-  },
-  "postUrl": "https://x.com/deweytn/status/2110428004765794435",
-  "createdAt": "2026-10-14T17:50:20.000Z",
-  "durationMs": 33133,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110428004765794435/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110428004765794435/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110428004765794435"
- },
- {
   "id": "2110429931314503852",
   "title": "Interactive 3D technical catalog of a vintage pickup",
   "title_zh": "老款皮卡的交互式3D技术手册展示",
@@ -3996,7 +3923,7 @@
   "durationMs": 42433,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": 2,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110609385546547532"
  },
@@ -4272,24 +4199,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110731542745989301/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110731542745989301"
- },
- {
-  "id": "2110737457994248521",
-  "title": "AI character animation and game results UI workflow",
-  "title_zh": "AI角色动画与结算界面动态展示",
-  "category": "ui-demo",
-  "author": {
-   "handle": "Deevid_AI",
-   "name": "Deevid AI"
-  },
-  "postUrl": "https://x.com/Deevid_AI/status/2110737457994248521",
-  "createdAt": "2026-10-15T14:20:00.000Z",
-  "durationMs": 11215,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110737457994248521/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110737457994248521/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110737457994248521"
  },
  {
   "id": "2110740776548188238",
@@ -4616,25 +4525,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110819776281079978/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110819776281079978"
- },
- {
-  "id": "2110829963414757435",
-  "title": "A 3D soulslike cathedral boss fight game",
-  "title_zh": "哥特式大教堂 3D 魂系 Boss 战游戏",
-  "category": "game",
-  "author": {
-   "handle": "Nyxelarm",
-   "name": "Nyxelarm"
-  },
-  "postUrl": "https://x.com/Nyxelarm/status/2110829963414757435",
-  "createdAt": "2026-10-15T20:27:35.000Z",
-  "durationMs": 16388,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110829963414757435/video.mp4",
-  "promptShared": true,
-  "promptText": "Take a look at this game built with Gemini 4 Argon\n\n> build a 3D soulslike boss fight: Sir Davos vs a Void Lord Golem inside a sunlit Gothic cathedral\n\nWhat’s under the hood:\n\n• Full Combat Loop: Light/Heavy combos, 360° combat rolls with i-frames, and mid-air Plunge Slams\n\n• Perfect Roll System: Last-second dodges trigger time dilation (Slow-Mo) + 2.5x Empowered Crit Blade\n\n• Verticality: Jump over expanding tectonic void rings (JUMP DODGE)\n\n• Stagger & Multi-Phase AI: 4 distinct boss telegraphs, breakable core state, and Void Overdrive Phase II at 50% HP\n\n• Procedural Audio: Real-time synthesized darkwave soundtrack & SFX with dynamic tempo scaling",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110829963414757435/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110829963414757435"
  },
  {
   "id": "2110833108228706461",
@@ -4996,25 +4886,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111139510750957692/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111139510750957692"
- },
- {
-  "id": "2111145884776116711",
-  "title": "A 3D racing car model in Three.js",
-  "title_zh": "Three.js 生成的 3D 赛车模型",
-  "category": "3d-scene",
-  "author": {
-   "handle": "ayjaystyle",
-   "name": "Ayjay 🧃"
-  },
-  "postUrl": "https://x.com/ayjaystyle/status/2111145884776116711",
-  "createdAt": "2026-10-16T17:22:56.000Z",
-  "durationMs": 19933,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111145884776116711/video.mp4",
-  "promptShared": true,
-  "promptText": "holy shit!!\n\ngemini 4 argon cooked this in under 30mins\n\nwith one single prompt:\n\ncreate a 3d model of racing car using three.js\n\n🫡🫡🫡",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111145884776116711/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111145884776116711"
  },
  {
   "id": "2111154246229914026",
@@ -5580,24 +5451,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111847116205375917"
  },
  {
-  "id": "2111848265331380444",
-  "title": "Testing a 3D library prompt in Three.js",
-  "title_zh": "Three.js 3D 库提示词效果测试",
-  "category": "comparison",
-  "author": {
-   "handle": "cheaf25master",
-   "name": "CHEAF"
-  },
-  "postUrl": "https://x.com/cheaf25master/status/2111848265331380444",
-  "createdAt": "2026-10-18T15:53:57.000Z",
-  "durationMs": 20000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111848265331380444/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111848265331380444/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111848265331380444"
- },
- {
   "id": "2111850965196271982",
   "title": "Motion harness breakdown using optical flow analysis",
   "title_zh": "基于光流分析的动态图形测试框架解析",
@@ -5904,24 +5757,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112206606255436050/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112206606255436050"
- },
- {
-  "id": "2112208449056731188",
-  "title": "A Tesla Roadster canyon jump simulation in Three.js",
-  "title_zh": "Three.js 打造的特斯拉跑车飞跃峡谷模拟",
-  "category": "game",
-  "author": {
-   "handle": "AnshulDhawan001",
-   "name": "Anshul Dhawan"
-  },
-  "postUrl": "https://x.com/AnshulDhawan001/status/2112208449056731188",
-  "createdAt": "2026-10-19T15:45:11.000Z",
-  "durationMs": 20077,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112208449056731188/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112208449056731188/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112208449056731188"
  },
  {
   "id": "2112247645955895455",
@@ -6306,24 +6141,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112847110118728059"
  },
  {
-  "id": "2112887335687749657",
-  "title": "White tiger on palace floor comparison",
-  "title_zh": "宫殿地板上的白虎模型对比",
-  "category": "comparison",
-  "author": {
-   "handle": "kinderlayer",
-   "name": "Kinder"
-  },
-  "postUrl": "https://x.com/kinderlayer/status/2112887335687749657",
-  "createdAt": "2026-10-21T12:42:51.000Z",
-  "durationMs": 15000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112887335687749657/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112887335687749657/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112887335687749657"
- },
- {
   "id": "2112913658091327828",
   "title": "Ink animation test comparing two models",
   "title_zh": "对比两款模型的水墨动画测试",
@@ -6485,24 +6302,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113345711517716540/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113345711517716540"
- },
- {
-  "id": "2113363382808023135",
-  "title": "Sky island generation compared across four models",
-  "title_zh": "四款模型生成浮空岛效果对比",
-  "category": "comparison",
-  "author": {
-   "handle": "buzzhive_ai",
-   "name": "Buzz"
-  },
-  "postUrl": "https://x.com/buzzhive_ai/status/2113363382808023135",
-  "createdAt": "2026-10-22T20:14:29.000Z",
-  "durationMs": 15000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113363382808023135/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113363382808023135/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113363382808023135"
  },
  {
   "id": "2113380806039359803",
@@ -6797,24 +6596,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114079543632003455"
  },
  {
-  "id": "2114279097245614440",
-  "title": "Recreation of Road Rash motorcycle game",
-  "title_zh": "复刻暴力摩托风格机车竞速游戏",
-  "category": "game",
-  "author": {
-   "handle": "0xKNiraj",
-   "name": "Niraj"
-  },
-  "postUrl": "https://x.com/0xKNiraj/status/2114279097245614440",
-  "createdAt": "2026-10-25T08:53:12.000Z",
-  "durationMs": 149666,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114279097245614440/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114279097245614440/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114279097245614440"
- },
- {
   "id": "2114297104084480148",
   "title": "Physics simulation of a trebuchet across four models",
   "title_zh": "四款模型投石机物理模拟对比",
@@ -7015,6 +6796,25 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114892335687389244"
  },
  {
+  "id": "2114948683888214414",
+  "title": "Simulation of the 1949 MONIAC computer",
+  "title_zh": "1949年MONIAC水力计算机3D交互模拟",
+  "category": "3d-scene",
+  "author": {
+   "handle": "IamEmily2050",
+   "name": "Emily"
+  },
+  "postUrl": "https://x.com/IamEmily2050/status/2114948683888214414",
+  "createdAt": "2026-10-27T05:13:54.000Z",
+  "durationMs": 180000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114948683888214414/video.mp4",
+  "promptShared": true,
+  "promptText": "Gemini 4 Argon High/ Antigravity.\n\nI am building a new Three.JS skill for Gemini 4 Argon, and the results are really promising; hopefully I can publish it soon.\n\nBuild an interactive 3D web simulation (index.html) of the 1949 MONIAC Water Powered Economic Computer using Three.js, plus a 3-minute 1080p demo video showing a human mouse operating the machine with gentle background music.\n\nWhat This Machine Is:\nIn 1949, before digital computers had screens, economist Bill Phillips built a 2-meter-tall machine at the London School of Economics that simulated an entire country's economy using 100 litres of coloured water flowing through clear plastic tanks and brass valves.\n\n1. The 3D Machine and Colored Water Tanks\nBuild the cream- steel frame holding three clear tanks with millimetre rulers (in Millions of Pounds and Liters), connected by clear pipes, moving water streams, brass floats, pulleys, counterweights, a spinning bottom water pump, and a spinning paper chart drum at the top right:\n\n- Top Red Tank (Government Treasury): Tax money flows in at the top, and government spending pours out the bottom.\n- Middle Blue Tank (Household Spending): The money families have left after taxes to spend in domestic shops.\n\n- Bottom Green Tank (Bank Savings and Business Investment): Money saved in banks waiting to be loaned out to businesses.\n\n2. Interactive Controls That Visibly Move the Water Levels\nOn the left panel, create 4 sliders and 4 historical preset buttons that physically turn the 3D brass valves and make the colored water levels rise and fall across the tanks (from 15% to 88% full) within 1 to 2 seconds while keeping all 100 litres of water balanced:\n\n- Income Tax Slider (5% to 50%): Raising taxes opens the top brass tax valve, filling the Red Treasury Tank high into a surplus while draining the Blue Household Tank. Cutting taxes drains the Red Tank and refills household spending.\n\n- Government Spending Slider (0 to 2,500M Pounds): Dragging spending up opens the treasury valve, draining the Red Tank and pumping water into the Blue Household Tank, lifting its brass float and spinning the bottom pump faster.\n\n- Bank Interest Rate Slider (1% to 10%): Raising interest rates closes the investment valve, backing water up inside the Green Savings Tank. Cutting interest rates releases stored savings back into active business investment.\n\n- Foreign Imports Slider (5% to 40%): Raising imports opens the bottom drain valve, leaking spending out of the Blue Household Tank into foreign trade.\n\n- 4 Historical Preset Buttons: 1947 Austerity, 1949 Sterling Crisis, 1950 Export Boom, and Reset Equilibrium (2,400M Pounds GDP).\n\n- Live Paper Chart Drum and Telemetry Card: As the water levels rise and fall, the floating weights pull thin cables that move a red ink pen across the spinning paper drum at the top right, drawing a live graph of National Income (GDP).\n\n- Click Any 3D Part to Inspect It: Clicking any 3D tank, brass valve, or the paper chart drum highlights that 3D part in a bright gold wireframe and shows its live litres and flow rate on the right readout panel.\n\n3. Four View Modes (Top Bar Tabs)\n\n- 01 Operating Console: Full view of the machine so you can drag sliders on the left and watch all three colored water tanks rise and fall together.\n\n- 02 Valve and Tank Close-Up: Closer view of the brass valves, pouring water jets, and floating weights while keeping the neighbouring water tanks in sight.\n\n- 03 Exploded Plumbing View: Slides the front tanks, middle valves and pipes, and back steel frame apart along four steel guide rails with clean labels pointing to each layer.\n\n- 04 Live 2D Blueprint: Flat engineering diagram overlaying live moving flow arrows and Liters/min equations directly over the tanks and pipes.",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114948683888214414/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114948683888214414"
+ },
+ {
   "id": "2115020711899308521",
   "title": "Brutalist fortress in the mountains in Three.js",
   "title_zh": "Three.js山间粗野主义要塞",
@@ -7032,24 +6832,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115020711899308521/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115020711899308521"
- },
- {
-  "id": "2115109816918274131",
-  "title": "Procedural voxel imperial valley in Three.js",
-  "title_zh": "Three.js程序化体素帝国山谷",
-  "category": "3d-scene",
-  "author": {
-   "handle": "Adidotdev",
-   "name": "Adit_Yah ☄️"
-  },
-  "postUrl": "https://x.com/Adidotdev/status/2115109816918274131",
-  "createdAt": "2026-10-27T15:54:11.000Z",
-  "durationMs": 45000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115109816918274131/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115109816918274131/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115109816918274131"
  },
  {
   "id": "2115119800179724392",
@@ -7161,6 +6943,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115173795711603192"
  },
  {
+  "id": "2115174238256542121",
+  "title": "Four AI models simulating a water lobe pump",
+  "title_zh": "四款AI模型模拟凸轮水泵效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "SamgreyAi",
+   "name": "Sam"
+  },
+  "postUrl": "https://x.com/SamgreyAi/status/2115174238256542121",
+  "createdAt": "2026-10-27T20:10:11.000Z",
+  "durationMs": 13203,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115174238256542121/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115174238256542121/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115174238256542121"
+ },
+ {
   "id": "2115425928503550344",
   "title": "Procedural 3D spider turret generated from a single image",
   "title_zh": "由单张图片生成的程序化3D蜘蛛炮塔",
@@ -7198,6 +6998,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115477404156076511"
  },
  {
+  "id": "2115480684370239523",
+  "title": "First video test with Gemini Argon",
+  "title_zh": "Gemini Argon 首次视频生成测试",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "wolfitway",
+   "name": "Wolfitway"
+  },
+  "postUrl": "https://x.com/wolfitway/status/2115480684370239523",
+  "createdAt": "2026-10-28T16:27:53.000Z",
+  "durationMs": 10005,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115480684370239523/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115480684370239523/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115480684370239523"
+ },
+ {
   "id": "2115482217342443658",
   "title": "Euro Truck Simulator recreation comparison",
   "title_zh": "欧洲卡车模拟游戏复刻效果对比",
@@ -7214,6 +7032,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115482217342443658/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115482217342443658"
+ },
+ {
+  "id": "2115496867681247275",
+  "title": "A bird rising and morphing into a panther",
+  "title_zh": "飞鸟升空并变形成黑豹的连续镜头对比",
+  "category": "comparison",
+  "author": {
+   "handle": "kinderlayer",
+   "name": "Kinder"
+  },
+  "postUrl": "https://x.com/kinderlayer/status/2115496867681247275",
+  "createdAt": "2026-10-28T17:32:11.000Z",
+  "durationMs": 18719,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115496867681247275/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115496867681247275/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115496867681247275"
  },
  {
   "id": "2115530594147049725",
@@ -7252,21 +7088,184 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115545183484100958"
  },
  {
-  "id": "2115572917039927552",
-  "title": "Mechanical brass lotus in Three.js",
-  "title_zh": "Three.js机械黄铜莲花结构",
-  "category": "3d-scene",
+  "id": "2115699631048810924",
+  "title": "A video editing and motion graphics showcase",
+  "title_zh": "Kdenlive视频剪辑与动态图形展示",
+  "category": "motion-graphics",
   "author": {
-   "handle": "IamEmily2050",
-   "name": "Emily"
+   "handle": "KardoshasLogs",
+   "name": "🇵🇸"
   },
-  "postUrl": "https://x.com/IamEmily2050/status/2115572917039927552",
-  "createdAt": "2026-10-28T22:34:23.000Z",
-  "durationMs": 30000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115572917039927552/video.mp4",
+  "postUrl": "https://x.com/KardoshasLogs/status/2115699631048810924",
+  "createdAt": "2026-10-29T06:57:54.000Z",
+  "durationMs": 64000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115699631048810924/video.mp4",
   "promptShared": false,
   "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115572917039927552/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115572917039927552"
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115699631048810924/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115699631048810924"
+ },
+ {
+  "id": "2115724143668924782",
+  "title": "Hike encounter with pony and seagull audition",
+  "title_zh": "小马与海鸥叫声的短片重制",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "TheMuskManWorld",
+   "name": "Mr. X"
+  },
+  "postUrl": "https://x.com/TheMuskManWorld/status/2115724143668924782",
+  "createdAt": "2026-10-29T08:35:18.000Z",
+  "durationMs": 30016,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115724143668924782/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115724143668924782/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115724143668924782"
+ },
+ {
+  "id": "2115768743263457751",
+  "title": "Echo circuits visual with AI music",
+  "title_zh": "Echo Circuits音乐视觉效果",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "BossmanCom74811",
+   "name": "Lance Robbins"
+  },
+  "postUrl": "https://x.com/BossmanCom74811/status/2115768743263457751",
+  "createdAt": "2026-10-29T11:32:32.000Z",
+  "durationMs": 181375,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115768743263457751/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115768743263457751/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115768743263457751"
+ },
+ {
+  "id": "2115842725245538737",
+  "title": "Interactive tilt puzzle toy in Three.js",
+  "title_zh": "Three.js重现经典怀旧倾斜滚珠迷宫玩具",
+  "category": "game",
+  "author": {
+   "handle": "Adidotdev",
+   "name": "Adit_Yah ☄️"
+  },
+  "postUrl": "https://x.com/Adidotdev/status/2115842725245538737",
+  "createdAt": "2026-10-29T16:26:30.000Z",
+  "durationMs": 30000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115842725245538737/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115842725245538737/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115842725245538737"
+ },
+ {
+  "id": "2115995652895215697",
+  "title": "A retro tilt game recreated in Three.js",
+  "title_zh": "用Three.js复刻经典倾斜玩具小游戏",
+  "category": "game",
+  "author": {
+   "handle": "slashui",
+   "name": "洛克船长"
+  },
+  "postUrl": "https://x.com/slashui/status/2115995652895215697",
+  "createdAt": "2026-10-30T02:34:11.000Z",
+  "durationMs": 30058,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115995652895215697/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115995652895215697/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115995652895215697"
+ },
+ {
+  "id": "2116156952162271453",
+  "title": "Simulated physical object sorting benchmark comparison",
+  "title_zh": "物理智能体模拟物体分拣基准对比",
+  "category": "comparison",
+  "author": {
+   "handle": "embodianalysis",
+   "name": "Embodied Analysis"
+  },
+  "postUrl": "https://x.com/embodianalysis/status/2116156952162271453",
+  "createdAt": "2026-10-30T13:15:08.000Z",
+  "durationMs": 20720,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116156952162271453/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116156952162271453/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116156952162271453"
+ },
+ {
+  "id": "2116192632762204243",
+  "title": "Carpet to eagle to panther transformation comparison",
+  "title_zh": "地毯变飞鹰再变黑豹的变换对比",
+  "category": "comparison",
+  "author": {
+   "handle": "SamgreyAi",
+   "name": "Sam"
+  },
+  "postUrl": "https://x.com/SamgreyAi/status/2116192632762204243",
+  "createdAt": "2026-10-30T15:36:55.000Z",
+  "durationMs": 18773,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116192632762204243/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116192632762204243/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116192632762204243"
+ },
+ {
+  "id": "2116204686415982920",
+  "title": "Turning an image into a functional web page",
+  "title_zh": "将网页截图转为完整可用网页",
+  "category": "ui-demo",
+  "author": {
+   "handle": "itsPaulAi",
+   "name": "Paul Couvert"
+  },
+  "postUrl": "https://x.com/itsPaulAi/status/2116204686415982920",
+  "createdAt": "2026-10-30T16:24:49.000Z",
+  "durationMs": 37900,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116204686415982920/video.mp4",
+  "promptShared": true,
+  "promptText": "You can turn any image/screenshot into a real page or app with Gemini 4 Argon\n\nThat’s actually quite impressive.\n\n- Generate an image of your page\n- Select Gemini 4 Argon in Antigravity\n- Use a simple prompt like:\n\n“Reproduce this landing page and make it fully functional. You can also add a parallax effect. Don't stop until the result is exactly 1:1 with the image.”\n\nA few minutes later, it’s done!\n\nWorth a shot if you have a Google AI Pro or Ultra account to use Gemini 4 Argon.\n\n#collaborationcommerciale",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116204686415982920/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116204686415982920"
+ },
+ {
+  "id": "2116237778463924283",
+  "title": "Four AI models generating 3D mug designs",
+  "title_zh": "四款AI生成3D马克杯设计对比",
+  "category": "comparison",
+  "author": {
+   "handle": "CadX_Studio",
+   "name": "CadX Studio"
+  },
+  "postUrl": "https://x.com/CadX_Studio/status/2116237778463924283",
+  "createdAt": "2026-10-30T18:36:18.000Z",
+  "durationMs": 25170,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116237778463924283/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116237778463924283/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116237778463924283"
+ },
+ {
+  "id": "2116259385353945119",
+  "title": "Humanoid robot learns cornhole via AI simulation",
+  "title_zh": "人形机器人通过AI仿真投掷沙包",
+  "category": "3d-scene",
+  "author": {
+   "handle": "SchiedC60393",
+   "name": "Chappie Schied"
+  },
+  "postUrl": "https://x.com/SchiedC60393/status/2116259385353945119",
+  "createdAt": "2026-10-30T20:02:10.000Z",
+  "durationMs": 27592,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116259385353945119/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116259385353945119/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116259385353945119"
  }
 ]
