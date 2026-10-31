@@ -6,7 +6,7 @@ English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../R
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (18)
+- [3D scenes](#3d-scene) (17)
 - [Motion graphics](#motion-graphics) (6)
 - [Games](#game) (5)
 - [Product UI](#ui-demo) (7)
@@ -14,7 +14,7 @@ Each entry quotes the creator's post as published on X, where the prompt is shar
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (2)
-- [Tests & comparisons](#comparison) (28)
+- [Tests & comparisons](#comparison) (29)
 
 <a id="3d-scene"></a>
 
@@ -288,22 +288,6 @@ I asked Gemini 4 ARGON to build a brutalist fortress, and it one shotted THIS.
 A massive fortress in the mountains, with glowing server halls, waterfalls, clouds, and cinematic lighting.
 
 And it’s all running in Three js
-```
-
-### Boy in yellow on ship with lighthouse
-
-[@AIWorkflowX](https://x.com/AIWorkflowX/status/2115126301807825165) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115126301807825165/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115126301807825165?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini Argon continues to surprise me with its capabilities.
-
-I asked it to generate a simple scene: a boy in yellow on a ship in the middle of the ocean, with a lighthouse in the background.
-
-And here’s what I got.
-
-AI video generation is getting seriously impressive.
-
-Which AI model could do this even better?
 ```
 
 <a id="motion-graphics"></a>
@@ -1295,4 +1279,30 @@ Opus slips too: a black first second, and at 0:08 a thick branch cuts across the
 Now look down.
 
 Both got the wet stones. Gemini does them well - glowing paper windows reflected red in the floor, for 9 cents.
+```
+
+### Interactive 3D electric motor comparison
+
+[@SamgreyAi](https://x.com/SamgreyAi/status/2116526662460322138) · 0:40 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116526662460322138/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116526662460322138?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+$3.83 vs $16.36 for the same electric motor. Opus cost over 4x more, but is it 4x better? ⚡
+
+Same prompt: build an interactive 3D electric motor with a cutaway, an exploded view and a running magnetic field.
+
+Gemini 4 Argon: $3.83 · [11 mins]
+Claude Opus 5.5: $16.36 · [7 mins]
+Watch the exploded view. That’s where the two models completely split.
+
+What I saw:
+→ Gemini: the motor breaks into 13 labeled sub-assemblies, with glowing red copper windings, blue coolant coils and a live sine-wave chart. It feels like an engineering textbook come alive
+→ Opus: a darker, cinematic look, with a glowing magnetic field, a rotating cutaway with liquid cooling and an 18,000 RPM readout. It feels like a product launch trailer
+
+Gemini teaches you how the motor works. Opus makes you want to buy one.
+
+Honestly? For explaining, I’d take Gemini. For wow factor, Opus wins. But at one-quarter of the price, Gemini is hard to ignore.
+
+Is the cinematic polish worth 4x more?
+
+Which motor would you put in your product?
 ```

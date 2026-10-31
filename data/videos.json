@@ -3366,24 +3366,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110392686146728003"
  },
  {
-  "id": "2110394335971975642",
-  "title": "Single HTML Three.js model comparison",
-  "title_zh": "单HTML文件 Three.js 模型效果对比",
-  "category": "comparison",
-  "author": {
-   "handle": "AI_Screening",
-   "name": "Pranav Reddy"
-  },
-  "postUrl": "https://x.com/AI_Screening/status/2110394335971975642",
-  "createdAt": "2026-10-14T15:36:33.000Z",
-  "durationMs": 12116,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110394335971975642/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110394335971975642/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110394335971975642"
- },
- {
   "id": "2110396781624184911",
   "title": "Model comparison between Argon and Opus",
   "title_zh": "Argon与Opus同提示词对比",
@@ -6523,24 +6505,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113981829984460925"
  },
  {
-  "id": "2114002507966116312",
-  "title": "Two versions of reaching for treasure",
-  "title_zh": "双模型伸手探寻宝藏对比",
-  "category": "comparison",
-  "author": {
-   "handle": "Deevid_AI",
-   "name": "Deevid AI"
-  },
-  "postUrl": "https://x.com/Deevid_AI/status/2114002507966116312",
-  "createdAt": "2026-10-24T14:34:08.000Z",
-  "durationMs": 30036,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114002507966116312/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114002507966116312/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114002507966116312"
- },
- {
   "id": "2114013247800291671",
   "title": "One-shot comparison across four models",
   "title_zh": "四款模型的单次生成任务对比",
@@ -6852,25 +6816,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115119800179724392"
  },
  {
-  "id": "2115126301807825165",
-  "title": "Boy in yellow on ship with lighthouse",
-  "title_zh": "黄衣男孩乘船远望灯塔的场景",
-  "category": "3d-scene",
-  "author": {
-   "handle": "AIWorkflowX",
-   "name": "AI Workflow Lab"
-  },
-  "postUrl": "https://x.com/AIWorkflowX/status/2115126301807825165",
-  "createdAt": "2026-10-27T16:59:42.000Z",
-  "durationMs": 10005,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115126301807825165/video.mp4",
-  "promptShared": true,
-  "promptText": "Gemini Argon continues to surprise me with its capabilities.\n\nI asked it to generate a simple scene: a boy in yellow on a ship in the middle of the ocean, with a lighthouse in the background.\n\nAnd here’s what I got.\n\nAI video generation is getting seriously impressive.\n\nWhich AI model could do this even better?",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115126301807825165/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115126301807825165"
- },
- {
   "id": "2115135850816164073",
   "title": "Simulation of Apollo humanoid playing checkers",
   "title_zh": "Apollo 人形机器人下跳棋的生成式模拟",
@@ -7160,6 +7105,42 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115842725245538737"
  },
  {
+  "id": "2115849659797373038",
+  "title": "Three.js test comparing three AI models",
+  "title_zh": "三款模型Three.js动画测试对比",
+  "category": "comparison",
+  "author": {
+   "handle": "AI_Screening",
+   "name": "Pranav Reddy"
+  },
+  "postUrl": "https://x.com/AI_Screening/status/2115849659797373038",
+  "createdAt": "2026-10-29T16:54:04.000Z",
+  "durationMs": 15066,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115849659797373038/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115849659797373038/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115849659797373038"
+ },
+ {
+  "id": "2115957714203332616",
+  "title": "Flying Tesla Roadster 3D game comparison",
+  "title_zh": "飞行Tesla Roadster 3D游戏生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "AbdoKerdawy",
+   "name": "Kerdo"
+  },
+  "postUrl": "https://x.com/AbdoKerdawy/status/2115957714203332616",
+  "createdAt": "2026-10-30T00:03:26.000Z",
+  "durationMs": 165680,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115957714203332616/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115957714203332616/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115957714203332616"
+ },
+ {
   "id": "2115995652895215697",
   "title": "A retro tilt game recreated in Three.js",
   "title_zh": "用Three.js复刻经典倾斜玩具小游戏",
@@ -7267,5 +7248,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116259385353945119/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116259385353945119"
+ },
+ {
+  "id": "2116526662460322138",
+  "title": "Interactive 3D electric motor comparison",
+  "title_zh": "交互式3D电动机模型生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "SamgreyAi",
+   "name": "Sam"
+  },
+  "postUrl": "https://x.com/SamgreyAi/status/2116526662460322138",
+  "createdAt": "2026-10-31T13:44:14.000Z",
+  "durationMs": 40000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116526662460322138/video.mp4",
+  "promptShared": true,
+  "promptText": "$3.83 vs $16.36 for the same electric motor. Opus cost over 4x more, but is it 4x better? ⚡\n\nSame prompt: build an interactive 3D electric motor with a cutaway, an exploded view and a running magnetic field.\n\nGemini 4 Argon: $3.83 · [11 mins]\nClaude Opus 5.5: $16.36 · [7 mins]\nWatch the exploded view. That’s where the two models completely split.\n\nWhat I saw:\n→ Gemini: the motor breaks into 13 labeled sub-assemblies, with glowing red copper windings, blue coolant coils and a live sine-wave chart. It feels like an engineering textbook come alive\n→ Opus: a darker, cinematic look, with a glowing magnetic field, a rotating cutaway with liquid cooling and an 18,000 RPM readout. It feels like a product launch trailer\n\nGemini teaches you how the motor works. Opus makes you want to buy one.\n\nHonestly? For explaining, I’d take Gemini. For wow factor, Opus wins. But at one-quarter of the price, Gemini is hard to ignore.\n\nIs the cinematic polish worth 4x more?\n\nWhich motor would you put in your product?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116526662460322138/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116526662460322138"
  }
 ]
