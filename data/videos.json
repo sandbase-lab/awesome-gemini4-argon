@@ -1387,24 +1387,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110116583016419760"
  },
  {
-  "id": "2110116658207752219",
-  "title": "Recreation of the jelly fishing game",
-  "title_zh": "重现水母钓鱼游戏",
-  "category": "game",
-  "author": {
-   "handle": "crtvTeknologist",
-   "name": "FinkTheArtist"
-  },
-  "postUrl": "https://x.com/crtvTeknologist/status/2110116658207752219",
-  "createdAt": "2026-10-13T21:13:10.000Z",
-  "durationMs": 20000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110116658207752219/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110116658207752219/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110116658207752219"
- },
- {
   "id": "2110116795516661832",
   "title": "Code-generated Himeji Castle during cherry blossoms",
   "title_zh": "代码生成的樱花季姬路城景观",
@@ -1639,24 +1621,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110140198130425917/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110140198130425917"
- },
- {
-  "id": "2110141561677955132",
-  "title": "Gemini 4 Argon video about itself",
-  "title_zh": "Gemini 4 Argon 自我介绍视频",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "TheSuryanshD",
-   "name": "Suryansh"
-  },
-  "postUrl": "https://x.com/TheSuryanshD/status/2110141561677955132",
-  "createdAt": "2026-10-13T22:52:07.000Z",
-  "durationMs": 14375,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110141561677955132/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110141561677955132/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110141561677955132"
  },
  {
   "id": "2110145714659664275",
@@ -2199,24 +2163,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110234900616126769/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110234900616126769"
- },
- {
-  "id": "2110240752517193761",
-  "title": "Browser-based 3D Mumbai urban simulation in Three.js",
-  "title_zh": "浏览器端运行的孟买3D城市模拟",
-  "category": "3d-scene",
-  "author": {
-   "handle": "CurieuxExplorer",
-   "name": "Dev Khanna"
-  },
-  "postUrl": "https://x.com/CurieuxExplorer/status/2110240752517193761",
-  "createdAt": "2026-10-14T05:26:16.000Z",
-  "durationMs": 177833,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110240752517193761/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110240752517193761/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110240752517193761"
  },
  {
   "id": "2110243527355736460",
@@ -3072,24 +3018,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110357629159854196/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110357629159854196"
- },
- {
-  "id": "2110361900160884792",
-  "title": "Mobile game made with Gemini Argon for Wish Play",
-  "title_zh": "使用Gemini Argon制作的Wish Play手机游戏",
-  "category": "game",
-  "author": {
-   "handle": "yogeshsingla481",
-   "name": "Yogesh Singla"
-  },
-  "postUrl": "https://x.com/yogeshsingla481/status/2110361900160884792",
-  "createdAt": "2026-10-14T13:27:40.000Z",
-  "durationMs": 41266,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110361900160884792/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110361900160884792/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110361900160884792"
  },
  {
   "id": "2110361902064992440",
@@ -4110,24 +4038,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110726637243285904"
  },
  {
-  "id": "2110728146664206570",
-  "title": "Claude Opus versus Gemini Argon running the same game",
-  "title_zh": "Claude 与 Gemini 运行同款游戏生成对比",
-  "category": "comparison",
-  "author": {
-   "handle": "dustinng_gs",
-   "name": "Dustin Ng"
-  },
-  "postUrl": "https://x.com/dustinng_gs/status/2110728146664206570",
-  "createdAt": "2026-10-15T13:43:00.000Z",
-  "durationMs": 30000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110728146664206570/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110728146664206570/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110728146664206570"
- },
- {
   "id": "2110731071096782962",
   "title": "Gemini 4 Argon vs Claude Opus 5.5 on 3D and game tasks",
   "title_zh": "Gemini 4 Argon与Claude Opus 5.5在3D和游戏任务中的对比",
@@ -4525,24 +4435,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110833108228706461/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110833108228706461"
- },
- {
-  "id": "2110835030964732074",
-  "title": "Side-by-side voxel ship in a bottle physics comparison",
-  "title_zh": "瓶中船体素物理模拟效果对比",
-  "category": "comparison",
-  "author": {
-   "handle": "arixxbt",
-   "name": "Arix"
-  },
-  "postUrl": "https://x.com/arixxbt/status/2110835030964732074",
-  "createdAt": "2026-10-15T20:47:43.000Z",
-  "durationMs": 13500,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110835030964732074/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110835030964732074/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110835030964732074"
  },
  {
   "id": "2110835389535850763",
@@ -7033,24 +6925,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115545183484100958"
  },
  {
-  "id": "2115699631048810924",
-  "title": "A video editing and motion graphics showcase",
-  "title_zh": "Kdenlive视频剪辑与动态图形展示",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "KardoshasLogs",
-   "name": "🇵🇸"
-  },
-  "postUrl": "https://x.com/KardoshasLogs/status/2115699631048810924",
-  "createdAt": "2026-10-29T06:57:54.000Z",
-  "durationMs": 64000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115699631048810924/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115699631048810924/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115699631048810924"
- },
- {
   "id": "2115724143668924782",
   "title": "Hike encounter with pony and seagull audition",
   "title_zh": "小马与海鸥叫声的短片重制",
@@ -7157,6 +7031,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115995652895215697/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115995652895215697"
+ },
+ {
+  "id": "2116003286373609646",
+  "title": "Introduction video for Sumi Studio platform",
+  "title_zh": "Sumi Studio平台介绍视频",
+  "category": "launch-film",
+  "author": {
+   "handle": "NguynTu135869",
+   "name": "T 1 to 9"
+  },
+  "postUrl": "https://x.com/NguynTu135869/status/2116003286373609646",
+  "createdAt": "2026-10-30T03:04:31.000Z",
+  "durationMs": 63566,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116003286373609646/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116003286373609646/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116003286373609646"
  },
  {
   "id": "2116156952162271453",
@@ -7267,5 +7159,116 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116526662460322138/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116526662460322138"
+ },
+ {
+  "id": "2116619448081903636",
+  "title": "Performance and speed comparison across four models",
+  "title_zh": "四款AI模型速度与效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "ArdenAI07",
+   "name": "Arden AI"
+  },
+  "postUrl": "https://x.com/ArdenAI07/status/2116619448081903636",
+  "createdAt": "2026-10-31T19:52:55.000Z",
+  "durationMs": 25000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116619448081903636/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116619448081903636/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116619448081903636"
+ },
+ {
+  "id": "2116627353656848503",
+  "title": "Interactive flying ship scene generated by two models",
+  "title_zh": "两款模型生成交互式飞船场景对比",
+  "category": "comparison",
+  "author": {
+   "handle": "SamgreyAi",
+   "name": "Sam"
+  },
+  "postUrl": "https://x.com/SamgreyAi/status/2116627353656848503",
+  "createdAt": "2026-10-31T20:24:20.000Z",
+  "durationMs": 17647,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116627353656848503/video.mp4",
+  "promptShared": true,
+  "promptText": "Asked two AI models for a ship that sails AND flies. One gave it swan wings. \n\nSame prompt: a ship that can sail, spread its wings and fly, with live controls.\n\nGemini 4 Argon: [$4.00 · 21 mins]\nGPT-6.1 Terra: [$2.20 · 34 mins]\nBoth made it interactive: Sail / Fly / Cinematic orbit / Night modes, plus wind and speed sliders.\n\nWhat I saw:\n→ Gemini: an elegant swan-prowed ship with tall masts, a coral mountain range and a pink sky. The wings unfold smoothly and the whole scene feels calm and cinematic\n→ Terra: a golden-hulled ship with big sails, ice cliffs, turquoise water and a flock of birds. The camera is more dynamic and the flight feels more energetic, but it’s messier\n\nHonestly? I think Gemini made the more beautiful scene. Terra made the more alive one.\n[Terra was X x cheaper / faster.]\nIs the prettier one worth paying more for?\n\nWhich one would you fly with?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116627353656848503/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116627353656848503"
+ },
+ {
+  "id": "2116706145943622141",
+  "title": "Cinematic vintage car during golden hour",
+  "title_zh": "黄金时段的复古汽车电影质感画面",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "TheMuskManWorld",
+   "name": "Mr. X"
+  },
+  "postUrl": "https://x.com/TheMuskManWorld/status/2116706145943622141",
+  "createdAt": "2026-11-01T01:37:26.000Z",
+  "durationMs": 30037,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116706145943622141/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116706145943622141/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116706145943622141"
+ },
+ {
+  "id": "2116763499573514427",
+  "title": "Minecraft werewolf comparison across two models",
+  "title_zh": "两款AI生成我的世界狼人建筑对比",
+  "category": "comparison",
+  "author": {
+   "handle": "jan_volad",
+   "name": "Jan 🎃"
+  },
+  "postUrl": "https://x.com/jan_volad/status/2116763499573514427",
+  "createdAt": "2026-11-01T05:25:20.000Z",
+  "durationMs": 25000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116763499573514427/video.mp4",
+  "promptShared": true,
+  "promptText": "Gemini 4 Argon vs Claude Opus 5.5, Minecraft werewolf\n\nSame prompt for both: a howling werewolf, built from a script that generates the schematic\n\nI slightly prefer Opus's, but Argon's is really good too and there's no real gap here. Both came out way better than I expected\n\nHappy late Halloween 🐺🎃",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116763499573514427/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116763499573514427"
+ },
+ {
+  "id": "2116877146283012413",
+  "title": "Comparing Gemini and Claude on Pixar lamp intro",
+  "title_zh": "Gemini与Claude重现皮克斯跳跳灯片头对比",
+  "category": "comparison",
+  "author": {
+   "handle": "SahilExec",
+   "name": "Edgex"
+  },
+  "postUrl": "https://x.com/SahilExec/status/2116877146283012413",
+  "createdAt": "2026-11-01T12:56:56.000Z",
+  "durationMs": 34600,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116877146283012413/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116877146283012413/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116877146283012413"
+ },
+ {
+  "id": "2116950986661171337",
+  "title": "Rubik's cube made of jelly across four models",
+  "title_zh": "四款AI生成果冻魔方效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "0xRhinoX",
+   "name": "Rhino"
+  },
+  "postUrl": "https://x.com/0xRhinoX/status/2116950986661171337",
+  "createdAt": "2026-11-01T17:50:20.000Z",
+  "durationMs": 29866,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116950986661171337/video.mp4",
+  "promptShared": true,
+  "promptText": "WTF DeepSeek. This Rubik's cube is made of f*cking JELLY and it's the jelliest of all 4 AIs\n\nSame prompt: a Rubik's cube made of JELLY.\n\nDeepSeek V4.1 Flash - $6.36, 1h 0m\nOpus 5.5 - $11.10, 1h 23m\nGPT-6 Astra - $4.27, 1h 13m\nGemini 4 Argon - $0.55, 32 min\n\nTwo weeks ago Astra made plastic and Gemini thought jelly was a color. DeepSeek nailed it.\n\nWhich one would you twist first?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116950986661171337/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116950986661171337"
  }
 ]

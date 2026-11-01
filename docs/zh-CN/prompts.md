@@ -2,7 +2,7 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 69 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 72 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
@@ -14,7 +14,7 @@
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
 - [讲解](#explainer) (2)
-- [测试对比](#comparison) (29)
+- [测试对比](#comparison) (32)
 
 <a id="3d-scene"></a>
 
@@ -1305,4 +1305,61 @@ Honestly? For explaining, I’d take Gemini. For wow factor, Opus wins. But at o
 Is the cinematic polish worth 4x more?
 
 Which motor would you put in your product?
+```
+
+### 两款模型生成交互式飞船场景对比
+
+[@SamgreyAi](https://x.com/SamgreyAi/status/2116627353656848503) · 0:18 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116627353656848503/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116627353656848503?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Asked two AI models for a ship that sails AND flies. One gave it swan wings. 
+
+Same prompt: a ship that can sail, spread its wings and fly, with live controls.
+
+Gemini 4 Argon: [$4.00 · 21 mins]
+GPT-6.1 Terra: [$2.20 · 34 mins]
+Both made it interactive: Sail / Fly / Cinematic orbit / Night modes, plus wind and speed sliders.
+
+What I saw:
+→ Gemini: an elegant swan-prowed ship with tall masts, a coral mountain range and a pink sky. The wings unfold smoothly and the whole scene feels calm and cinematic
+→ Terra: a golden-hulled ship with big sails, ice cliffs, turquoise water and a flock of birds. The camera is more dynamic and the flight feels more energetic, but it’s messier
+
+Honestly? I think Gemini made the more beautiful scene. Terra made the more alive one.
+[Terra was X x cheaper / faster.]
+Is the prettier one worth paying more for?
+
+Which one would you fly with?
+```
+
+### 两款AI生成我的世界狼人建筑对比
+
+[@jan_volad](https://x.com/jan_volad/status/2116763499573514427) · 0:25 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116763499573514427/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116763499573514427?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon vs Claude Opus 5.5, Minecraft werewolf
+
+Same prompt for both: a howling werewolf, built from a script that generates the schematic
+
+I slightly prefer Opus's, but Argon's is really good too and there's no real gap here. Both came out way better than I expected
+
+Happy late Halloween 🐺🎃
+```
+
+### 四款AI生成果冻魔方效果对比
+
+[@0xRhinoX](https://x.com/0xRhinoX/status/2116950986661171337) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116950986661171337/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116950986661171337?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+WTF DeepSeek. This Rubik's cube is made of f*cking JELLY and it's the jelliest of all 4 AIs
+
+Same prompt: a Rubik's cube made of JELLY.
+
+DeepSeek V4.1 Flash - $6.36, 1h 0m
+Opus 5.5 - $11.10, 1h 23m
+GPT-6 Astra - $4.27, 1h 13m
+Gemini 4 Argon - $0.55, 32 min
+
+Two weeks ago Astra made plastic and Gemini thought jelly was a color. DeepSeek nailed it.
+
+Which one would you twist first?
 ```
