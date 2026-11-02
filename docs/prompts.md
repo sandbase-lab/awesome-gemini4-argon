@@ -2,19 +2,19 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-72 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+70 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
 - [3D scenes](#3d-scene) (17)
 - [Motion graphics](#motion-graphics) (6)
-- [Games](#game) (5)
+- [Games](#game) (4)
 - [Product UI](#ui-demo) (7)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (2)
-- [Tests & comparisons](#comparison) (32)
+- [Tests & comparisons](#comparison) (31)
 
 <a id="3d-scene"></a>
 
@@ -276,18 +276,23 @@ On the left panel, create 4 sliders and 4 historical preset buttons that physica
 - 04 Live 2D Blueprint: Flat engineering diagram overlaying live moving flow arrows and Liters/min equations directly over the tanks and pipes.
 ```
 
-### Brutalist fortress in the mountains in Three.js
+### Interactive 3D landing page built with Three.js
 
-[@itssasm](https://x.com/itssasm/status/2115020711899308521) · 0:18 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115020711899308521/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115020711899308521?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+[@SammmAing](https://x.com/SammmAing/status/2117119029311672607) · 0:36 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117119029311672607/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117119029311672607?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
 
 ```text
-HOLY SHIT
+I don't always know what I want to build. So here's something I like to do.
 
-I asked Gemini 4 ARGON to build a brutalist fortress, and it one shotted THIS.
+Try it: https://t.co/juKvGHRTFX
+Prompt and code: https://t.co/0BtbVGFipR
 
-A massive fortress in the mountains, with glowing server halls, waterfalls, clouds, and cinematic lighting.
+I ask the AI for 5 landing pages and leave the topic open. But I'm specific about how they have to look: interactive, animated, built with Three.js or a real 3D model, no AI slop, no serif as the default, different colors and fonts on each, at least 8.5 out of 10 on the first iteration.
 
-And it’s all running in Three js
+Then I open them and decide if any deserve another round.
+
+This one certainly does.
+
+Built with Gemini 4 Argon.
 ```
 
 <a id="motion-graphics"></a>
@@ -408,18 +413,6 @@ spent $1.16 in my https://t.co/miCc85L4GH credits
 already played it more than 5 times and i keep losing 😂
 
 im gonna compare this with Opus 5.5 later.
-```
-
-### HTML kart racing game generated with Gemini 4
-
-[@chasen_liao](https://x.com/chasen_liao/status/2110289917381329088) · 1:57 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110289917381329088/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110289917381329088?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-大家来评评看 这个Gemini4的 前端效果怎么样👇
-
-我就用一句简单的提示词 “复刻一个超级完整和精美的跑跑卡丁车游戏”
-
-运行了 5 分钟就做出来了一款基于 HTML 的跑跑卡丁车
 ```
 
 ### Devin replication of 3D boss fight game
@@ -1329,20 +1322,6 @@ Honestly? I think Gemini made the more beautiful scene. Terra made the more aliv
 Is the prettier one worth paying more for?
 
 Which one would you fly with?
-```
-
-### Minecraft werewolf comparison across two models
-
-[@jan_volad](https://x.com/jan_volad/status/2116763499573514427) · 0:25 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116763499573514427/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116763499573514427?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon vs Claude Opus 5.5, Minecraft werewolf
-
-Same prompt for both: a howling werewolf, built from a script that generates the schematic
-
-I slightly prefer Opus's, but Argon's is really good too and there's no real gap here. Both came out way better than I expected
-
-Happy late Halloween 🐺🎃
 ```
 
 ### Rubik's cube made of jelly across four models

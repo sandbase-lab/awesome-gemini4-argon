@@ -2,19 +2,19 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 72 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 70 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (17)
 - [动效](#motion-graphics) (6)
-- [游戏](#game) (5)
+- [游戏](#game) (4)
 - [产品界面](#ui-demo) (7)
 - [粒子与形状](#particles) (1)
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
 - [讲解](#explainer) (2)
-- [测试对比](#comparison) (32)
+- [测试对比](#comparison) (31)
 
 <a id="3d-scene"></a>
 
@@ -276,18 +276,23 @@ On the left panel, create 4 sliders and 4 historical preset buttons that physica
 - 04 Live 2D Blueprint: Flat engineering diagram overlaying live moving flow arrows and Liters/min equations directly over the tanks and pipes.
 ```
 
-### Three.js山间粗野主义要塞
+### 使用 Three.js 构建的交互式 3D 落地页
 
-[@itssasm](https://x.com/itssasm/status/2115020711899308521) · 0:18 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115020711899308521/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115020711899308521?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+[@SammmAing](https://x.com/SammmAing/status/2117119029311672607) · 0:36 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117119029311672607/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117119029311672607?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
 
 ```text
-HOLY SHIT
+I don't always know what I want to build. So here's something I like to do.
 
-I asked Gemini 4 ARGON to build a brutalist fortress, and it one shotted THIS.
+Try it: https://t.co/juKvGHRTFX
+Prompt and code: https://t.co/0BtbVGFipR
 
-A massive fortress in the mountains, with glowing server halls, waterfalls, clouds, and cinematic lighting.
+I ask the AI for 5 landing pages and leave the topic open. But I'm specific about how they have to look: interactive, animated, built with Three.js or a real 3D model, no AI slop, no serif as the default, different colors and fonts on each, at least 8.5 out of 10 on the first iteration.
 
-And it’s all running in Three js
+Then I open them and decide if any deserve another round.
+
+This one certainly does.
+
+Built with Gemini 4 Argon.
 ```
 
 <a id="motion-graphics"></a>
@@ -408,18 +413,6 @@ spent $1.16 in my https://t.co/miCc85L4GH credits
 already played it more than 5 times and i keep losing 😂
 
 im gonna compare this with Opus 5.5 later.
-```
-
-### 使用Gemini 4生成的HTML跑跑卡丁车游戏
-
-[@chasen_liao](https://x.com/chasen_liao/status/2110289917381329088) · 1:57 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110289917381329088/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110289917381329088?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-大家来评评看 这个Gemini4的 前端效果怎么样👇
-
-我就用一句简单的提示词 “复刻一个超级完整和精美的跑跑卡丁车游戏”
-
-运行了 5 分钟就做出来了一款基于 HTML 的跑跑卡丁车
 ```
 
 ### Devin 复现 3D Boss 战游戏过程
@@ -1329,20 +1322,6 @@ Honestly? I think Gemini made the more beautiful scene. Terra made the more aliv
 Is the prettier one worth paying more for?
 
 Which one would you fly with?
-```
-
-### 两款AI生成我的世界狼人建筑对比
-
-[@jan_volad](https://x.com/jan_volad/status/2116763499573514427) · 0:25 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116763499573514427/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116763499573514427?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon vs Claude Opus 5.5, Minecraft werewolf
-
-Same prompt for both: a howling werewolf, built from a script that generates the schematic
-
-I slightly prefer Opus's, but Argon's is really good too and there's no real gap here. Both came out way better than I expected
-
-Happy late Halloween 🐺🎃
 ```
 
 ### 四款AI生成果冻魔方效果对比
