@@ -6,27 +6,19 @@ English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../R
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (17)
+- [3D scenes](#3d-scene) (15)
 - [Motion graphics](#motion-graphics) (6)
-- [Games](#game) (4)
+- [Games](#game) (5)
 - [Product UI](#ui-demo) (7)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (2)
-- [Tests & comparisons](#comparison) (31)
+- [Tests & comparisons](#comparison) (32)
 
 <a id="3d-scene"></a>
 
 ## 3D scenes
-
-### Millennium Falcon main hold 3D model
-
-[@jackcheng](https://x.com/jackcheng/status/2110039909851685300) · 0:08 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110039909851685300/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110039909851685300?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Here’s Gemini 4 Argon (high) at a prompt for a personal project: “Create an accurate, hyper-realistic 3D model in Blender of the main hold of the Millennium Falcon as it appears in the original Star Wars trilogy.”
-```
 
 ### Voxel art of Mercedes AMG F1 car
 
@@ -167,18 +159,6 @@ AI animation is limitless now.
 Gemini 4 ARGON and Seedance 2.5 turned ONE idea into an entire cinematic 3D scene.
 
 Full prompt below:
-```
-
-### 3D animation of a boy walking a dog
-
-[@kayisagijr](https://x.com/kayisagijr/status/2112543356634992799) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112543356634992799/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112543356634992799?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-all i did was prompt gemini 4 argon with “make a 3d video of a boy walking a dog”
-
-ngl, i’m amazed by the results i got from such a simple prompt.
-
-and this is what i got 👇
 ```
 
 ### Interactive tearable concert ticket with holographic foil
@@ -443,6 +423,20 @@ Built a 3D playable Flying Tesla Roadster (SpaceX Package) game in a single HTML
 100% procedural Three.js + custom GLSL Mach shock-diamond shaders. Zero external assets.
 
 Prompt + code below
+```
+
+### A game created with Gemini AI Argon
+
+[@dvkexbt](https://x.com/dvkexbt/status/2117867632573727101) · 0:51 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117867632573727101/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117867632573727101?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+game builders are cooked 
+
+made this with gemini ai argon
+
+less than 30secs 
+
+prompt below
 ```
 
 <a id="ui-demo"></a>
@@ -1341,4 +1335,24 @@ Gemini 4 Argon - $0.55, 32 min
 Two weeks ago Astra made plastic and Gemini thought jelly was a color. DeepSeek nailed it.
 
 Which one would you twist first?
+```
+
+### Four models animating a toilet flush cutaway
+
+[@olezhavich](https://x.com/olezhavich/status/2118002205013749782) · 0:12 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118002205013749782/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118002205013749782?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Tencent Hy4 dropped today, so I tested it right away. Is it actually good? 🚽
+
+Same prompt, one try each: an animated cutaway of a toilet flush, with a little plumber who presses the handle.
+
+>Claude Opus 5.5: 9/10. The most accurate toilet: a real siphon, an underground pipe, and a plumber the size of a pencil who actually climbs up to the handle 😭
+
+>Gemini 4 Argon: 8/10. The cleanest-looking toilet and the best water, but his arm stretches like rubber to reach the lever.
+
+>GPT 6.1 Sol: 7/10. A better toilet and mechanism than Hy4, but also a stretchy arm and a flatter palette.
+
+>Tencent Hy4: 6.5/10. Not an Opus rival, and it doesn’t try to be. The mechanics are right and I like the colors, but the toilet looks like glass tubes.
+
+Hy4 is a solid model for a new release. Would you use it?
 ```

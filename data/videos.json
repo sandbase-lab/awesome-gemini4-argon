@@ -54,25 +54,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110039176662122771"
  },
  {
-  "id": "2110039909851685300",
-  "title": "Millennium Falcon main hold 3D model",
-  "title_zh": "千年隼号主舱室超写实三维模型",
-  "category": "3d-scene",
-  "author": {
-   "handle": "jackcheng",
-   "name": "Jack Cheng"
-  },
-  "postUrl": "https://x.com/jackcheng/status/2110039909851685300",
-  "createdAt": "2026-10-13T16:08:11.000Z",
-  "durationMs": 8000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110039909851685300/video.mp4",
-  "promptShared": true,
-  "promptText": "Here’s Gemini 4 Argon (high) at a prompt for a personal project: “Create an accurate, hyper-realistic 3D model in Blender of the main hold of the Millennium Falcon as it appears in the original Star Wars trilogy.”",
-  "featured": null,
-  "poster": null,
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110039909851685300"
- },
- {
   "id": "2110040063656812976",
   "title": "Interactive 3D island with controllable sailboat",
   "title_zh": "带有可操控帆船的3D小岛场景",
@@ -2218,24 +2199,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110274470036336856/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110274470036336856"
- },
- {
-  "id": "2110277813819633682",
-  "title": "Gemini 4 Argon versus Claude Opus 3D SVG",
-  "title_zh": "Gemini 4与Claude Opus的3D SVG对比",
-  "category": "comparison",
-  "author": {
-   "handle": "esrhengwu",
-   "name": "基恩-Keane 🌊"
-  },
-  "postUrl": "https://x.com/esrhengwu/status/2110277813819633682",
-  "createdAt": "2026-10-14T07:53:32.000Z",
-  "durationMs": 251601,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110277813819633682/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110277813819633682/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110277813819633682"
  },
  {
   "id": "2110285214102511672",
@@ -5090,24 +5053,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111847116205375917"
  },
  {
-  "id": "2111850965196271982",
-  "title": "Motion harness breakdown using optical flow analysis",
-  "title_zh": "基于光流分析的动态图形测试框架解析",
-  "category": "explainer",
-  "author": {
-   "handle": "mattwatkajtys",
-   "name": "Matt"
-  },
-  "postUrl": "https://x.com/mattwatkajtys/status/2111850965196271982",
-  "createdAt": "2026-10-18T16:04:41.000Z",
-  "durationMs": 30000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111850965196271982/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111850965196271982/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111850965196271982"
- },
- {
   "id": "2111858653456150974",
   "title": "Molten elephant emerging from carpet comparison",
   "title_zh": "地毯中涌出的熔岩大象生成对比",
@@ -5506,25 +5451,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112494073261265023/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112494073261265023"
- },
- {
-  "id": "2112543356634992799",
-  "title": "3D animation of a boy walking a dog",
-  "title_zh": "男孩遛狗的3D动画",
-  "category": "3d-scene",
-  "author": {
-   "handle": "kayisagijr",
-   "name": "Kagan"
-  },
-  "postUrl": "https://x.com/kayisagijr/status/2112543356634992799",
-  "createdAt": "2026-10-20T13:56:00.000Z",
-  "durationMs": 10005,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112543356634992799/video.mp4",
-  "promptShared": true,
-  "promptText": "all i did was prompt gemini 4 argon with “make a 3d video of a boy walking a dog”\n\nngl, i’m amazed by the results i got from such a simple prompt.\n\nand this is what i got 👇",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112543356634992799/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112543356634992799"
  },
  {
   "id": "2112554114957885657",
@@ -6563,24 +6489,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115477404156076511"
  },
  {
-  "id": "2115480684370239523",
-  "title": "First video test with Gemini Argon",
-  "title_zh": "Gemini Argon 首次视频生成测试",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "wolfitway",
-   "name": "Wolfitway"
-  },
-  "postUrl": "https://x.com/wolfitway/status/2115480684370239523",
-  "createdAt": "2026-10-28T16:27:53.000Z",
-  "durationMs": 10005,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115480684370239523/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115480684370239523/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115480684370239523"
- },
- {
   "id": "2115482217342443658",
   "title": "Euro Truck Simulator recreation comparison",
   "title_zh": "欧洲卡车模拟游戏复刻效果对比",
@@ -6615,24 +6523,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115496867681247275/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115496867681247275"
- },
- {
-  "id": "2115530594147049725",
-  "title": "Robots training inside Genie 4 world simulation",
-  "title_zh": "在 Genie 4 世界模拟中训练机器人",
-  "category": "3d-scene",
-  "author": {
-   "handle": "LaceyPresley",
-   "name": "Lacey"
-  },
-  "postUrl": "https://x.com/LaceyPresley/status/2115530594147049725",
-  "createdAt": "2026-10-28T19:46:12.000Z",
-  "durationMs": 52200,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115530594147049725/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115530594147049725/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115530594147049725"
  },
  {
   "id": "2115545183484100958",
@@ -6962,24 +6852,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116877146283012413"
  },
  {
-  "id": "2116885805063172345",
-  "title": "Prompt test comparison on Opus and Gemini",
-  "title_zh": "Opus与Gemini同提示词生成对比",
-  "category": "comparison",
-  "author": {
-   "handle": "vipinxtwt",
-   "name": "Vipin"
-  },
-  "postUrl": "https://x.com/vipinxtwt/status/2116885805063172345",
-  "createdAt": "2026-11-01T13:31:20.000Z",
-  "durationMs": 55895,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116885805063172345/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116885805063172345/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116885805063172345"
- },
- {
   "id": "2116906357676814668",
   "title": "Evolution of transport from stone to spaceship",
   "title_zh": "从石头到太空船的交通演变史",
@@ -7162,6 +7034,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117450313158271038"
  },
  {
+  "id": "2117463779315462501",
+  "title": "A voxel floating island simulation in Three.js",
+  "title_zh": "Three.js纯代码体素浮空岛模拟",
+  "category": "3d-scene",
+  "author": {
+   "handle": "cfenghub",
+   "name": "CF长风"
+  },
+  "postUrl": "https://x.com/cfenghub/status/2117463779315462501",
+  "createdAt": "2026-11-03T03:48:00.000Z",
+  "durationMs": 59893,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117463779315462501/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117463779315462501/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117463779315462501"
+ },
+ {
   "id": "2117508141076378029",
   "title": "A flying quest game built for a hackathon",
   "title_zh": "黑客松中制作的飞行任务游戏",
@@ -7234,6 +7124,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117603495868035198"
  },
  {
+  "id": "2117636670380007752",
+  "title": "Code-generated 2D animation comparison",
+  "title_zh": "纯代码生成的2D动画对比",
+  "category": "comparison",
+  "author": {
+   "handle": "HIX_AI_",
+   "name": "HIX.AI"
+  },
+  "postUrl": "https://x.com/HIX_AI_/status/2117636670380007752",
+  "createdAt": "2026-11-03T15:15:00.000Z",
+  "durationMs": 26238,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117636670380007752/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117636670380007752/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117636670380007752"
+ },
+ {
   "id": "2117642004255384051",
   "title": "Blender animation scripted and displayed on CRT TV",
   "title_zh": "AI编写Blender动画并在CRT电视呈现",
@@ -7268,5 +7176,97 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117688903612445138/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117688903612445138"
+ },
+ {
+  "id": "2117865892700893666",
+  "title": "Recreating a video with Gemini versus Claude",
+  "title_zh": "Gemini与Claude模型视频复现对比",
+  "category": "comparison",
+  "author": {
+   "handle": "TypingMindApp",
+   "name": "TypingMind"
+  },
+  "postUrl": "https://x.com/TypingMindApp/status/2117865892700893666",
+  "createdAt": "2026-11-04T06:25:51.000Z",
+  "durationMs": 80689,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117865892700893666/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117865892700893666/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117865892700893666"
+ },
+ {
+  "id": "2117867632573727101",
+  "title": "A game created with Gemini AI Argon",
+  "title_zh": "使用Gemini AI Argon制作的游戏",
+  "category": "game",
+  "author": {
+   "handle": "dvkexbt",
+   "name": "duke"
+  },
+  "postUrl": "https://x.com/dvkexbt/status/2117867632573727101",
+  "createdAt": "2026-11-04T06:32:46.000Z",
+  "durationMs": 51016,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117867632573727101/video.mp4",
+  "promptShared": true,
+  "promptText": "game builders are cooked \n\nmade this with gemini ai argon\n\nless than 30secs \n\nprompt below",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117867632573727101/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117867632573727101"
+ },
+ {
+  "id": "2117976713254801505",
+  "title": "A Mahabharata sequence animated with code",
+  "title_zh": "代码生成的摩诃婆罗多动画片段",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "pbshgthm",
+   "name": "poobesh"
+  },
+  "postUrl": "https://x.com/pbshgthm/status/2117976713254801505",
+  "createdAt": "2026-11-04T13:46:13.000Z",
+  "durationMs": 103666,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117976713254801505/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117976713254801505/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117976713254801505"
+ },
+ {
+  "id": "2118002205013749782",
+  "title": "Four models animating a toilet flush cutaway",
+  "title_zh": "四款模型生成马桶冲水剖面动画对比",
+  "category": "comparison",
+  "author": {
+   "handle": "olezhavich",
+   "name": "Olezhka"
+  },
+  "postUrl": "https://x.com/olezhavich/status/2118002205013749782",
+  "createdAt": "2026-11-04T15:27:30.000Z",
+  "durationMs": 11772,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118002205013749782/video.mp4",
+  "promptShared": true,
+  "promptText": "Tencent Hy4 dropped today, so I tested it right away. Is it actually good? 🚽\n\nSame prompt, one try each: an animated cutaway of a toilet flush, with a little plumber who presses the handle.\n\n>Claude Opus 5.5: 9/10. The most accurate toilet: a real siphon, an underground pipe, and a plumber the size of a pencil who actually climbs up to the handle 😭\n\n>Gemini 4 Argon: 8/10. The cleanest-looking toilet and the best water, but his arm stretches like rubber to reach the lever.\n\n>GPT 6.1 Sol: 7/10. A better toilet and mechanism than Hy4, but also a stretchy arm and a flatter palette.\n\n>Tencent Hy4: 6.5/10. Not an Opus rival, and it doesn’t try to be. The mechanics are right and I like the colors, but the toilet looks like glass tubes.\n\nHy4 is a solid model for a new release. Would you use it?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118002205013749782/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118002205013749782"
+ },
+ {
+  "id": "2118050617335693722",
+  "title": "Comparing racehorse animations across four AI models",
+  "title_zh": "四款AI模型生成赛马动画横向对比",
+  "category": "comparison",
+  "author": {
+   "handle": "CultCabbage",
+   "name": "Edward Jr"
+  },
+  "postUrl": "https://x.com/CultCabbage/status/2118050617335693722",
+  "createdAt": "2026-11-04T18:39:53.000Z",
+  "durationMs": 12000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118050617335693722/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118050617335693722/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118050617335693722"
  }
 ]
