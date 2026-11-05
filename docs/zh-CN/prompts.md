@@ -2,13 +2,13 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 70 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 69 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (15)
 - [动效](#motion-graphics) (6)
-- [游戏](#game) (5)
+- [游戏](#game) (4)
 - [产品界面](#ui-demo) (7)
 - [粒子与形状](#particles) (1)
 - [图表图解](#data-viz) (1)
@@ -411,20 +411,6 @@ im gonna compare this with Opus 5.5 later.
 我把在devin里跑的整个流程和效果，全部录屏放出来👇
 ```
 
-### 可玩飞行的Tesla Roadster 3D游戏
-
-[@StatsWire](https://x.com/StatsWire/status/2111427003899592819) · 1:00 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111427003899592819/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111427003899592819?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon Magic
-
-Built a 3D playable Flying Tesla Roadster (SpaceX Package) game in a single HTML file. 
-
-100% procedural Three.js + custom GLSL Mach shock-diamond shaders. Zero external assets.
-
-Prompt + code below
-```
-
 ### 使用Gemini AI Argon制作的游戏
 
 [@dvkexbt](https://x.com/dvkexbt/status/2117867632573727101) · 0:51 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117867632573727101/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117867632573727101?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -762,21 +748,6 @@ Gemini 4 vs. Astra 6
 Same prompt: Build a fully playable 3D Flappy Bird game in a single HTML file.
 
 Which one did a better job?
-```
-
-### 在飞行战机上翘头特技的鹈鹕体素动画
-
-[@noclipepe](https://x.com/noclipepe/status/2110070249970421940) · 0:37 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110070249970421940/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110070249970421940?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-GEMINI 4 ARGON VS OPUS 5.5. WHO GAVE THE BIRD A FIGHTER JET 😭
-
-Same prompt. Both models got:
-“Create a pelican doing a wheelie on top of a flying fighter jet. Voxel artstyle. Single HTML.”
-
-The bird could literally just fly.
-
-Who wins this extremely important benchmark? 👇
 ```
 
 ### 多款前沿AI模型能力对比测试
@@ -1355,4 +1326,32 @@ Same prompt, one try each: an animated cutaway of a toilet flush, with a little 
 >Tencent Hy4: 6.5/10. Not an Opus rival, and it doesn’t try to be. The mechanics are right and I like the colors, but the toilet looks like glass tubes.
 
 Hy4 is a solid model for a new release. Would you use it?
+```
+
+### 四款模型生成鹈鹕骑自行车SVG动画对比
+
+[@noclipepe](https://x.com/noclipepe/status/2118102232780480804) · 0:29 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118102232780480804/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118102232780480804?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+How LongCat-2.5 compared with Gemini, GPT and GLM on the same SVG task
+
+One shot. Same prompt: 
+an animated SVG of a pelican riding a bicycle.
+
+LongCat-2.5 · $0.25
+The most complete scene. Fish in the pouch, a ringing bell, a passing seagull, parallax background. Legs follow the pedals.
+
+Gemini 4 Argon · $0.37
+Best colors and a bold, clean pelican. The background is simpler.
+
+GLM-5.3 Flash · $0.24
+Clean and accurate drawing, a calm seaside scene. Fewer details and less motion.
+
+GPT-6.1 Terra · $0.05
+Cheapest by far. Correct pelican and bike, but almost no scene around them.
+
+Prices = estimated cost of this task at each model's official API rates.
+
+🎁 Giving away 10 LongCat-2.5 codes with 10M free tokens each. 
+Reply "LONGCAT" + what you'd build 👇
 ```

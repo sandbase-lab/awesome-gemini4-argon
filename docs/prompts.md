@@ -2,13 +2,13 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-70 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+69 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
 - [3D scenes](#3d-scene) (15)
 - [Motion graphics](#motion-graphics) (6)
-- [Games](#game) (5)
+- [Games](#game) (4)
 - [Product UI](#ui-demo) (7)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
@@ -411,20 +411,6 @@ im gonna compare this with Opus 5.5 later.
 我把在devin里跑的整个流程和效果，全部录屏放出来👇
 ```
 
-### Playable flying Tesla Roadster 3D game
-
-[@StatsWire](https://x.com/StatsWire/status/2111427003899592819) · 1:00 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111427003899592819/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111427003899592819?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon Magic
-
-Built a 3D playable Flying Tesla Roadster (SpaceX Package) game in a single HTML file. 
-
-100% procedural Three.js + custom GLSL Mach shock-diamond shaders. Zero external assets.
-
-Prompt + code below
-```
-
 ### A game created with Gemini AI Argon
 
 [@dvkexbt](https://x.com/dvkexbt/status/2117867632573727101) · 0:51 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117867632573727101/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117867632573727101?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -762,21 +748,6 @@ Gemini 4 vs. Astra 6
 Same prompt: Build a fully playable 3D Flappy Bird game in a single HTML file.
 
 Which one did a better job?
-```
-
-### Pelican doing wheelie on flying fighter jet
-
-[@noclipepe](https://x.com/noclipepe/status/2110070249970421940) · 0:37 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110070249970421940/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110070249970421940?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-GEMINI 4 ARGON VS OPUS 5.5. WHO GAVE THE BIRD A FIGHTER JET 😭
-
-Same prompt. Both models got:
-“Create a pelican doing a wheelie on top of a flying fighter jet. Voxel artstyle. Single HTML.”
-
-The bird could literally just fly.
-
-Who wins this extremely important benchmark? 👇
 ```
 
 ### Frontier AI models benchmark comparison
@@ -1355,4 +1326,32 @@ Same prompt, one try each: an animated cutaway of a toilet flush, with a little 
 >Tencent Hy4: 6.5/10. Not an Opus rival, and it doesn’t try to be. The mechanics are right and I like the colors, but the toilet looks like glass tubes.
 
 Hy4 is a solid model for a new release. Would you use it?
+```
+
+### Animated SVG pelican riding a bicycle across four models
+
+[@noclipepe](https://x.com/noclipepe/status/2118102232780480804) · 0:29 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118102232780480804/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118102232780480804?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+How LongCat-2.5 compared with Gemini, GPT and GLM on the same SVG task
+
+One shot. Same prompt: 
+an animated SVG of a pelican riding a bicycle.
+
+LongCat-2.5 · $0.25
+The most complete scene. Fish in the pouch, a ringing bell, a passing seagull, parallax background. Legs follow the pedals.
+
+Gemini 4 Argon · $0.37
+Best colors and a bold, clean pelican. The background is simpler.
+
+GLM-5.3 Flash · $0.24
+Clean and accurate drawing, a calm seaside scene. Fewer details and less motion.
+
+GPT-6.1 Terra · $0.05
+Cheapest by far. Correct pelican and bike, but almost no scene around them.
+
+Prices = estimated cost of this task at each model's official API rates.
+
+🎁 Giving away 10 LongCat-2.5 codes with 10M free tokens each. 
+Reply "LONGCAT" + what you'd build 👇
 ```

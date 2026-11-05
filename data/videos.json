@@ -327,24 +327,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110048102321365205"
  },
  {
-  "id": "2110048343841702129",
-  "title": "Jelly animation made with Gemini 4 Argon",
-  "title_zh": "Gemini 4 Argon 制作的果冻动画",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "scottstts",
-   "name": "Scott"
-  },
-  "postUrl": "https://x.com/scottstts/status/2110048343841702129",
-  "createdAt": "2026-10-13T16:41:42.000Z",
-  "durationMs": 62653,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110048343841702129/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110048343841702129/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110048343841702129"
- },
- {
   "id": "2110048380412199047",
   "title": "2D SVG Animation of a Pelican Riding a Bicycle",
   "title_zh": "鹈鹕骑自行车的2D SVG动画",
@@ -672,25 +654,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110069786415968754/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110069786415968754"
- },
- {
-  "id": "2110070249970421940",
-  "title": "Pelican doing wheelie on flying fighter jet",
-  "title_zh": "在飞行战机上翘头特技的鹈鹕体素动画",
-  "category": "comparison",
-  "author": {
-   "handle": "noclipepe",
-   "name": "noclipepe"
-  },
-  "postUrl": "https://x.com/noclipepe/status/2110070249970421940",
-  "createdAt": "2026-10-13T18:08:45.000Z",
-  "durationMs": 37266,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110070249970421940/video.mp4",
-  "promptShared": true,
-  "promptText": "GEMINI 4 ARGON VS OPUS 5.5. WHO GAVE THE BIRD A FIGHTER JET 😭\n\nSame prompt. Both models got:\n“Create a pelican doing a wheelie on top of a flying fighter jet. Voxel artstyle. Single HTML.”\n\nThe bird could literally just fly.\n\nWho wins this extremely important benchmark? 👇",
-  "featured": null,
-  "poster": null,
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110070249970421940"
  },
  {
   "id": "2110072638966206611",
@@ -1496,24 +1459,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110132736635884016"
  },
  {
-  "id": "2110133287662272783",
-  "title": "Testing code generation in Gemini 4 Argon",
-  "title_zh": "Gemini 4 Argon模型生成效果测试",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "aeon_4th",
-   "name": "sᗩмi"
-  },
-  "postUrl": "https://x.com/aeon_4th/status/2110133287662272783",
-  "createdAt": "2026-10-13T22:19:14.000Z",
-  "durationMs": 89900,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110133287662272783/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110133287662272783/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110133287662272783"
- },
- {
   "id": "2110137408968695911",
   "title": "Tekken-Style Cat Fighting Game Prototype",
   "title_zh": "铁拳风格猫咪格斗游戏原型",
@@ -2310,24 +2255,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110302514600157279"
  },
  {
-  "id": "2110303650887487745",
-  "title": "Interactive musical 3D garden in Three.js",
-  "title_zh": "Three.js交互式音乐3D数字花园",
-  "category": "3d-scene",
-  "author": {
-   "handle": "soumyadesign",
-   "name": "Soumya"
-  },
-  "postUrl": "https://x.com/soumyadesign/status/2110303650887487745",
-  "createdAt": "2026-10-14T09:36:12.000Z",
-  "durationMs": 75968,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110303650887487745/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110303650887487745/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110303650887487745"
- },
- {
   "id": "2110305600416698390",
   "title": "3D folding phone teardown in Three.js",
   "title_zh": "Three.js 折叠屏手机三维拆解展示",
@@ -2984,24 +2911,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110376963290583427"
  },
  {
-  "id": "2110381383218786397",
-  "title": "Gemini 3.8 Flash vs Gemini 4 Argon Three.js benchmark",
-  "title_zh": "Gemini两代模型在Three.js基准测试中的对比",
-  "category": "comparison",
-  "author": {
-   "handle": "NicolaManzini",
-   "name": "Nicola"
-  },
-  "postUrl": "https://x.com/NicolaManzini/status/2110381383218786397",
-  "createdAt": "2026-10-14T14:45:05.000Z",
-  "durationMs": 22200,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110381383218786397/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110381383218786397/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110381383218786397"
- },
- {
   "id": "2110382021285478812",
   "title": "3D WWII fighter jet experience model comparison",
   "title_zh": "二战战机三维体验多模型对比",
@@ -3528,24 +3437,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110472158438953223"
  },
  {
-  "id": "2110478526499447100",
-  "title": "Playable Lemmings farming simulator in vanilla JS",
-  "title_zh": "原生JS打造的可玩旅鼠农场模拟游戏",
-  "category": "game",
-  "author": {
-   "handle": "TheBalkanHacker",
-   "name": "GrumpyBalkanSoftwareEngineer"
-  },
-  "postUrl": "https://x.com/TheBalkanHacker/status/2110478526499447100",
-  "createdAt": "2026-10-14T21:11:06.000Z",
-  "durationMs": 171098,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110478526499447100/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110478526499447100/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110478526499447100"
- },
- {
   "id": "2110509507558154315",
   "title": "Miniature blonde female riding a giant bee",
   "title_zh": "骑着巨型蜜蜂在峡谷飞行的微缩少女",
@@ -3910,24 +3801,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110742865483563390/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110742865483563390"
- },
- {
-  "id": "2110746137473007819",
-  "title": "Procedural 3D warship generator built with Claude Opus",
-  "title_zh": "Claude Opus程序化生成的3D战舰生成器",
-  "category": "3d-scene",
-  "author": {
-   "handle": "Aprilzz423",
-   "name": "April"
-  },
-  "postUrl": "https://x.com/Aprilzz423/status/2110746137473007819",
-  "createdAt": "2026-10-15T14:54:29.000Z",
-  "durationMs": 24000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110746137473007819/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110746137473007819/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110746137473007819"
  },
  {
   "id": "2110750534516756655",
@@ -4652,25 +4525,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111425810892468482/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111425810892468482"
- },
- {
-  "id": "2111427003899592819",
-  "title": "Playable flying Tesla Roadster 3D game",
-  "title_zh": "可玩飞行的Tesla Roadster 3D游戏",
-  "category": "game",
-  "author": {
-   "handle": "StatsWire",
-   "name": "Stats Wire"
-  },
-  "postUrl": "https://x.com/StatsWire/status/2111427003899592819",
-  "createdAt": "2026-10-17T12:00:00.000Z",
-  "durationMs": 60309,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111427003899592819/video.mp4",
-  "promptShared": true,
-  "promptText": "Gemini 4 Argon Magic\n\nBuilt a 3D playable Flying Tesla Roadster (SpaceX Package) game in a single HTML file. \n\n100% procedural Three.js + custom GLSL Mach shock-diamond shaders. Zero external assets.\n\nPrompt + code below",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111427003899592819/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111427003899592819"
  },
  {
   "id": "2111441312323088473",
@@ -7052,6 +6906,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117463779315462501"
  },
  {
+  "id": "2117472875984859303",
+  "title": "A tool generating and animating decorative letter ornaments",
+  "title_zh": "生成并制作装饰字母动画的工具演示",
+  "category": "kinetic-type",
+  "author": {
+   "handle": "soumyadesign",
+   "name": "Soumya"
+  },
+  "postUrl": "https://x.com/soumyadesign/status/2117472875984859303",
+  "createdAt": "2026-11-03T04:24:09.000Z",
+  "durationMs": 29200,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117472875984859303/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117472875984859303/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117472875984859303"
+ },
+ {
   "id": "2117508141076378029",
   "title": "A flying quest game built for a hackathon",
   "title_zh": "黑客松中制作的飞行任务游戏",
@@ -7178,6 +7050,42 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117688903612445138"
  },
  {
+  "id": "2117694244421042181",
+  "title": "Skywake a flying browser adventure game",
+  "title_zh": "网页飞行冒险游戏Skywake演示",
+  "category": "game",
+  "author": {
+   "handle": "usecrayon",
+   "name": "Crayon"
+  },
+  "postUrl": "https://x.com/usecrayon/status/2117694244421042181",
+  "createdAt": "2026-11-03T19:03:47.000Z",
+  "durationMs": 40918,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117694244421042181/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117694244421042181/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117694244421042181"
+ },
+ {
+  "id": "2117718547803840780",
+  "title": "Recreating Spider-Man train fight in Three.js",
+  "title_zh": "在Three.js中重现蜘蛛侠火车打斗场景",
+  "category": "comparison",
+  "author": {
+   "handle": "thehypedotnews",
+   "name": "thehype."
+  },
+  "postUrl": "https://x.com/thehypedotnews/status/2117718547803840780",
+  "createdAt": "2026-11-03T20:40:21.000Z",
+  "durationMs": 35000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117718547803840780/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117718547803840780/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117718547803840780"
+ },
+ {
   "id": "2117865892700893666",
   "title": "Recreating a video with Gemini versus Claude",
   "title_zh": "Gemini与Claude模型视频复现对比",
@@ -7233,6 +7141,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117976713254801505"
  },
  {
+  "id": "2117999118270582831",
+  "title": "Stage Anatomy 3D scene camera and blocking reconstruction",
+  "title_zh": "Stage Anatomy三维场景摄像机与走位重建演示",
+  "category": "3d-scene",
+  "author": {
+   "handle": "tarumainfo",
+   "name": "taruma sakti"
+  },
+  "postUrl": "https://x.com/tarumainfo/status/2117999118270582831",
+  "createdAt": "2026-11-04T15:15:14.000Z",
+  "durationMs": 72000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117999118270582831/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117999118270582831/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117999118270582831"
+ },
+ {
   "id": "2118002205013749782",
   "title": "Four models animating a toilet flush cutaway",
   "title_zh": "四款模型生成马桶冲水剖面动画对比",
@@ -7252,6 +7178,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118002205013749782"
  },
  {
+  "id": "2118024123326615819",
+  "title": "Behind the scenes building process compiled from screenshots",
+  "title_zh": "Gemini 4整理截图制作的幕后构建过程视频",
+  "category": "explainer",
+  "author": {
+   "handle": "alexanderchen",
+   "name": "Alexander Chen"
+  },
+  "postUrl": "https://x.com/alexanderchen/status/2118024123326615819",
+  "createdAt": "2026-11-04T16:54:36.000Z",
+  "durationMs": 46400,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118024123326615819/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118024123326615819/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118024123326615819"
+ },
+ {
   "id": "2118050617335693722",
   "title": "Comparing racehorse animations across four AI models",
   "title_zh": "四款AI模型生成赛马动画横向对比",
@@ -7268,5 +7212,60 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118050617335693722/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118050617335693722"
+ },
+ {
+  "id": "2118063984922493232",
+  "title": "Autonomous sailboat race simulation with four AI models",
+  "title_zh": "四款AI模型驾驶帆船竞赛模拟",
+  "category": "comparison",
+  "author": {
+   "handle": "Jomolos",
+   "name": "Can Matrix"
+  },
+  "postUrl": "https://x.com/Jomolos/status/2118063984922493232",
+  "createdAt": "2026-11-04T19:33:00.000Z",
+  "durationMs": 37533,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118063984922493232/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118063984922493232/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118063984922493232"
+ },
+ {
+  "id": "2118102232780480804",
+  "title": "Animated SVG pelican riding a bicycle across four models",
+  "title_zh": "四款模型生成鹈鹕骑自行车SVG动画对比",
+  "category": "comparison",
+  "author": {
+   "handle": "noclipepe",
+   "name": "noclipepe"
+  },
+  "postUrl": "https://x.com/noclipepe/status/2118102232780480804",
+  "createdAt": "2026-11-04T22:04:59.000Z",
+  "durationMs": 28600,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118102232780480804/video.mp4",
+  "promptShared": true,
+  "promptText": "How LongCat-2.5 compared with Gemini, GPT and GLM on the same SVG task\n\nOne shot. Same prompt: \nan animated SVG of a pelican riding a bicycle.\n\nLongCat-2.5 · $0.25\nThe most complete scene. Fish in the pouch, a ringing bell, a passing seagull, parallax background. Legs follow the pedals.\n\nGemini 4 Argon · $0.37\nBest colors and a bold, clean pelican. The background is simpler.\n\nGLM-5.3 Flash · $0.24\nClean and accurate drawing, a calm seaside scene. Fewer details and less motion.\n\nGPT-6.1 Terra · $0.05\nCheapest by far. Correct pelican and bike, but almost no scene around them.\n\nPrices = estimated cost of this task at each model's official API rates.\n\n🎁 Giving away 10 LongCat-2.5 codes with 10M free tokens each. \nReply \"LONGCAT\" + what you'd build 👇",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118102232780480804/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118102232780480804"
+ },
+ {
+  "id": "2118341205448650862",
+  "title": "Rooster generation comparison across four AI models",
+  "title_zh": "四款模型生成公鸡效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "CultCabbage",
+   "name": "Edward Jr"
+  },
+  "postUrl": "https://x.com/CultCabbage/status/2118341205448650862",
+  "createdAt": "2026-11-05T13:54:34.000Z",
+  "durationMs": 12800,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118341205448650862/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118341205448650862/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118341205448650862"
  }
 ]
