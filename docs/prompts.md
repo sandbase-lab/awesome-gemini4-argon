@@ -2,11 +2,11 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-69 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+73 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (15)
+- [3D scenes](#3d-scene) (16)
 - [Motion graphics](#motion-graphics) (6)
 - [Games](#game) (4)
 - [Product UI](#ui-demo) (7)
@@ -14,7 +14,7 @@ Each entry quotes the creator's post as published on X, where the prompt is shar
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (2)
-- [Tests & comparisons](#comparison) (32)
+- [Tests & comparisons](#comparison) (35)
 
 <a id="3d-scene"></a>
 
@@ -273,6 +273,17 @@ Then I open them and decide if any deserve another round.
 This one certainly does.
 
 Built with Gemini 4 Argon.
+```
+
+### Realistic ocean simulation generated in HTML
+
+[@Inmerson](https://x.com/Inmerson/status/2118828400085455225) · 2:02 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118828400085455225/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118828400085455225?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+GEMINI 4 HYDROGEN "Ocean" CRAZY!!!
+-> Only 1 minute
+
+Prompt: Create the most realistic ocean simulation in html
 ```
 
 <a id="motion-graphics"></a>
@@ -1354,4 +1365,62 @@ Prices = estimated cost of this task at each model's official API rates.
 
 🎁 Giving away 10 LongCat-2.5 codes with 10M free tokens each. 
 Reply "LONGCAT" + what you'd build 👇
+```
+
+### Destructible 3D city comparison in OpenCode
+
+[@AbdoKerdawy](https://x.com/AbdoKerdawy/status/2118527537936494697) · 1:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118527537936494697/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118527537936494697?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+GEMINI 4 vs GPT-4o
+
+i gave both the same prompt in OpenCode:
+
+build a 3D city, give me a cannon, and let me destroy it.
+
+Gemini 4 Argon → $0.99
+GPT-4o → ~$3
+
+tell me your opinion. i think this is the proof of AI actually progressing
+
+both runs were through the free 5$ credits of @MixRoute_ai 
+
+watch them side by side ↓
+```
+
+### Cat chef flipping a pancake across three models
+
+[@HavisT83099](https://x.com/HavisT83099/status/2118697759473578484) · 0:12 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118697759473578484/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118697759473578484?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+I asked 3 AIs for a cat chef flipping a pancake way too hard 🥞
+
+Claude Opus 5.5 vs GPT-6 Astra vs Gemini 4 Argon
+
+Same prompt, one shot each.
+
+Estimated API cost:
+
+Opus - $3.10, 15 min
+Astra - $0.50, 3 min
+Argon - $0.19, 4 min
+
+Argon is 16x cheaper than Opus. Which cat would you hire? 👀
+```
+
+### Detailed hypercar in Three.js model comparison
+
+[@marcthecreatorr](https://x.com/marcthecreatorr/status/2118780296179179714) · 0:38 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118780296179179714/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118780296179179714?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Hydrogen vs GPT 6.1 Sol 
+
+same prompt: create a hypercar in three.js and make it as realistic and detailed as possible (add decals, make it shiny) 
+
+> gemini 4 hydrogen came super fast under ~5 mins in Arena 
+> gpt 6.1 sol ran on max reasoning in codex cli, took ~20 mins 
+
+GPT-6.1 Sol did a good job too, but 20 minutes feels pretty slow for a prompt like this. what do you think? 
+
+PS: GPT 6.2 Sol isn’t dropping this week btw :(
 ```

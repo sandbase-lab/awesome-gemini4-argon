@@ -2,11 +2,11 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 69 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 73 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (15)
+- [3D 场景](#3d-scene) (16)
 - [动效](#motion-graphics) (6)
 - [游戏](#game) (4)
 - [产品界面](#ui-demo) (7)
@@ -14,7 +14,7 @@
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
 - [讲解](#explainer) (2)
-- [测试对比](#comparison) (32)
+- [测试对比](#comparison) (35)
 
 <a id="3d-scene"></a>
 
@@ -273,6 +273,17 @@ Then I open them and decide if any deserve another round.
 This one certainly does.
 
 Built with Gemini 4 Argon.
+```
+
+### 在 HTML 中生成的逼真海洋模拟
+
+[@Inmerson](https://x.com/Inmerson/status/2118828400085455225) · 2:02 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118828400085455225/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118828400085455225?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+GEMINI 4 HYDROGEN "Ocean" CRAZY!!!
+-> Only 1 minute
+
+Prompt: Create the most realistic ocean simulation in html
 ```
 
 <a id="motion-graphics"></a>
@@ -1354,4 +1365,62 @@ Prices = estimated cost of this task at each model's official API rates.
 
 🎁 Giving away 10 LongCat-2.5 codes with 10M free tokens each. 
 Reply "LONGCAT" + what you'd build 👇
+```
+
+### OpenCode可破坏3D城市模型对比
+
+[@AbdoKerdawy](https://x.com/AbdoKerdawy/status/2118527537936494697) · 1:20 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118527537936494697/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118527537936494697?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+GEMINI 4 vs GPT-4o
+
+i gave both the same prompt in OpenCode:
+
+build a 3D city, give me a cannon, and let me destroy it.
+
+Gemini 4 Argon → $0.99
+GPT-4o → ~$3
+
+tell me your opinion. i think this is the proof of AI actually progressing
+
+both runs were through the free 5$ credits of @MixRoute_ai 
+
+watch them side by side ↓
+```
+
+### 三款模型生成猫咪厨师翻煎饼对比
+
+[@HavisT83099](https://x.com/HavisT83099/status/2118697759473578484) · 0:12 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118697759473578484/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118697759473578484?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+I asked 3 AIs for a cat chef flipping a pancake way too hard 🥞
+
+Claude Opus 5.5 vs GPT-6 Astra vs Gemini 4 Argon
+
+Same prompt, one shot each.
+
+Estimated API cost:
+
+Opus - $3.10, 15 min
+Astra - $0.50, 3 min
+Argon - $0.19, 4 min
+
+Argon is 16x cheaper than Opus. Which cat would you hire? 👀
+```
+
+### Three.js 逼真超跑模型生成对比
+
+[@marcthecreatorr](https://x.com/marcthecreatorr/status/2118780296179179714) · 0:38 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118780296179179714/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118780296179179714?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Hydrogen vs GPT 6.1 Sol 
+
+same prompt: create a hypercar in three.js and make it as realistic and detailed as possible (add decals, make it shiny) 
+
+> gemini 4 hydrogen came super fast under ~5 mins in Arena 
+> gpt 6.1 sol ran on max reasoning in codex cli, took ~20 mins 
+
+GPT-6.1 Sol did a good job too, but 20 minutes feels pretty slow for a prompt like this. what do you think? 
+
+PS: GPT 6.2 Sol isn’t dropping this week btw :(
 ```
