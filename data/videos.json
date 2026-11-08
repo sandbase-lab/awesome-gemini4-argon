@@ -1235,7 +1235,7 @@
   "durationMs": 59234,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": 2,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110109640419926325"
  },
@@ -2255,24 +2255,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110302514600157279"
  },
  {
-  "id": "2110305600416698390",
-  "title": "3D folding phone teardown in Three.js",
-  "title_zh": "Three.js 折叠屏手机三维拆解展示",
-  "category": "3d-scene",
-  "author": {
-   "handle": "rajlol01",
-   "name": "Raj"
-  },
-  "postUrl": "https://x.com/rajlol01/status/2110305600416698390",
-  "createdAt": "2026-10-14T09:43:57.000Z",
-  "durationMs": 63000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110305600416698390/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110305600416698390/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110305600416698390"
- },
- {
   "id": "2110307559110520890",
   "title": "Stretchy jelly comparison between Opus and Gemini",
   "title_zh": "Opus 与 Gemini 弹性果冻效果对比",
@@ -2613,7 +2595,7 @@
   "durationMs": 8000,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110343012421181485/video.mp4",
   "promptShared": false,
-  "featured": 6,
+  "featured": 5,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110343012421181485/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110343012421181485"
  },
@@ -2726,24 +2708,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110348612349685966/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110348612349685966"
- },
- {
-  "id": "2110355039420367190",
-  "title": "Realtime thermal camera effect with Gemini 4 Argon",
-  "title_zh": "使用Gemini 4 Argon制作的实时热成像效果",
-  "category": "particles",
-  "author": {
-   "handle": "fl4me_boi",
-   "name": "DJ Kim"
-  },
-  "postUrl": "https://x.com/fl4me_boi/status/2110355039420367190",
-  "createdAt": "2026-10-14T13:00:24.000Z",
-  "durationMs": 39164,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110355039420367190/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110355039420367190/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110355039420367190"
  },
  {
   "id": "2110355164687155634",
@@ -3524,7 +3488,7 @@
   "durationMs": 42433,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": 3,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110609385546547532"
  },
@@ -3633,7 +3597,7 @@
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110698310705074655/video.mp4",
   "promptShared": true,
   "promptText": "experimenting with keypoint detection in Gemini 4 Argon\n\ngave it a hand diagram with numbered points and asked it to find them in an image\n\nthen did the same for every frame in a video\n\n↓ prompt",
-  "featured": 5,
+  "featured": 6,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110698310705074655/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110698310705074655"
  },
@@ -3945,24 +3909,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110769586396156260/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110769586396156260"
- },
- {
-  "id": "2110780282009784509",
-  "title": "Interactive 3D gothic-engineering orrery world",
-  "title_zh": "哥特工程风格可交互3D天象仪环境",
-  "category": "3d-scene",
-  "author": {
-   "handle": "Nyxelarm",
-   "name": "Nyxelarm"
-  },
-  "postUrl": "https://x.com/Nyxelarm/status/2110780282009784509",
-  "createdAt": "2026-10-15T17:10:10.000Z",
-  "durationMs": 50287,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110780282009784509/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110780282009784509/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110780282009784509"
  },
  {
   "id": "2110792641277198383",
@@ -6672,24 +6618,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117417604101157204"
  },
  {
-  "id": "2117450313158271038",
-  "title": "Retro video on a vintage CRT display",
-  "title_zh": "在老式CRT显示器上展示复古视频",
-  "category": "3d-scene",
-  "author": {
-   "handle": "WevolverApp",
-   "name": "Wevolver"
-  },
-  "postUrl": "https://x.com/WevolverApp/status/2117450313158271038",
-  "createdAt": "2026-11-03T02:54:29.000Z",
-  "durationMs": 31509,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117450313158271038/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117450313158271038/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117450313158271038"
- },
- {
   "id": "2117463779315462501",
   "title": "A voxel floating island simulation in Three.js",
   "title_zh": "Three.js纯代码体素浮空岛模拟",
@@ -6888,24 +6816,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117852832632373475"
  },
  {
-  "id": "2117865892700893666",
-  "title": "Recreating a video with Gemini versus Claude",
-  "title_zh": "Gemini与Claude模型视频复现对比",
-  "category": "comparison",
-  "author": {
-   "handle": "TypingMindApp",
-   "name": "TypingMind"
-  },
-  "postUrl": "https://x.com/TypingMindApp/status/2117865892700893666",
-  "createdAt": "2026-11-04T06:25:51.000Z",
-  "durationMs": 80689,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117865892700893666/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117865892700893666/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117865892700893666"
- },
- {
   "id": "2117867632573727101",
   "title": "A game created with Gemini AI Argon",
   "title_zh": "使用Gemini AI Argon制作的游戏",
@@ -7071,6 +6981,25 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118173738893996327"
  },
  {
+  "id": "2118285167638757575",
+  "title": "Thoughts in my head generated video clip",
+  "title_zh": "Gemini生成的头脑思绪概念短片",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "zayyadatullah",
+   "name": "Zayy 👽"
+  },
+  "postUrl": "https://x.com/zayyadatullah/status/2118285167638757575",
+  "createdAt": "2026-11-05T10:11:54.000Z",
+  "durationMs": 10060,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118285167638757575/video.mp4",
+  "promptShared": true,
+  "promptText": "Late Gm everyone 💙 \nHappy Thursday \n\nIt's Day 5...and I'm going to be trying out this challenge with every video prompt I can come up with as the days go by \n\nTried out this 10-sec \"Thoughts in my head\" clip with Argon on @GeminiApp  \nPrompt below 👇🏽",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118285167638757575/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118285167638757575"
+ },
+ {
   "id": "2118341205448650862",
   "title": "Rooster generation comparison across four AI models",
   "title_zh": "四款模型生成公鸡效果对比",
@@ -7200,6 +7129,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118780296179179714"
  },
  {
+  "id": "2118798139226292650",
+  "title": "Motion graphics generation speed comparison",
+  "title_zh": "动态图形生成速度对比测试",
+  "category": "comparison",
+  "author": {
+   "handle": "0xdominus",
+   "name": "sunimod_xø"
+  },
+  "postUrl": "https://x.com/0xdominus/status/2118798139226292650",
+  "createdAt": "2026-11-06T20:10:16.000Z",
+  "durationMs": 43444,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118798139226292650/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118798139226292650/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118798139226292650"
+ },
+ {
   "id": "2118809236046246316",
   "title": "Motion graphics generation comparison between Gemini models",
   "title_zh": "Gemini 模型动态图形生成对比",
@@ -7271,5 +7218,60 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118874054698697103/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118874054698697103"
+ },
+ {
+  "id": "2118963662853403090",
+  "title": "Reverse-engineered video of a woman in VIP box",
+  "title_zh": "逆向提示词生成的看台美女视频",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "leaf_sanren",
+   "name": "Leaf Yeah!"
+  },
+  "postUrl": "https://x.com/leaf_sanren/status/2118963662853403090",
+  "createdAt": "2026-11-07T07:08:00.000Z",
+  "durationMs": 30048,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118963662853403090/video.mp4",
+  "promptShared": true,
+  "promptText": "啊啊啊😮😮！来个新案例！万物皆可逆向的，尤其视频！！🎉\n\n这个是之前 @AYi_AInotes  做的那个美女视频，也是用 Gemini 4 在 antigravity 里面逆向的提示词，视频是生成的效果，prompt放下面，大家可以试试。\n\n当然，我觉得还是不如ayi后面公开的原生提示词好（听说是Fable 5.5操刀）。动作顺序是能推出来的，缺的是一些导演层和运镜规则的部分。\n\nprompt👇：\n\n写实电影级画质，50mm定焦镜头，浅景深，温暖的户外阳光轮廓光（consistent warm studio rim light）。\n主体是一位极具魅力的东亚年轻女性（K-pop女团偶像气质，白皙细腻肌肤，深棕色微卷长发，左手腕佩戴精致金表），身穿黑色深V挂脖露背真丝阔腿连体裤（sleek black halter-neck open-back silk wide-leg jumpsuit）。\n场景为户外大型体育场/赛车场VIP看台包厢，前景是一排白色真皮扶手椅，背景是柔和虚化的多层观众席，观众在举手欢呼鼓掌。\n\n【分镜与动作时序（精校版）】\n- 0-5秒（坐姿挑眉互动）：中景，女主坐在白色VIP真皮座椅上，随节拍轻抬右手将头顶的黑色墨镜拉下戴上，随后将墨镜微拉至鼻梁处，从镜框上方挑眉直视镜头露出坏笑。\n- 5-7秒（欢呼推镜特写）：伴随全场爆发欢呼声，切近景特写，女主摘下墨镜，身体微倾靠近镜头甜美微笑，眼神聚焦。\n- 7-15秒（全景手指舞与律动）：切全身中全景，女主站在白色座椅前随节奏起舞，双手抬至胸前与肩部做灵动的手指点拍动作（crisply pointing fingers to the beat），口型自然跟随音乐节奏，胯部大幅度左右律动，黑色真丝阔腿裤随重心转移自然摆动。\n- 15-18秒（第一次背身露背杀）：女主双手举过头顶折腕定格，紧接着流畅背身旋转180度，展示黑色挂脖礼服的露背剪裁与肩胛线条，左肩微侧越肩回眸一笑。\n- 18-24秒（开阔舞步与俯身爆发甩发）：全景大跨步舒展双臂律动，随后双臂前伸俯身下潜，紧接着在22-24秒镜头切中近景，女主猛地抬头向上甩发（explosive upward hair flip），深棕色长发在空中极具张力地飞扬散开。\n- 24-30秒（推墨镜与终局回眸特写）：女主侧身做S型身体波浪（body wave），右手拿着墨镜从脸侧优雅推回头顶，左手叉腰；最后2秒镜头推进至近景面部特写，在观众欢呼声中侧身回眸一笑定格。\n\n【全局物理与质量锚点】\ncontinuous 30-second fluid choreography, seamless motion transition across the entire timeline, absolute character identity persistence across 30s, dynamic body rhythm, natural weight transfer, accurate anatomical proportions, perfectly rendered hands and fingers without distortion, silk outfit reacting naturally to centrifugal force, steady continuous tracking shot, 50mm cinematic lens, consistent warm studio rim light.\n\n【音效与配乐】\n节奏感极强的欧美电子流行舞曲（upbeat electro-pop hip-hop dance beat, 115 BPM, female vocal groove），在第6秒和第29秒叠加体育场观众热烈的爆发欢呼与掌声。",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118963662853403090/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118963662853403090"
+ },
+ {
+  "id": "2119031336568562094",
+  "title": "Radial engine simulation tested across four models",
+  "title_zh": "四款模型星型发动机机械运动对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Kontentsukpi",
+   "name": "Kontentsu kurieta"
+  },
+  "postUrl": "https://x.com/Kontentsukpi/status/2119031336568562094",
+  "createdAt": "2026-11-07T11:36:54.000Z",
+  "durationMs": 12000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119031336568562094/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119031336568562094/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119031336568562094"
+ },
+ {
+  "id": "2119038154053480543",
+  "title": "AI models compete in sailing game",
+  "title_zh": "多模型帆船游戏对决",
+  "category": "comparison",
+  "author": {
+   "handle": "Pirat_Nation",
+   "name": "Pirat_Nation 🔴"
+  },
+  "postUrl": "https://x.com/Pirat_Nation/status/2119038154053480543",
+  "createdAt": "2026-11-07T12:04:00.000Z",
+  "durationMs": 37566,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119038154053480543/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119038154053480543/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119038154053480543"
  }
 ]

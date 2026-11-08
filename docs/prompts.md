@@ -2,12 +2,12 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-73 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+75 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
 - [3D scenes](#3d-scene) (16)
-- [Motion graphics](#motion-graphics) (6)
+- [Motion graphics](#motion-graphics) (8)
 - [Games](#game) (4)
 - [Product UI](#ui-demo) (7)
 - [Particles & shapes](#particles) (1)
@@ -370,6 +370,52 @@ Prompt:
 Create a dynamic 45 second motion graphics video that showcases your incredible motion design skills.
 
 I put the code on GitHub, and I'll start adding more complex prompts.
+```
+
+### Thoughts in my head generated video clip
+
+[@zayyadatullah](https://x.com/zayyadatullah/status/2118285167638757575) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118285167638757575/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118285167638757575?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Late Gm everyone 💙 
+Happy Thursday 
+
+It's Day 5...and I'm going to be trying out this challenge with every video prompt I can come up with as the days go by 
+
+Tried out this 10-sec "Thoughts in my head" clip with Argon on @GeminiApp  
+Prompt below 👇🏽
+```
+
+### Reverse-engineered video of a woman in VIP box
+
+[@leaf_sanren](https://x.com/leaf_sanren/status/2118963662853403090) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118963662853403090/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118963662853403090?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+啊啊啊😮😮！来个新案例！万物皆可逆向的，尤其视频！！🎉
+
+这个是之前 @AYi_AInotes  做的那个美女视频，也是用 Gemini 4 在 antigravity 里面逆向的提示词，视频是生成的效果，prompt放下面，大家可以试试。
+
+当然，我觉得还是不如ayi后面公开的原生提示词好（听说是Fable 5.5操刀）。动作顺序是能推出来的，缺的是一些导演层和运镜规则的部分。
+
+prompt👇：
+
+写实电影级画质，50mm定焦镜头，浅景深，温暖的户外阳光轮廓光（consistent warm studio rim light）。
+主体是一位极具魅力的东亚年轻女性（K-pop女团偶像气质，白皙细腻肌肤，深棕色微卷长发，左手腕佩戴精致金表），身穿黑色深V挂脖露背真丝阔腿连体裤（sleek black halter-neck open-back silk wide-leg jumpsuit）。
+场景为户外大型体育场/赛车场VIP看台包厢，前景是一排白色真皮扶手椅，背景是柔和虚化的多层观众席，观众在举手欢呼鼓掌。
+
+【分镜与动作时序（精校版）】
+- 0-5秒（坐姿挑眉互动）：中景，女主坐在白色VIP真皮座椅上，随节拍轻抬右手将头顶的黑色墨镜拉下戴上，随后将墨镜微拉至鼻梁处，从镜框上方挑眉直视镜头露出坏笑。
+- 5-7秒（欢呼推镜特写）：伴随全场爆发欢呼声，切近景特写，女主摘下墨镜，身体微倾靠近镜头甜美微笑，眼神聚焦。
+- 7-15秒（全景手指舞与律动）：切全身中全景，女主站在白色座椅前随节奏起舞，双手抬至胸前与肩部做灵动的手指点拍动作（crisply pointing fingers to the beat），口型自然跟随音乐节奏，胯部大幅度左右律动，黑色真丝阔腿裤随重心转移自然摆动。
+- 15-18秒（第一次背身露背杀）：女主双手举过头顶折腕定格，紧接着流畅背身旋转180度，展示黑色挂脖礼服的露背剪裁与肩胛线条，左肩微侧越肩回眸一笑。
+- 18-24秒（开阔舞步与俯身爆发甩发）：全景大跨步舒展双臂律动，随后双臂前伸俯身下潜，紧接着在22-24秒镜头切中近景，女主猛地抬头向上甩发（explosive upward hair flip），深棕色长发在空中极具张力地飞扬散开。
+- 24-30秒（推墨镜与终局回眸特写）：女主侧身做S型身体波浪（body wave），右手拿着墨镜从脸侧优雅推回头顶，左手叉腰；最后2秒镜头推进至近景面部特写，在观众欢呼声中侧身回眸一笑定格。
+
+【全局物理与质量锚点】
+continuous 30-second fluid choreography, seamless motion transition across the entire timeline, absolute character identity persistence across 30s, dynamic body rhythm, natural weight transfer, accurate anatomical proportions, perfectly rendered hands and fingers without distortion, silk outfit reacting naturally to centrifugal force, steady continuous tracking shot, 50mm cinematic lens, consistent warm studio rim light.
+
+【音效与配乐】
+节奏感极强的欧美电子流行舞曲（upbeat electro-pop hip-hop dance beat, 115 BPM, female vocal groove），在第6秒和第29秒叠加体育场观众热烈的爆发欢呼与掌声。
 ```
 
 <a id="game"></a>
