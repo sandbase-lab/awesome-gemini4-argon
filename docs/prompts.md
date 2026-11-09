@@ -1090,21 +1090,6 @@ one scene and one tester, so it's a signal rather than a verdict
 video: @anxuanng
 ```
 
-### Rainbow slinky on an escalator multi-model comparison
-
-[@EvoLinkAi](https://x.com/EvoLinkAi/status/2111260909561688231) · 0:15 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111260909561688231/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111260909561688231?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-A rainbow slinky going down an up-escalator. 🌈
-
-Opus 5.5 vs Haiku 5.5 vs GPT-6 Luna vs Gemini 4 Argon.
-
-The steps go up. The slinky should tumble down and stay in place.
-
-Which model gets the motion right? Explore more Gemini 4 prompts 👇
- https://t.co/wKW0sTKOup
-```
-
 ### Tesla Roadster 3D telemetry simulation comparison
 
 [@IFITALEX](https://x.com/IFITALEX/status/2111441312323088473) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111441312323088473/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111441312323088473?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1469,4 +1454,20 @@ same prompt: create a hypercar in three.js and make it as realistic and detailed
 GPT-6.1 Sol did a good job too, but 20 minutes feels pretty slow for a prompt like this. what do you think? 
 
 PS: GPT 6.2 Sol isn’t dropping this week btw :(
+```
+
+### Animated cutaway of working engine cylinder
+
+[@0xKenny1st](https://x.com/0xKenny1st/status/2119178796054028771) · 0:13 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119178796054028771/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119178796054028771?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Argon vs GPT-6 Astra vs Claude Opus 5.5 vs Grok 4.7
+
+Same prompt: an animated cutaway of a working engine cylinder. One job: ignite, push the piston, make power.
+
+Three models show the combustion with visible ignition and piston movement. One cylinder stays dark.
+
+Top left: Gemini 4 Argon. Top right: GPT-6 Astra. Bottom left: Claude Opus 5.5. Bottom right: Grok 4.7.
+
+Which engine actually works, and which one is just pretending?
 ```
