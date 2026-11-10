@@ -2,7 +2,7 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-77 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+78 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
@@ -14,7 +14,7 @@ Each entry quotes the creator's post as published on X, where the prompt is shar
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (2)
-- [Tests & comparisons](#comparison) (35)
+- [Tests & comparisons](#comparison) (36)
 
 <a id="3d-scene"></a>
 
@@ -772,54 +772,6 @@ Argon took  10 mins and  ~1.5% of weekly quota
 Opus took 15 mins and  4% of weekly quota ( tested by maxt3chno )
 ```
 
-### Motion design promo comparison in Premiere Pro
-
-[@e1genqq](https://x.com/e1genqq/status/2110053382043873389) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110053382043873389/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110053382043873389?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Opus 5.5 vs Gemini Argon 4 in Adobe Premier.
-
-Google just released Argon, and the benchmarks look impressive.
-
-but i wanted to compare actual motion design in SAME PROMPT.
-
-How i tested them:
-
-step 1: start with an empty adobe premiere project.
-step 2: give both models the exact same prompt.
-step 3: let each agent build the entire motion sequence.
-step 4: give both 2 rounds of feedback to improve timing, transitions, and details.
-step 5: export both videos and compare the results.
-
-The exact prompt:
-
-"create a 20-second premium motion design promo video in adobe premiere pro.
-format: 1080x1920, 30 fps.
-no brand names, logos, stock footage, or external templates (only words: Make it move, Prompt, Next move).
-build everything using typography, geometric shapes, colors, and motion.
-include kinetic typography, smooth transitions, animated UI elements, layered movement, and creative visual details. create an editable premiere project and export the final video as mp4".
-
-See the results below:
-
-→ Opus 5.5:
-
-first export: 8m 42s.
-finished video: 21m 18s.
-API cost: $3.74.
-
-→ Gemini 4 Argon:
-
-first export: 10m 16s.
-finished video: 28m 41s.
-API cost: $5.06.
-
-the interesting part?
-
-in this example, opus costs 26% less and finishes about 26% faster.
-
-which one would you pick?
-```
-
 ### Playable 3D Flappy Bird game comparison
 
 [@ivanainai](https://x.com/ivanainai/status/2110069699597971828) · 0:27 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110069699597971828/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110069699597971828?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -874,24 +826,6 @@ This is the exact workflow. Bookmark it now, because you WILL need it the next t
 F*CKING INSANE
 
 Copy-paste prompt in the reply, save this before it gets buried in your feed
-```
-
-### Voxel Dragon Flying over a Temple in 3D
-
-[@marcthecreatorr](https://x.com/marcthecreatorr/status/2110105779294687341) · 0:21 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110105779294687341/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110105779294687341?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-gemini 4 argon just brutally mogged gpt astra in this 3D test.
-
-i’ve seen many tests on Argon against different models and the gap in 3D generation is wild 
-
-here’s another test against Astra using the same prompt (build voxel art of dragon flying on temple) 
-
-astra’s output looks pretty basic next to what argon built
-
-> 3d alone doesn’t decide which model is better overall, but gemini clearly has a real lead in this area right now.
-
-openai might need to ship gpt 6.1 astra sooner than later cause it’s not looking good
 ```
 
 ### Interactive growing plant SVG animation comparison
@@ -1495,4 +1429,54 @@ Three models show the combustion with visible ignition and piston movement. One 
 Top left: Gemini 4 Argon. Top right: GPT-6 Astra. Bottom left: Claude Opus 5.5. Bottom right: Grok 4.7.
 
 Which engine actually works, and which one is just pretending?
+```
+
+### Lion clawing out of carpet model comparison
+
+[@kinderlayer](https://x.com/kinderlayer/status/2120112222227648957) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120112222227648957/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120112222227648957?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+this is f*cking wild - one of these lions cost way more to make than the other.
+
+same prompt, two models, a lion clawing its way out of a carpet.
+
+Claude Fable 5.2 · Gemini 4 Argon
+
+one went full cinema - glowing lava veins, a roar you can feel in your chest. the other stripped it down, darker, leaner.
+
+the catch: the fancier the model, the more it burns to run. so I didn’t touch a thing and I’m not telling you which is which - you call it: which lion looks like the one actually worth paying for?
+
+Fable or Gemini? drop your pick
+```
+
+### Three.js black hole light bending comparison
+
+[@Stefan_3D_AI](https://x.com/Stefan_3D_AI/status/2120139167846088787) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120139167846088787/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120139167846088787?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Same black hole prompt: $4.89 on Gemini 4 Argon, $33.15 on Fable 5.2.
+
+Prompt: a black hole in Three.js that really bends light. Fable has the richest picture, Astra the tightest numbers.
+
+Fable 5.2: 77 min, 417k output tokens, about $33.1 in API terms.
+Opus 5.5: 66 min, 366k output tokens, about $18.8 in API terms.
+GPT-6 Astra: 69 min, 126k output tokens, about $16.9 in API terms.
+Gemini 4 Argon: 63 min, 264k output tokens, about $4.9 in API terms.
+```
+
+### Pelican riding bicycle across animated seasons comparison
+
+[@marcthecreatorr](https://x.com/marcthecreatorr/status/2120151349924938083) · 0:45 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120151349924938083/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120151349924938083?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Fable 5.2 vs Gemini 4 Hydrogen (Pelican SVG Test)
+
+same prompt: create an svg of a pelican riding a bicycle across five animated seasons.
+
+• Fable 5.2 (high, Claude Code): ~25 mins, ~$25
+• Gemini 4 Hydrogen (Arena): ~5 mins, cost unknown.
+
+Hydrogen held up surprisingly well against Fable and could be 10x cheaper than Fable when it launches. 
+
+Fable 5.2 did a really impressive job overall but is the extra detailing worth the cost?
 ```

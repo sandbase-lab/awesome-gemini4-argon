@@ -419,25 +419,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110052226844791094"
  },
  {
-  "id": "2110053382043873389",
-  "title": "Motion design promo comparison in Premiere Pro",
-  "title_zh": "Premiere Pro 中的动效设计宣传片对比",
-  "category": "comparison",
-  "author": {
-   "handle": "e1genqq",
-   "name": "eigen"
-  },
-  "postUrl": "https://x.com/e1genqq/status/2110053382043873389",
-  "createdAt": "2026-10-13T17:01:43.000Z",
-  "durationMs": 20000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110053382043873389/video.mp4",
-  "promptShared": true,
-  "promptText": "Opus 5.5 vs Gemini Argon 4 in Adobe Premier.\n\nGoogle just released Argon, and the benchmarks look impressive.\n\nbut i wanted to compare actual motion design in SAME PROMPT.\n\nHow i tested them:\n\nstep 1: start with an empty adobe premiere project.\nstep 2: give both models the exact same prompt.\nstep 3: let each agent build the entire motion sequence.\nstep 4: give both 2 rounds of feedback to improve timing, transitions, and details.\nstep 5: export both videos and compare the results.\n\nThe exact prompt:\n\n\"create a 20-second premium motion design promo video in adobe premiere pro.\nformat: 1080x1920, 30 fps.\nno brand names, logos, stock footage, or external templates (only words: Make it move, Prompt, Next move).\nbuild everything using typography, geometric shapes, colors, and motion.\ninclude kinetic typography, smooth transitions, animated UI elements, layered movement, and creative visual details. create an editable premiere project and export the final video as mp4\".\n\nSee the results below:\n\n→ Opus 5.5:\n\nfirst export: 8m 42s.\nfinished video: 21m 18s.\nAPI cost: $3.74.\n\n→ Gemini 4 Argon:\n\nfirst export: 10m 16s.\nfinished video: 28m 41s.\nAPI cost: $5.06.\n\nthe interesting part?\n\nin this example, opus costs 26% less and finishes about 26% faster.\n\nwhich one would you pick?",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110053382043873389/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110053382043873389"
- },
- {
   "id": "2110053480442528008",
   "title": "Mathematical 3D room rendered in browser",
   "title_zh": "纯数学构建的浏览器三维室内场景",
@@ -1110,25 +1091,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110104441760403923/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110104441760403923"
- },
- {
-  "id": "2110105779294687341",
-  "title": "Voxel Dragon Flying over a Temple in 3D",
-  "title_zh": "寺庙上方飞翔的3D体素巨龙",
-  "category": "comparison",
-  "author": {
-   "handle": "marcthecreatorr",
-   "name": "Marcel"
-  },
-  "postUrl": "https://x.com/marcthecreatorr/status/2110105779294687341",
-  "createdAt": "2026-10-13T20:29:56.000Z",
-  "durationMs": 21483,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110105779294687341/video.mp4",
-  "promptShared": true,
-  "promptText": "gemini 4 argon just brutally mogged gpt astra in this 3D test.\n\ni’ve seen many tests on Argon against different models and the gap in 3D generation is wild \n\nhere’s another test against Astra using the same prompt (build voxel art of dragon flying on temple) \n\nastra’s output looks pretty basic next to what argon built\n\n> 3d alone doesn’t decide which model is better overall, but gemini clearly has a real lead in this area right now.\n\nopenai might need to ship gpt 6.1 astra sooner than later cause it’s not looking good",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110105779294687341/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110105779294687341"
  },
  {
   "id": "2110106381689016669",
@@ -2566,24 +2528,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110347938547511362"
  },
  {
-  "id": "2110348612349685966",
-  "title": "Voxel pelican stunt scene comparison with UI",
-  "title_zh": "带游戏界面的像素鹈鹕特技场景对比",
-  "category": "comparison",
-  "author": {
-   "handle": "romance0x",
-   "name": "romance"
-  },
-  "postUrl": "https://x.com/romance0x/status/2110348612349685966",
-  "createdAt": "2026-10-14T12:34:52.000Z",
-  "durationMs": 32333,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110348612349685966/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110348612349685966/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110348612349685966"
- },
- {
   "id": "2110355164687155634",
   "title": "Spiral piano 3D musical instrument in Three.js",
   "title_zh": "Three.js 螺旋钢琴三维乐器",
@@ -3344,7 +3288,7 @@
   "durationMs": 42433,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": 1,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110609385546547532"
  },
@@ -4541,7 +4485,7 @@
   "durationMs": 43374,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111821910442991632/video.mp4",
   "promptShared": false,
-  "featured": 1,
+  "featured": 2,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111821910442991632/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111821910442991632"
  },
@@ -5910,24 +5854,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115482217342443658"
  },
  {
-  "id": "2115496867681247275",
-  "title": "A bird rising and morphing into a panther",
-  "title_zh": "飞鸟升空并变形成黑豹的连续镜头对比",
-  "category": "comparison",
-  "author": {
-   "handle": "kinderlayer",
-   "name": "Kinder"
-  },
-  "postUrl": "https://x.com/kinderlayer/status/2115496867681247275",
-  "createdAt": "2026-10-28T17:32:11.000Z",
-  "durationMs": 18719,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115496867681247275/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115496867681247275/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115496867681247275"
- },
- {
   "id": "2115724143668924782",
   "title": "Hike encounter with pony and seagull audition",
   "title_zh": "小马与海鸥叫声的短片重制",
@@ -7151,24 +7077,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119536968199741796"
  },
  {
-  "id": "2119658661236859023",
-  "title": "SVG portrait comparison of Elon Musk",
-  "title_zh": "SVG绘制埃隆马斯克对比",
-  "category": "comparison",
-  "author": {
-   "handle": "xiax0603",
-   "name": "xiax｜AI & Agents"
-  },
-  "postUrl": "https://x.com/xiax0603/status/2119658661236859023",
-  "createdAt": "2026-11-09T05:09:40.000Z",
-  "durationMs": 29500,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119658661236859023/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119658661236859023/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119658661236859023"
- },
- {
   "id": "2119709481747783755",
   "title": "Comparing Gemini 4 Hydrogen checkpoints",
   "title_zh": "Gemini 4 Hydrogen新旧检查点效果对比",
@@ -7275,5 +7183,98 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119808942859526625/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119808942859526625"
+ },
+ {
+  "id": "2119889919560597949",
+  "title": "Animated 3D engine comparison across four models",
+  "title_zh": "四款模型生成3D动画引擎效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "0xKenny1st",
+   "name": "Kenny1st"
+  },
+  "postUrl": "https://x.com/0xKenny1st/status/2119889919560597949",
+  "createdAt": "2026-11-09T20:28:37.000Z",
+  "durationMs": 12144,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119889919560597949/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119889919560597949/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119889919560597949"
+ },
+ {
+  "id": "2119945841997672698",
+  "title": "Code-generated painting video and audio comparison",
+  "title_zh": "纯代码生成的绘画与音频模型对比",
+  "category": "comparison",
+  "author": {
+   "handle": "kickingkeys",
+   "name": "Surya"
+  },
+  "postUrl": "https://x.com/kickingkeys/status/2119945841997672698",
+  "createdAt": "2026-11-10T00:10:50.000Z",
+  "durationMs": 23000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119945841997672698/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119945841997672698/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119945841997672698"
+ },
+ {
+  "id": "2120112222227648957",
+  "title": "Lion clawing out of carpet model comparison",
+  "title_zh": "地毯中抓爬而出的狮子模型生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "kinderlayer",
+   "name": "Kinder"
+  },
+  "postUrl": "https://x.com/kinderlayer/status/2120112222227648957",
+  "createdAt": "2026-11-10T11:11:58.000Z",
+  "durationMs": 29846,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120112222227648957/video.mp4",
+  "promptShared": true,
+  "promptText": "this is f*cking wild - one of these lions cost way more to make than the other.\n\nsame prompt, two models, a lion clawing its way out of a carpet.\n\nClaude Fable 5.2 · Gemini 4 Argon\n\none went full cinema - glowing lava veins, a roar you can feel in your chest. the other stripped it down, darker, leaner.\n\nthe catch: the fancier the model, the more it burns to run. so I didn’t touch a thing and I’m not telling you which is which - you call it: which lion looks like the one actually worth paying for?\n\nFable or Gemini? drop your pick",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120112222227648957/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120112222227648957"
+ },
+ {
+  "id": "2120139167846088787",
+  "title": "Three.js black hole light bending comparison",
+  "title_zh": "Three.js 黑洞光线弯曲生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Stefan_3D_AI",
+   "name": "Stefan 3D AI"
+  },
+  "postUrl": "https://x.com/Stefan_3D_AI/status/2120139167846088787",
+  "createdAt": "2026-11-10T12:59:02.000Z",
+  "durationMs": 20000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120139167846088787/video.mp4",
+  "promptShared": true,
+  "promptText": "Same black hole prompt: $4.89 on Gemini 4 Argon, $33.15 on Fable 5.2.\n\nPrompt: a black hole in Three.js that really bends light. Fable has the richest picture, Astra the tightest numbers.\n\nFable 5.2: 77 min, 417k output tokens, about $33.1 in API terms.\nOpus 5.5: 66 min, 366k output tokens, about $18.8 in API terms.\nGPT-6 Astra: 69 min, 126k output tokens, about $16.9 in API terms.\nGemini 4 Argon: 63 min, 264k output tokens, about $4.9 in API terms.",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120139167846088787/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120139167846088787"
+ },
+ {
+  "id": "2120151349924938083",
+  "title": "Pelican riding bicycle across animated seasons comparison",
+  "title_zh": "骑自行车的鹈鹕穿越四季SVG动画对比",
+  "category": "comparison",
+  "author": {
+   "handle": "marcthecreatorr",
+   "name": "Marcel"
+  },
+  "postUrl": "https://x.com/marcthecreatorr/status/2120151349924938083",
+  "createdAt": "2026-11-10T13:47:26.000Z",
+  "durationMs": 45000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120151349924938083/video.mp4",
+  "promptShared": true,
+  "promptText": "Fable 5.2 vs Gemini 4 Hydrogen (Pelican SVG Test)\n\nsame prompt: create an svg of a pelican riding a bicycle across five animated seasons.\n\n• Fable 5.2 (high, Claude Code): ~25 mins, ~$25\n• Gemini 4 Hydrogen (Arena): ~5 mins, cost unknown.\n\nHydrogen held up surprisingly well against Fable and could be 10x cheaper than Fable when it launches. \n\nFable 5.2 did a really impressive job overall but is the extra detailing worth the cost?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120151349924938083/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120151349924938083"
  }
 ]
