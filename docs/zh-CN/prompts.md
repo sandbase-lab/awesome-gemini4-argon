@@ -2,12 +2,12 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 75 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 77 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (16)
-- [动效](#motion-graphics) (8)
+- [动效](#motion-graphics) (10)
 - [游戏](#game) (4)
 - [产品界面](#ui-demo) (7)
 - [粒子与形状](#particles) (1)
@@ -386,6 +386,17 @@ Tried out this 10-sec "Thoughts in my head" clip with Argon on @GeminiApp
 Prompt below 👇🏽
 ```
 
+### 袋鼠与迈克·泰森拳击的SVG动画
+
+[@Inmerson](https://x.com/Inmerson/status/2118819727560618293) · 0:39 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118819727560618293/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118819727560618293?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Hydrogen "Kangaroo/Mike Tyson"
+->35 second
+
+Prompt: Generate an SVG of a kangaroo boxing with Mike Tyson as much realistic as you can
+```
+
 ### 逆向提示词生成的看台美女视频
 
 [@leaf_sanren](https://x.com/leaf_sanren/status/2118963662853403090) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118963662853403090/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118963662853403090?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -416,6 +427,20 @@ continuous 30-second fluid choreography, seamless motion transition across the e
 
 【音效与配乐】
 节奏感极强的欧美电子流行舞曲（upbeat electro-pop hip-hop dance beat, 115 BPM, female vocal groove），在第6秒和第29秒叠加体育场观众热烈的爆发欢呼与掌声。
+```
+
+### 初音未来舞台演唱SVG动画
+
+[@AnikaCodes](https://x.com/AnikaCodes/status/2119000364498444299) · 0:59 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119000364498444299/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119000364498444299?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+One prompt to Gemini 4 Hydrogen: "make an SVG animation of Miku."
+
+43 seconds later she's singing on stage with her own synth track.
+
+It even gave her the leek. You can swap it in for the mic 🥬
+
+(via @Inmerson)
 ```
 
 <a id="game"></a>

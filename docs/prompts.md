@@ -2,12 +2,12 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-75 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+77 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
 - [3D scenes](#3d-scene) (16)
-- [Motion graphics](#motion-graphics) (8)
+- [Motion graphics](#motion-graphics) (10)
 - [Games](#game) (4)
 - [Product UI](#ui-demo) (7)
 - [Particles & shapes](#particles) (1)
@@ -386,6 +386,17 @@ Tried out this 10-sec "Thoughts in my head" clip with Argon on @GeminiApp
 Prompt below 👇🏽
 ```
 
+### A kangaroo boxing with Mike Tyson in SVG
+
+[@Inmerson](https://x.com/Inmerson/status/2118819727560618293) · 0:39 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118819727560618293/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118819727560618293?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Hydrogen "Kangaroo/Mike Tyson"
+->35 second
+
+Prompt: Generate an SVG of a kangaroo boxing with Mike Tyson as much realistic as you can
+```
+
 ### Reverse-engineered video of a woman in VIP box
 
 [@leaf_sanren](https://x.com/leaf_sanren/status/2118963662853403090) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118963662853403090/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118963662853403090?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -416,6 +427,20 @@ continuous 30-second fluid choreography, seamless motion transition across the e
 
 【音效与配乐】
 节奏感极强的欧美电子流行舞曲（upbeat electro-pop hip-hop dance beat, 115 BPM, female vocal groove），在第6秒和第29秒叠加体育场观众热烈的爆发欢呼与掌声。
+```
+
+### SVG animation of Hatsune Miku singing
+
+[@AnikaCodes](https://x.com/AnikaCodes/status/2119000364498444299) · 0:59 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119000364498444299/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119000364498444299?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+One prompt to Gemini 4 Hydrogen: "make an SVG animation of Miku."
+
+43 seconds later she's singing on stage with her own synth track.
+
+It even gave her the leek. You can swap it in for the mic 🥬
+
+(via @Inmerson)
 ```
 
 <a id="game"></a>
