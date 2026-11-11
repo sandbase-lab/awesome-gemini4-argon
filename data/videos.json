@@ -3288,7 +3288,7 @@
   "durationMs": 42433,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/video.mp4",
   "promptShared": false,
-  "featured": 1,
+  "featured": 2,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110609385546547532"
  },
@@ -4485,7 +4485,7 @@
   "durationMs": 43374,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111821910442991632/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": 1,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111821910442991632/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111821910442991632"
  },
@@ -4670,24 +4670,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112094806084386839/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112094806084386839"
- },
- {
-  "id": "2112106298980589613",
-  "title": "Ukiyo-e wave motion animation model comparison",
-  "title_zh": "浮世绘海浪木版画动画效果对比",
-  "category": "comparison",
-  "author": {
-   "handle": "renoiseai",
-   "name": "Renoise"
-  },
-  "postUrl": "https://x.com/renoiseai/status/2112106298980589613",
-  "createdAt": "2026-10-19T08:59:17.000Z",
-  "durationMs": 15041,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112106298980589613/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112106298980589613/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112106298980589613"
  },
  {
   "id": "2112122248983089358",
@@ -7276,5 +7258,23 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120151349924938083/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120151349924938083"
+ },
+ {
+  "id": "2120531902826525019",
+  "title": "3D generation comparison across four AI models",
+  "title_zh": "四款 AI 模型 3D 生成测试对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Stefan_3D_AI",
+   "name": "Stefan 3D AI"
+  },
+  "postUrl": "https://x.com/Stefan_3D_AI/status/2120531902826525019",
+  "createdAt": "2026-11-11T14:59:37.000Z",
+  "durationMs": 41040,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120531902826525019/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120531902826525019/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120531902826525019"
  }
 ]
