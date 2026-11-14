@@ -2,7 +2,7 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 78 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 81 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
@@ -14,7 +14,7 @@
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
 - [讲解](#explainer) (2)
-- [测试对比](#comparison) (36)
+- [测试对比](#comparison) (39)
 
 <a id="3d-scene"></a>
 
@@ -1266,30 +1266,6 @@ Is the cinematic polish worth 4x more?
 Which motor would you put in your product?
 ```
 
-### 两款模型生成交互式飞船场景对比
-
-[@SamgreyAi](https://x.com/SamgreyAi/status/2116627353656848503) · 0:18 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116627353656848503/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116627353656848503?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Asked two AI models for a ship that sails AND flies. One gave it swan wings. 
-
-Same prompt: a ship that can sail, spread its wings and fly, with live controls.
-
-Gemini 4 Argon: [$4.00 · 21 mins]
-GPT-6.1 Terra: [$2.20 · 34 mins]
-Both made it interactive: Sail / Fly / Cinematic orbit / Night modes, plus wind and speed sliders.
-
-What I saw:
-→ Gemini: an elegant swan-prowed ship with tall masts, a coral mountain range and a pink sky. The wings unfold smoothly and the whole scene feels calm and cinematic
-→ Terra: a golden-hulled ship with big sails, ice cliffs, turquoise water and a flock of birds. The camera is more dynamic and the flight feels more energetic, but it’s messier
-
-Honestly? I think Gemini made the more beautiful scene. Terra made the more alive one.
-[Terra was X x cheaper / faster.]
-Is the prettier one worth paying more for?
-
-Which one would you fly with?
-```
-
 ### 四款AI生成果冻魔方效果对比
 
 [@0xRhinoX](https://x.com/0xRhinoX/status/2116950986661171337) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116950986661171337/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116950986661171337?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1479,4 +1455,78 @@ same prompt: create an svg of a pelican riding a bicycle across five animated se
 Hydrogen held up surprisingly well against Fable and could be 10x cheaper than Fable when it launches. 
 
 Fable 5.2 did a really impressive job overall but is the extra detailing worth the cost?
+```
+
+### 四款模型生成沙漠农场 3D 公鸡对比
+
+[@0xKenny1st](https://x.com/0xKenny1st/status/2120615986894450777) · 0:13 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120615986894450777/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120615986894450777?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Claude Opus 5.5 vs Gemini Argon vs GPT-6.1 Terra vs GPT-6 Astra
+
+Same prompt: a 3D rooster in a desert farm.
+
+Claude Opus 5.5: $2.55
+Gemini Argon: $0.35
+GPT-6.1 Terra: $0.40
+GPT-6 Astra: $3.20
+
+Astra costs over 9x more than Argon.
+
+Top left: Opus 5.5. Top right: Gemini Argon. Bottom left: GPT-6.1 Terra. Bottom right: GPT-6 Astra.
+
+Which rooster wins? And is paying more worth it?
+```
+
+### 眼镜蛇破开宫殿地毯对比
+
+[@kinderlayer](https://x.com/kinderlayer/status/2120890033833922611) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120890033833922611/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120890033833922611?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+this is f*cking wild - one of these cobras cost way more to make than the other.
+
+same prompt, two models, a cobra tearing its way up through a palace carpet.
+
+Claude Fable 5.2 · Gemini 4 Argon
+
+one came out carved from obsidian and molten lava, cracks glowing from the inside. the other went bold and bright, red and gold, clean and sharp.
+
+the catch: the fancier the model, the more it burns to run. so I didn’t touch a thing and I’m not telling you which one costs more - you call it: which cobra looks like the one actually worth paying for?
+
+Fable or Gemini? drop your pick
+```
+
+### 双人自行车SVG生成效果对比
+
+[@marcthecreatorr](https://x.com/marcthecreatorr/status/2120956699951628637) · 0:28 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2120956699951628637/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120956699951628637?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Hydrogen vs Opus 5.5 (Tandem Ride SVG)
+
+same prompt: create an SVG of a girl and her cat on joined bikes, golden hour, ghibli style
+
+• opus 5.5 in claude code:  ~1 hr, ~$18 api cost
+• gemini 4 hydrogen in cursor: ~15 mins, ~$0.9 api cost
+
+opus took its time with the detailing (night mode, music) while hydrogen got the whole scene done faster for less than a dollar. 
+
+which model did it better?
+```
+
+### 眼镜蛇破开地毯模型生成对比
+
+[@Corki_0x](https://x.com/Corki_0x/status/2121261971173417145) · 0:15 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2121261971173417145/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121261971173417145?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+this is f*cking wild - one of these cobras cost way more to make than the other.
+
+same prompt, two models, a cobra tearing its way up through a palace carpet.
+
+Claude Fable 5.2 · Gemini 4 Argon
+
+one looks like it crawled straight out of a volcano: black stone body, lava leaking through every crack. the other went loud and polished, all crimson and gold, crisp edges everywhere.
+
+here's the twist: the more powerful the model, the more every run costs. so it's raw output, zero edits, and I'm keeping the price tag to myself. your turn: which cobra would you actually pay for?
+
+Gemini or Fable? drop your pick
 ```

@@ -1057,24 +1057,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110100567515398534"
  },
  {
-  "id": "2110104077833228364",
-  "title": "Gemini 4 Argon and Opus 5.5 comparison",
-  "title_zh": "Gemini 4 Argon 与 Opus 5.5 对比",
-  "category": "comparison",
-  "author": {
-   "handle": "ashawv5i",
-   "name": "asha"
-  },
-  "postUrl": "https://x.com/ashawv5i/status/2110104077833228364",
-  "createdAt": "2026-10-13T20:23:10.000Z",
-  "durationMs": 40320,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110104077833228364/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110104077833228364/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110104077833228364"
- },
- {
   "id": "2110104441760403923",
   "title": "Frieren drawing in SVG format",
   "title_zh": "SVG 格式绘制的芙莉莲",
@@ -1455,24 +1437,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110150043596681673/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110150043596681673"
- },
- {
-  "id": "2110151326470648057",
-  "title": "Voxel game world created with Gemini 4 Argon",
-  "title_zh": "使用 Gemini 4 Argon 创建的体素游戏世界",
-  "category": "game",
-  "author": {
-   "handle": "jerrod_lew",
-   "name": "Jerrod Lew"
-  },
-  "postUrl": "https://x.com/jerrod_lew/status/2110151326470648057",
-  "createdAt": "2026-10-13T23:30:55.000Z",
-  "durationMs": 28600,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110151326470648057/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110151326470648057/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110151326470648057"
  },
  {
   "id": "2110153188192248026",
@@ -2179,24 +2143,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110312192633639223/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110312192633639223"
- },
- {
-  "id": "2110312479662264668",
-  "title": "Google ad recreated with Gemini 4 Argon",
-  "title_zh": "Gemini 4 Argon 从零复刻的谷歌广告",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "marcthecreatorr",
-   "name": "Marcel"
-  },
-  "postUrl": "https://x.com/marcthecreatorr/status/2110312479662264668",
-  "createdAt": "2026-10-14T10:11:17.000Z",
-  "durationMs": 53750,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110312479662264668/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110312479662264668/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110312479662264668"
  },
  {
   "id": "2110315102645985737",
@@ -3851,7 +3797,7 @@
   "durationMs": 62400,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110973461690802487/video.mp4",
   "promptShared": false,
-  "featured": 0,
+  "featured": 1,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110973461690802487/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110973461690802487"
  },
@@ -4418,24 +4364,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111739836121964900"
  },
  {
-  "id": "2111760509372404142",
-  "title": "Comparison of molten elephant generation between models",
-  "title_zh": "熔岩大象生成的双模型对比",
-  "category": "comparison",
-  "author": {
-   "handle": "kinderlayer",
-   "name": "Kinder"
-  },
-  "postUrl": "https://x.com/kinderlayer/status/2111760509372404142",
-  "createdAt": "2026-10-18T10:05:14.000Z",
-  "durationMs": 15000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111760509372404142/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111760509372404142/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111760509372404142"
- },
- {
   "id": "2111793164474634612",
   "title": "AGI pelican stunt benchmark across four AI models",
   "title_zh": "四款AI模型的AGI鹈鹕特技跑分对比",
@@ -4485,7 +4413,7 @@
   "durationMs": 43374,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111821910442991632/video.mp4",
   "promptShared": false,
-  "featured": 1,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111821910442991632/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111821910442991632"
  },
@@ -4524,24 +4452,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111842128423014465/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111842128423014465"
- },
- {
-  "id": "2111847085284700312",
-  "title": "Shadow strike 3D shooter game demo",
-  "title_zh": "3D射击游戏Shadow Strike演示",
-  "category": "game",
-  "author": {
-   "handle": "vorpal_onchain",
-   "name": "vorpal"
-  },
-  "postUrl": "https://x.com/vorpal_onchain/status/2111847085284700312",
-  "createdAt": "2026-10-18T15:49:16.000Z",
-  "durationMs": 88452,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111847085284700312/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111847085284700312/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111847085284700312"
  },
  {
   "id": "2111858653456150974",
@@ -5032,24 +4942,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112706683499675695/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112706683499675695"
- },
- {
-  "id": "2112782528088297745",
-  "title": "An SVG pagoda styled with color figures",
-  "title_zh": "Gemini生成的宝塔SVG色彩动画",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "agenticjay",
-   "name": "JY"
-  },
-  "postUrl": "https://x.com/agenticjay/status/2112782528088297745",
-  "createdAt": "2026-10-21T05:46:22.000Z",
-  "durationMs": 9000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112782528088297745/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112782528088297745/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112782528088297745"
  },
  {
   "id": "2112846917273358451",
@@ -5673,24 +5565,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114948683888214414"
  },
  {
-  "id": "2115119800179724392",
-  "title": "Robotics simulation using Argon and Genie 4",
-  "title_zh": "结合Argon与Genie 4的机器人仿真",
-  "category": "ui-demo",
-  "author": {
-   "handle": "davidpantera_",
-   "name": "David Pantera"
-  },
-  "postUrl": "https://x.com/davidpantera_/status/2115119800179724392",
-  "createdAt": "2026-10-27T16:33:52.000Z",
-  "durationMs": 12583,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115119800179724392/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115119800179724392/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115119800179724392"
- },
- {
   "id": "2115135850816164073",
   "title": "Simulation of Apollo humanoid playing checkers",
   "title_zh": "Apollo 人形机器人下跳棋的生成式模拟",
@@ -6054,25 +5928,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116619448081903636"
  },
  {
-  "id": "2116627353656848503",
-  "title": "Interactive flying ship scene generated by two models",
-  "title_zh": "两款模型生成交互式飞船场景对比",
-  "category": "comparison",
-  "author": {
-   "handle": "SamgreyAi",
-   "name": "Sam"
-  },
-  "postUrl": "https://x.com/SamgreyAi/status/2116627353656848503",
-  "createdAt": "2026-10-31T20:24:20.000Z",
-  "durationMs": 17647,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116627353656848503/video.mp4",
-  "promptShared": true,
-  "promptText": "Asked two AI models for a ship that sails AND flies. One gave it swan wings. \n\nSame prompt: a ship that can sail, spread its wings and fly, with live controls.\n\nGemini 4 Argon: [$4.00 · 21 mins]\nGPT-6.1 Terra: [$2.20 · 34 mins]\nBoth made it interactive: Sail / Fly / Cinematic orbit / Night modes, plus wind and speed sliders.\n\nWhat I saw:\n→ Gemini: an elegant swan-prowed ship with tall masts, a coral mountain range and a pink sky. The wings unfold smoothly and the whole scene feels calm and cinematic\n→ Terra: a golden-hulled ship with big sails, ice cliffs, turquoise water and a flock of birds. The camera is more dynamic and the flight feels more energetic, but it’s messier\n\nHonestly? I think Gemini made the more beautiful scene. Terra made the more alive one.\n[Terra was X x cheaper / faster.]\nIs the prettier one worth paying more for?\n\nWhich one would you fly with?",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116627353656848503/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116627353656848503"
- },
- {
   "id": "2116706145943622141",
   "title": "Cinematic vintage car during golden hour",
   "title_zh": "黄金时段的复古汽车电影质感画面",
@@ -6361,24 +6216,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117603495868035198/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117603495868035198"
- },
- {
-  "id": "2117636670380007752",
-  "title": "Code-generated 2D animation comparison",
-  "title_zh": "纯代码生成的2D动画对比",
-  "category": "comparison",
-  "author": {
-   "handle": "HIX_AI_",
-   "name": "HIX.AI"
-  },
-  "postUrl": "https://x.com/HIX_AI_/status/2117636670380007752",
-  "createdAt": "2026-11-03T15:15:00.000Z",
-  "durationMs": 26238,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117636670380007752/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117636670380007752/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117636670380007752"
  },
  {
   "id": "2117642004255384051",
@@ -7005,24 +6842,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119395213810479217"
  },
  {
-  "id": "2119474431974105579",
-  "title": "Comparison test using Gemini 4 Hydrogen",
-  "title_zh": "Gemini 4 Hydrogen同提示词测试对比",
-  "category": "comparison",
-  "author": {
-   "handle": "Inmerson",
-   "name": "Inmersion"
-  },
-  "postUrl": "https://x.com/Inmerson/status/2119474431974105579",
-  "createdAt": "2026-11-08T16:57:37.000Z",
-  "durationMs": 92842,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119474431974105579/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119474431974105579/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119474431974105579"
- },
- {
   "id": "2119481153547804830",
   "title": "SVG portrait of Elon Musk comparison",
   "title_zh": "SVG绘制马斯克肖像对比",
@@ -7276,5 +7095,189 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120531902826525019/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120531902826525019"
+ },
+ {
+  "id": "2120615986894450777",
+  "title": "Four model comparison of a 3D rooster",
+  "title_zh": "四款模型生成沙漠农场 3D 公鸡对比",
+  "category": "comparison",
+  "author": {
+   "handle": "0xKenny1st",
+   "name": "Kenny1st"
+  },
+  "postUrl": "https://x.com/0xKenny1st/status/2120615986894450777",
+  "createdAt": "2026-11-11T20:33:45.000Z",
+  "durationMs": 12817,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120615986894450777/video.mp4",
+  "promptShared": true,
+  "promptText": "Claude Opus 5.5 vs Gemini Argon vs GPT-6.1 Terra vs GPT-6 Astra\n\nSame prompt: a 3D rooster in a desert farm.\n\nClaude Opus 5.5: $2.55\nGemini Argon: $0.35\nGPT-6.1 Terra: $0.40\nGPT-6 Astra: $3.20\n\nAstra costs over 9x more than Argon.\n\nTop left: Opus 5.5. Top right: Gemini Argon. Bottom left: GPT-6.1 Terra. Bottom right: GPT-6 Astra.\n\nWhich rooster wins? And is paying more worth it?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120615986894450777/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120615986894450777"
+ },
+ {
+  "id": "2120793403176988866",
+  "title": "Interactive pelican riding bicycle HTML benchmark demo",
+  "title_zh": "鹈鹕骑自行车的交互式HTML基准测试演示",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "Delroy715",
+   "name": "码农暖爸"
+  },
+  "postUrl": "https://x.com/Delroy715/status/2120793403176988866",
+  "createdAt": "2026-11-12T08:18:44.000Z",
+  "durationMs": 33149,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2120793403176988866/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2120793403176988866/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120793403176988866"
+ },
+ {
+  "id": "2120890033833922611",
+  "title": "Cobra tearing through palace carpet comparison",
+  "title_zh": "眼镜蛇破开宫殿地毯对比",
+  "category": "comparison",
+  "author": {
+   "handle": "kinderlayer",
+   "name": "Kinder"
+  },
+  "postUrl": "https://x.com/kinderlayer/status/2120890033833922611",
+  "createdAt": "2026-11-12T14:42:42.000Z",
+  "durationMs": 30017,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120890033833922611/video.mp4",
+  "promptShared": true,
+  "promptText": "this is f*cking wild - one of these cobras cost way more to make than the other.\n\nsame prompt, two models, a cobra tearing its way up through a palace carpet.\n\nClaude Fable 5.2 · Gemini 4 Argon\n\none came out carved from obsidian and molten lava, cracks glowing from the inside. the other went bold and bright, red and gold, clean and sharp.\n\nthe catch: the fancier the model, the more it burns to run. so I didn’t touch a thing and I’m not telling you which one costs more - you call it: which cobra looks like the one actually worth paying for?\n\nFable or Gemini? drop your pick",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120890033833922611/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120890033833922611"
+ },
+ {
+  "id": "2120900306733310235",
+  "title": "Short vlog created with AI models",
+  "title_zh": "AI模型生成的短视频Vlog",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "Afkd3vil",
+   "name": "Sig🫟(Garri man)"
+  },
+  "postUrl": "https://x.com/Afkd3vil/status/2120900306733310235",
+  "createdAt": "2026-11-12T15:23:32.000Z",
+  "durationMs": 10026,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120900306733310235/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120900306733310235/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120900306733310235"
+ },
+ {
+  "id": "2120940617169826037",
+  "title": "Procedural futuristic city flythrough in Three.js",
+  "title_zh": "Three.js程序化未来城市漫游",
+  "category": "3d-scene",
+  "author": {
+   "handle": "kimmonismus",
+   "name": "Chubby♨️"
+  },
+  "postUrl": "https://x.com/kimmonismus/status/2120940617169826037",
+  "createdAt": "2026-11-12T18:03:42.000Z",
+  "durationMs": 19933,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2120940617169826037/video.mp4",
+  "promptShared": false,
+  "featured": 0,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2120940617169826037/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120940617169826037"
+ },
+ {
+  "id": "2120956699951628637",
+  "title": "Tandem bike ride SVG generation comparison",
+  "title_zh": "双人自行车SVG生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "marcthecreatorr",
+   "name": "Marcel"
+  },
+  "postUrl": "https://x.com/marcthecreatorr/status/2120956699951628637",
+  "createdAt": "2026-11-12T19:07:37.000Z",
+  "durationMs": 27584,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2120956699951628637/video.mp4",
+  "promptShared": true,
+  "promptText": "Gemini 4 Hydrogen vs Opus 5.5 (Tandem Ride SVG)\n\nsame prompt: create an SVG of a girl and her cat on joined bikes, golden hour, ghibli style\n\n• opus 5.5 in claude code:  ~1 hr, ~$18 api cost\n• gemini 4 hydrogen in cursor: ~15 mins, ~$0.9 api cost\n\nopus took its time with the detailing (night mode, music) while hydrogen got the whole scene done faster for less than a dollar. \n\nwhich model did it better?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2120956699951628637/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120956699951628637"
+ },
+ {
+  "id": "2120990834246173125",
+  "title": "Autonomous laboratory workcell running experiments",
+  "title_zh": "实验室工作站自主运行实验演示",
+  "category": "ui-demo",
+  "author": {
+   "handle": "danielmckinn0n",
+   "name": "Daniel McKinnon"
+  },
+  "postUrl": "https://x.com/danielmckinn0n/status/2120990834246173125",
+  "createdAt": "2026-11-12T21:23:15.000Z",
+  "durationMs": 46368,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120990834246173125/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120990834246173125/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120990834246173125"
+ },
+ {
+  "id": "2121022982256517435",
+  "title": "Argon code workflow video generation comparison",
+  "title_zh": "Argon工作流代码视频对比展示",
+  "category": "comparison",
+  "author": {
+   "handle": "positronx_",
+   "name": "Shubhu"
+  },
+  "postUrl": "https://x.com/positronx_/status/2121022982256517435",
+  "createdAt": "2026-11-12T23:31:00.000Z",
+  "durationMs": 48000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2121022982256517435/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2121022982256517435/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121022982256517435"
+ },
+ {
+  "id": "2121253173260070966",
+  "title": "Multiplayer FPS game built with Gemini 4 Argon",
+  "title_zh": "使用Gemini 4 Argon构建的多人FPS游戏",
+  "category": "game",
+  "author": {
+   "handle": "shownotover",
+   "name": "shownotover"
+  },
+  "postUrl": "https://x.com/shownotover/status/2121253173260070966",
+  "createdAt": "2026-11-13T14:45:42.000Z",
+  "durationMs": 60000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2121253173260070966/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2121253173260070966/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121253173260070966"
+ },
+ {
+  "id": "2121261971173417145",
+  "title": "Cobra tearing through palace carpet model comparison",
+  "title_zh": "眼镜蛇破开地毯模型生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Corki_0x",
+   "name": "Corki"
+  },
+  "postUrl": "https://x.com/Corki_0x/status/2121261971173417145",
+  "createdAt": "2026-11-13T15:20:39.000Z",
+  "durationMs": 15046,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2121261971173417145/video.mp4",
+  "promptShared": true,
+  "promptText": "this is f*cking wild - one of these cobras cost way more to make than the other.\n\nsame prompt, two models, a cobra tearing its way up through a palace carpet.\n\nClaude Fable 5.2 · Gemini 4 Argon\n\none looks like it crawled straight out of a volcano: black stone body, lava leaking through every crack. the other went loud and polished, all crimson and gold, crisp edges everywhere.\n\nhere's the twist: the more powerful the model, the more every run costs. so it's raw output, zero edits, and I'm keeping the price tag to myself. your turn: which cobra would you actually pay for?\n\nGemini or Fable? drop your pick",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2121261971173417145/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121261971173417145"
  }
 ]
