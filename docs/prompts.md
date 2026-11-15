@@ -7,14 +7,14 @@ English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../R
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
 - [3D scenes](#3d-scene) (15)
-- [Motion graphics](#motion-graphics) (10)
+- [Motion graphics](#motion-graphics) (9)
 - [Games](#game) (4)
 - [Product UI](#ui-demo) (7)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (2)
-- [Tests & comparisons](#comparison) (39)
+- [Tests & comparisons](#comparison) (40)
 
 <a id="3d-scene"></a>
 
@@ -358,20 +358,6 @@ Prompt:
 Create a dynamic 45 second motion graphics video that showcases your incredible motion design skills.
 
 I put the code on GitHub, and I'll start adding more complex prompts.
-```
-
-### Thoughts in my head generated video clip
-
-[@zayyadatullah](https://x.com/zayyadatullah/status/2118285167638757575) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118285167638757575/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118285167638757575?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Late Gm everyone 💙 
-Happy Thursday 
-
-It's Day 5...and I'm going to be trying out this challenge with every video prompt I can come up with as the days go by 
-
-Tried out this 10-sec "Thoughts in my head" clip with Argon on @GeminiApp  
-Prompt below 👇🏽
 ```
 
 ### A kangaroo boxing with Mike Tyson in SVG
@@ -1517,4 +1503,32 @@ one looks like it crawled straight out of a volcano: black stone body, lava leak
 here's the twist: the more powerful the model, the more every run costs. so it's raw output, zero edits, and I'm keeping the price tag to myself. your turn: which cobra would you actually pay for?
 
 Gemini or Fable? drop your pick
+```
+
+### Rio Above the Clouds film model comparison
+
+[@EnvolDev](https://x.com/EnvolDev/status/2121701704139956250) · 0:25 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2121701704139956250/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121701704139956250?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Fable 5.2 vs Gemini 4 Hydrogen vs Opus 5.5 vs GPT-6 Astra ☁️
+
+Gemini 4 Hydrogen made the whole film for $6.21. 🤯
+But it's the least good of all. 😬
+
+Same prompt: Rio Above the Clouds
+Opus 5.5: $60.89 · 2h 19m 35s
+Fable 5.2: $76.04 · 1h 59m 11s
+Gemini 4 Hydrogen: $6.21 · 1h 33m 48s
+GPT-6 Astra: $16.89 · 34m 06s
+
+And this time it ran on Extra High. In my last test, it could only run on High. So no excuses.
+
+I know I can't compare it to frontier models like Fable 5.2 or Opus 5.5.
+But the result was not good at all.
+
+GPT-6 Astra cost only $10.68 more, finished almost 1 hour faster, and made a better film.
+
+I'm not impressed at all by Hydrogen on this one. 🤦
+
+What do you guys think? 👀
 ```

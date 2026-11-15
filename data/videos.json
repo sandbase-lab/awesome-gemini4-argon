@@ -578,7 +578,7 @@
   "durationMs": 71566,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110069786415968754/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 0,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110069786415968754/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110069786415968754"
  },
@@ -2287,7 +2287,7 @@
   "durationMs": 8000,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110343012421181485/video.mp4",
   "promptShared": false,
-  "featured": 6,
+  "featured": 5,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110343012421181485/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110343012421181485"
  },
@@ -3235,7 +3235,7 @@
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110698310705074655/video.mp4",
   "promptShared": true,
   "promptText": "experimenting with keypoint detection in Gemini 4 Argon\n\ngave it a hand diagram with numbered points and asked it to find them in an image\n\nthen did the same for every frame in a video\n\n↓ prompt",
-  "featured": 5,
+  "featured": 6,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110698310705074655/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110698310705074655"
  },
@@ -3689,7 +3689,7 @@
   "durationMs": 62400,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110973461690802487/video.mp4",
   "promptShared": false,
-  "featured": 1,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110973461690802487/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110973461690802487"
  },
@@ -5474,24 +5474,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115167475554037936"
  },
  {
-  "id": "2115173795711603192",
-  "title": "Night train prompt comparison across three models",
-  "title_zh": "三款模型夜间火车提示词对比测试",
-  "category": "comparison",
-  "author": {
-   "handle": "EnvolDev",
-   "name": "Tony"
-  },
-  "postUrl": "https://x.com/EnvolDev/status/2115173795711603192",
-  "createdAt": "2026-10-27T20:08:25.000Z",
-  "durationMs": 25000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115173795711603192/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115173795711603192/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115173795711603192"
- },
- {
   "id": "2115174238256542121",
   "title": "Four AI models simulating a water lobe pump",
   "title_zh": "四款AI模型模拟凸轮水泵效果对比",
@@ -6254,25 +6236,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118173738893996327/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118173738893996327"
- },
- {
-  "id": "2118285167638757575",
-  "title": "Thoughts in my head generated video clip",
-  "title_zh": "Gemini生成的头脑思绪概念短片",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "zayyadatullah",
-   "name": "Zayy 👽"
-  },
-  "postUrl": "https://x.com/zayyadatullah/status/2118285167638757575",
-  "createdAt": "2026-11-05T10:11:54.000Z",
-  "durationMs": 10060,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118285167638757575/video.mp4",
-  "promptShared": true,
-  "promptText": "Late Gm everyone 💙 \nHappy Thursday \n\nIt's Day 5...and I'm going to be trying out this challenge with every video prompt I can come up with as the days go by \n\nTried out this 10-sec \"Thoughts in my head\" clip with Argon on @GeminiApp  \nPrompt below 👇🏽",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118285167638757575/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118285167638757575"
  },
  {
   "id": "2118341205448650862",
@@ -7039,7 +7002,7 @@
   "durationMs": 19933,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2120940617169826037/video.mp4",
   "promptShared": false,
-  "featured": 0,
+  "featured": 1,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2120940617169826037/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120940617169826037"
  },
@@ -7242,6 +7205,43 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2121558116533690604/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121558116533690604"
+ },
+ {
+  "id": "2121596515474964556",
+  "title": "Temple escape game comparison across Gemini models",
+  "title_zh": "Gemini两款模型的神庙逃亡游戏对比",
+  "category": "comparison",
+  "author": {
+   "handle": "runable_hq",
+   "name": "Runable"
+  },
+  "postUrl": "https://x.com/runable_hq/status/2121596515474964556",
+  "createdAt": "2026-11-14T13:30:01.000Z",
+  "durationMs": 12533,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2121596515474964556/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2121596515474964556/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121596515474964556"
+ },
+ {
+  "id": "2121701704139956250",
+  "title": "Rio Above the Clouds film model comparison",
+  "title_zh": "云端里约影片生成多模型对比",
+  "category": "comparison",
+  "author": {
+   "handle": "EnvolDev",
+   "name": "Tony"
+  },
+  "postUrl": "https://x.com/EnvolDev/status/2121701704139956250",
+  "createdAt": "2026-11-14T20:28:00.000Z",
+  "durationMs": 25000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2121701704139956250/video.mp4",
+  "promptShared": true,
+  "promptText": "Fable 5.2 vs Gemini 4 Hydrogen vs Opus 5.5 vs GPT-6 Astra ☁️\n\nGemini 4 Hydrogen made the whole film for $6.21. 🤯\nBut it's the least good of all. 😬\n\nSame prompt: Rio Above the Clouds\nOpus 5.5: $60.89 · 2h 19m 35s\nFable 5.2: $76.04 · 1h 59m 11s\nGemini 4 Hydrogen: $6.21 · 1h 33m 48s\nGPT-6 Astra: $16.89 · 34m 06s\n\nAnd this time it ran on Extra High. In my last test, it could only run on High. So no excuses.\n\nI know I can't compare it to frontier models like Fable 5.2 or Opus 5.5.\nBut the result was not good at all.\n\nGPT-6 Astra cost only $10.68 more, finished almost 1 hour faster, and made a better film.\n\nI'm not impressed at all by Hydrogen on this one. 🤦\n\nWhat do you guys think? 👀",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2121701704139956250/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121701704139956250"
  },
  {
   "id": "2121804295381377342",
