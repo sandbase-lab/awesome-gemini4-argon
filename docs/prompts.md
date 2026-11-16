@@ -2,19 +2,19 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-80 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+81 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (15)
-- [Motion graphics](#motion-graphics) (9)
+- [3D scenes](#3d-scene) (16)
+- [Motion graphics](#motion-graphics) (10)
 - [Games](#game) (4)
 - [Product UI](#ui-demo) (7)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
-- [Explainers](#explainer) (2)
-- [Tests & comparisons](#comparison) (40)
+- [Explainers](#explainer) (3)
+- [Tests & comparisons](#comparison) (38)
 
 <a id="3d-scene"></a>
 
@@ -274,6 +274,21 @@ GEMINI 4 HYDROGEN "Ocean" CRAZY!!!
 Prompt: Create the most realistic ocean simulation in html
 ```
 
+### Pelican riding a bicycle Three.js animation
+
+[@Aki_LIG](https://x.com/Aki_LIG/status/2121960943361896596) · 2:48 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2121960943361896596/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121960943361896596?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Hydrogenやばいんですけど。。
+ペリカンテストでこんなの見たことない。
+
+プロンプトは、以前6.1 Terraに与えたのと全く同じ。
+出力がまるで違います。
+
+プロンプト👇
+「Three.jsを使って3Dシーンを作成：ペリカンが自転車に乗って海岸沿いの道路を進む。 ペリカンが本当に自転車に乗って、両足でペダルを漕ぎ、翼でハンドルを操り、車輪が漕ぐのに合わせて回転する。動作は自然で滑らか。 シーンは生き生きとして詳細豊かで、自然環境、動的効果、光影、インタラクティブ機能を備える。 あなたの3Dモデリング、アニメーション、ビジュアルデザインの能力を最大限に発揮して、洗練された、すぐに実行可能なウェブ作品を完成させて。」
+```
+
 <a id="motion-graphics"></a>
 
 ## Motion graphics
@@ -415,6 +430,28 @@ One prompt to Gemini 4 Hydrogen: "make an SVG animation of Miku."
 It even gave her the leek. You can swap it in for the mic 🥬
 
 (via @Inmerson)
+```
+
+### A character performing various cute expressions
+
+[@nyapan_mohy](https://x.com/nyapan_mohy/status/2122253350808744004) · 0:15 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2122253350808744004/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2122253350808744004?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Cute版 サムネで既にかわいい
+
+なお、全部 「Gemini 4 Hydrogen」がやりました！！！
+なにがって、わたしが「こんなことやりたい！」以外全てです。ええ、全て。
+
+プロンプトはリプ
+
+Cool版と完全に同じ背景・衣装ルールを保ったまま、ウィンク・猫口（:3）・頬ぷく・星目・全力ジャンプなど、設定画に載っていない可愛い表情＆アクションの振り幅を 16:9 開始フレーム＋30ショットプロンプトで引き出しています。
+
+▼ 技術構成（Cute版）
+・Pipeline: ComfyUI video_minimax_h3_i2v (fl2va + 8step Turbo LoRA)
+・Quantization: Diffusion int8_convrot / TE nvfp4_awq
+・Spec: 1344×768 (768p 16:9) / 24fps / 15.08s / ネイティブ音声付き
+・Seed / Time: 420002 / A100 80GB で 14m32s
+・工夫点: 設定画のクール表情に引っ張られないよう、先にウィンク＆ロックポーズの Cute 用 16:9 開始フレームを作って I2V 投入
 ```
 
 <a id="game"></a>
@@ -726,6 +763,18 @@ save them in Gemini under Customize, then Skills. names go lowercase with hyphen
 all five read the Brain folder, so build it first. the full setup, from folder to schedules, is in the article
 
 bookmark this now. set it up tonight
+```
+
+### Creating educational videos using Gemini 4 Hydrogen
+
+[@smalkalbani](https://x.com/smalkalbani/status/2121844887033458954) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2121844887033458954/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121844887033458954?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+حول درس إبنك الجامد إلى فيديو مثير للتعلم
+
+استخدمت Gemini 4 hydrogen
+
+الـ Prompt 👇
 ```
 
 <a id="comparison"></a>
@@ -1144,30 +1193,6 @@ I gave Kimi K3.1 Pro, Gemini 4 Argon, and Fable 5.1 the exact same prompt:
 One prompt. Three models. The results might hurt some feelings. 💀💀💀
 ```
 
-### Close-up of a man on a mountain
-
-[@VassilyBeyond](https://x.com/VassilyBeyond/status/2114070481984770255) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114070481984770255/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114070481984770255?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-J'ai donné à Gemini Argon et
-Grok Imagine 4.7 
-exactement le même prompt :
-
-«Gros plan sur le visage d'un homme épuisé mais apaisé, regardant l'horizon au sommet d'une montagne, le vent dans les cheveux, lumière dorée de fin de journée»
-
-Un seul prompt.
-Deux modèles en duel. 
-Quand on demande à l'IA de capturer l'âme humaine, les masques tombent tout de suite. 💀🏔️
-
-Selon vous, lequel des deux a vraiment réussi à capter un regard humain ? 👇
-
-Franchement pour moi le match est très serré 
-
-@GeminiApp
-@imagine 
-@grok
-```
-
 ### Rebuilding Chrome dino with ragdoll physics across models
 
 [@noclipepe](https://x.com/noclipepe/status/2114438106254299320) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2114438106254299320/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2114438106254299320?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1279,34 +1304,6 @@ Same prompt, one try each: an animated cutaway of a toilet flush, with a little 
 Hy4 is a solid model for a new release. Would you use it?
 ```
 
-### Animated SVG pelican riding a bicycle across four models
-
-[@noclipepe](https://x.com/noclipepe/status/2118102232780480804) · 0:29 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118102232780480804/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118102232780480804?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-How LongCat-2.5 compared with Gemini, GPT and GLM on the same SVG task
-
-One shot. Same prompt: 
-an animated SVG of a pelican riding a bicycle.
-
-LongCat-2.5 · $0.25
-The most complete scene. Fish in the pouch, a ringing bell, a passing seagull, parallax background. Legs follow the pedals.
-
-Gemini 4 Argon · $0.37
-Best colors and a bold, clean pelican. The background is simpler.
-
-GLM-5.3 Flash · $0.24
-Clean and accurate drawing, a calm seaside scene. Fewer details and less motion.
-
-GPT-6.1 Terra · $0.05
-Cheapest by far. Correct pelican and bike, but almost no scene around them.
-
-Prices = estimated cost of this task at each model's official API rates.
-
-🎁 Giving away 10 LongCat-2.5 codes with 10M free tokens each. 
-Reply "LONGCAT" + what you'd build 👇
-```
-
 ### Destructible 3D city comparison in OpenCode
 
 [@AbdoKerdawy](https://x.com/AbdoKerdawy/status/2118527537936494697) · 1:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118527537936494697/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118527537936494697?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1414,23 +1411,6 @@ GPT-6 Astra: 69 min, 126k output tokens, about $16.9 in API terms.
 Gemini 4 Argon: 63 min, 264k output tokens, about $4.9 in API terms.
 ```
 
-### Pelican riding bicycle across animated seasons comparison
-
-[@marcthecreatorr](https://x.com/marcthecreatorr/status/2120151349924938083) · 0:45 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120151349924938083/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120151349924938083?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Fable 5.2 vs Gemini 4 Hydrogen (Pelican SVG Test)
-
-same prompt: create an svg of a pelican riding a bicycle across five animated seasons.
-
-• Fable 5.2 (high, Claude Code): ~25 mins, ~$25
-• Gemini 4 Hydrogen (Arena): ~5 mins, cost unknown.
-
-Hydrogen held up surprisingly well against Fable and could be 10x cheaper than Fable when it launches. 
-
-Fable 5.2 did a really impressive job overall but is the extra detailing worth the cost?
-```
-
 ### Four model comparison of a 3D rooster
 
 [@0xKenny1st](https://x.com/0xKenny1st/status/2120615986894450777) · 0:13 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120615986894450777/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120615986894450777?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1531,4 +1511,19 @@ GPT-6 Astra cost only $10.68 more, finished almost 1 hour faster, and made a bet
 I'm not impressed at all by Hydrogen on this one. 🤦
 
 What do you guys think? 👀
+```
+
+### Electric motor animation comparison across models
+
+[@analogalok](https://x.com/analogalok/status/2122221106304352257) · 0:13 · [Watch](https://www.sandbase.ai/lab/media/x/qwen4-max/2122221106304352257/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2122221106304352257?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Qwen 4 Max Vs Qwen 3.8 Max Vs Gemini 4 Hydrogen
+
+Prompt:
+create a very realistic animation of how an electric motor works showing everything clearly even the magnetic field, electrons etc. single html file. use any libs via cdn
+
+Gemini 4 Hydrogen did the best overall job on 3D realism and visual clarity, modeling a proper curved horseshoe magnet, detailed commutator, and phase by phase physics explanations without visual clutter. 
+
+Qwen 4 Max offered the richest lab dashboard, adding a physical DC battery, live waveform graph, and friction controls though its dense glowing overlays crowded the center. Qwen 3.8 Max had the simplest 3D scene but stood out for its helpful synchronized 2D schematic view.
 ```
