@@ -2,14 +2,14 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 83 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 81 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (16)
 - [动效](#motion-graphics) (10)
-- [游戏](#game) (4)
-- [产品界面](#ui-demo) (7)
+- [游戏](#game) (3)
+- [产品界面](#ui-demo) (6)
 - [粒子与形状](#particles) (1)
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
@@ -488,22 +488,6 @@ already played it more than 5 times and i keep losing 😂
 im gonna compare this with Opus 5.5 later.
 ```
 
-### Devin 复现 3D Boss 战游戏过程
-
-[@xueyu1125](https://x.com/xueyu1125/status/2110343586781000107) · 0:56 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110343586781000107/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110343586781000107?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-卧槽，赛博诈骗，这个Gemini 4 Argon和Muse Wonder的对比视频造假了！！！
-
-我直接按照作者提供的prompt生成了一波，根本达不到作者视频里的这么精细的水平
-
-两个对比视频动作基本完全一模一样，应该是用Muse Wonder的视频作为基础，通过视频模型生成了上面的Gemini的视频
-
-作者的prompt: build a 3D Boss fight: a small knight vs a clock work colossus in the sky
-
-我把在devin里跑的整个流程和效果，全部录屏放出来👇
-```
-
 ### 使用Gemini AI Argon制作的游戏
 
 [@dvkexbt](https://x.com/dvkexbt/status/2117867632573727101) · 0:51 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117867632573727101/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117867632573727101?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -538,26 +522,6 @@ the cost was also pretty fair. i got 50% off the API cost, so the total came to 
 i’m running more tests with the model, so stick around.
 
 i’ll leave the prompt + demo link below.
-```
-
-### 参数化可3D打印灯罩CAD设计工具
-
-[@SeHozaifa](https://x.com/SeHozaifa/status/2110315102645985737) · 0:45 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110315102645985737/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110315102645985737?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon just one-shotted a complete parametric 3D-printable Lampshade CAD & Slicer Studio inside a single HTML file.
-
-Prompt: "Create an app to model lamp shades that I can 3D print."
-
-What Gemini 4 Argon built from scratch: 
-
-• Real-time 3D parametric engine (pleats, helical twist, knurled lattices) 
-• Live LED bulb subsurface glow + Kelvin warmth shader 
-• Built-in E27, E14, IKEA & Bambu Lab LED Kit socket fitters 
-• Overhang angle printability heatmap + filament weight estimator 
-• 1-click watertight binary .STL & .OBJ export for Bambu Studio / Cura
-
-Zero external libraries. Runs 100% in the browser 👇
 ```
 
 ### 极简物理效果UI开关动画
