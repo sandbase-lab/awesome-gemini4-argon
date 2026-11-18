@@ -1053,7 +1053,7 @@
   "durationMs": 59234,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": 3,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110109640419926325/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110109640419926325"
  },
@@ -2233,7 +2233,7 @@
   "durationMs": 8000,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110343012421181485/video.mp4",
   "promptShared": false,
-  "featured": 6,
+  "featured": 5,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110343012421181485/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110343012421181485"
  },
@@ -3054,7 +3054,7 @@
   "durationMs": 42433,
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": 2,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110609385546547532/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110609385546547532"
  },
@@ -3145,7 +3145,7 @@
   "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110698310705074655/video.mp4",
   "promptShared": true,
   "promptText": "experimenting with keypoint detection in Gemini 4 Argon\n\ngave it a hand diagram with numbered points and asked it to find them in an image\n\nthen did the same for every frame in a video\n\n↓ prompt",
-  "featured": 5,
+  "featured": 6,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110698310705074655/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110698310705074655"
  },
@@ -4038,24 +4038,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111540036282069321/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111540036282069321"
- },
- {
-  "id": "2111580341626687586",
-  "title": "Eiffel Tower benchmark comparison across four models",
-  "title_zh": "四款模型的埃菲尔铁塔基准测试对比",
-  "category": "comparison",
-  "author": {
-   "handle": "EnvolDev",
-   "name": "Tony"
-  },
-  "postUrl": "https://x.com/EnvolDev/status/2111580341626687586",
-  "createdAt": "2026-10-17T22:09:19.000Z",
-  "durationMs": 20000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111580341626687586/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111580341626687586/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111580341626687586"
  },
  {
   "id": "2111685770075672709",
@@ -6424,24 +6406,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119395213810479217"
  },
  {
-  "id": "2119481153547804830",
-  "title": "SVG portrait of Elon Musk comparison",
-  "title_zh": "SVG绘制马斯克肖像对比",
-  "category": "comparison",
-  "author": {
-   "handle": "leo114119",
-   "name": "Leo · Building w/ AI"
-  },
-  "postUrl": "https://x.com/leo114119/status/2119481153547804830",
-  "createdAt": "2026-11-08T17:24:19.000Z",
-  "durationMs": 29500,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119481153547804830/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119481153547804830/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119481153547804830"
- },
- {
   "id": "2119536968199741796",
   "title": "A 3D seaplane generated with Gemini 4",
   "title_zh": "Gemini 4生成的3D水上飞机",
@@ -6677,24 +6641,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120615986894450777/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120615986894450777"
- },
- {
-  "id": "2120793403176988866",
-  "title": "Interactive pelican riding bicycle HTML benchmark demo",
-  "title_zh": "鹈鹕骑自行车的交互式HTML基准测试演示",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "Delroy715",
-   "name": "码农暖爸"
-  },
-  "postUrl": "https://x.com/Delroy715/status/2120793403176988866",
-  "createdAt": "2026-11-12T08:18:44.000Z",
-  "durationMs": 33149,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2120793403176988866/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2120793403176988866/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120793403176988866"
  },
  {
   "id": "2120890033833922611",
@@ -7061,6 +7007,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121734795738652934"
  },
  {
+  "id": "2121745863827697687",
+  "title": "Interactive 3D simulation of mitochondrial motor",
+  "title_zh": "线粒体分子马达交互式3D模拟",
+  "category": "3d-scene",
+  "author": {
+   "handle": "SidraMiconi",
+   "name": "Sidra Miconi"
+  },
+  "postUrl": "https://x.com/SidraMiconi/status/2121745863827697687",
+  "createdAt": "2026-11-14T23:23:28.000Z",
+  "durationMs": 26300,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2121745863827697687/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2121745863827697687/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2121745863827697687"
+ },
+ {
   "id": "2121804295381377342",
   "title": "Web components interface built with Gemini Argon",
   "title_zh": "使用Gemini Argon构建的Web组件界面",
@@ -7263,6 +7227,25 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2122253350808744004"
  },
  {
+  "id": "2122353119749361808",
+  "title": "Model comparison generating animated SVG riding animals",
+  "title_zh": "多模型生成动物骑行动画SVG对比",
+  "category": "comparison",
+  "author": {
+   "handle": "RezAIT00",
+   "name": "Rez"
+  },
+  "postUrl": "https://x.com/RezAIT00/status/2122353119749361808",
+  "createdAt": "2026-11-16T15:36:29.000Z",
+  "durationMs": 18000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2122353119749361808/video.mp4",
+  "promptShared": true,
+  "promptText": "Qwen 4 Max vs Fable 5.2 vs GPT Astra vs Gemini 4 Hydrogen\n\nSame prompt: an animated SVG of a pelican riding a zebra riding a horse\n\nOne took 6 minutes. One took 34.\n\nCan you guess which model made which?\n\nAnswers will be revealed ~2 hours :)",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2122353119749361808/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2122353119749361808"
+ },
+ {
   "id": "2122387800762810870",
   "title": "Various AI models generating a wolf video",
   "title_zh": "多款AI模型生成狼的对比测试",
@@ -7279,5 +7262,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2122387800762810870/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2122387800762810870"
+ },
+ {
+  "id": "2122432152340209964",
+  "title": "Comparison of four AI models using Alpine Gold prompt",
+  "title_zh": "四款AI模型的Alpine Gold提示词生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "EnvolDev",
+   "name": "Tony"
+  },
+  "postUrl": "https://x.com/EnvolDev/status/2122432152340209964",
+  "createdAt": "2026-11-16T20:50:32.000Z",
+  "durationMs": 25000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122432152340209964/video.mp4",
+  "promptShared": true,
+  "promptText": "Qwen 4 Max vs Fable 5.2 vs Gemini 4 Argon vs GPT-6 Astra 🛩️\n\nAlibaba's top model vs three American frontier models. 🇨🇳🇺🇸\n\nSame Alpine Gold prompt:\nQwen 4 Max: $12.03 · 4h 56m 36s\nFable 5.2: $209.50 · 3h 02m 54s\nGemini 4 Argon: $11.61 · 2h 01m 35s\nGPT-6 Astra: $17.82 · 51m 10s\n\nQwen 4 Max worked for almost 5 hours. 🤯\nLonger than Fable 5.2. Almost 6x longer than GPT-6 Astra.\n\nNow look at what it made. 😬\nAlmost 5 hours for that? 😱\n\nQwen 4 Max is nowhere near the frontier. Not even close.\n\nIs Qwen 4 Max overhyped? 👀",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122432152340209964/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2122432152340209964"
  }
 ]

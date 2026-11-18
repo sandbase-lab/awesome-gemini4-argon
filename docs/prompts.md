@@ -2,7 +2,7 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-81 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+83 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
@@ -14,7 +14,7 @@ Each entry quotes the creator's post as published on X, where the prompt is shar
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (3)
-- [Tests & comparisons](#comparison) (38)
+- [Tests & comparisons](#comparison) (40)
 
 <a id="3d-scene"></a>
 
@@ -1526,4 +1526,46 @@ create a very realistic animation of how an electric motor works showing everyth
 Gemini 4 Hydrogen did the best overall job on 3D realism and visual clarity, modeling a proper curved horseshoe magnet, detailed commutator, and phase by phase physics explanations without visual clutter. 
 
 Qwen 4 Max offered the richest lab dashboard, adding a physical DC battery, live waveform graph, and friction controls though its dense glowing overlays crowded the center. Qwen 3.8 Max had the simplest 3D scene but stood out for its helpful synchronized 2D schematic view.
+```
+
+### Model comparison generating animated SVG riding animals
+
+[@RezAIT00](https://x.com/RezAIT00/status/2122353119749361808) · 0:18 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2122353119749361808/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2122353119749361808?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Qwen 4 Max vs Fable 5.2 vs GPT Astra vs Gemini 4 Hydrogen
+
+Same prompt: an animated SVG of a pelican riding a zebra riding a horse
+
+One took 6 minutes. One took 34.
+
+Can you guess which model made which?
+
+Answers will be revealed ~2 hours :)
+```
+
+### Comparison of four AI models using Alpine Gold prompt
+
+[@EnvolDev](https://x.com/EnvolDev/status/2122432152340209964) · 0:25 · [Watch](https://www.sandbase.ai/lab/media/x/qwen4-max/2122432152340209964/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2122432152340209964?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Qwen 4 Max vs Fable 5.2 vs Gemini 4 Argon vs GPT-6 Astra 🛩️
+
+Alibaba's top model vs three American frontier models. 🇨🇳🇺🇸
+
+Same Alpine Gold prompt:
+Qwen 4 Max: $12.03 · 4h 56m 36s
+Fable 5.2: $209.50 · 3h 02m 54s
+Gemini 4 Argon: $11.61 · 2h 01m 35s
+GPT-6 Astra: $17.82 · 51m 10s
+
+Qwen 4 Max worked for almost 5 hours. 🤯
+Longer than Fable 5.2. Almost 6x longer than GPT-6 Astra.
+
+Now look at what it made. 😬
+Almost 5 hours for that? 😱
+
+Qwen 4 Max is nowhere near the frontier. Not even close.
+
+Is Qwen 4 Max overhyped? 👀
 ```
