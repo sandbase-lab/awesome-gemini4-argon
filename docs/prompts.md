@@ -2,19 +2,19 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-81 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+80 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
 - [3D scenes](#3d-scene) (16)
 - [Motion graphics](#motion-graphics) (10)
 - [Games](#game) (3)
-- [Product UI](#ui-demo) (6)
+- [Product UI](#ui-demo) (5)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
-- [Explainers](#explainer) (3)
-- [Tests & comparisons](#comparison) (40)
+- [Explainers](#explainer) (4)
+- [Tests & comparisons](#comparison) (39)
 
 <a id="3d-scene"></a>
 
@@ -244,25 +244,6 @@ On the left panel, create 4 sliders and 4 historical preset buttons that physica
 - 04 Live 2D Blueprint: Flat engineering diagram overlaying live moving flow arrows and Liters/min equations directly over the tanks and pipes.
 ```
 
-### Interactive 3D landing page built with Three.js
-
-[@SammmAing](https://x.com/SammmAing/status/2117119029311672607) · 0:36 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117119029311672607/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117119029311672607?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-I don't always know what I want to build. So here's something I like to do.
-
-Try it: https://t.co/juKvGHRTFX
-Prompt and code: https://t.co/0BtbVGFipR
-
-I ask the AI for 5 landing pages and leave the topic open. But I'm specific about how they have to look: interactive, animated, built with Three.js or a real 3D model, no AI slop, no serif as the default, different colors and fonts on each, at least 8.5 out of 10 on the first iteration.
-
-Then I open them and decide if any deserve another round.
-
-This one certainly does.
-
-Built with Gemini 4 Argon.
-```
-
 ### Realistic ocean simulation generated in HTML
 
 [@Inmerson](https://x.com/Inmerson/status/2118828400085455225) · 2:02 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118828400085455225/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118828400085455225?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -287,6 +268,28 @@ Gemini 4 Hydrogenやばいんですけど。。
 
 プロンプト👇
 「Three.jsを使って3Dシーンを作成：ペリカンが自転車に乗って海岸沿いの道路を進む。 ペリカンが本当に自転車に乗って、両足でペダルを漕ぎ、翼でハンドルを操り、車輪が漕ぐのに合わせて回転する。動作は自然で滑らか。 シーンは生き生きとして詳細豊かで、自然環境、動的効果、光影、インタラクティブ機能を備える。 あなたの3Dモデリング、アニメーション、ビジュアルデザインの能力を最大限に発揮して、洗練された、すぐに実行可能なウェブ作品を完成させて。」
+```
+
+### Apartment reconstructed in 3D from photos
+
+[@0xMfox](https://x.com/0xMfox/status/2125282916871938272) · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125282916871938272/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125282916871938272?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+I almost signed a $2400 a month lease off 14 photos. Gemini 4 Neon rebuilt the apartment in 3D first, and the bedroom barely fits a bed.
+
+Google DeepMind just showed Neon rebuilding Alan Turing's 1936 room from old archive photos. So I gave it my listing.
+
+It used the doors and outlets as a ruler and measured every room:
+
+bedroom: 97 sq ft, not "spacious"
+bed to wall: 12 inches
+"garden view": the neighbor's brick wall
+
+I brought a tape measure to the viewing. It was off by 2 inches.
+
+That's $29K a year I didn't sign.
+
+The prompt is below. Run it before you send a deposit.
 ```
 
 <a id="motion-graphics"></a>
@@ -375,17 +378,6 @@ Create a dynamic 45 second motion graphics video that showcases your incredible 
 I put the code on GitHub, and I'll start adding more complex prompts.
 ```
 
-### A kangaroo boxing with Mike Tyson in SVG
-
-[@Inmerson](https://x.com/Inmerson/status/2118819727560618293) · 0:39 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118819727560618293/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118819727560618293?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Hydrogen "Kangaroo/Mike Tyson"
-->35 second
-
-Prompt: Generate an SVG of a kangaroo boxing with Mike Tyson as much realistic as you can
-```
-
 ### Reverse-engineered video of a woman in VIP box
 
 [@leaf_sanren](https://x.com/leaf_sanren/status/2118963662853403090) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118963662853403090/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118963662853403090?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -453,6 +445,28 @@ Cool版と完全に同じ背景・衣装ルールを保ったまま、ウィン�
 ・Seed / Time: 420002 / A100 80GB で 14m32s
 ・工夫点: 設定画のクール表情に引っ張られないよう、先にウィンク＆ロックポーズの Cute 用 16:9 開始フレームを作って I2V 投入
 ```
+
+### Analog CCTV security footage of Japanese ryokan
+
+[@leaf_sanren](https://x.com/leaf_sanren/status/2124435220929867952) · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2124435220929867952/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2124435220929867952?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+````text
+妈呀🤩！发现了一个Gemini 4+antigravity白嫖视频起号的焚诀哇！！！！！
+
+这种监控录像质感的视频太好生成了，这条视频一共就花了我42个Google flow点数，而Pro每个月有1000个点啊！！
+
+关键这都是 anti gravity 自动调用 Google flow 生成的，提示词都不用我写，等着就行了。我把开头千寻的一幕的完整提示词放在下面👇，
+大家可以让自己的Gemini4拿来评估or尝试去生成看看效果。看是不是AI更懂AI？
+
+### 3.1 首帧生图提示词（`nano-pro` · `i2i` · `16:9`）
+```text
+AUTHENTIC REAL-LIFE 2001 late-night black-and-white analog CCTV security camera footage grab, 16:9 widescreen with all main subjects strictly inside the central 4:3 safe area. REAL LIVE-ACTION photography of a real living flesh-and-blood Japanese girl inside a traditional wooden ryokan corridor — strictly NOT 3D animation, NOT CGI dolls, NOT anime shading. Fixed wide-angle ceiling-corner surveillance camera mounted high on a dark wooden beam about 3.5 meters above the floor, tilted downward 32 degrees looking obliquely down a long dimly lit antique Japanese wooden bathhouse-inn second-floor hallway at night (matching the dark damp wooden corridor atmosphere of the third reference image). Along the right side are traditional wooden sliding shoji doors (currently closed, ready to slide open) and frosted square wall sconces casting harsh glowing highlights and long reflections across the damp polished wooden floorboards. At the far back of the corridor, a dark wooden exterior door stands half-open to a pouring rainy night terrace with faint mist drifting indoors. In the center-left midground stands the exact real live-action Japanese girl Chihiro from the first reference image: natural real dark hair tied in a ponytail with wispy bangs, wearing a full-coverage traditional Japanese inn worker uniform (long-sleeve loose tunic top, full trousers, waist sash, white crossed shoulder tie cords/tasuki, socks and work slippers). She holds a traditional long-handled bamboo broom sweeping the damp wooden floor beside a small wooden bucket and cleaning cloth. Standing silently about 2.5 meters behind her near the dim back wall lamp is the exact tall uncanny figure No-Face (Kaonashi) from the second reference image: approximately 1.9 meters tall, draped in a heavy dark flowing semi-translucent black cloth cloak, wearing the iconic pale white oval mask with subtle markings and blank eye slits, standing completely still observing the sweeping girl like a real eerie found-footage midnight intruder. Authentic high-contrast grainy monochrome 2001 analog CCTV texture, glowing blown-out wall lamps, deep shadows under eaves, slight wide-angle distortion, subtle corner vignetting. CRITICAL: Strictly NO text, NO timestamp, NO date, NO REC icon, NO camera label, NO watermark, and NO HUD overlay anywhere on the image.
+```
+
+### 3.2 Part 1 视频提示词（`omni-1.2-flash` · `i2v` · `15s` · v2 通过版）
+```text
+Locked-off completely stationary fixed ceiling-corner pure black-and-white 2001 late-night analog CCTV security camera footage, continuous unbroken 15-second single take with ZERO camera movement, ZERO pan, ZERO tilt, ZERO zoom, ZERO shake, and ZERO cuts. STRICTLY PURE MONOCHROME BLACK-AND-WHITE GRAYSCALE throughout every single frame — ZERO color, NO yellow tint, NO colored objects. Strictly NO text, NO timestamp, NO date, NO REC icon, and NO overlay. Strict character identity lock: the tall black-cloaked figure on the LEFT ALWAYS keeps its pale white mask and NEVER holds the broom; the real human Japanese girl on the RIGHT ALWAYS keeps her natural bare human face and ponytail, NEVER wears any mask, and ALWAYS keeps holding her bamboo broom. Action timeline: [0-4s] Inside the quiet rainy wooden corridor, the real human girl on the right sweeps the damp floorboards steadily with her long bamboo broom. On the left side in the background, the tall black-cloaked masked figure glides smoothly forward down the left side of the hallway, stopping silently two meters away from her. [4-9s] The girl pauses sweeping, looks up toward the tall black-cloaked figure on the left, and gives a calm polite little nod while still gripping her broom. Remaining on the left, the tall masked figure slowly ex…
+````
 
 <a id="game"></a>
 
@@ -524,18 +538,6 @@ i’m running more tests with the model, so stick around.
 i’ll leave the prompt + demo link below.
 ```
 
-### Minimal physics UI toggles animation
-
-[@thtbee_](https://x.com/thtbee_/status/2111499376137056291) · 0:40 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2111499376137056291/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2111499376137056291?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon - A set of minimal physics UI toggles..
-
-The prompt was just one line.. Build me a minimal UI library with a bunch of realistic physics stuff which animate when toggled be creative in your choices and design taste!
-
-Love the tiny animations!
-```
-
 ### Interactive app generated from a PDF in Canvas
 
 [@Drake5112](https://x.com/Drake5112/status/2112287676162592997) · 0:21 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112287676162592997/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112287676162592997?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -564,24 +566,6 @@ Total usage: 60% in just 2 prompts.
 guess i'll try low mode after my 5 hour limit resets.
 ```
 
-### Testing token consumption on Gemini 4 Argon
-
-[@vipinxtwt](https://x.com/vipinxtwt/status/2112846917273358451) · 0:17 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112846917273358451/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112846917273358451?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-I tried to go easy on Gemini 4 Argon.
-
-Same prompt, two different chats, using Low thinking. 
-Prompt: Implement a concurrent LFU cache with TTL
- 
-1st attempt: 25% usage. 
-2nd attempt: 53% usage.
-
-Same prompt in two separate chats, and 53% of 5 hr usage is gone.
-Honestly, this is huge. I don't think switching between Low, Medium, or High thinking makes much difference.
-The usage consumption seems excessive regardless.
-```
-
 ### Turning an image into a functional web page
 
 [@itsPaulAi](https://x.com/itsPaulAi/status/2116204686415982920) · 0:38 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116204686415982920/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116204686415982920?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -602,6 +586,18 @@ A few minutes later, it’s done!
 Worth a shot if you have a Google AI Pro or Ultra account to use Gemini 4 Argon.
 
 #collaborationcommerciale
+```
+
+### Animated landing page test in HTML and CSS
+
+[@niachito](https://x.com/niachito/status/2124558621782495548) · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2124558621782495548/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2124558621782495548?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Probé Gemini 4 Neon con Antigravity CLI usando la suscripción de Google AI Pro que ya pago.
+
+Le pedí esto:
+
+"armame una landing de prueba simple html y css con animaciones y microinteracciones para entender todas las capacidades de tu modelo, elegi el tema que mas quieras sorprendeme"
 ```
 
 <a id="particles"></a>
@@ -739,6 +735,18 @@ bookmark this now. set it up tonight
 استخدمت Gemini 4 hydrogen
 
 الـ Prompt 👇
+```
+
+### A video about Jensen Huang's comeback
+
+[@vipinxtwt](https://x.com/vipinxtwt/status/2124892615946678458) · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2124892615946678458/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2124892615946678458?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Neon is crazy good.
+
+I set it to Xhigh and asked for a video about Jensen huang’s comeback. That was the whole prompt.
+
+30 mins later, I had this clip. It used just 3% of my 5 hr limit.
 ```
 
 <a id="comparison"></a>
@@ -1268,27 +1276,6 @@ Same prompt, one try each: an animated cutaway of a toilet flush, with a little 
 Hy4 is a solid model for a new release. Would you use it?
 ```
 
-### Destructible 3D city comparison in OpenCode
-
-[@AbdoKerdawy](https://x.com/AbdoKerdawy/status/2118527537936494697) · 1:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118527537936494697/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118527537936494697?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-GEMINI 4 vs GPT-4o
-
-i gave both the same prompt in OpenCode:
-
-build a 3D city, give me a cannon, and let me destroy it.
-
-Gemini 4 Argon → $0.99
-GPT-4o → ~$3
-
-tell me your opinion. i think this is the proof of AI actually progressing
-
-both runs were through the free 5$ credits of @MixRoute_ai 
-
-watch them side by side ↓
-```
-
 ### Cat chef flipping a pancake across three models
 
 [@HavisT83099](https://x.com/HavisT83099/status/2118697759473578484) · 0:12 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118697759473578484/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118697759473578484?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -1373,27 +1360,6 @@ Fable 5.2: 77 min, 417k output tokens, about $33.1 in API terms.
 Opus 5.5: 66 min, 366k output tokens, about $18.8 in API terms.
 GPT-6 Astra: 69 min, 126k output tokens, about $16.9 in API terms.
 Gemini 4 Argon: 63 min, 264k output tokens, about $4.9 in API terms.
-```
-
-### Four model comparison of a 3D rooster
-
-[@0xKenny1st](https://x.com/0xKenny1st/status/2120615986894450777) · 0:13 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2120615986894450777/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2120615986894450777?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Claude Opus 5.5 vs Gemini Argon vs GPT-6.1 Terra vs GPT-6 Astra
-
-Same prompt: a 3D rooster in a desert farm.
-
-Claude Opus 5.5: $2.55
-Gemini Argon: $0.35
-GPT-6.1 Terra: $0.40
-GPT-6 Astra: $3.20
-
-Astra costs over 9x more than Argon.
-
-Top left: Opus 5.5. Top right: Gemini Argon. Bottom left: GPT-6.1 Terra. Bottom right: GPT-6 Astra.
-
-Which rooster wins? And is paying more worth it?
 ```
 
 ### Cobra tearing through palace carpet comparison
@@ -1532,4 +1498,38 @@ Almost 5 hours for that? 😱
 Qwen 4 Max is nowhere near the frontier. Not even close.
 
 Is Qwen 4 Max overhyped? 👀
+```
+
+### Comparison of airplane night takeoff across three models
+
+[@SamgreyAi](https://x.com/SamgreyAi/status/2123898746329071698) · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2123898746329071698/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2123898746329071698?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+Gemini 4 Neon made a night takeoff so dark that you need to squint to find the plane 
+
+Same prompt, 3 AI workflows: an airplane taking off at night.
+
+Same runway, same airport lights, but the gap between the results is brutal 
+
+The aviation department is cooked
+
+🥇 Opus 5.5 → warm airport lights, control tower in the background, glowing engines and a takeoff that feels like a real night shot
+
+🥈 Astra 6.2 → bright dusk sky and a clear plane, but it climbs at an angle that would make passengers scream
+
+💀 Gemini 4 Neon → a dark plane on a dark runway, with so little detail that the whole scene feels unfinished
+
+The interesting part isn’t the plane
+
+It’s how the light hits the fuselage, the runway and the engines
+
+Pretty lighting can’t save you if the plane doesn’t feel like it has weight
+
+Opus made the whole airport feel alive, while Astra’s plane looks like it’s launching off the runway like a rocket
+
+At this point AI doesn’t need better planes
+
+It needs to learn how to turn the lights on 
+
+Which takeoff would you pick?
 ```
