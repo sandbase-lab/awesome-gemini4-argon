@@ -6,10 +6,10 @@ English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../R
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (16)
+- [3D scenes](#3d-scene) (15)
 - [Motion graphics](#motion-graphics) (10)
-- [Games](#game) (3)
-- [Product UI](#ui-demo) (5)
+- [Games](#game) (2)
+- [Product UI](#ui-demo) (7)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
@@ -43,18 +43,6 @@ Took 13 mins  ~2% of weekly quota ,
 the model is really fast . loving it 
 
 prompt in comment
-```
-
-### Zero-shot robot control on Boston Dynamics Spot
-
-[@parada_car88104](https://x.com/parada_car88104/status/2110093152854151192) · 1:28 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110093152854151192/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110093152854151192?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-#Gemini 4 Argon can zero-shot control different robot types, and stop to think in sim when it gets tough. Love this example on Boston Dynamics #Spot robot  🦿 ✨ . Listen to its thinking! 🔊  
-
-Prompt your robot: https://t.co/SuIFBqzobL
-
-@GoogleDeepMind Robotics
 ```
 
 ### Prompted robot video to simulation demonstration
@@ -484,24 +472,6 @@ HTML・CSS・JavaScriptを1つのHTMLファイルにまとめ、ブラウザだ�
 ワープ演出から始まり、ザコ敵、中ボス、ラスボスと連続して戦う。派手なエフェクト、高速スクロール、迫力あるカメラワークを取り入れ、ハイクオリティなゲームに仕上げて。順調に進めば約1分でクリアできる構成にして。
 ```
 
-### Playable 3D game Jelly Jet Takeoff
-
-[@nex_ify](https://x.com/nex_ify/status/2110232072405065889) · 1:20 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110232072405065889/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110232072405065889?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-i asked Gemini 4 Argon to build me a game just to see what it could do.
-
-prompt:  
-“Build a fun, interactive 3D game called Jelly Jet Takeoff.”
-
-11m6s later, i had a fully playable game
-
-spent $1.16 in my https://t.co/miCc85L4GH credits
-already played it more than 5 times and i keep losing 😂
-
-im gonna compare this with Opus 5.5 later.
-```
-
 ### A game created with Gemini AI Argon
 
 [@dvkexbt](https://x.com/dvkexbt/status/2117867632573727101) · 0:51 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2117867632573727101/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2117867632573727101?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -598,6 +568,53 @@ Probé Gemini 4 Neon con Antigravity CLI usando la suscripción de Google AI Pro
 Le pedí esto:
 
 "armame una landing de prueba simple html y css con animaciones y microinteracciones para entender todas las capacidades de tu modelo, elegi el tema que mas quieras sorprendeme"
+```
+
+### Landing page for alpine wildflowers field essay
+
+[@_philschmid](https://x.com/_philschmid/status/2125206633722601572) · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-neon/2125206633722601572/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125206633722601572?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+We built an experimental frontend skill for Gemini 4 Neon to create fast, clean landing pages 🚀
+
+What the skill focuses on:
+1. Hero: full-bleed display type, no 50/50 split boxes
+2. Fonts: max 2 families, 3 body sizes, >=13px
+3. Color: subject-matched palette, no beige or purple
+4. Nano Banana: Custom visuals with clean contrast
+5. Anti-slop: No pill badges, eyebrow kickers, or nested cards
+
+Prompt: "Create an illustrated long-form field web essay on alpine wildflowers of the Dolomites with elevation band notes."
+```
+
+### Automated multi-agent workflow resolving GitHub issues
+
+[@0xRafy](https://x.com/0xRafy/status/2125643669021593735) · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125643669021593735/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125643669021593735?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+I plugged Gemini 4 Neon, Opus 5.5, Fable 5.2 into my GrokBot with T3 Code
+
+now every GitHub issue goes like this:
+
+→ GrokBot wakes up and opens a T3 thread
+→ Fable 5.2 plans, max 8 steps
+→ Opus 5.5 builds + tests in a worktree
+→ Gemini 4 Neon gives a second opinion
+→ I get a PR. I merge
+
+how to set up yours:
+
+1. T3 Code → Providers → Claude Code + Antigravity
+
+2. ⌘K → Use T3 Code in another app → Grok Bot
+
+3. paste the message to your Eng Lead bot → approve
+
+4. open an issue. watch it work
+
+your machine, your subscriptions
+
+save now, then read the full prompt + setup in the article below
 ```
 
 <a id="particles"></a>
