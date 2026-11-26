@@ -2,19 +2,19 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-79 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+77 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
 - [3D scenes](#3d-scene) (13)
-- [Motion graphics](#motion-graphics) (10)
+- [Motion graphics](#motion-graphics) (9)
 - [Games](#game) (2)
 - [Product UI](#ui-demo) (7)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
 - [Explainers](#explainer) (5)
-- [Tests & comparisons](#comparison) (39)
+- [Tests & comparisons](#comparison) (38)
 
 <a id="3d-scene"></a>
 
@@ -369,20 +369,6 @@ continuous 30-second fluid choreography, seamless motion transition across the e
 
 【音效与配乐】
 节奏感极强的欧美电子流行舞曲（upbeat electro-pop hip-hop dance beat, 115 BPM, female vocal groove），在第6秒和第29秒叠加体育场观众热烈的爆发欢呼与掌声。
-```
-
-### SVG animation of Hatsune Miku singing
-
-[@AnikaCodes](https://x.com/AnikaCodes/status/2119000364498444299) · 0:59 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119000364498444299/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119000364498444299?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-One prompt to Gemini 4 Hydrogen: "make an SVG animation of Miku."
-
-43 seconds later she's singing on stage with her own synth track.
-
-It even gave her the leek. You can swap it in for the mic 🥬
-
-(via @Inmerson)
 ```
 
 ### A character performing various cute expressions
@@ -1219,32 +1205,6 @@ Opus slips too: a black first second, and at 0:08 a thick branch cuts across the
 Now look down.
 
 Both got the wet stones. Gemini does them well - glowing paper windows reflected red in the floor, for 9 cents.
-```
-
-### Interactive 3D electric motor comparison
-
-[@SamgreyAi](https://x.com/SamgreyAi/status/2116526662460322138) · 0:40 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116526662460322138/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116526662460322138?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-$3.83 vs $16.36 for the same electric motor. Opus cost over 4x more, but is it 4x better? ⚡
-
-Same prompt: build an interactive 3D electric motor with a cutaway, an exploded view and a running magnetic field.
-
-Gemini 4 Argon: $3.83 · [11 mins]
-Claude Opus 5.5: $16.36 · [7 mins]
-Watch the exploded view. That’s where the two models completely split.
-
-What I saw:
-→ Gemini: the motor breaks into 13 labeled sub-assemblies, with glowing red copper windings, blue coolant coils and a live sine-wave chart. It feels like an engineering textbook come alive
-→ Opus: a darker, cinematic look, with a glowing magnetic field, a rotating cutaway with liquid cooling and an 18,000 RPM readout. It feels like a product launch trailer
-
-Gemini teaches you how the motor works. Opus makes you want to buy one.
-
-Honestly? For explaining, I’d take Gemini. For wow factor, Opus wins. But at one-quarter of the price, Gemini is hard to ignore.
-
-Is the cinematic polish worth 4x more?
-
-Which motor would you put in your product?
 ```
 
 ### Rubik's cube made of jelly across four models

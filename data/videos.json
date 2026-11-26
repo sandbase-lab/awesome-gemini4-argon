@@ -4872,25 +4872,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116259385353945119"
  },
  {
-  "id": "2116526662460322138",
-  "title": "Interactive 3D electric motor comparison",
-  "title_zh": "交互式3D电动机模型生成对比",
-  "category": "comparison",
-  "author": {
-   "handle": "SamgreyAi",
-   "name": "Sam"
-  },
-  "postUrl": "https://x.com/SamgreyAi/status/2116526662460322138",
-  "createdAt": "2026-10-31T13:44:14.000Z",
-  "durationMs": 40000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116526662460322138/video.mp4",
-  "promptShared": true,
-  "promptText": "$3.83 vs $16.36 for the same electric motor. Opus cost over 4x more, but is it 4x better? ⚡\n\nSame prompt: build an interactive 3D electric motor with a cutaway, an exploded view and a running magnetic field.\n\nGemini 4 Argon: $3.83 · [11 mins]\nClaude Opus 5.5: $16.36 · [7 mins]\nWatch the exploded view. That’s where the two models completely split.\n\nWhat I saw:\n→ Gemini: the motor breaks into 13 labeled sub-assemblies, with glowing red copper windings, blue coolant coils and a live sine-wave chart. It feels like an engineering textbook come alive\n→ Opus: a darker, cinematic look, with a glowing magnetic field, a rotating cutaway with liquid cooling and an 18,000 RPM readout. It feels like a product launch trailer\n\nGemini teaches you how the motor works. Opus makes you want to buy one.\n\nHonestly? For explaining, I’d take Gemini. For wow factor, Opus wins. But at one-quarter of the price, Gemini is hard to ignore.\n\nIs the cinematic polish worth 4x more?\n\nWhich motor would you put in your product?",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116526662460322138/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116526662460322138"
- },
- {
   "id": "2116619448081903636",
   "title": "Performance and speed comparison across four models",
   "title_zh": "四款AI模型速度与效果对比",
@@ -5254,24 +5235,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118341205448650862"
  },
  {
-  "id": "2118478773028855928",
-  "title": "Three AI models generating a skiing penguin",
-  "title_zh": "三款AI模型生成滑雪企鹅对比",
-  "category": "comparison",
-  "author": {
-   "handle": "HavisT83099",
-   "name": "Havis | Claude Code"
-  },
-  "postUrl": "https://x.com/HavisT83099/status/2118478773028855928",
-  "createdAt": "2026-11-05T23:01:13.000Z",
-  "durationMs": 12000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118478773028855928/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118478773028855928/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118478773028855928"
- },
- {
   "id": "2118646043902386503",
   "title": "A fully drivable F1 car simulation",
   "title_zh": "可驾驶的F1赛车模拟",
@@ -5344,24 +5307,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118780296179179714/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118780296179179714"
- },
- {
-  "id": "2118798139226292650",
-  "title": "Motion graphics generation speed comparison",
-  "title_zh": "动态图形生成速度对比测试",
-  "category": "comparison",
-  "author": {
-   "handle": "0xdominus",
-   "name": "sunimod_xø"
-  },
-  "postUrl": "https://x.com/0xdominus/status/2118798139226292650",
-  "createdAt": "2026-11-06T20:10:16.000Z",
-  "durationMs": 43444,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118798139226292650/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118798139226292650/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118798139226292650"
  },
  {
   "id": "2118809236046246316",
@@ -5454,25 +5399,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2118963662853403090/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2118963662853403090"
- },
- {
-  "id": "2119000364498444299",
-  "title": "SVG animation of Hatsune Miku singing",
-  "title_zh": "初音未来舞台演唱SVG动画",
-  "category": "motion-graphics",
-  "author": {
-   "handle": "AnikaCodes",
-   "name": "Anika 🎀❤️"
-  },
-  "postUrl": "https://x.com/AnikaCodes/status/2119000364498444299",
-  "createdAt": "2026-11-07T09:33:50.000Z",
-  "durationMs": 59370,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119000364498444299/video.mp4",
-  "promptShared": true,
-  "promptText": "One prompt to Gemini 4 Hydrogen: \"make an SVG animation of Miku.\"\n\n43 seconds later she's singing on stage with her own synth track.\n\nIt even gave her the leek. You can swap it in for the mic 🥬\n\n(via @Inmerson)",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119000364498444299/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119000364498444299"
  },
  {
   "id": "2119031336568562094",
@@ -7024,6 +6950,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125206633722601572"
  },
  {
+  "id": "2125266596210061674",
+  "title": "Video examples created with Gemini 4 Neon",
+  "title_zh": "Gemini 4 Neon 制作的视频示例合辑",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "iamfakhrealam",
+   "name": "Fakhr"
+  },
+  "postUrl": "https://x.com/iamfakhrealam/status/2125266596210061674",
+  "createdAt": "2026-11-24T16:33:36.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-neon/2125266596210061674/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-neon/2125266596210061674/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125266596210061674"
+ },
+ {
   "id": "2125269462853271952",
   "title": "A video about what AI likes about humanity",
   "title_zh": "关于人工智能喜爱人类哪些特质的视频",
@@ -7059,6 +7003,42 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125282916871938272/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125282916871938272"
+ },
+ {
+  "id": "2125304389539975350",
+  "title": "Sketch style fight scene from Attack on Titan",
+  "title_zh": "进击的巨人素描风战斗场景",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "WinterArc2125",
+   "name": "Winter"
+  },
+  "postUrl": "https://x.com/WinterArc2125/status/2125304389539975350",
+  "createdAt": "2026-11-24T19:03:47.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-neon/2125304389539975350/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-neon/2125304389539975350/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125304389539975350"
+ },
+ {
+  "id": "2125314230681481651",
+  "title": "AI-directed 3D animations converted to realistic video",
+  "title_zh": "AI 控制的 3D 动画转写实视频",
+  "category": "3d-scene",
+  "author": {
+   "handle": "omidaziz",
+   "name": "omid"
+  },
+  "postUrl": "https://x.com/omidaziz/status/2125314230681481651",
+  "createdAt": "2026-11-24T19:42:53.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-neon/2125314230681481651/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-neon/2125314230681481651/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125314230681481651"
  },
  {
   "id": "2125326948385894827",
@@ -7277,5 +7257,23 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125779073183973853/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125779073183973853"
+ },
+ {
+  "id": "2126003062867161265",
+  "title": "A virtual office dashboard for autonomous coding agents",
+  "title_zh": "AI智能体协同工作的虚拟办公室可视化",
+  "category": "ui-demo",
+  "author": {
+   "handle": "0xCodez",
+   "name": "Codez"
+  },
+  "postUrl": "https://x.com/0xCodez/status/2126003062867161265",
+  "createdAt": "2026-11-26T17:20:04.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2126003062867161265/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2126003062867161265/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2126003062867161265"
  }
 ]

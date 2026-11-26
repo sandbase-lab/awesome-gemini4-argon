@@ -2,19 +2,19 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 79 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 77 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (13)
-- [动效](#motion-graphics) (10)
+- [动效](#motion-graphics) (9)
 - [游戏](#game) (2)
 - [产品界面](#ui-demo) (7)
 - [粒子与形状](#particles) (1)
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
 - [讲解](#explainer) (5)
-- [测试对比](#comparison) (39)
+- [测试对比](#comparison) (38)
 
 <a id="3d-scene"></a>
 
@@ -369,20 +369,6 @@ continuous 30-second fluid choreography, seamless motion transition across the e
 
 【音效与配乐】
 节奏感极强的欧美电子流行舞曲（upbeat electro-pop hip-hop dance beat, 115 BPM, female vocal groove），在第6秒和第29秒叠加体育场观众热烈的爆发欢呼与掌声。
-```
-
-### 初音未来舞台演唱SVG动画
-
-[@AnikaCodes](https://x.com/AnikaCodes/status/2119000364498444299) · 0:59 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2119000364498444299/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2119000364498444299?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-One prompt to Gemini 4 Hydrogen: "make an SVG animation of Miku."
-
-43 seconds later she's singing on stage with her own synth track.
-
-It even gave her the leek. You can swap it in for the mic 🥬
-
-(via @Inmerson)
 ```
 
 ### 角色执行多种可爱表情动作的视频
@@ -1219,32 +1205,6 @@ Opus slips too: a black first second, and at 0:08 a thick branch cuts across the
 Now look down.
 
 Both got the wet stones. Gemini does them well - glowing paper windows reflected red in the floor, for 9 cents.
-```
-
-### 交互式3D电动机模型生成对比
-
-[@SamgreyAi](https://x.com/SamgreyAi/status/2116526662460322138) · 0:40 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2116526662460322138/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2116526662460322138?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-$3.83 vs $16.36 for the same electric motor. Opus cost over 4x more, but is it 4x better? ⚡
-
-Same prompt: build an interactive 3D electric motor with a cutaway, an exploded view and a running magnetic field.
-
-Gemini 4 Argon: $3.83 · [11 mins]
-Claude Opus 5.5: $16.36 · [7 mins]
-Watch the exploded view. That’s where the two models completely split.
-
-What I saw:
-→ Gemini: the motor breaks into 13 labeled sub-assemblies, with glowing red copper windings, blue coolant coils and a live sine-wave chart. It feels like an engineering textbook come alive
-→ Opus: a darker, cinematic look, with a glowing magnetic field, a rotating cutaway with liquid cooling and an 18,000 RPM readout. It feels like a product launch trailer
-
-Gemini teaches you how the motor works. Opus makes you want to buy one.
-
-Honestly? For explaining, I’d take Gemini. For wow factor, Opus wins. But at one-quarter of the price, Gemini is hard to ignore.
-
-Is the cinematic polish worth 4x more?
-
-Which motor would you put in your product?
 ```
 
 ### 四款AI生成果冻魔方效果对比
