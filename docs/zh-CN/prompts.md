@@ -2,18 +2,18 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 80 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
+共 79 条 Gemini 4 Argon 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Argon 一键 **复刻**。第一次写 Argon 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (15)
+- [3D 场景](#3d-scene) (13)
 - [动效](#motion-graphics) (10)
 - [游戏](#game) (2)
 - [产品界面](#ui-demo) (7)
 - [粒子与形状](#particles) (1)
 - [图表图解](#data-viz) (1)
 - [文字动效](#kinetic-type) (1)
-- [讲解](#explainer) (4)
+- [讲解](#explainer) (5)
 - [测试对比](#comparison) (39)
 
 <a id="3d-scene"></a>
@@ -95,16 +95,6 @@ Gemini 4 Argon + Seedance 2.5 turned just ONE idea into an entire cinematic 3D v
 Full prompt below:
 ```
 
-### Three.js 交互式三维星系模型
-
-[@Smlay_ero](https://x.com/Smlay_ero/status/2110361902064992440) · 0:37 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110361902064992440/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110361902064992440?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Been seeing a lot of Gemini 4 Argon vs Opus 5.5 comps the last couple days. Ran a quick test myself. Gemini 4 Argon was wild — one prompt the whole way.Looks like Google’s back on the model throne.Prompt below:
-
-Build a single-file HTML page (Three.js via CDN) that opens into a live, interactive galaxy: bright galactic core in the center; spiral arms made of star points, nebulae, and dust lanes; a dozen+ planets of different sizes and colors along the arms. Drag to orbit the camera, scroll to zoom in/out. Zoomed out you see the full arms; zoom into a planet and it snaps to a close-up — surface, clouds, craters or atmosphere glow — with the planet’s name in the corner. Click a planet for a light camera shake and a highlighted orbit. No image or model uploads — scene, materials, particles, and interaction all live in this one HTML file.
-```
-
 ### 可交互的3D模拟合成器与黑胶唱机工作室
 
 [@IamEmily2050](https://x.com/IamEmily2050/status/2110519826091495925) · 2:00 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110519826091495925/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110519826091495925?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -163,23 +153,6 @@ A concert ticket you can bend, flip and tear off. Tearing it is so satisfying. I
 The holographic foil shifts as the paper bends. It feels super premium.
 
 The full prompt below.
-```
-
-### HTML单文件重现特斯拉跑车特技
-
-[@alwayspriyesh](https://x.com/alwayspriyesh/status/2113642584702615772) · 0:18 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113642584702615772/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113642584702615772?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-I asked Gemini Argon 4 to recreate Tesla’s insane Roadster stunt in a single HTML file
-
-- A giant semicircular stunt track
-- A fully inverted Roadster completing the flip
-- Rocket thrusters for a smooth landing
-- Cinematic 3D animation
-
-Prompt & link in the comments.
-
-What model should I test next?
 ```
 
 ### 1949年MONIAC水力计算机3D交互模拟
@@ -766,6 +739,42 @@ I set it to Xhigh and asked for a video about Jensen huang’s comeback. That wa
 30 mins later, I had this clip. It used just 3% of my 5 hr limit.
 ```
 
+### 使用 Gemini 4 Neon 和 Grokbot 的自动化工作流
+
+[@0xMorlex](https://x.com/0xMorlex/status/2125713479474548804) · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125713479474548804/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125713479474548804?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+i put google's new gemini 4 neon under my grokbot as the planner
+
+grokbot keeps the outer loop the way lauren tan runs hers, neon plans the hard tasks, and fast hydrogen workers do the steps
+
+and it's f*cking wild how clean the split is
+
+here's the setup:
+
+1. paste the prompt from the video into your main grokbot
+
+it becomes your chief of staff. small tasks it does itself, anything with several steps goes down to neon
+
+2. give it your gemini key through the vault secret card
+
+the key never shows up in chat, and grokbot calls neon from its own computer
+
+3. neon writes the plan
+
+one plan.md with numbered steps. neon costs $3 in and $15 out per 1M tokens, so the bot plans once and reuses the plan
+
+4. hydrogen workers run the steps
+
+one worker per step, independent steps run in parallel. a step only counts as done with proof: test output, a diff or a link
+
+5. you get one digest a day
+
+what ran on each layer, what it cost, and the decisions that need you. money, posts, merges and deletes still wait for your ok
+
+lauren pairs grokbot with cursor for code. this setup puts neon in that spot, and every prompt is in the video. part 8 of lauren's bots
+```
+
 <a id="comparison"></a>
 
 ## 测试对比
@@ -936,22 +945,6 @@ Gemini 4 Argon vs Muse Wonder
 Gemini 4 Argon vs. Claude Opus 5.5 🐎
 
 Create 3D liquid horse animation using Three.js 👇
-```
-
-### 樱花树环绕的 3D 日式房屋
-
-[@dpratyush02](https://x.com/dpratyush02/status/2110347694447509797) · 0:29 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110347694447509797/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110347694447509797?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon vs GPT-6.1 Sol
-
-I gave all three the exact same prompt to build a 3D Japanese house surrounded by cherry blossom trees 🌸
-
-Gemini absolutely nailed it. The visuals were stunning, the atmosphere was beautiful, and the attention to detail was impressive.
-
-Gemini 4 Argon vs GPT-6.1 Sol 
-
-Google is cooking again!! 🔥
 ```
 
 ### 可交互的萤火虫玻璃罐
@@ -1549,4 +1542,25 @@ At this point AI doesn’t need better planes
 It needs to learn how to turn the lights on 
 
 Which takeoff would you pick?
+```
+
+### 悬浮深海生态缸模型生成效果对比
+
+[@FiniYang](https://x.com/FiniYang/status/2125132455032316136) · [观看](https://www.sandbase.ai/lab/media/x/gpt-6-2-astra/2125132455032316136/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125132455032316136?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+🔥 兄弟们帮我评评，这局我真选不出来了 👀
+
+手搓一座「悬浮深海生态缸」
+
+⬆️ GPT-6.2 Astra（37 分 28 秒）
+博物馆级克制设计：水下那头座头鲸的吻部结节、喉褶和胸鳍写实得像手雕出来的，四层剖面直接把玻璃缸切成了四个悬浮水匣，左边还配了物种图鉴卡
+
+⬇️ Gemini 4 Neon（33 分 38 秒）
+全屏光学氛围直接拉满：波浪弯月水线、丁达尔光柱、铺满沙床的焦散网纹和熔岩热液喷口极通透，第 12 秒声呐波扫过海底还会亮起一圈圈等高线光环
+
+前面几局还能一眼看出谁占上风，这局是真难分伯仲了
+
+已发布到我的测评馆，直接可玩，含提示词，链接放下面了 ⬇️
+#GPT62Astra #Gemini4Neon #Threejs #WebGL #VibeCoding
 ```

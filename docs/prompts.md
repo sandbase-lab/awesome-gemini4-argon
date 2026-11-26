@@ -2,18 +2,18 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-80 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
+79 Gemini 4 Argon videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with Argon on SandBase Lab. New to prompting Argon? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread.
 
-- [3D scenes](#3d-scene) (15)
+- [3D scenes](#3d-scene) (13)
 - [Motion graphics](#motion-graphics) (10)
 - [Games](#game) (2)
 - [Product UI](#ui-demo) (7)
 - [Particles & shapes](#particles) (1)
 - [Charts & diagrams](#data-viz) (1)
 - [Kinetic type](#kinetic-type) (1)
-- [Explainers](#explainer) (4)
+- [Explainers](#explainer) (5)
 - [Tests & comparisons](#comparison) (39)
 
 <a id="3d-scene"></a>
@@ -95,16 +95,6 @@ Gemini 4 Argon + Seedance 2.5 turned just ONE idea into an entire cinematic 3D v
 Full prompt below:
 ```
 
-### Interactive 3D galaxy generated in Three.js
-
-[@Smlay_ero](https://x.com/Smlay_ero/status/2110361902064992440) · 0:37 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110361902064992440/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110361902064992440?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Been seeing a lot of Gemini 4 Argon vs Opus 5.5 comps the last couple days. Ran a quick test myself. Gemini 4 Argon was wild — one prompt the whole way.Looks like Google’s back on the model throne.Prompt below:
-
-Build a single-file HTML page (Three.js via CDN) that opens into a live, interactive galaxy: bright galactic core in the center; spiral arms made of star points, nebulae, and dust lanes; a dozen+ planets of different sizes and colors along the arms. Drag to orbit the camera, scroll to zoom in/out. Zoomed out you see the full arms; zoom into a planet and it snaps to a close-up — surface, clouds, craters or atmosphere glow — with the planet’s name in the corner. Click a planet for a light camera shake and a highlighted orbit. No image or model uploads — scene, materials, particles, and interaction all live in this one HTML file.
-```
-
 ### Playable 3D analogue synthesiser and turntable studio
 
 [@IamEmily2050](https://x.com/IamEmily2050/status/2110519826091495925) · 2:00 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110519826091495925/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110519826091495925?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
@@ -163,23 +153,6 @@ A concert ticket you can bend, flip and tear off. Tearing it is so satisfying. I
 The holographic foil shifts as the paper bends. It feels super premium.
 
 The full prompt below.
-```
-
-### Tesla Roadster stunt animated in Three.js
-
-[@alwayspriyesh](https://x.com/alwayspriyesh/status/2113642584702615772) · 0:18 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113642584702615772/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113642584702615772?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-I asked Gemini Argon 4 to recreate Tesla’s insane Roadster stunt in a single HTML file
-
-- A giant semicircular stunt track
-- A fully inverted Roadster completing the flip
-- Rocket thrusters for a smooth landing
-- Cinematic 3D animation
-
-Prompt & link in the comments.
-
-What model should I test next?
 ```
 
 ### Simulation of the 1949 MONIAC computer
@@ -766,6 +739,42 @@ I set it to Xhigh and asked for a video about Jensen huang’s comeback. That wa
 30 mins later, I had this clip. It used just 3% of my 5 hr limit.
 ```
 
+### Automated workflow using Gemini 4 Neon and Grokbot
+
+[@0xMorlex](https://x.com/0xMorlex/status/2125713479474548804) · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125713479474548804/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125713479474548804?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+i put google's new gemini 4 neon under my grokbot as the planner
+
+grokbot keeps the outer loop the way lauren tan runs hers, neon plans the hard tasks, and fast hydrogen workers do the steps
+
+and it's f*cking wild how clean the split is
+
+here's the setup:
+
+1. paste the prompt from the video into your main grokbot
+
+it becomes your chief of staff. small tasks it does itself, anything with several steps goes down to neon
+
+2. give it your gemini key through the vault secret card
+
+the key never shows up in chat, and grokbot calls neon from its own computer
+
+3. neon writes the plan
+
+one plan.md with numbered steps. neon costs $3 in and $15 out per 1M tokens, so the bot plans once and reuses the plan
+
+4. hydrogen workers run the steps
+
+one worker per step, independent steps run in parallel. a step only counts as done with proof: test output, a diff or a link
+
+5. you get one digest a day
+
+what ran on each layer, what it cost, and the decisions that need you. money, posts, merges and deletes still wait for your ok
+
+lauren pairs grokbot with cursor for code. this setup puts neon in that spot, and every prompt is in the video. part 8 of lauren's bots
+```
+
 <a id="comparison"></a>
 
 ## Tests & comparisons
@@ -936,22 +945,6 @@ Gemini 4 Argon vs Muse Wonder
 Gemini 4 Argon vs. Claude Opus 5.5 🐎
 
 Create 3D liquid horse animation using Three.js 👇
-```
-
-### 3D Japanese house with cherry blossom trees
-
-[@dpratyush02](https://x.com/dpratyush02/status/2110347694447509797) · 0:29 · [Watch](https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110347694447509797/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110347694447509797?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
-
-```text
-Gemini 4 Argon vs GPT-6.1 Sol
-
-I gave all three the exact same prompt to build a 3D Japanese house surrounded by cherry blossom trees 🌸
-
-Gemini absolutely nailed it. The visuals were stunning, the atmosphere was beautiful, and the attention to detail was impressive.
-
-Gemini 4 Argon vs GPT-6.1 Sol 
-
-Google is cooking again!! 🔥
 ```
 
 ### Interactive firefly jar in Three.js
@@ -1549,4 +1542,25 @@ At this point AI doesn’t need better planes
 It needs to learn how to turn the lights on 
 
 Which takeoff would you pick?
+```
+
+### Suspended deep sea ecological tank comparison
+
+[@FiniYang](https://x.com/FiniYang/status/2125132455032316136) · [Watch](https://www.sandbase.ai/lab/media/x/gpt-6-2-astra/2125132455032316136/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125132455032316136?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini4-argon&utm_content=prompt-index)
+
+```text
+🔥 兄弟们帮我评评，这局我真选不出来了 👀
+
+手搓一座「悬浮深海生态缸」
+
+⬆️ GPT-6.2 Astra（37 分 28 秒）
+博物馆级克制设计：水下那头座头鲸的吻部结节、喉褶和胸鳍写实得像手雕出来的，四层剖面直接把玻璃缸切成了四个悬浮水匣，左边还配了物种图鉴卡
+
+⬇️ Gemini 4 Neon（33 分 38 秒）
+全屏光学氛围直接拉满：波浪弯月水线、丁达尔光柱、铺满沙床的焦散网纹和熔岩热液喷口极通透，第 12 秒声呐波扫过海底还会亮起一圈圈等高线光环
+
+前面几局还能一眼看出谁占上风，这局是真难分伯仲了
+
+已发布到我的测评馆，直接可玩，含提示词，链接放下面了 ⬇️
+#GPT62Astra #Gemini4Neon #Threejs #WebGL #VibeCoding
 ```

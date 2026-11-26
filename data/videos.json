@@ -347,24 +347,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110048822944727184"
  },
  {
-  "id": "2110050425479266778",
-  "title": "Working webcam heart-rate monitor demonstration",
-  "title_zh": "网页摄像头心率监测器功能演示",
-  "category": "ui-demo",
-  "author": {
-   "handle": "every",
-   "name": "Every 📧"
-  },
-  "postUrl": "https://x.com/every/status/2110050425479266778",
-  "createdAt": "2026-10-13T16:49:58.000Z",
-  "durationMs": 31200,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110050425479266778/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": null,
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110050425479266778"
- },
- {
   "id": "2110051892252545523",
   "title": "WebGL Mahjong game prototype with spring physics",
   "title_zh": "具备弹簧物理效果的WebGL麻将游戏原型",
@@ -2037,25 +2019,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110345007588688284"
  },
  {
-  "id": "2110347694447509797",
-  "title": "3D Japanese house with cherry blossom trees",
-  "title_zh": "樱花树环绕的 3D 日式房屋",
-  "category": "comparison",
-  "author": {
-   "handle": "dpratyush02",
-   "name": "Pratyush"
-  },
-  "postUrl": "https://x.com/dpratyush02/status/2110347694447509797",
-  "createdAt": "2026-10-14T12:31:13.000Z",
-  "durationMs": 29466,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110347694447509797/video.mp4",
-  "promptShared": true,
-  "promptText": "Gemini 4 Argon vs GPT-6.1 Sol\n\nI gave all three the exact same prompt to build a 3D Japanese house surrounded by cherry blossom trees 🌸\n\nGemini absolutely nailed it. The visuals were stunning, the atmosphere was beautiful, and the attention to detail was impressive.\n\nGemini 4 Argon vs GPT-6.1 Sol \n\nGoogle is cooking again!! 🔥",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110347694447509797/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110347694447509797"
- },
- {
   "id": "2110347938547511362",
   "title": "Visual comparison between Gemini 4 Argon and Opus 5.5",
   "title_zh": "Gemini 4 Argon 与 Opus 5.5 生成效果对比",
@@ -2109,25 +2072,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110357629159854196/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110357629159854196"
- },
- {
-  "id": "2110361902064992440",
-  "title": "Interactive 3D galaxy generated in Three.js",
-  "title_zh": "Three.js 交互式三维星系模型",
-  "category": "3d-scene",
-  "author": {
-   "handle": "Smlay_ero",
-   "name": "smlay"
-  },
-  "postUrl": "https://x.com/Smlay_ero/status/2110361902064992440",
-  "createdAt": "2026-10-14T13:27:40.000Z",
-  "durationMs": 37407,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110361902064992440/video.mp4",
-  "promptShared": true,
-  "promptText": "Been seeing a lot of Gemini 4 Argon vs Opus 5.5 comps the last couple days. Ran a quick test myself. Gemini 4 Argon was wild — one prompt the whole way.Looks like Google’s back on the model throne.Prompt below:\n\nBuild a single-file HTML page (Three.js via CDN) that opens into a live, interactive galaxy: bright galactic core in the center; spiral arms made of star points, nebulae, and dust lanes; a dozen+ planets of different sizes and colors along the arms. Drag to orbit the camera, scroll to zoom in/out. Zoomed out you see the full arms; zoom into a planet and it snaps to a close-up — surface, clouds, craters or atmosphere glow — with the planet’s name in the corner. Click a planet for a light camera shake and a highlighted orbit. No image or model uploads — scene, materials, particles, and interaction all live in this one HTML file.",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2110361902064992440/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2110361902064992440"
  },
  {
   "id": "2110363640213979398",
@@ -4111,24 +4055,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112494073261265023"
  },
  {
-  "id": "2112554114957885657",
-  "title": "Gemini 4 Argon low thinking mode limit test",
-  "title_zh": "Gemini 4 Argon低思考模式限额测试",
-  "category": "ui-demo",
-  "author": {
-   "handle": "vipinxtwt",
-   "name": "Vipin"
-  },
-  "postUrl": "https://x.com/vipinxtwt/status/2112554114957885657",
-  "createdAt": "2026-10-20T14:38:45.000Z",
-  "durationMs": 26754,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112554114957885657/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2112554114957885657/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2112554114957885657"
- },
- {
   "id": "2112573104996089906",
   "title": "Four models coded rocket launch comparison",
   "title_zh": "四款模型全代码火箭发射对比",
@@ -4455,25 +4381,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113624611711783040"
  },
  {
-  "id": "2113642584702615772",
-  "title": "Tesla Roadster stunt animated in Three.js",
-  "title_zh": "HTML单文件重现特斯拉跑车特技",
-  "category": "3d-scene",
-  "author": {
-   "handle": "alwayspriyesh",
-   "name": "Priy"
-  },
-  "postUrl": "https://x.com/alwayspriyesh/status/2113642584702615772",
-  "createdAt": "2026-10-23T14:43:56.000Z",
-  "durationMs": 18216,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113642584702615772/video.mp4",
-  "promptShared": true,
-  "promptText": "I asked Gemini Argon 4 to recreate Tesla’s insane Roadster stunt in a single HTML file\n\n- A giant semicircular stunt track\n- A fully inverted Roadster completing the flip\n- Rocket thrusters for a smooth landing\n- Cinematic 3D animation\n\nPrompt & link in the comments.\n\nWhat model should I test next?",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2113642584702615772/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2113642584702615772"
- },
- {
   "id": "2113653624320458902",
   "title": "ASCII stop motion animation printed in NYC",
   "title_zh": "在纽约拍摄的热敏纸ASCII定格动画",
@@ -4745,24 +4652,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115167475554037936/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115167475554037936"
- },
- {
-  "id": "2115174238256542121",
-  "title": "Four AI models simulating a water lobe pump",
-  "title_zh": "四款AI模型模拟凸轮水泵效果对比",
-  "category": "comparison",
-  "author": {
-   "handle": "SamgreyAi",
-   "name": "Sam"
-  },
-  "postUrl": "https://x.com/SamgreyAi/status/2115174238256542121",
-  "createdAt": "2026-10-27T20:10:11.000Z",
-  "durationMs": 13203,
-  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115174238256542121/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2115174238256542121/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2115174238256542121"
  },
  {
   "id": "2115425928503550344",
@@ -7079,6 +6968,25 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125128391661871492"
  },
  {
+  "id": "2125132455032316136",
+  "title": "Suspended deep sea ecological tank comparison",
+  "title_zh": "悬浮深海生态缸模型生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "FiniYang",
+   "name": "Fini.Yang"
+  },
+  "postUrl": "https://x.com/FiniYang/status/2125132455032316136",
+  "createdAt": "2026-11-24T07:40:34.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gpt-6-2-astra/2125132455032316136/video.mp4",
+  "promptShared": true,
+  "promptText": "🔥 兄弟们帮我评评，这局我真选不出来了 👀\n\n手搓一座「悬浮深海生态缸」\n\n⬆️ GPT-6.2 Astra（37 分 28 秒）\n博物馆级克制设计：水下那头座头鲸的吻部结节、喉褶和胸鳍写实得像手雕出来的，四层剖面直接把玻璃缸切成了四个悬浮水匣，左边还配了物种图鉴卡\n\n⬇️ Gemini 4 Neon（33 分 38 秒）\n全屏光学氛围直接拉满：波浪弯月水线、丁达尔光柱、铺满沙床的焦散网纹和熔岩热液喷口极通透，第 12 秒声呐波扫过海底还会亮起一圈圈等高线光环\n\n前面几局还能一眼看出谁占上风，这局是真难分伯仲了\n\n已发布到我的测评馆，直接可玩，含提示词，链接放下面了 ⬇️\n#GPT62Astra #Gemini4Neon #Threejs #WebGL #VibeCoding",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gpt-6-2-astra/2125132455032316136/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125132455032316136"
+ },
+ {
   "id": "2125157673448677586",
   "title": "Armored monster truck with driving physics",
   "title_zh": "带行驶物理的装甲重型卡车",
@@ -7207,6 +7115,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125548117345100134"
  },
  {
+  "id": "2125597881730318812",
+  "title": "A self-reflective video generated by Gemini 4 Neon",
+  "title_zh": "由 Gemini 4 Neon 生成的自我反思视频",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "vipinxtwt",
+   "name": "Vipin"
+  },
+  "postUrl": "https://x.com/vipinxtwt/status/2125597881730318812",
+  "createdAt": "2026-11-25T14:30:01.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125597881730318812/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125597881730318812/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125597881730318812"
+ },
+ {
   "id": "2125635764029370722",
   "title": "Robotic hand 3D modeling and animation comparison",
   "title_zh": "机械手3D建模与动画效果对比",
@@ -7278,5 +7204,78 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125671539463078081/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125671539463078081"
+ },
+ {
+  "id": "2125706215699460335",
+  "title": "A tower defense game made in Gemini 4 Neon",
+  "title_zh": "使用 Gemini 4 Neon 制作的塔防游戏",
+  "category": "game",
+  "author": {
+   "handle": "kevin_t_ngo",
+   "name": "Kevin Ngo"
+  },
+  "postUrl": "https://x.com/kevin_t_ngo/status/2125706215699460335",
+  "createdAt": "2026-11-25T21:40:30.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125706215699460335/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125706215699460335/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125706215699460335"
+ },
+ {
+  "id": "2125713479474548804",
+  "title": "Automated workflow using Gemini 4 Neon and Grokbot",
+  "title_zh": "使用 Gemini 4 Neon 和 Grokbot 的自动化工作流",
+  "category": "explainer",
+  "author": {
+   "handle": "0xMorlex",
+   "name": "Morlex"
+  },
+  "postUrl": "https://x.com/0xMorlex/status/2125713479474548804",
+  "createdAt": "2026-11-25T22:09:22.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125713479474548804/video.mp4",
+  "promptShared": true,
+  "promptText": "i put google's new gemini 4 neon under my grokbot as the planner\n\ngrokbot keeps the outer loop the way lauren tan runs hers, neon plans the hard tasks, and fast hydrogen workers do the steps\n\nand it's f*cking wild how clean the split is\n\nhere's the setup:\n\n1. paste the prompt from the video into your main grokbot\n\nit becomes your chief of staff. small tasks it does itself, anything with several steps goes down to neon\n\n2. give it your gemini key through the vault secret card\n\nthe key never shows up in chat, and grokbot calls neon from its own computer\n\n3. neon writes the plan\n\none plan.md with numbered steps. neon costs $3 in and $15 out per 1M tokens, so the bot plans once and reuses the plan\n\n4. hydrogen workers run the steps\n\none worker per step, independent steps run in parallel. a step only counts as done with proof: test output, a diff or a link\n\n5. you get one digest a day\n\nwhat ran on each layer, what it cost, and the decisions that need you. money, posts, merges and deletes still wait for your ok\n\nlauren pairs grokbot with cursor for code. this setup puts neon in that spot, and every prompt is in the video. part 8 of lauren's bots",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125713479474548804/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125713479474548804"
+ },
+ {
+  "id": "2125779072470986927",
+  "title": "Animated SVG short film comparison",
+  "title_zh": "动画 SVG 短片生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "JamesMalsawm",
+   "name": "James Malsawm"
+  },
+  "postUrl": "https://x.com/JamesMalsawm/status/2125779072470986927",
+  "createdAt": "2026-11-26T02:30:00.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125779072470986927/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125779072470986927/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125779072470986927"
+ },
+ {
+  "id": "2125779073183973853",
+  "title": "Volcano eruption generation comparison",
+  "title_zh": "火山喷发模型生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "rubenssoto_ai",
+   "name": "Rubens Soto | AI & SaaS"
+  },
+  "postUrl": "https://x.com/rubenssoto_ai/status/2125779073183973853",
+  "createdAt": "2026-11-26T02:30:00.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125779073183973853/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2125779073183973853/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/gemini-4-argon/2125779073183973853"
  }
 ]
